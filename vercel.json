@@ -6,6 +6,10 @@
   },
   "routes": [
     {
+      "src": "/admin/view/(.*)",
+      "dest": "/public/admin/view/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
