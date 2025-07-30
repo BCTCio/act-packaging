@@ -1,0 +1,1390 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201704 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2554                
+POS_VISITOR 24779               
+POS_DAY 46339               
+POS_DOMAIN 3516                
+POS_LOGIN 3751                
+POS_ROBOT 3906                
+POS_WORMS 4878                
+POS_EMAILSENDER 5009                
+POS_EMAILRECEIVER 5152                
+POS_SESSION 47213               
+POS_SIDER 47424               
+POS_FILETYPES 5287                
+POS_OS 5555                
+POS_BROWSER 5716                
+POS_SCREENSIZE 6289                
+POS_UNKNOWNREFERER 6363                
+POS_UNKNOWNREFERERBROWSER 7084                
+POS_ORIGIN 7447                
+POS_SEREFERRALS 7594                
+POS_PAGEREFS 7782                
+POS_SEARCHWORDS 8520                
+POS_KEYWORDS 8687                
+POS_MISC 2217                
+POS_ERRORS 8761                
+POS_CLUSTER 3607                
+POS_SIDER_404 8927                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170501000507 23413 5589433 24766441753
+FirstTime 20170401015827
+LastTime 20170430230159
+LastUpdate 20170501025427 23413 23237 175 0 0
+TotalVisits 706                 
+TotalUnique 508                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 547                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 13 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 29 175 7046717 139 178 1691122
+1 61 476 21057519 138 243 5373693
+2 67 869 34709542 185 254 4510431
+3 74 171 6050699 131 190 2987823
+4 77 526 26621565 234 276 3872601
+5 50 781 40292922 147 198 2984172
+6 43 234 10600608 178 206 2675694
+7 33 558 25952153 454 522 11610893
+8 54 452 19611474 183 254 4304985
+9 102 1698 59643703 184 270 3047322
+10 125 1292 60536333 193 269 3435102
+11 49 720 36250611 173 239 2821725
+12 59 301 12255131 137 170 1950151
+13 61 532 22726136 200 243 4192618
+14 67 328 14614244 194 274 4602604
+15 39 104 3325429 147 164 1437727
+16 32 225 11098701 158 205 2747782
+17 95 152 4956304 160 220 2816653
+18 102 1576 45747044 152 203 1901440
+19 64 257 12559574 177 219 2355902
+20 89 915 34615227 188 225 2130904
+21 31 537 23559425 171 321 6118834
+22 64 530 26323200 191 352 5499840
+23 125 1564 51293351 131 208 2284387
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1592 14973 611447612
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 23
+bot[+:,\.\;\/\\-] 598 15673352 20170430232226 0
+seznambot 378 11079000 20170430210031 0
+yandex 361 12839542 20170430202106 0
+googlebot 317 12119600 20170430181035 0
+python 257 1004775 20170430234444 0
+baiduspider 211 8505582 20170430193849 0
+sogou 174 7635994 20170430130458 0
+robot 162 4670491 20170430132009 0
+mj12bot 114 3049969 20170426150014 0
+phantom 58 3227212 20170406215021 0
+core 13 53000 20170426085610 0
+no_user_agent 39 947166 20170427162258 0
+exabot 1 28598 20170430163948 0
+ia_archiver 1 28598 20170406064046 0
+spider 26 743548 20170430082418 0
+udmsearch 1 31412 20170416045637 0
+slurp 12 322090 20170429194910 0
+legs 1 28598 20170405055136 0
+surveybot 2 57196 20170424154734 0
+archive\.org_bot 1 28598 20170423235209 0
+java 6 169591 20170418204736 0
+msnbot\-media 7 221044 20170426155117 0
+crawl 18 470525 20170430173426 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 2109 131530841 0 0
+eot 3 56558 0 0
+png 4418 63606889 0 0
+ttf 5 80520 0 0
+woff 33 254496 0 0
+woff2 2 36056 0 0
+map 9 489744 0 0
+php 621 13988505 0 0
+html 919 25446357 0 0
+jpg 3155 275158302 0 0
+js 3699 100799344 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winlong 68
+winxp 751
+win2000 1
+winnt 1805
+win98 1
+linux 1561
+winvista 542
+macosx 2759
+win2003 8
+Unknown 107
+win2008 7370
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 38
+msie6.0 3
+firefox28.0 19
+firefox44.0 1
+chrome 8720
+firefox1.5.0.3 1
+firefox26.0 1
+firefox52.0 680
+firefox4.0 3
+msie8.0 275
+firefox13.0.1 1
+msie7.0 9
+firefox40.1 6
+firefox23.0 34
+firefox41.0 44
+wget 1
+msie9.0 826
+firefox27.0 41
+Unknown 33
+netscape 44
+firefox50.0 231
+firefox32.0 1
+firefox48.0 1
+firefox40.0 1
+opera 1
+firefox21.0 16
+firefox29.0 28
+firefox7.0.1 474
+firefox12.0 1
+firefox47.0 2
+firefox2.0.0.11 1
+mozilla 549
+msie10.0 72
+firefox3.6.28 1
+firefox3.6.3 41
+firefox3.0.10 5
+safari 2794
+firefox3.1 2
+firefox3.6.8 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+mozilla'\ 20170423231302
+HEADMasterSEO 20170405154631
+JetBrains_Omea_Reader_1.0.x_(http://www.jetbrains.com/omea_reader/) 20170416131357
+Ruby 20170428141758
+mozilla 20170423231258
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170408014457
+Mozilla/5.0_(compatible;_ips-agent) 20170416180415
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online) 20170426060727
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170420130912
+Owler 20170414121027
+redback/v0-570-g26f8c96 20170425174415
+Mozilla/5.0_(compatible;_U;_DataMiner/3.14;__http://promoheads.com) 20170404142355
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+HEADMasterSEO 20170405154631
+JetBrains_Omea_Reader_1.0.x_(http://www.jetbrains.com/omea_reader/) 20170416131357
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170420130912
+Ruby 20170428141758
+Owler 20170414121027
+redback/v0-570-g26f8c96 20170425174415
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 920 1063
+From1 11 11
+From2 27 30
+From3 32 32
+From4 602 13837
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 18 21
+baidu 5 5
+yandex 3 3
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://pizza-tycoon.com 4 4
+http://www.expoeast.com/ee17/public/eBooth.aspx 4 4
+http://burger-imperia.com 4 4
+http://www.wxhl.net/case/index_4.html 4 4
+http://www.thomasnet.com/profile/30774822/act-packaging.html 3 3
+http://www.expoeast.com/ee17/Public/eBooth.aspx 3 3
+http://www.wxhl.net/case/case1_4.html 3 3
+http://www.360marketreach.com 2 2
+http://promoheads.com 1 1
+http://pizza-imperia.com 1 1
+http://www.nychinaren.com/company/task_view/id_36491/%E8%89%BE%E5%BD%A9%E9%80%9A%E5%8C%85%E8%A3%85.html 1 1
+http://www.timer4web.com/domain/www.act-packaging.com 1 1
+http://hundejo.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+actpackaging 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+actpackaging 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 3 617
+302 10 2560
+206 5 142990
+500 70 36330
+406 82 21175
+407 28 11620
+404 2947 4203632
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 457
+/product/NON-WOVEN-BAG.html 1 -
+/wordpress/ 2 -
+/mysql.sql 1 act-packaging.com
+/bg.png 2 http://www.act-packaging.com/
+/upload/2014-02-04/20140204143323800.jpg 1 -
+/adehinstall/index.php.bak 1 -
+/product/Set-up-box-Lid-Base-box.html 14 -
+/upload/2015-07-30/20150730055752940.jpg 1 -
+/contact/ 157 -
+/upload/2014-02-09/20140209153212260.jpg 2 -
+/product/Wine-Non-wovenbag.html 13 -
+/product/index_5.html 3 -
+/product/underwear-packing-box.html 10 -
+/upload/2015-10-21/20151021155150560.jpg 2 -
+/product/Children-Book-Box.html 1 -
+/upload/2015-10-21/20151021153108260.jpg 4 -
+/product/206.html 7 -
+/act-packaging-backup.7z 1 http://act-packaging.com/act-packaging-backup.7z
+/product/index_7.html 2 -
+/product/index33.html 4 -
+/product/dbx10.html 2 -
+/upload/2014-02-11/20140211125603400.jpg 1 -
+/upload/2014-02-09/20140209153645370.jpg 1 -
+/xmlrpc.php 3 -
+/product/Perfume-Folding-Set-Up-Box.html 1 -
+/product/Christmas-Tree-Shaped-Paper-Box.html 1 -
+/product/188.html 12 -
+/dump.sql.zip 1 act-packaging.com
+/upload/2014-02-09/20140209152435860.jpg 1 -
+/news/Company-News.html 4 -
+/product/DBX19.html 30 -
+/upload/2015-07-30/20150730060617480.jpg 2 -
+/news/57.html 8 -
+/dump.tgz 1 act-packaging.com
+/main.aspx 1 -
+/db.tar 1 act-packaging.com
+/product/197.html 1 -
+/ttauphpsso_server/robots.txt 1 -
+/news/Luxury%20rigid%20paper%20box.html 4 -
+/product/Adhesive-Sticker.html 11 -
+/upload/2015-10-21/20151021144233820.jpg 1 -
+/product/Gift-box.html 3 -
+/upload/2014-02-11/20140211120912620.jpg 1 -
+/product/Shopping-Gift-Box.html 2 -
+/upload/2015-10-21/20151021160552540.jpg 1 -
+/product/LDB24.html 6 -
+/product/wine%20box.html 11 -
+/product/index36.html 5 -
+/upload/2014-02-09/20140209153920980.jpg 1 -
+/product/LDB30.html 1 -
+/product/bbx16.html 6 -
+/upload/2015-10-21/20151021161511530.jpg 4 -
+/product/Storage-Leather-Folding-Box.html 1 -
+/dump.zip 1 act-packaging.com
+/product/Book-Box-with-Bowknot.html 2 -
+/product/BBX11.html 13 -
+/wp-login.php 8 -
+/product/Click%20Leather%20Box.html 1 -
+/upload/2015-10-21/20151021145134540.jpg 2 -
+/users.sql 1 act-packaging.com
+/product/Packaging-Paper-%20Box.html 12 -
+/upload/2014-04-09/20140409041753900.jpg 2 -
+/upload/2014-10-24/20141024143307560.jpg 1 -
+/upload/2015-10-21/20151021152558690.jpg 1 -
+/service/ 10 -
+/product/Cosmetic-Drawer-Box.html 2 -
+/upload/2014-02-11/20140211102048250.jpg 1 -
+/product/wine%20folding%20box.html 7 -
+/product/175.html 11 -
+/download 2 -
+/upload/2015-04-13/20150413132909300.jpg 2 -
+/upload/2014-02-11/20140211100321360.jpg 1 -
+/upload/2014-10-24/20141024142804180.jpg 1 -
+/product/Leather-Drawer-Box.html 1 -
+/upload/2015-10-20/20151020143201540.jpg 1 -
+/upload/2014-02-09/20140209154448900.jpg 1 -
+/product/hinged%20paper%20box.html 8 -
+/news 1 -
+/db_backup.sql 1 act-packaging.com
+/act-packaging_com-backup.7z 1 http://act-packaging.com/act-packaging_com-backup.7z
+/upload/2015-10-19/20151019163457290.jpg 1 -
+/news/index_2.html 1 -
+/product/DRAWER 2 -
+/js/block-slider.min.js.map 11 -
+/backup.sql 1 act-packaging.com
+/product/CBX24.html 1 -
+/product/GTB28.html 1 -
+/upload/2014-03-04/20140304164225150.jpg 2 -
+/temp.sql 1 act-packaging.com
+/upload/20140124174547106.jpg 2 -
+/upload/2015-10-21/20151021151358700.jpg 2 -
+/upload/2014-02-11/20140211120606230.jpg 2 -
+/db.sql.gz 1 act-packaging.com
+/product/Folding-box.html 3 -
+/upload/2015-08-04/20150804081448550.jpg 1 -
+/wp/wp-admin/setup-config.php 1 -
+/product/Shopping-Non-woven-bag.html 9 -
+/product/Red-Wine-Folding-Box.html 2 -
+/product/Rigid-Paper-box.html 5 -
+/upload/2014-04-09/2014040904220290.jpg 3 -
+/product/Storage-Leather-Box.html 1 -
+/upload/2015-10-21/2015102114460050.jpg 2 -
+/product/Hinged-Paper-Box.html 1 -
+/product/186.html 14 -
+/product/166.html 8 -
+/product/HGB002.html 4 -
+/about 1 -
+/service/Sample-Policy.html 5 -
+/upload/2015-10-19/20151019165753960.jpg 1 -
+/product/LDB29.html 11 -
+/backup.sql.bz2 1 act-packaging.com
+/product/DBX13.html 8 -
+/yoltplus/flink.php 1 -
+/news/ 3 -
+/news/index7.html 3 -
+/product/folding-card-paper-box.html 2 -
+/upload/20140124174505165.jpg 3 -
+/upload/2015-08-04/20150804083318220.jpg 1 -
+/download/ 6 -
+/product/lip-balm-paper-box.html 7 -
+/product/CBX22.html 1 -
+/upload/2014-10-27/20141027104956720.jpg 1 -
+/robots.txt 661 -
+/main.php 1 -
+/cgi-sys/defaultwebpage.cgi 140 -
+/product/208.html 2 -
+/service 3 -
+/img/inuire.gif 1 -
+/upload/2014-04-09/20140409042000940.jpg 2 -
+/product/237.html 1 -
+/upload/2014-02-04/20140204144227910.jpg 1 -
+/product/172.html 18 -
+/upload/2015-04-13/20150413143012630.jpg 1 -
+/upload/2015-10-19/20151019170654610.jpg 1 -
+/product/index39.html 1 -
+/js/jquery-1.4.2.min.js 2 http://act-packaging.com/product/index37.html
+/upload/2014-04-09/20140409042109270.jpg 1 -
+/upload/2014-02-09/20140209153520720.jpg 1 -
+/upload/2014-03-03/20140303160848580.jpg 1 -
+/phpsso_server/index.php 1 -
+/upload/20140124174604146.jpg 2 -
+/product/Packing-Paper-Box.html 1 -
+/product/Drawer%20Box.html 2 -
+/product/BBX17.html 14 -
+/upload/2015-10-21/20151021161205110.jpg 1 -
+/product/PB2.html 7 -
+/product/Non-woven%20Bag.html 12 -
+/upload/2015-10-21/20151021150043960.jpg 2 -
+/news/highslide/graphics/outlines/drop-shadow.png 1 -
+/product/Mini-Paper-Bag.html 2 -
+/news/Die-cut%20making%20machine.html 21 -
+/product/210.html 2 -
+/product/Packaging-folding-Box-with-Window.html 2 -
+/product/Cigarette-Gift-Box.html 1 -
+/product/CUP%20BOOK%20BOX.html 1 -
+/upload/2015-10-21/20151021155401570.jpg 2 -
+/product/hexagon%20box.html 4 -
+/upload/2014-02-11/20140211120647500.jpg 2 -
+/upload/2015-10-20/20151020104420990.jpg 1 -
+/upload/2014-10-25/20141025165235790.jpg 1 -
+/upload/2014-10-24/20141024155314840.jpg 1 -
+/upload/2014-03-04/20140304171837580.jpg 1 -
+/product/PT7.html 1 -
+/product/Folding-box-with-Bowknot.html 1 -
+/product/oval%20gift%20box.html 1 -
+/contact.html 1 -
+/upload/2014-04-09/20140409041641670.jpg 1 -
+/product/ 28 -
+/product/168.html 1 -
+/product/Greeting-Card-Envelop.html 2 -
+/product/Gift-Folding-Box.html 4 -
+/product/DBX17.html 1 -
+/javascript:void(0) 6 -
+/product/index_16.html 1 -
+/product/HGB005.html 2 -
+/product/Storage-Faux-Leather-Box-with-Handle.html 3 -
+/service/How-to-Place-Orders.html 8 -
+/upload/2014-03-04/20140304163751680.jpg 2 -
+/product/cbx14.html 2 -
+/product/Glossy-Paper-Bag.html 2 -
+/js/my.js 2 http://act-packaging.com/product/index37.html
+/news/62.html 1 -
+/product/index_15.html 8 -
+/product/Book-Box-1.html 2 -
+/dbdump.sql.gz 1 act-packaging.com
+/about/ 3 -
+/apple-touch-icon.png 32 -
+/upload/2014-02-09/2014020915380250.jpg 1 -
+/upload/2014-04-09/20140409041914140.jpg 1 -
+/product/183.html 3 -
+/product/211.html 17 -
+/upload/2014-03-04/20140304170706270.jpg 2 -
+/product/193.html 2 -
+/product/index_14.html 4 -
+/mailto:sales@act-packaging.com 2 -
+/upload/2015-10-19/20151019163922170.jpg 1 -
+/product/Jewelery-Leather-Box.html 3 -
+/phpsso_server/robots.txt 2 -
+/product/189.html 3 -
+/db.sql.zip 1 act-packaging.com
+/blog/ 2 -
+/ndrtphpsso_server/index.php 1 -
+/upload/2014-02-11/20140211111907650.jpg 1 -
+/sql.tar 1 act-packaging.com
+/product/202.html 1 -
+/wp/ 2 -
+/sql.sql 1 act-packaging.com
+/upload/2014-02-11/20140211121151940.jpg 1 -
+/product/kraft-paper-packaging-box.html 16 -
+/product/cello%20bag.html 1 -
+/about/Mission-Value.html 8 -
+/upload/2015-10-20/20151020103111690.jpg 1 -
+/apple-touch-icon-precomposed.png 32 -
+/product/BBX18.html 1 -
+/sql.tar.gz 1 act-packaging.com
+/upload/2015-10-21/20151021152937510.jpg 2 -
+/product/GiftDrawer-Box.html 10 -
+/upload/2014-02-11/20140211121358790.jpg 2 -
+/product/FOLDING%20CARTON.html 1 -
+/product/LDB23.html 1 -
+/sql.gz 1 act-packaging.com
+/js/jquery.min.map 10 -
+/noteplus/flink.php 1 -
+/product/178.html 1 -
+/product/wine%20folding%20paper%20box.html 10 -
+/news/index10.html 1 -
+/news/56.html 23 -
+/upload/2014-02-11/2014021111252130.jpg 2 -
+/product/HGB004.html 32 -
+/product/177.html 9 -
+/product/165.html 25 -
+/product/index_13.html 3 -
+/product/171.html 6 -
+/dump.sql.gz 1 act-packaging.com
+/upload/2014-02-11/20140211121107900.jpg 1 -
+/apple-app-site-association 13 -
+/product/199.html 1 -
+/upload/2015-10-19/2015101916563440.jpg 1 -
+/site.sql 1 act-packaging.com
+/dump.tar.gz 1 act-packaging.com
+/dump.gz 1 act-packaging.com
+/product/Gift-box_2.html 5 -
+/product/index_6.html 1 -
+/news/61.html 23 -
+/product/Flower-Shape-Paper-Box.html 5 -
+/contact 3 -
+/.well-known/apple-app-site-association 13 -
+/product/CLBX05.html 2 -
+/upload/2014-02-06/20140206181717380.jpg 1 -
+/product/Embossed-Paper-Bag.html 3 -
+/product/182.html 8 -
+/backup.sql.gz 1 act-packaging.com
+/blog/wp-admin/setup-config.php 1 -
+/contact.htm 1 -
+/upload/2014-02-11/20140211100154120.jpg 3 -
+/product/index_8.html 4 -
+/upload/2014-02-11/20140211111257810.jpg 2 -
+/img/logo.gif 3 -
+/upload/2014-02-09/20140209151152890.jpg 1 -
+/product/LDB28.html 1 -
+/product/Nested-Drawer-Box.html 1 -
+/upload/2014-03-04/20140304163537930.jpg 1 -
+/xruninstall/index.php.bak 1 -
+/product/Storage-Box.html 1 -
+/product/LID-BASE-BOX.html 2 -
+/upload/2014-02-09/20140209161118570.jpg 1 -
+/product/index_3.html 9 -
+/product/Speedo-paper-box.html 2 -
+/upload/2014012417453594.jpg 3 -
+/upload/2015-07-30/20150730054556890.jpg 1 -
+/product/Book 2 -
+/product/Tea%20box.html 11 -
+/js/jquery.easing.1.3.js 85 http://www.act-packaging.com/index.php
+/dump.sql 1 act-packaging.com
+/product/DRAWER%20BOX.html 93 -
+/product/167.html 1 -
+/db.sql.bz2 1 act-packaging.com
+/product/LDB33.html 1 -
+/mailto:info@act-packaging.com 4 -
+/product/Round-box.html 13 -
+/plus/flink.php 6 -
+/db.zip 1 act-packaging.com
+/product/Paper-Book-Box.html 1 -
+/upload/2014-02-11/20140211120753340.jpg 1 -
+/product/LDB25.html 2 -
+/upload/2015-10-21/20151021152252420.jpg 1 -
+/upload/2014-02-04/20140204143512720.jpg 1 -
+/product/soft%20touch%20paper%20box.html 4 -
+/sql.zip 1 act-packaging.com
+/upload/2015-08-04/20150804084938990.jpg 1 -
+/product/soft%20touch%20box.html 1 -
+/css.css 1 http://www.act-packaging.com/product/LDB34.html
+/product/187.html 1 -
+/product/index_9.html 1 -
+/product/Gift-Box-for-Children.html 4 -
+/upload/2014-02-04/2014020414295990.jpg 1 -
+/dbdump.sql 1 act-packaging.com
+/data.sql 1 act-packaging.com
+/img/tu1.gif 2 -
+/upload/2014-02-04/20140204143357890.png 1 -
+/act-packaging.com-backup.7z 1 http://act-packaging.com/act-packaging.com-backup.7z
+/product/173.html 18 -
+/product/CORRUGATED-BOX.html 1 -
+/product/176.html 8 -
+/js/highslide/highslide-with-gallery.packed.js 2 http://act-packaging.com/product/index37.html
+/product/170.html 9 -
+/upload/2015-10-19/20151019170446120.jpg 1 -
+/img/tu3.gif 1 -
+/upload/2015-10-20/20151020143201560.jpg 1 -
+/upload/2015-04-13/20150413135623810.jpg 1 -
+/product/drawer%20paper%20box.html 6 -
+/upload/2014-02-09/20140209154659990.jpg 1 -
+/factory/ 4 -
+/news/51.html 5 -
+/upload/2014-02-11/20140211095738520.jpg 1 -
+/1.sql 1 act-packaging.com
+/main.html 1 -
+/upload/2015-10-21/20151021150909890.jpg 1 -
+/product/cbx26.html 1 -
+/product/Folding-Box-with-Window.html 3 -
+/dump.tar 1 act-packaging.com
+/upload/2015-10-20/20151020110358660.jpg 1 -
+/contact.aspx 1 -
+/product/Drawer-Box-2.html 2 -
+/product/CLBX04.html 2 -
+/product/index_12.html 7 -
+/product/Chocolate-Paper-Drawer-Box.html 5 -
+/msnim:chat 2 -
+/product/174.html 6 -
+/main.asp 1 -
+/product/Book%20Box_2.html 2 -
+/upload/2014-02-11/20140211102146860.jpg 2 -
+/product/200.html 1 -
+/db.tar.gz 1 act-packaging.com
+/upload/2014-10-24/20141024143104870.jpg 1 -
+/news/happythanksgiving.html 5 -
+/product/318.html 7 -
+/upload/2014-03-04/20140304174220170.jpg 1 -
+/product/Chinese-Paper-Gift-Box.html 1 -
+/news/2012-HK-International-Printing 1 -
+/upload/2014-02-11/20140211120213990.jpg 1 -
+/upload/2015-10-21/20151021161624230.jpg 1 -
+/product/Red-Book-Box.html 4 -
+/upload/2014-03-03/20140303160729730.jpg 1 -
+/dump.sql.tgz 1 act-packaging.com
+/upload/2014-02-11/20140211120303240.jpg 3 -
+/upload/2014-02-11/20140211112411820.jpg 1 -
+/upload/2015-10-21/20151021151529150.jpg 1 -
+/product/Book-Box-with-Mirror.html 1 -
+/sitemap.xml 1 -
+/product/GTB27.html 11 -
+/product/index35.html 4 -
+/product/Rigid%20Lid&base%20box.html 7 -
+/product/ldb26.html 13 -
+/install/index.php.bak 6 -
+/product/209.html 1 -
+/product/JEWEL%20LEATHER%20BOX.html 1 -
+/img/tu2.gif 1 -
+/upload/2014-02-11/20140211121151860.jpg 1 -
+/product/index_4.html 8 -
+/news/index6.html 2 -
+/upload/2015-04-13/2015041315143440.jpg 2 -
+/upload/2014-10-25/20141025163554380.jpg 1 -
+/product/Corrugated-box.html 4 -
+/product/184.html 1 -
+/upload/2014-02-06/20140206181634790.jpg 1 -
+/js/highslide/highslide.css 1 http://www.act-packaging.com/product/LDB34.html
+/product/CBX26.html 1 -
+/about/Organizational-structure.html 2 -
+/apple-touch-icon-120x120.png 32 -
+/upload/2015-07-30/20150730055343290.jpg 2 -
+/product/LDB35.html 1 -
+/contact/index.html 1 -
+/pggoplus/flink.php 1 -
+/contact.php 1 -
+/product/Shopping-Bag.html 1 -
+/product/round-box.html 2 -
+/js/jquery.js 2 http://act-packaging.com/product/index37.html
+/upload/2014-10-24/20141024141712700.jpg 2 -
+/skype:candybecandid 2 -
+/upload/2015-08-04/20150804083936600.jpg 1 -
+/apple-touch-icon-120x120-precomposed.png 32 -
+/.git/ 1 http://act-packaging.com/.git/
+/product/Heart-Shaped-Gift-Box.html 10 -
+/wordpress/wp-admin/setup-config.php 1 -
+/upload/2014-02-04/20140204143949150.jpg 1 -
+/upload/2014012417452165.jpg 2 -
+/upload/2014-10-24/20141024155442240.jpg 1 -
+/upload/2014-03-04/20140304162238960.jpg 1 -
+/product/index37.html 9 -
+/main.jsp 1 -
+/contact/index.php 36 -
+/product/Hinged%20Paper%20Box.html 1 -
+/js/ImageAutoSize.js 2 http://act-packaging.com/product/index37.html
+/product/index_2.html 5 -
+/upload/2014-02-11/20140211121308490.jpg 2 -
+/contact.asp 1 -
+/product/highslide/graphics/outlines/drop-shadow.png 2 -
+/product/CBX17.html 1 -
+/upload/2014-02-09/20140209153018410.jpg 1 -
+/product/Red-Paper-Gift-Box.html 3 -
+/.well-known/assetlinks.json 13 -
+/news/55.html 16 -
+/js/MSClass.js 2 http://act-packaging.com/product/index37.html
+/upload/2015-10-21/20151021155045960.jpg 2 -
+/product/196.html 9 -
+/upload/2015-10-21/20151021160408660.jpg 1 -
+/old/wp-admin/setup-config.php 1 -
+/sql.tgz 1 act-packaging.com
+/upload/2014-03-04/20140304164126870.jpg 1 -
+/product/index_11.html 5 -
+/product/Stationery.html 15 -
+/upload/2015-04-13/2015041315014340.jpg 1 -
+/sitemap.html 10 -
+/service/index.html 7 -
+/js/highslide/graphics/outlines/rounded-white.png 2 -
+/upload/2014-02-11/20140211112210410.jpg 2 -
+/product/CLBX02.html 2 -
+/product/LDB34.html 1 -
+/factory 1 -
+/product/203.html 5 -
+/product/index_10.html 4 -
+/util/login.aspx 1 -
+/blog/robots.txt 2 -
+/upload/2015-10-21/20151021161049830.jpg 1 -
+/product/Book%20Box.html 5 -
+/product/FOLDING-PAPER-BOX.html 10 -
+/test/wp-admin/setup-config.php 1 -
+/product/Box.html 3 -
+/product/HGB006.html 1 -
+/css/foundation.css.map 9 -
+/product 4 -
+/upload/2014-10-24/20141024140508370.jpg 2 -
+/product/PT1.html 1 -
+/upload/2014-02-11/20140211121002530.jpg 1 -
+/upload/2014-02-04/20140204144029980.jpg 1 -
+/upload/2014-10-25/201410251644371000.jpg 1 -
+/upload/2014-10-25/20141025163854640.jpg 1 -
+/about/index.html 3 -
+/product/Cosmetic-Book-Paper-Box.html 5 -
+/db.sql 1 act-packaging.com
+/product/341.html 14 -
+/product/index38.html 8 -
+/upload/2014-02-11/20140211111342310.jpg 1 -
+/product/Wine-Gift-Paper-Box.html 1 -
+/upload/2014-02-11/20140211121107440.jpg 1 -
+/product/WINE%20PAPER%20BOX.html 2 -
+/upload/2014-02-11/20140211100235120.jpg 2 -
+/upload/2014-02-04/20140204143042410.jpg 1 -
+/product/Pearl-Paper-Box.html 4 -
+/gdgminstall/index.php.bak 1 -
+/product/BBX12.html 1 -
+/index.php 121 -
+/news/54.html 22 -
+/upload/2015-04-13/20150413145037660.jpg 2 -
+/product/CLBX03.html 1 -
+/mysql.zip 1 act-packaging.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 547
+220.181.132.213 40 40 1176534 20170427044325
+88.230.2.176 33 33 122953 20170426173534
+113.83.75.91 27 684 23844430 20170426032829
+27.38.52.136 26 26 331270 20170409105541
+218.58.107.242 26 26 327957 20170419024947
+189.218.112.57 26 783 21270212 20170412183637
+119.124.68.236 24 584 32177856 20170421103835
+123.169.26.209 24 24 299359 20170414204815
+183.240.19.249 22 557 16054792 20170421103107
+14.220.122.7 22 22 276273 20170421033838
+70.214.114.150 6 267 12557191 20170425145109
+112.65.193.15 1 10 286612 20170419094822
+202.46.58.201 1 1 28598 20170408034801
+199.180.119.18 9 9 155187 20170427162313
+185.16.200.176 2 2 57196 20170413141746
+89.234.68.69 5 5 130153 20170421194432
+46.101.127.145 2 2 57196 20170413140918
+202.46.48.200 1 1 28598 20170423081843
+101.199.108.57 1 17 670931 20170418220704
+71.172.36.253 5 210 7110712 20170419021025
+202.188.206.225 2 92 4134365 20170407120637
+180.153.214.199 1 10 290746 20170426085559
+62.212.73.141 4 4 114392 20170412203650
+93.115.92.146 1 1 28598 20170412183837
+138.197.65.190 1 11 293683 20170423200316
+202.46.55.183 1 1 28598 20170403085422
+65.55.210.192 0 8 693266 
+61.151.226.189 1 8 280865 20170404212330
+207.244.70.35 2 2 57196 20170413005649
+140.205.201.8 2 15 1112666 20170402105205
+202.46.58.160 1 1 28598 20170402125421
+108.30.166.142 2 100 4226522 20170401135824
+51.15.63.229 1 1 28598 20170413105405
+113.83.154.110 1 58 3227212 20170420224226
+173.79.162.220 1 1 28598 20170413102927
+188.165.206.188 1 1 28598 20170406235937
+128.52.128.105 9 9 257382 20170413153752
+200.125.244.103 1 1 28598 20170423202828
+66.249.93.90 1 1 28598 20170418174942
+202.46.57.158 1 1 28598 20170403002604
+54.70.255.234 1 1 28598 20170408234645
+70.199.97.117 2 2 54243 20170425150916
+112.210.14.125 16 26 656054 20170421090042
+62.210.129.246 20 20 571960 20170413150328
+144.76.80.151 1 1 28598 20170416170905
+89.234.157.254 2 2 57196 20170413100917
+65.55.210.46 0 47 2933529 
+202.46.56.199 1 1 28598 20170428225932
+202.46.49.138 1 1 28598 20170403124742
+176.10.107.180 3 3 85794 20170413020716
+193.169.135.133 2 2 57196 20170413084532
+101.199.108.53 2 34 1348371 20170423235637
+202.46.53.145 1 1 28598 20170407035441
+144.217.241.147 6 6 171588 20170412225649
+109.163.234.2 4 4 114392 20170413133335
+47.144.166.159 7 309 15778507 20170404111630
+119.81.135.2 1 1 28598 20170412193728
+46.165.230.5 2 2 57196 20170411172806
+146.185.144.64 1 1 28598 20170413131731
+46.161.9.29 1 1 28598 20170413151348
+180.153.205.254 1 10 288086 20170401021916
+46.101.139.248 7 7 200186 20170413165339
+199.254.238.44 1 1 28598 20170412190128
+138.197.96.251 11 11 270761 20170414184258
+202.46.51.22 1 1 28598 20170421140523
+202.46.57.206 1 1 28598 20170403154752
+60.177.121.63 12 12 299359 20170415115706
+137.74.167.96 2 2 57196 20170413101415
+46.38.56.213 2 2 57196 20170413001350
+173.252.115.196 0 9 206540 
+202.46.58.54 1 1 28598 20170426152459
+202.46.48.190 1 1 28598 20170419073905
+220.181.108.106 0 1 84355 
+162.243.166.137 4 4 114392 20170413080804
+111.206.222.67 0 1 841 
+171.25.193.78 6 6 171588 20170413142738
+34.251.138.69 4 4 114392 20170419131034
+103.44.161.194 4 4 114392 20170423231302
+180.97.63.114 1 1 28598 20170416202949
+183.39.53.91 1 72 4660036 20170411212045
+182.118.20.143 2 2 57196 20170411050203
+202.46.50.124 1 1 28598 20170406032801
+193.90.12.89 3 3 85794 20170413103420
+192.116.54.177 1 1 28598 20170423021706
+101.199.108.58 1 17 678842 20170412232109
+70.214.114.134 2 32 932375 20170426012153
+199.30.25.131 0 5 170001 
+37.220.35.202 1 1 28598 20170413132511
+88.198.22.8 1 1 28598 20170416170416
+115.60.59.1 4 4 95722 20170419223452
+85.90.244.23 2 2 57196 20170412195035
+202.46.51.198 1 1 28598 20170427212213
+107.181.174.84 1 1 28598 20170413064134
+171.13.14.131 1 17 665235 20170425223241
+193.15.16.4 2 2 57196 20170417142236
+46.105.31.30 4 4 114392 20170430011803
+129.78.110.124 1 1 0 20170412063936
+202.46.57.76 1 1 28598 20170425152612
+81.94.81.121 1 1 28598 20170421110936
+206.41.165.218 1 1 28598 20170417045403
+144.217.167.240 3 3 85794 20170413145516
+137.74.169.241 6 6 171588 20170413163911
+101.199.108.59 1 17 678840 20170426022837
+163.172.136.101 2 2 57196 20170413075935
+183.39.55.142 1 58 3227212 20170413020803
+116.31.16.157 4 138 5270833 20170412232551
+202.46.52.77 1 1 28598 20170419231225
+120.86.46.206 8 276 12557899 20170401021832
+109.63.188.86 1 17 670931 20170406230941
+88.208.221.76 1 1 28598 20170413103010
+82.165.100.196 2 2 57196 20170412202407
+89.144.12.15 3 3 85794 20170413004216
+113.90.183.26 12 12 299359 20170427045300
+120.237.56.86 1 47 1408579 20170421213251
+61.135.190.103 2 12 322281 20170419202029
+123.125.71.36 1 1 28598 20170412110535
+192.42.116.16 15 15 428970 20170413142050
+202.46.48.14 1 1 28598 20170420223203
+51.140.113.107 3 3 85794 20170405154631
+54.87.42.154 1 1 28598 20170423132344
+202.46.51.167 1 1 28598 20170418140934
+202.46.57.164 1 1 28598 20170404124102
+185.31.172.234 1 1 28598 20170412201339
+172.98.67.90 1 1 28598 20170413002344
+54.87.184.254 1 1 28598 20170423134207
+123.125.67.218 1 1 28598 20170410014410
+162.158.65.76 1 1 0 20170412060933
+139.162.97.15 2 90 4109736 20170417022445
+199.168.221.10 0 1 29627 
+62.210.246.163 1 1 28598 20170412193413
+180.153.214.200 1 11 293683 20170413020819
+111.206.222.87 0 1 271911 
+140.205.201.13 1 5 474177 20170427114752
+101.199.108.54 4 73 2741864 20170425223206
+111.206.222.220 0 1 430101 
+108.61.122.215 3 3 85794 20170413134404
+89.38.208.57 2 2 57196 20170413091625
+113.83.29.219 3 167 8351466 20170419094551
+69.38.137.158 5 218 7536436 20170417090820
+140.205.205.8 1 1 28598 20170423121011
+111.162.154.95 1 1 28598 20170415000633
+176.10.104.240 2 2 57196 20170412210552
+123.143.201.78 1 17 900479 20170413135544
+185.31.161.102 2 2 57196 20170413051443
+93.115.95.204 1 1 28598 20170415030644
+59.56.14.248 2 68 3860617 20170411041312
+168.235.153.203 2 2 57196 20170413014031
+71.47.177.5 11 355 10990679 20170417184759
+195.154.122.54 1 1 28598 20170413023526
+113.87.129.202 2 2 64750 20170420221030
+109.163.234.7 4 4 114392 20170413105657
+115.60.61.92 2 2 47861 20170424173628
+107.5.202.24 9 368 12103155 20170426151539
+203.87.133.161 2 39 1022168 20170419085118
+64.27.17.140 1 1 28598 20170412185528
+198.50.242.32 2 2 57196 20170411172744
+101.199.112.49 3 39 1412173 20170425232807
+5.196.66.162 2 2 57196 20170412210815
+195.228.45.176 3 3 85794 20170413101843
+199.249.223.72 4 4 114392 20170413025213
+77.27.126.221 1 1 28598 20170413092537
+91.223.82.156 3 3 85794 20170413135905
+123.125.71.94 1 1 28598 20170412110522
+202.46.58.182 1 1 28598 20170429000612
+46.148.192.50 1 34 907153 20170424093800
+202.46.51.112 1 1 28598 20170410044537
+163.172.151.47 2 2 57196 20170412233459
+202.46.50.14 1 1 28598 20170426023816
+36.110.171.172 2 2 57196 20170419050447
+68.174.127.232 3 145 6346105 20170424133143
+173.252.115.194 0 3 120285 
+115.211.236.37 1 104 4607193 20170412203836
+202.46.52.146 1 1 28598 20170409181403
+183.89.168.16 1 1 28598 20170401155849
+111.206.222.97 0 1 121260 
+69.58.178.57 10 10 247675 20170416180415
+113.83.30.193 7 204 10616484 20170411050715
+219.130.238.173 12 12 299359 20170424140657
+162.216.46.82 4 4 114392 20170413152510
+202.46.54.116 1 1 28598 20170403232102
+51.15.39.2 2 2 57196 20170412223846
+46.183.221.231 1 1 28598 20170412195736
+182.118.20.158 1 17 678893 20170425231355
+202.46.50.93 1 1 28598 20170422203843
+14.120.79.185 8 8 206658 20170402111036
+113.110.179.74 1 1 28598 20170425081101
+220.181.132.199 3 39 1421762 20170425235452
+103.41.99.116 1 58 3227212 20170418172221
+151.80.38.67 4 4 114392 20170413061455
+113.116.188.172 1 51 1897042 20170414075224
+220.181.108.184 0 1 196580 
+171.25.193.25 1 1 28598 20170413114647
+5.148.165.13 9 9 257382 20170413140957
+185.72.244.24 4 4 114392 20170413152615
+54.67.61.109 1 58 3307032 20170426121325
+162.158.65.22 1 1 0 20170419060643
+198.50.158.140 2 2 57196 20170413033555
+46.29.248.238 2 2 57196 20170413024135
+51.15.143.127 4 4 114392 20170413165245
+216.218.134.12 2 2 57196 20170413123803
+173.254.216.66 7 7 200186 20170413065853
+116.30.194.150 3 3 68402 20170420220952
+209.126.119.35 1 1 28598 20170404142355
+163.172.101.137 1 1 28598 20170412190307
+212.186.188.37 2 2 28598 20170425172722
+51.254.23.203 5 5 142990 20170413122047
+199.30.25.81 0 9 100227 
+123.125.71.97 0 1 43384 
+173.252.115.195 0 2 66605 
+86.136.160.70 10 306 13659751 20170425070659
+62.210.245.158 1 1 28598 20170413104901
+140.205.201.29 0 19 510494 
+123.125.67.224 1 1 28598 20170409235650
+202.46.53.122 1 1 28598 20170408052132
+185.38.14.171 8 8 228784 20170413141741
+61.135.190.222 0 1 84355 
+117.136.40.227 1 39 1262541 20170411210431
+202.46.53.113 1 1 28598 20170420191203
+202.46.52.75 1 1 28598 20170420215843
+23.254.201.240 1 1 28598 20170403134530
+31.131.21.175 1 1 28598 20170420063543
+46.183.218.199 1 1 28598 20170413074828
+138.197.96.201 11 11 270761 20170423230610
+62.210.245.138 1 1 28598 20170413170152
+162.158.64.173 1 1 0 20170405061323
+199.30.24.64 0 7 411782 
+123.125.67.160 1 1 28598 20170422184433
+178.137.83.79 1 1 28598 20170429152042
+79.134.234.247 3 3 85794 20170412200128
+111.206.222.214 0 1 6123 
+31.185.104.21 1 1 28598 20170413104854
+74.85.218.108 1 1 28598 20170409211050
+85.143.210.233 1 1 28598 20170413022559
+182.118.20.157 1 17 661596 20170412232651
+199.30.24.93 0 6 336493 
+165.231.0.242 7 7 200186 20170413154919
+37.139.8.104 2 2 57196 20170413083152
+167.114.172.224 12 12 304719 20170408014458
+46.166.148.143 1 1 28598 20170413163545
+66.175.162.154 2 85 2804195 20170411120231
+111.206.222.79 0 1 10893 
+176.31.180.157 1 1 28598 20170412193407
+93.95.227.210 1 1 28598 20170417220448
+159.203.173.65 1 11 293683 20170417065236
+51.15.40.233 10 10 285980 20170416121609
+65.19.167.134 1 1 28598 20170413022038
+114.44.201.220 1 1 28598 20170402120332
+199.249.223.48 1 1 28598 20170413053427
+199.166.30.225 1 1 28598 20170424040953
+101.199.108.120 2 34 1341610 20170423235553
+183.82.113.191 0 43 2116133 
+123.125.67.152 1 1 28598 20170429215955
+183.25.252.127 4 214 12966252 20170407020645
+138.197.111.143 11 11 270761 20170417105318
+188.165.197.58 1 1 28598 20170424071417
+162.158.64.104 1 1 0 20170412060848
+104.237.242.55 1 1 28598 20170425032157
+97.77.45.254 1 55 2685502 20170426163731
+111.206.222.160 0 1 4934 
+140.205.205.4 1 1 28598 20170423125755
+89.234.68.93 5 5 112092 20170426082051
+202.46.49.115 1 1 28598 20170406150801
+163.172.22.148 1 1 3472 20170421174816
+101.226.66.191 1 8 284614 20170413045135
+121.9.142.2 13 13 327957 20170427014007
+151.80.238.152 1 1 28598 20170413122021
+178.210.90.90 1 1 28598 20170425225238
+182.118.20.155 1 17 678485 20170421045745
+149.202.72.198 1 1 28598 20170417150519
+52.170.44.209 11 11 270761 20170415041736
+65.55.210.9 0 2 455953 
+101.199.112.51 1 20 726855 20170421045237
+140.205.201.2 2 115 6452304 20170427114751
+202.46.50.86 1 1 28598 20170420183843
+78.109.23.1 15 15 428970 20170415094201
+144.217.80.113 8 8 228784 20170422023745
+169.149.230.139 1 58 3227212 20170419012557
+123.125.67.216 1 1 28598 20170417003143
+14.127.82.226 1 31 1147857 20170417051543
+202.46.50.155 1 1 28598 20170427065804
+185.129.62.62 1 1 28598 20170413123629
+46.183.221.137 3 3 85794 20170412194635
+173.252.115.192 0 3 75175 
+37.59.254.151 1 1 28598 20170415160130
+138.197.111.36 1 11 293683 20170419193721
+192.99.147.201 1 1 0 20170430222440
+176.123.26.63 2 2 57196 20170413113547
+34.249.28.171 12 12 283052 20170428172718
+199.249.223.68 1 1 28598 20170412183852
+103.16.71.24 1 1 28598 20170419125340
+46.166.148.177 3 3 85794 20170413162325
+113.87.105.134 5 213 9339344 20170411204514
+123.125.71.56 0 1 121260 
+113.87.106.52 1 58 3227212 20170410010536
+41.233.191.207 2 92 4134365 20170418110708
+183.39.53.202 1 56 3217743 20170411050342
+101.226.33.208 1 27 1377244 20170426085551
+70.214.112.139 11 414 12891608 20170425190356
+119.124.70.215 10 219 9619117 20170404214950
+206.180.171.149 1 1 28598 20170415052217
+13.92.244.33 11 11 270761 20170406204224
+140.205.201.28 0 25 678849 
+202.46.57.183 1 1 28598 20170430145948
+195.154.215.89 2 2 57196 20170412190443
+162.158.64.184 1 1 0 20170426060644
+202.46.58.76 1 1 28598 20170409145403
+146.185.177.103 3 3 85794 20170413162018
+222.162.179.40 1 1 36152 20170416131357
+54.87.45.201 1 1 28598 20170409193013
+117.88.106.30 1 1 28598 20170416034120
+140.205.201.4 2 9 751774 20170406152216
+95.215.45.78 2 2 57196 20170413160044
+128.68.129.55 2 19 775413 20170402142827
+138.197.111.85 1 11 293683 20170425121321
+93.115.95.206 1 1 28598 20170413074826
+51.15.37.18 4 4 114392 20170413113756
+182.68.100.1 1 34 986973 20170417201026
+65.19.167.131 4 4 114392 20170413085813
+202.46.49.195 1 1 28598 20170428044707
+220.181.132.197 3 39 1418711 20170425223237
+69.203.11.180 7 347 20948508 20170411104945
+173.208.244.98 1 1 28598 20170412050120
+72.229.176.54 1 58 3227212 20170411042123
+138.197.111.26 1 11 293683 20170414165240
+101.226.85.67 1 10 292846 20170402230930
+109.236.8.8 1 1 28598 20170425174415
+198.245.60.8 1 1 28598 20170413093123
+173.252.115.193 0 3 83337 
+61.2.32.181 1 1 28598 20170401091113
+202.46.48.121 1 1 28598 20170402014741
+171.13.14.149 2 22 740246 20170425232900
+91.210.164.233 1 1 28598 20170423044959
+119.137.61.68 7 7 192146 20170420220950
+113.90.181.30 12 12 299359 20170428192810
+202.46.58.139 1 1 28598 20170422034143
+185.181.101.81 2 2 57196 20170413141249
+202.46.58.191 1 1 28598 20170430092928
+46.166.148.155 2 2 57196 20170413133647
+66.102.6.159 1 1 28598 20170421052543
+139.162.72.7 3 13 908621 20170416223546
+46.229.170.197 2 2 57196 20170424003811
+100.0.170.80 1 57 3222677 20170426144641
+54.67.90.175 1 1 28598 20170427091129
+176.10.104.243 1 1 28598 20170412223252
+54.87.4.255 1 1 28598 20170402121629
+138.197.111.21 1 11 293683 20170418132328
+51.255.202.66 2 2 57196 20170413143332
+115.195.60.74 1 1 28598 20170403144835
+101.199.112.52 3 55 2085619 20170425232737
+128.199.76.145 1 1 28598 20170413163908
+40.114.12.178 11 11 270761 20170427044438
+202.46.48.18 1 1 28598 20170422053843
+138.197.111.194 1 1 28598 20170418183208
+183.39.54.139 1 58 3227212 20170416220144
+183.237.206.196 17 665 22080890 20170424000155
+144.217.161.119 1 1 28598 20170413104708
+54.183.153.209 1 1 0 20170414121027
+185.146.168.146 1 1 28598 20170405031130
+54.167.106.242 1 1 28598 20170430102259
+54.219.183.179 12 12 157579 20170428141802
+51.15.53.134 6 6 171588 20170415044643
+79.172.193.32 8 8 228784 20170417142249
+202.46.51.155 1 1 28598 20170403000102
+185.29.8.211 2 2 57196 20170413131854
+141.170.2.53 2 2 57196 20170413024229
+202.46.53.45 1 1 28598 20170427033804
+101.199.112.55 1 17 670931 20170419094524
+199.30.24.28 0 6 76617 
+117.136.41.85 2 63 3409201 20170421103359
+202.46.52.15 1 1 28598 20170430010612
+202.46.51.208 1 1 28598 20170413090412
+183.240.19.241 2 115 6453583 20170413085512
+85.25.103.69 1 1 28598 20170412190126
+140.205.201.23 1 24 1016834 20170406152216
+199.30.25.87 0 4 92635 
+219.130.239.225 2 2 57196 20170418063516
+185.103.99.60 1 1 28598 20170413015504
+113.83.74.120 2 59 3281628 20170427044622
+51.254.212.160 4 4 114392 20170413102944
+46.183.216.205 3 3 85794 20170414234621
+45.79.144.222 1 1 28598 20170412222841
+92.222.6.12 1 1 28598 20170412223250
+23.92.27.23 2 2 57196 20170412172950
+185.117.215.9 2 2 57196 20170413101845
+220.181.132.198 4 56 2490912 20170423235634
+178.20.55.18 4 4 114392 20170413165251
+220.181.51.77 1 1 28598 20170411052110
+202.46.48.205 1 1 28598 20170401104741
+171.25.193.132 5 5 142990 20170419044404
+185.100.86.128 2 2 57196 20170413021457
+111.206.222.212 0 1 140573 
+85.248.227.165 6 6 171588 20170413091109
+199.30.24.37 0 6 96236 
+202.46.53.199 1 1 28598 20170405030120
+101.226.66.178 1 9 281949 20170402230930
+27.113.255.110 1 58 3227212 20170413092159
+46.166.148.154 4 4 114392 20170413170124
+162.158.65.21 1 1 0 20170419060643
+180.153.214.197 1 10 290746 20170426085600
+176.63.16.197 1 58 3227212 20170421104652
+167.114.230.104 3 3 85794 20170413105458
+170.55.166.66 7 332 13829306 20170413095803
+96.246.181.210 1 58 3227212 20170426135730
+119.129.255.27 2 116 6454424 20170429064641
+46.118.156.191 1 1 28598 20170421024214
+202.46.54.37 1 1 28598 20170424012431
+46.161.9.38 1 1 28598 20170409234123
+85.248.227.164 2 2 57196 20170417073951
+202.46.50.185 1 1 28598 20170419014936
+64.25.130.250 1 58 3227212 20170420100307
+185.117.118.234 1 1 28598 20170413142822
+62.80.200.190 3 3 85794 20170413000952
+202.46.53.151 1 1 28598 20170429132612
+202.46.53.177 1 1 28598 20170430190529
+212.47.246.21 3 3 85794 20170413124308
+35.187.69.225 4 4 88854 20170411065019
+209.133.66.214 2 2 57196 20170412223402
+182.73.13.118 3 87 4397495 20170410053432
+220.181.132.194 2 34 1354244 20170423235632
+101.199.108.50 2 39 1405698 20170427044343
+130.226.169.137 3 3 85794 20170412201412
+101.199.108.51 1 17 670931 20170423235436
+171.13.14.147 1 17 677529 20170411204605
+193.90.12.88 1 1 28598 20170413010051
+92.222.69.25 2 2 57196 20170413001910
+111.206.222.168 0 1 4967 
+183.57.153.212 1 1 28598 20170411234645
+38.100.21.69 2 8 425109 20170404202939
+61.2.63.237 1 1 28598 20170406090453
+202.46.57.204 1 1 28598 20170410001857
+192.160.102.166 3 3 85794 20170413065841
+46.161.9.45 1 1 28598 20170411182952
+202.46.56.204 1 1 28598 20170409030801
+202.46.52.63 1 1 28598 20170410044723
+148.251.190.163 1 58 3307032 20170409054309
+138.197.111.184 11 11 270761 20170422134536
+94.142.242.84 2 2 57196 20170412201336
+73.10.163.132 1 1 28598 20170426220032
+111.206.222.186 0 1 43384 
+123.125.67.165 2 2 57196 20170430095216
+109.236.8.10 1 1 28598 20170425174415
+162.158.64.237 1 1 0 20170405061355
+139.59.143.163 4 36 1377918 20170406215016
+217.15.61.156 9 362 10984751 20170424094356
+46.23.72.29 2 2 57196 20170413110454
+149.202.98.161 4 4 114392 20170413142800
+202.46.57.21 1 1 28598 20170414090049
+192.160.102.164 3 3 85794 20170413064024
+213.61.149.100 3 3 85794 20170413121234
+192.71.219.253 1 58 3227212 20170420070521
+62.212.68.156 1 1 28598 20170407183441
+138.197.111.64 1 11 293683 20170421020828
+172.98.67.19 1 1 28598 20170422233636
+38.80.23.83 1 1 28598 20170425222653
+138.197.111.241 1 1 28598 20170420021117
+119.137.61.4 4 4 88018 20170420220953
+103.239.252.2 2 92 4134365 20170419080647
+140.205.201.16 1 58 3227212 20170425110834
+109.163.234.4 7 7 200186 20170413170153
+212.47.242.127 3 3 85794 20170413085125
+202.46.53.16 1 1 28598 20170405133441
+204.85.191.30 2 2 57196 20170412224510
+71.53.150.43 6 174 6191100 20170417102714
+202.46.49.146 1 1 28598 20170409044132
+163.172.223.200 1 1 28598 20170413002337
+202.46.58.26 1 1 28598 20170420021237
+54.221.182.103 1 1 28598 20170416124401
+104.198.96.31 1 1 28598 20170409155100
+62.102.148.67 1 1 28598 20170412192630
+162.158.65.10 1 1 0 20170426060727
+5.197.223.240 6 6 22346 20170424163049
+46.105.100.149 4 4 114392 20170413105403
+198.50.200.137 1 1 28598 20170413094348
+46.28.107.82 4 4 114392 20170413065246
+142.255.84.40 3 75 4209860 20170414163718
+182.118.20.150 1 17 670697 20170423235605
+202.46.50.17 1 1 28598 20170401230101
+183.39.53.188 2 105 4635791 20170413220428
+202.46.49.63 1 1 28598 20170419111615
+138.197.111.236 11 11 270761 20170416024456
+199.87.154.255 2 2 57196 20170413152238
+193.90.12.86 4 4 114392 20170413095425
+123.128.179.105 1 63 3250311 20170411203524
+139.162.249.193 2 92 4134365 20170414101731
+93.115.95.201 2 2 57196 20170413015933
+92.62.225.136 1 58 3227212 20170422113649
+202.46.52.210 1 1 28598 20170427054153
+65.19.167.132 1 1 28598 20170413022625
+125.22.105.26 2 92 4134365 20170407014347
+51.15.50.10 2 2 57196 20170412230451
+92.222.79.253 4 4 114392 20170413033025
+89.223.27.241 1 1 28598 20170413065218
+65.55.210.17 0 4 765404 
+217.182.68.186 4 4 114392 20170430154737
+101.199.112.54 1 17 678485 20170412231947
+195.154.172.80 1 1 28598 20170416034045
+202.46.52.158 1 1 28598 20170408173452
+202.46.57.38 1 1 28598 20170408152801
+103.255.254.122 2 2 57196 20170430230159
+149.56.223.241 6 6 171588 20170414150959
+202.46.50.98 1 1 28598 20170405154800
+51.15.53.83 2 2 57196 20170414234623
+137.74.167.224 3 3 85794 20170413002023
+115.119.113.194 1 64 2962997 20170410053116
+217.170.201.106 1 1 28598 20170413105656
+37.123.133.148 3 3 85794 20170415103234
+51.15.43.205 6 6 171588 20170430140106
+54.160.215.162 16 217 7820522 20170422102002
+109.129.37.4 0 1 214037 
+4.79.123.3 1 1 28598 20170410053509
+202.46.58.93 1 1 28598 20170408002132
+104.130.207.142 2 2 47861 20170411200102
+13.65.244.6 1 1 28598 20170420222618
+67.245.123.86 10 10 285980 20170426105948
+202.46.48.90 1 1 28598 20170422050523
+113.87.104.73 16 16 413316 20170408084213
+173.208.213.114 2 2 57196 20170413140135
+87.118.126.150 2 2 57196 20170412180224
+112.14.77.233 4 118 6511620 20170419095209
+89.248.166.157 1 1 28598 20170412195731
+37.147.106.53 2 19 775413 20170417145649
+138.246.253.15 2 2 0 20170412102628
+138.197.111.211 11 11 270761 20170421102143
+109.163.234.5 5 5 142990 20170421232925
+46.166.148.176 2 2 57196 20170413095456
+113.87.104.181 4 186 6270176 20170412232008
+51.15.53.118 2 2 57196 20170413063904
+220.181.132.196 1 17 678840 20170411204403
+202.46.58.17 1 1 28598 20170414022049
+213.239.205.118 1 1 36152 20170416174411
+111.206.222.94 0 1 4934 
+111.206.222.48 0 2 280935 
+95.211.230.94 3 3 85794 20170413104742
+95.215.44.194 2 2 57196 20170412174120
+172.98.67.107 1 1 28598 20170412223815
+93.37.89.136 1 1 28598 20170405072317
+202.46.56.11 1 1 28598 20170407153441
+173.254.200.135 3 124 6654854 20170423013611
+109.163.234.9 1 1 28598 20170412172025
+93.115.95.207 1 1 28598 20170412212537
+178.217.187.39 1 1 28598 20170413111130
+62.210.81.52 3 3 85794 20170413133027
+202.46.56.91 1 1 28598 20170407092801
+162.245.213.213 0 1 36849 
+45.48.238.16 1 58 3227212 20170409055910
+138.197.111.18 1 11 293683 20170422082850
+101.199.108.52 1 17 670931 20170411050217
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170401 17 396 17689674 9
+20170402 18 66 2997961 10
+20170403 8 8 228784 8
+20170404 24 548 26189392 8
+20170405 11 12 287009 10
+20170406 26 295 15240981 11
+20170407 17 396 19444935 11
+20170408 35 92 4116835 9
+20170409 37 151 7122896 12
+20170410 12 275 13546356 10
+20170411 52 1263 64193952 29
+20170412 206 1695 54539497 113
+20170413 319 740 31148213 191
+20170414 52 321 14295981 14
+20170415 37 37 970492 13
+20170416 34 101 4926759 13
+20170417 73 976 32848024 19
+20170418 15 245 11799430 12
+20170419 44 700 29341483 25
+20170420 31 254 12274736 21
+20170421 124 1474 61066343 26
+20170422 36 304 11812364 11
+20170423 59 776 26750045 21
+20170424 40 714 25025136 12
+20170425 90 2117 81056447 29
+20170426 69 646 24898589 22
+20170427 47 195 9161978 14
+20170428 38 38 797186 5
+20170429 8 125 7332958 7
+20170430 13 13 343176 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 21
+0s-30s 606
+2mn-5mn 17
+30s-2mn 30
+15mn-30mn 9
+30mn-1h 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 918 25442885 641 573
+/index.php 582 13843206 61 118
+/admin/index.php 39 145299 3 3
+/fonts/linea-arrows-10.woff 33 254496 0 6
+/css/bootstrap.min.css.map 9 489744 0 1
+/fonts/linea-arrows-10.ttf 5 80520 0 1
+/fonts/glyphicons-halflings-regular.eot 2 40254 0 2
+/fonts/glyphicons-halflings-regular.woff2 2 36056 0 1
+/fonts/linea-arrows-10.eot 1 16304 0 0
+/admin/ 1 3472 1 1
+END_SIDER

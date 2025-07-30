@@ -1,0 +1,3687 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202109 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2553                
+POS_VISITOR 70545               
+POS_DAY 142724              
+POS_DOMAIN 3526                
+POS_LOGIN 3761                
+POS_ROBOT 3916                
+POS_WORMS 4660                
+POS_EMAILSENDER 4791                
+POS_EMAILRECEIVER 4934                
+POS_SESSION 143637              
+POS_SIDER 143849              
+POS_FILETYPES 5069                
+POS_OS 5316                
+POS_BROWSER 5493                
+POS_SCREENSIZE 6198                
+POS_UNKNOWNREFERER 6272                
+POS_UNKNOWNREFERERBROWSER 7967                
+POS_ORIGIN 8656                
+POS_SEREFERRALS 8804                
+POS_PAGEREFS 8961                
+POS_SEARCHWORDS 9889                
+POS_KEYWORDS 10041               
+POS_MISC 2217                
+POS_ERRORS 10100               
+POS_CLUSTER 3617                
+POS_SIDER_404 10244               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211001000732 21090 5148522 59740643214
+FirstTime 20210901002535
+LastTime 20210930234130
+LastUpdate 20211001022534 21090 20408 681 0 0
+TotalVisits 2156                
+TotalUnique 1788                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1865                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 141 201 5633495 114 206 3697906
+1 183 351 11013864 990 1082 7889029
+2 160 300 10817939 138 158 1944624
+3 206 325 10798650 93 166 1731132
+4 216 421 9198486 169 260 2959659
+5 143 358 11022143 166 203 2120760
+6 314 887 27486907 173 175 1260490
+7 136 216 6764557 130 135 934243
+8 259 430 9934707 893 914 2175595
+9 170 708 25716838 114 151 2433870
+10 171 456 12494502 140 141 2628930
+11 2867 3699 34697496 184 226 3771304
+12 217 310 9415176 234 252 3410854
+13 234 621 16561254 108 113 1456863
+14 224 475 9795385 107 182 1294543
+15 183 412 13847959 92 112 1029065
+16 181 325 12042348 109 136 1539981
+17 473 541 13021754 160 171 1565647
+18 451 672 21881721 198 278 3567971
+19 205 467 13964960 173 177 1459215
+20 166 394 12735568 292 422 3339254
+21 179 252 6149162 152 231 3940280
+22 183 345 6507540 859 936 2482017
+23 246 518 14809575 132 164 1833820
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 7908 13684 326311986
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+infobot 627 15071857 20210930112639 40
+robot 497 11889888 20210930190731 48
+bot[+:,\.\;\/\\-] 447 9278173 20210930182209 66
+googlebot 294 8142326 20210930232813 13
+yandex 79 1545432 20210928221316 20
+no_user_agent 73 2011841 20210930053958 0
+baiduspider 64 1315768 20210930004133 0
+python 41 1143920 20210927042050 1
+spider 37 796355 20210929165131 1
+unknown 27 0 20210930004128 27
+core 20 468111 20210929204644 0
+mail\.ru 10 43858 20210915104749 5
+custo 20 571960 20210930154307 0
+java 5 142990 20210921161145 0
+bbot 2 28598 20210928181455 1
+msiecrawler 3 85794 20210915013950 0
+crawl 3 85794 20210929145915 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 580 21677685 0 0
+png 1751 15706465 0 0
+env 1 28598 0 0
+txt 3 0 0 0
+woff 6 46272 0 0
+php 4150 92081307 0 0
+html 3743 37240305 0 0
+js 1147 19584879 0 0
+jpg 2298 139803485 0 0
+Unknown 5 142990 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+winlong 2146
+winxp 173
+win2000 20
+winnt 4581
+linux 2416
+winvista 616
+win16 3
+macosx 1629
+win2003 3
+bsdopenbsd 1
+Unknown 656
+win2008 1440
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 50
+firefox28.0 564
+msie6.0 45
+firefox57.0 2
+webcapture 6
+chrome 9526
+msie4.00 3
+firefox52.0 652
+firefox4.0 3
+firefox49.0 3
+curl 11
+msie6.00 1
+firefox85.0 3
+msie8.0 1
+firefox62.0 3
+firefox73.0 10
+firefox59.0 1
+msie7.0 6
+firefox65.0 10
+wget 1
+msie5.0 3
+msie9.0 543
+Unknown 48
+firefox11.0 1
+firefox50.0 7
+msie3.00 2
+firefox17.0 60
+firefox84.0 1
+firefox89.0 1
+firefox72.0 2
+opera 1099
+firefox77.0 1
+firefox91.0 2
+firefox3.5.2 1
+firefox46.0 2
+msie2.00 2
+firefox78.0 63
+netscape4.79 3
+msie5.00 1
+firefox90.0 1
+mozilla 170
+firefox92.0 45
+firefox81.0 115
+netscape5.0 101
+firefox3.6.28 1
+msie10.0 39
+firefox 1
+firefox36.0 34
+firefox3.0.10 4
+firefox35.0 1
+safari 479
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 26
+Dispatch/0.14.0-SNAPSHOT 20210922124201
+Mozilla/3.0_(compatible;_MSIE2.00;_Windows_2007) 20210929133411
+Mozilla/6.0_(compatible;_MSIE3.00;_Windows_2006) 20210929141408
+Mozilla/5.0_(compatible;_Qwantify/1.0;__https://www.qwant.com/) 20210915025859
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;_http://www.cloudflare.com/always-online) 20210905200959
+Embedly__support@embed.ly 20210920093848
+GRequests/0.10 20210910044447
+Mozilla/4.0_(compatible;_MSIE4.00;_Windows_2006) 20210928154238
+Mozilla/5.0_(compatible;_Daum/4.1;__http://cs.daum.net/faq/15/4118.html?faqId=28966) 20210921035657
+curl/7.35.0 20210907040223
+Mozilla/7.0_(compatible;_MSIE4.00;_Windows_2006) 20210928150221
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210921221041
+got_(https://github.com/sindresorhus/got) 20210925070009
+Opera/9.80_(Android;_Opera_Mini/7.5.54678/28.2555;_U;_ru)_Presto/2.10.289_Version/12.02 20210925114718
+Mozilla/5.0_Firefox/35.0 20210902104025
+curl/7.38.0 20210926151916
+Mozilla/3.0_(compatible;_WebCapture_2.0;_Auto;_Windows) 20210922013522
+Mozilla/5.0_(compatible;_MSIE3.00;_Windows_2002) 20210929133411
+Mozilla/5.0_(compatible;_MSIE4.00;_Windows_2004) 20210925135715
+Mozilla/5.0_(compatible;_ips-agent) 20210903061118
+Mozilla/5.0 20210913161410
+Embarcadero_URI_Client/1.0 20210903144859
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20210929022944
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210927161751
+colly_-_https://github.com/gocolly/colly/v2 20210905193549
+Go-http-client/1.1 20210911070645
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+Dispatch/0.14.0-SNAPSHOT 20210922124201
+Dalvik/2.1.0_(Linux;_U;_Android_9.0;_ZTE_BA520_Build/MRA58K) 20210930122220
+Embedly__support@embed.ly 20210920093848
+GRequests/0.10 20210910044447
+Embarcadero_URI_Client/1.0 20210903144859
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20210929022944
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210927161751
+colly_-_https://github.com/gocolly/colly/v2 20210905193549
+Go-http-client/1.1 20210911070645
+got_(https://github.com/sindresorhus/got) 20210925070009
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 4408 4668
+From1 6 6
+From2 27 27
+From3 119 120
+From4 3348 8863
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 27 27
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 25
+http://baidu.com 27 27
+https://vtsservice.center 9 9
+http://aaok.ru 9 9
+https://vsdelke.ru 9 9
+https://erotag.org 6 6
+https://mindlinkstudio.com 6 6
+https://termik18.ru 6 6
+https://www.thomasnet.com/profile/30774822/act-packaging.html 5 5
+https://actisens.net 3 3
+https://sauni-moskva.ru 3 3
+https://www.bing.com 1 1
+https://www.bookmaker-pinnacle.com 3 3
+https://thomas-net.lightning.force.com 1 1
+https://podari-video.su 3 3
+https://hollyclub.com.ua 3 3
+https://steamauthenticator.com 3 3
+https://commonit.biz 3 3
+https://skraftix.ru 3 3
+https://exmo.me 3 3
+https://okna-rating-msk.ru 3 3
+https://saunikrasnoyarsk.ru 3 3
+https://rodo-krp.pl/wp-login.php 1 1
+http://tendata.mailsou.com/onlinesearch/searchX3List.asp 0 1
+https://avtolombard-voronezh.ru 3 3
+https://phmetr.ru 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 10 2477
+302 782 200192
+206 10 2607977
+301 1 239
+404 3939 5033502
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1405
+/adminer-3.6.3-mysql-en.php 3 https://act-packaging.com
+/editor-4.7.9-pl.php 3 https://act-packaging.com
+/editor-4.4.0-mysql-sk.php 3 https://act-packaging.com
+/scarbook.php 1 -
+/editor-4.7.5-mysql-cs.php 3 https://act-packaging.com
+/adminer-4.2.3/ 3 https://act-packaging.com
+/adminer-4.2.0-mysql-en.php 3 https://act-packaging.com
+/proxy/games 1 -
+/adminer-4.6.0-mysql-sk.php 3 https://act-packaging.com
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/system/logs/itransact_html_debug.txt 1 -
+/sites/default/files/ 4 binance.com
+/test/wp-includes/wlwmanifest.xml 28 -
+/editor-4.6.0-sk.php 3 https://act-packaging.com
+/member/space/company/info.txt 1 -
+/plus/mytag_js.php 4 http://www.act-packaging.com/plus/mytag_js.php
+/adminer-2.2.0.php 3 https://act-packaging.com
+/adminer-4.7.3-cs.php 3 https://act-packaging.com
+/adminer-4.7.4-mysql-pl.php 3 https://act-packaging.com
+/images/logo-white.png 1 -
+/adminer-4.7.7/ 3 https://act-packaging.com
+/index.cgi 1 -
+/adminer-4.6.3-cs.php 3 https://act-packaging.com
+/adminer-4.0.2-mysql.php 3 https://act-packaging.com
+/style.php 5 anonymousfox.co
+/adminer-4.7.0-mysql-cs.php 3 https://act-packaging.com
+/adminer-4.2.4-mysql.php 3 https://act-packaging.com
+/editor-4.7.4-cs.php 3 https://act-packaging.com
+/adminer-4.8.0-mysql-pl.php 3 https://act-packaging.com
+/adminer-3.2.2-en.php 3 https://act-packaging.com
+/datacenter/downloadApp/showDownload.do 1 -
+/system/logs/payleap_debug.txt 1 -
+/main 1 -
+/unulk.php 1 http://www.act-packaging.com/unulk.php
+/blog/wp-json/wp/v2/users 1 -
+/adminer-3.7.0-mysql-en.php 3 https://act-packaging.com
+/inc/rsd.php 1 -
+/adminer-3.2.2-mysql-en.php 3 https://act-packaging.com
+/editor-3.4.0-mysql-en.php 3 https://act-packaging.com
+/wp-content/plugins/ioptimization/IOptimize.php 3 anonymousfox.co
+/public/adminer.php 3 https://act-packaging.com
+/adminer-4.7.6-de.php 3 https://act-packaging.com
+/editor-4.7.0-mysql-sk.php 3 https://act-packaging.com
+/product/Packaging-Paper-%20Box.html 1 -
+/data/adminer.php 3 https://act-packaging.com
+/editor-4.3.0-pl.php 3 https://act-packaging.com
+/.aws/credentials 1 -
+/editor-4.7.2-pl.php 3 https://act-packaging.com
+/editor-4.1.0.php 3 https://act-packaging.com
+/editor-4.6.1-mysql-en.php 3 https://act-packaging.com
+/adminer-4.6.0-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.2-mysql.php 3 https://act-packaging.com
+/cgi-bin/printenv.pl 2 -
+/adminer-4.7.1-mysql-de.php 3 https://act-packaging.com
+/product/205.html 1 -
+/logo/logo_jw.png 1 -
+/bencandy.php 1 -
+/editor-3.7.0.php 3 https://act-packaging.com
+/adminer-3.3.0.php 3 https://act-packaging.com
+/editor-4.2.5-de.php 3 https://act-packaging.com
+/system/storage/logs/error.txt 1 -
+/bbs.cgi 1 -
+/member/images/base.css 1 https://www.baidu.com/
+/adminer-4.7.2-sk.php 3 https://act-packaging.com
+/news 1 -
+/adminer-3.3.1.php 3 https://act-packaging.com
+/editor-4.4.0-de.php 3 https://act-packaging.com
+/search.asp 1 http://www.act-packaging.com/search.asp
+/demo/wp-json/wp/v2/users 1 -
+/editor-4.4.0-sk.php 3 https://act-packaging.com
+/member/images/dzh_logo.gif 1 https://www.baidu.com/
+/history.txt 1 -
+/editor-3.3.3-mysql.php 3 https://act-packaging.com
+/adminer-4.5.0-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.7.5-cs.php 3 https://act-packaging.com
+/editor-4.7.1-mysql.php 3 https://act-packaging.com
+/adminer-2.1.0.php 3 https://act-packaging.com
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/editor-4.6.2-sk.php 3 https://act-packaging.com
+/adminer-4.7.4-mysql-sk.php 3 https://act-packaging.com
+/js/basic.js 1 -
+/editor-4.7.1-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.2.5-de.php 3 https://act-packaging.com
+/adminer-4.2.4-mysql-en.php 3 https://act-packaging.com
+/config/AspCms_Config.asp 1 http://www.act-packaging.com//config/AspCms_Config.asp
+/plus/sitemap.html 1 -
+/adminer-4.4.0-mysql.php 3 https://act-packaging.com
+/editor-3.6.4-mysql-en.php 3 https://act-packaging.com
+/editor-3.5.1.php 3 https://act-packaging.com
+/application/configs/application.ini 1 -
+/adminer-4.6.0-mysql-cs.php 3 https://act-packaging.com
+/adminer-4.4.0-en.php 3 https://act-packaging.com
+/editor-4.7.5-pl.php 3 https://act-packaging.com
+/WebEditor/photo.asp 1 http://www.act-packaging.com/WebEditor/photo.asp
+/system/language/zh-cn.xml 1 -
+/adminer-3.2.0/ 3 https://act-packaging.com
+/adminer-4.2.1/ 3 https://act-packaging.com
+/wp-contacts.php 1 http://act-packaging.com/wp-contacts.php
+/adminer-4.7.6-mysql-sk.php 3 https://act-packaging.com
+/editor-3.3.3.php 3 https://act-packaging.com
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 13 -
+/editor-4.7.1-mysql-cs.php 3 https://act-packaging.com
+/app/common/getRegisterSet 1 -
+/system/logs/skipjack_debug.txt 1 -
+/adminer-4.7.1.php 3 https://act-packaging.com
+/editor/js/fckeditorcode_ie.js 1 -
+/editor-4.2.5-mysql-cs.php 3 https://act-packaging.com
+/editor-4.3.1-mysql-sk.php 3 https://act-packaging.com
+/backup 1 -
+/adminer-4.5.0-cs.php 3 https://act-packaging.com
+/editor-4.0.3.php 3 https://act-packaging.com
+/editor-4.6.3-mysql-en.php 3 https://act-packaging.com
+/editor-4.8.0-mysql-pl.php 3 https://act-packaging.com
+/service 1 -
+/adminer-3.6.3-en.php 3 https://act-packaging.com
+/forum/ 1 -
+/adminer-4.7.5-mysql-en.php 3 https://act-packaging.com
+/editor-4.2.1-mysql-en.php 3 https://act-packaging.com
+/storage/logs/error1.txt 1 -
+/adminer-4.0.1.php 3 https://act-packaging.com
+/).on( 2 -
+/adminer-3.7.1-mysql-en.php 3 https://act-packaging.com
+/lang/en.js 1 -
+/data/admin/quickmenu.txt 1 https://www.baidu.com/
+/api/v/index/queryOfficePage 1 -
+/adminer-3.3.4-en.php 3 https://act-packaging.com
+/adminer-4.8.0-mysql.php 3 https://act-packaging.com
+/adminer-4.7.9-mysql-pl.php 3 https://act-packaging.com
+/api/public/ 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/editor-4.3.0-sk.php 3 https://act-packaging.com
+/admin/controller/ico.php 1 http://act-packaging.com/admin/controller/extension/module/ico.php
+/adminer-4.6.1-en.php 3 https://act-packaging.com
+/adminer-4.4.0-pl.php 3 https://act-packaging.com
+/Prompt/images/P_Wrong.gif 1 -
+/wp-content/themes/config.bak.php 3 anonymousfox.co
+/editor-4.3.0-cs.php 3 https://act-packaging.com
+/bk/ 1 -
+/editor-4.6.0-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.6.3-mysql-de.php 3 https://act-packaging.com
+/editor-4.7.5-mysql-pl.php 3 https://act-packaging.com
+/adminer-3.3.1-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.1-mysql-en.php 3 https://act-packaging.com
+/editor-4.7.1-cs.php 3 https://act-packaging.com
+/wp2/ 1 -
+/editor-4.7.4-en.php 3 https://act-packaging.com
+/adminer-4.7.6-sk.php 3 https://act-packaging.com
+/adminer-mysql.php 3 https://act-packaging.com
+/adminer-4.7.4.php 3 https://act-packaging.com
+/adminer-4.7.9-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.2.5-mysql-en.php 3 https://act-packaging.com
+/editor-4.0.3-mysql-en.php 3 https://act-packaging.com
+/adminer-4.3.0-mysql.php 3 https://act-packaging.com
+/editor-4.7.8-en.php 3 https://act-packaging.com
+/editor-4.4.0-cs.php 3 https://act-packaging.com
+/2018/ 2 -
+/seo-joy.cgi 1 -
+/wp-content/plugins/wpconfig.bak.php 3 anonymousfox.co
+/adminer-3.3.1/ 3 https://act-packaging.com
+/editor-4.3.1-mysql-pl.php 3 https://act-packaging.com
+/2018/wp-includes/wlwmanifest.xml 20 -
+/was5/web/index.jsp 1 -
+/adminer-4.7.4-mysql-en.php 3 https://act-packaging.com
+/v1/ 1 -
+/maintlogin.jsp 1 -
+/adminer-4.8.0-mysql-en.php 3 https://act-packaging.com
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/adminer-4.5.0/ 3 https://act-packaging.com
+/wp-content/langar.php 3 anonymousfox.co
+/inc/Templates/rss.xslt 1 -
+/adminer-4.0.2/ 3 https://act-packaging.com
+/system/logs/eway_hosted_request.txt 1 -
+/editor-4.7.0-mysql-en.php 3 https://act-packaging.com
+/system/storage/logs/error1.txt 1 -
+/product/LDB23.html 1 -
+/adminer-4.2.1-en.php 3 https://act-packaging.com
+/news/56.html 1 -
+/editor-4.7.6-pl.php 3 https://act-packaging.com
+/extman/default/images/logo.gif 1 -
+/images/loadinglit.gif 1 https://www.baidu.com/
+/images/login_Name.jpg 1 -
+/sitemap_index.xml 1 -
+/product/177.html 1 -
+/wp 1 -
+/editor-4.6.0-mysql-pl.php 3 https://act-packaging.com
+/product/192.html 1 -
+/adminer-4.7.8-mysql-en.php 3 https://act-packaging.com
+/editor-4.6.2-mysql-sk.php 3 https://act-packaging.com
+/tools/rss.aspx 1 -
+/adminer-4.6.0-de.php 3 https://act-packaging.com
+/adminer-4.7.2-mysql-en.php 3 https://act-packaging.com
+/editor-4.6.1.php 3 https://act-packaging.com
+/apple-app-site-association 1 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/adminer-3.1.0.php 3 https://act-packaging.com
+/editor-4.7.8-mysql.php 3 https://act-packaging.com
+/adminer-4.7.1/ 3 https://act-packaging.com
+/adminer-4.7.5-de.php 3 https://act-packaging.com
+/editor-4.6.3-de.php 3 https://act-packaging.com
+/data/cache/inc_catalog_base.inc 1 https://www.baidu.com/
+/coremail/common/help/images/helplogo.gif 1 -
+/adminer-4.5.0-mysql.php 3 https://act-packaging.com
+/.well-known/apple-app-site-association 1 -
+/images/login/logo.gif 1 -
+/adminer-4.3.1-pl.php 3 https://act-packaging.com
+/adminer-3.7.0-en.php 3 https://act-packaging.com
+/awhku.php 1 http://www.act-packaging.com/awhku.php
+/editor-4.7.4-sk.php 3 https://act-packaging.com
+/haders.php 3 anonymousfox.co
+/adminer-4.6.0/ 3 https://act-packaging.com
+/editor-4.7.8-sk.php 3 https://act-packaging.com
+/ajax 1 -
+/system/logs/transaction_central_xml_debug.txt 1 -
+/plus/bookfeedback.php 1 https://www.baidu.com/
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/system/logs/iveri_lite_debug.txt 1 -
+/utility/convert/data/config.inc.php 3 http://www.act-packaging.com/utility/convert/data/config.inc.php
+/media/com_hikashop/js/hikashop.js 1 -
+/product/Speedo-paper-box.html 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/Inc/md5.asp 1 http://www.act-packaging.com//Inc/md5.asp
+/system/logs/mweb_ss_pgp_debug.txt 1 -
+/editor-4.7.0-de.php 3 https://act-packaging.com
+/admin/language/en-gb/extension/extension/shell.php 1 -
+/editor-4.5.0-cs.php 3 https://act-packaging.com
+/editor-4.7.5-de.php 3 https://act-packaging.com
+/wp-content/wp-old-index.php 3 anonymousfox.co
+/img/pic/login/top-left.jpg 1 -
+/images/branding/logo.gif 1 -
+/adminer-4.6.1-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.1-mysql-pl.php 3 https://act-packaging.com
+/adminer-3.3.4-mysql.php 3 https://act-packaging.com
+/product/soft%20touch%20paper%20box.html 1 -
+/editor-4.7.1-sk.php 3 https://act-packaging.com
+/adminer-4.5.0-mysql-en.php 3 https://act-packaging.com
+/member/templets/images/login_logo.gif 1 https://www.baidu.com/
+/upload.php 3 anonymousfox.co
+/editor-4.6.0-mysql-de.php 3 https://act-packaging.com
+/editor-4.7.4-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.7.2-mysql-de.php 3 https://act-packaging.com
+/editor-3.0.1-mysql.php 3 https://act-packaging.com
+/adminer-4.7.4-mysql-de.php 3 https://act-packaging.com
+/wp-includes/small.php 3 anonymousfox.co
+/plugins/anchor/anchor.js 1 -
+/editor-4.4.0-mysql.php 3 https://act-packaging.com
+/mtja.html 1 -
+/adminer-4.6.0-sk.php 3 https://act-packaging.com
+/admin/adminer.php 3 https://act-packaging.com
+/adminer-4.1.0-mysql-en.php 3 https://act-packaging.com
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/editor-3.7.1.php 3 https://act-packaging.com
+/editor-4.7.6-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.5.0-mysql-cs.php 3 https://act-packaging.com
+/e/master/login.aspx 1 -
+/themes/default/default.css 1 -
+/include/taglib/jr.lib.php 1 http://www.act-packaging.com//include/taglib/jr.lib.php
+/adminer-2.0.0.php 3 https://act-packaging.com
+/db.php 1 -
+/admin/_system/AspCms_SiteSetting.asp 1 http://www.act-packaging.com/admin/_system/AspCms_SiteSetting.asp
+/news/51.html 1 -
+/admin/login.asp 1 -
+/editor-4.7.2.php 3 https://act-packaging.com
+/adminer-4.6.2-mysql-de.php 3 https://act-packaging.com
+/adminer-4.6.1-sk.php 3 https://act-packaging.com
+/sito/wp-includes/wlwmanifest.xml 28 -
+/editor-4.3.1-sk.php 3 https://act-packaging.com
+/editor-4.2.0-en.php 3 https://act-packaging.com
+/images/default/post_bt.gif 1 -
+/fckeditor.js 1 -
+/fckeditor/license.txt 1 -
+/proxy/settings 1 -
+/adminer-4.7.2.php 3 https://act-packaging.com
+/adminer-3.0.0.php 3 https://act-packaging.com
+/stock/search.html 1 -
+/editor-3.3.0-mysql-en.php 3 https://act-packaging.com
+/adminer-3.3.3-en.php 3 https://act-packaging.com
+/sitemap.xml 4 -
+/editor-4.0.2.php 3 https://act-packaging.com
+/editor-3.7.0-mysql.php 3 https://act-packaging.com
+/wp-content/plugins/t_file_wp/t_file_wp.php 3 anonymousfox.co
+/api/user/get_user_group 1 -
+/oldsite 1 -
+/adminer-4.3.1-de.php 3 https://act-packaging.com
+/licence.txt 1 -
+/dup-installer/main.installer.php 2 -
+/uploads/ 4 binance.com
+/console/js/CTRSRequestParam.js 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/system/storage/logs/transaction_services.class.log 1 -
+/editor-3.6.4-mysql.php 3 https://act-packaging.com
+/config.js 1 -
+/editor-4.6.3-mysql-sk.php 3 https://act-packaging.com
+/editor-3.2.0-mysql.php 3 https://act-packaging.com
+/news/index6.html 1 -
+/adminer-4.0.2-en.php 3 https://act-packaging.com
+/wp-content/ 7 -
+/system/logs/error.log 1 -
+/list.php 1 -
+/product/Corrugated-box.html 1 -
+/login/Jeecms.do 1 -
+/.well-known/security.txt 1 -
+/public/js/info.js 1 -
+/adminer-3.3.0/ 3 https://act-packaging.com
+/editor-4.7.0-sk.php 3 https://act-packaging.com
+/adminer-4.4.0-de.php 3 https://act-packaging.com
+/news/wp-includes/wlwmanifest.xml 28 -
+/ysyqq.php 3 http://www.act-packaging.com/ysyqq.php
+/editor-4.7.4-mysql.php 3 https://act-packaging.com
+/adminer-4.7.8-mysql-cs.php 3 https://act-packaging.com
+/editor-4.5.0-mysql.php 3 https://act-packaging.com
+/adminer-4.3.1-mysql-pl.php 3 https://act-packaging.com
+/editor-4.2.0-mysql.php 3 https://act-packaging.com
+/adminer-4.2.2/ 3 https://act-packaging.com
+/adminer-2.2.1.php 3 https://act-packaging.com
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/adminer-3.2.0.php 3 https://act-packaging.com
+/editor-4.7.6-mysql-en.php 3 https://act-packaging.com
+/home 1 -
+/resources/main/common.js 1 -
+/ckfinder/ckfinder.html 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/editor-4.7.3-en.php 3 https://act-packaging.com
+/system/logs/payway_debug.txt 1 -
+/th3_err0r.php 3 anonymousfox.co
+/adminer-4.7.7.php 3 https://act-packaging.com
+/adminer-3.5.1-en.php 3 https://act-packaging.com
+/adminer-4.7.8-mysql.php 3 https://act-packaging.com
+/editor-3.6.1.php 3 https://act-packaging.com
+/editor-4.2.5-mysql-en.php 3 https://act-packaging.com
+/product/LDB27.html 1 -
+/editor-4.7.5-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.4-cs.php 3 https://act-packaging.com
+/editor-3.6.1-mysql.php 3 https://act-packaging.com
+/Error.aspx 1 -
+/adminer-4.2.2-en.php 3 https://act-packaging.com
+/adminer-4.2.5-sk.php 3 https://act-packaging.com
+/images/login9/login_33.jpg 1 -
+/adminer-4.4.0-sk.php 3 https://act-packaging.com
+/adminer-4.7.1-sk.php 3 https://act-packaging.com
+/adminer-4.7.1-pl.php 3 https://act-packaging.com
+/editor-4.7.8-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.2-en.php 3 https://act-packaging.com
+/adminer-4.7.4-de.php 3 https://act-packaging.com
+/nobody/mobile.htm 1 -
+/common/help/images/helplogo.gif 1 -
+/editor-4.7.3-mysql-cs.php 3 https://act-packaging.com
+/search.php 15 http://www.act-packaging.com/search.php
+/2020/ 11 -
+/editor-4.7.1-mysql-sk.php 3 https://act-packaging.com
+/system/storage/logs/error1.log 1 -
+/wp/wp-includes/wlwmanifest.xml 28 -
+/adminer-4.7.8-pl.php 3 https://act-packaging.com
+/system/logs/error1.txt 1 -
+/gastenboek.php 1 -
+/adminer-4.7.9-mysql.php 3 https://act-packaging.com
+/adminer-4.7.6-mysql-cs.php 3 https://act-packaging.com
+/Wq_StranJF.js 1 -
+/adminer-3.4.0-en.php 3 https://act-packaging.com
+/adminer-4.7.3-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.4.0-mysql-en.php 3 https://act-packaging.com
+/adminer-3.5.1-mysql-en.php 3 https://act-packaging.com
+/index.php 102 -
+/config.bak.php 3 anonymousfox.co
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/adminer-4.8.0/ 3 https://act-packaging.com
+/editor-4.7.3-mysql-en.php 3 https://act-packaging.com
+/js/buttons.js 1 -
+/news/54.html 1 -
+/system/logs/error.txt 1 -
+/adminer-3.1.0-mysql-en.php 3 https://act-packaging.com
+/e/DoInfo/ecms.php 3 http://www.act-packaging.com/e/DoInfo/ecms.php
+/js/a.script 1 -
+/Ntalker/lawfirm.aspx 1 -
+/wp-includes/config.bak.php 3 anonymousfox.co
+/system/logs/paywayapi_debug.txt 1 -
+/cindex.php 3 anonymousfox.co
+/site/wp-includes/wlwmanifest.xml 28 -
+/editor-4.2.2-mysql.php 3 https://act-packaging.com
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/product/underwear-packing-box.html 1 -
+/api/stock/getSingleStock.do 1 -
+/web/ 12 -
+/system/logs/fss_api_debug.txt 1 -
+/index.PHP 3 http://www.act-packaging.com/index.PHP
+/common/common.js 1 -
+/editor.php 3 https://act-packaging.com
+/Images/login/mainlogo.gif 1 -
+/adminer-4.8.0-mysql-sk.php 3 https://act-packaging.com
+/editor-3.6.3-mysql.php 3 https://act-packaging.com
+/bc 1 -
+/editor-4.8.0-mysql-sk.php 3 https://act-packaging.com
+/system/storage/logs/virtualmerchantpro_debuger.txt 1 -
+/web/xmlrpc.php 3 -
+/adminer-4.7.4-mysql.php 3 https://act-packaging.com
+/editor-4.7.0-en.php 3 https://act-packaging.com
+/wp-content/plugins/ubh/up.php 3 anonymousfox.co
+/siteserver/upgrade/default.aspx 1 -
+/was/main.html 1 -
+/news/57.html 1 -
+/adminer-4.2.3-en.php 3 https://act-packaging.com
+/adminer-4.6.1.php 3 https://act-packaging.com
+/editor-4.7.0-cs.php 3 https://act-packaging.com
+/editor-4.2.0.php 3 https://act-packaging.com
+/editor-4.3.1-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.7-cs.php 3 https://act-packaging.com
+/adminer-4.7.3-mysql-en.php 3 https://act-packaging.com
+/old 1 -
+/doku.php 1 -
+/wp-booking.php 3 anonymousfox.co
+/editor-3.3.1.php 3 https://act-packaging.com
+/adminer-4.7.9-mysql-de.php 3 https://act-packaging.com
+/adminer-4.0.3-en.php 3 https://act-packaging.com
+/docs.css 1 -
+/adminer-3.1.0-en.php 3 https://act-packaging.com
+/virtualmerchantpro_debuger.txt 1 -
+/storage/logs/error.log 1 -
+/downloader 1 -
+/adminer-4.7.2-pl.php 3 https://act-packaging.com
+/base/exchange_index/changepwdfirst 1 -
+/web/adminer.php 3 https://act-packaging.com
+/.well-known/ 4 binance.com
+/infe/rest/fig/advertise/common.json 1 -
+/adminer-4.7.6/ 3 https://act-packaging.com
+/adminer-4.3.0/ 3 https://act-packaging.com
+/editor-4.6.3-sk.php 3 https://act-packaging.com
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/adminer-4.7.7-mysql-en.php 3 https://act-packaging.com
+/wp-content/plugins/backup_index.php 3 anonymousfox.co
+/blog/xmlrpc.php 3 -
+/wp-includes/css/wp-config.php 3 anonymousfox.co
+/wp-admin 1 -
+/adminer-3.4.0.php 3 https://act-packaging.com
+/editor-4.2.5-mysql-sk.php 3 https://act-packaging.com
+/editor-4.6.1-mysql-cs.php 3 https://act-packaging.com
+/login/img/product_logo.png 2 -
+/adminer-4.2.0.php 3 https://act-packaging.com
+/adminer-3.3.1-en.php 3 https://act-packaging.com
+/license.php 1 http://act-packaging.com/license.php
+/new 1 -
+/cgi/index.cgi 1 -
+/light.cgi 1 -
+/adminer-4.1.0.php 3 https://act-packaging.com
+/editor-4.7.2-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.2.5-en.php 3 https://act-packaging.com
+/adminer-4.5.0.php 3 https://act-packaging.com
+/up.php 3 anonymousfox.co
+/adminer-3.0.1-mysql.php 3 https://act-packaging.com
+/editor-4.6.3-cs.php 3 https://act-packaging.com
+/ryebe.php 1 http://www.act-packaging.com/ryebe.php
+/admin/controller/extension/module/accesson.php 1 http://act-packaging.com/admin/controller/extension/module/sttings.php
+/includes/general.js 1 -
+/editor-4.6.3-en.php 3 https://act-packaging.com
+/adminer-4.2.4.php 3 https://act-packaging.com
+/adminer-4.4.0/ 3 https://act-packaging.com
+/adminer-4.3.0-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.7-mysql.php 3 https://act-packaging.com
+/plus/moon.php 4 http://www.act-packaging.com/plus/moon.php
+/editor-4.7.3-pl.php 3 https://act-packaging.com
+/app/images/login/toplogo.gif 1 -
+/system/skins/default/system.login.htm 1 -
+/editor-4.1.0-en.php 3 https://act-packaging.com
+/legal/currency/set 1 -
+/_css.php 1 http://act-packaging.com/_css.php
+/editor-4.7.9-en.php 3 https://act-packaging.com
+/include/calendar/calendar-cn.js 2 http://act-packaging.com/include/calendar/calendar-cn.js
+/console/js/CWCMDialogHead.js 1 -
+/editor-4.6.2-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.3.0.php 3 https://act-packaging.com
+/adminer-3.3.3-mysql-en.php 3 https://act-packaging.com
+/data/cache/flye.php 1 http://www.act-packaging.com//data/cache/flye.php
+/adminer-3.3.2.php 3 https://act-packaging.com
+/wordpress 1 -
+/product/index.html 1 -
+/ckfinder/install.txt 1 -
+/js/index.php 1 -
+/Admin/Login.aspx 1 -
+/adminer-4.7.8.php 3 https://act-packaging.com
+/adminer-4.6.1-mysql-sk.php 3 https://act-packaging.com
+/admin/controller/extension/module/lpinfo.php 2 -
+/default/images/logo.gif 1 -
+/template/home.htm 1 -
+/legion.php 3 anonymousfox.co
+/editor-4.7.8-mysql-de.php 3 https://act-packaging.com
+/adminer-3.6.2.php 3 https://act-packaging.com
+/editor-3.3.4-mysql.php 3 https://act-packaging.com
+/editor-4.4.0-pl.php 3 https://act-packaging.com
+/adminer-4.2.5-pl.php 3 https://act-packaging.com
+/adminer-4.3.0-mysql-de.php 3 https://act-packaging.com
+/editor-4.6.0-mysql-en.php 3 https://act-packaging.com
+/adminer-4.6.1-mysql.php 3 https://act-packaging.com
+/public/wap/js/basis.js 1 -
+/help/adminer.php 1 https://act-packaging.com
+/editor-4.2.5.php 3 https://act-packaging.com
+/product/index34.html 1 -
+/editor-4.3.1.php 3 https://act-packaging.com
+/catalog/view/theme/mintleaf/template/error/evil.php 2 -
+/editor-4.2.2.php 3 https://act-packaging.com
+/adminer-4.2.5-mysql-pl.php 3 https://act-packaging.com
+/editor-4.6.3-mysql-pl.php 3 https://act-packaging.com
+/wp-admin/css/ 4 binance.com
+/include/taglib/xs.lib.php 1 http://www.act-packaging.com//include/taglib/xs.lib.php
+/adminer-4.5.0-en.php 3 https://act-packaging.com
+/editor-4.2.2-mysql-en.php 3 https://act-packaging.com
+/ckeditor/ckeditor.js 1 -
+/wp1/ 1 -
+/adminer-4.7.9-sk.php 3 https://act-packaging.com
+/adminer-4.3.1-mysql-en.php 3 https://act-packaging.com
+/system/logs/hsbc_api_class_debug_pas_raw.txt 1 -
+/editor-4.6.2.php 3 https://act-packaging.com
+/editor-4.2.3.php 3 https://act-packaging.com
+/adminer-4.7.5-mysql.php 3 https://act-packaging.com
+/editor-4.7.5.php 3 https://act-packaging.com
+/public/about.html 1 -
+/next/img/logo.gif 1 -
+/adminer-3.6.3/ 3 https://act-packaging.com
+/asp.net/README.txt 1 -
+/editor-4.7.6-mysql.php 3 https://act-packaging.com
+/adminer-4.6.1-de.php 3 https://act-packaging.com
+/adminer-4.7.2-de.php 3 https://act-packaging.com
+/Public/Mobile/ecshe_css/wapmain.css 1 -
+/adminer-4.7.6-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.5.php 4 https://google.com/
+/editor-4.2.2-en.php 3 https://act-packaging.com
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/editor-4.7.3-sk.php 3 https://act-packaging.com
+/extern.php 1 -
+/master/login.aspx 1 -
+/adminer-3.0.1-en.php 3 https://act-packaging.com
+/adminer-4.8.0-sk.php 3 https://act-packaging.com
+/adminer-3.6.4-en.php 3 https://act-packaging.com
+/editor-4.6.1-de.php 3 https://act-packaging.com
+/adminer/adminer.php 3 https://act-packaging.com
+/adminer-4.6.2-de.php 3 https://act-packaging.com
+/app/etc/local.xml 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/system/logs/migs_gateway_merchant_debug.txt 1 -
+/mysql.php 3 https://act-packaging.com
+/Guestbook.php 1 -
+/examples/file-manager.html 1 -
+/g_book.cgi 1 -
+/adminer-4.7.0-en.php 3 https://act-packaging.com
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/adminer-4.7.1-mysql-sk.php 3 https://act-packaging.com
+/siteserver/login.aspx 1 -
+/product/CLBX05.html 1 -
+/new-site/ 1 -
+/editor-4.7.4-mysql-pl.php 3 https://act-packaging.com
+/plus/carbuyaction.php 2 https://www.baidu.com/
+/help/ch_gb/images/help-title.gif 1 -
+/logs/virtualmerchantpro_debuger.txt 1 -
+/data/cache/index.htm 2 https://www.baidu.com/
+/adminer-4.7.9-mysql-en.php 3 https://act-packaging.com
+/2019/wp-includes/wlwmanifest.xml 24 -
+/Admin/Common/HelpLinks.xml 1 -
+/editor-4.2.1-mysql.php 3 https://act-packaging.com
+/adminer-4.6.2.php 3 https://act-packaging.com
+/wcm/ 3 -
+/FCK/fckeditor.js 1 -
+/editor-4.0.1-en.php 3 https://act-packaging.com
+/wp-content 1 -
+/wp/xmlrpc.php 3 -
+/wp-includes/fonts/css.php 3 anonymousfox.co
+/dialog/dialog.js 1 -
+/editor-4.6.0-de.php 3 https://act-packaging.com
+/editor-3.2.0.php 3 https://act-packaging.com
+/editor-4.7.8-mysql-sk.php 3 https://act-packaging.com
+/editor-4.7.8-pl.php 3 https://act-packaging.com
+/adminer-4.6.2-sk.php 3 https://act-packaging.com
+/storage/logs/error1.log 1 -
+/system/logs/eway_hosted_debug.txt 1 -
+/js/jquery.easing.1.3.js 28 http://www.act-packaging.com/index.php
+/aska.cgi 1 -
+/editor-3.5.1-mysql.php 3 https://act-packaging.com
+/mailto:info@act-packaging.com 3 -
+/editor-3.3.1-mysql.php 3 https://act-packaging.com
+/editor-4.0.3-en.php 3 https://act-packaging.com
+/editor-4.6.2-cs.php 3 https://act-packaging.com
+/default.asp 1 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/Template/Mobile/js/main.js 1 -
+/editor-4.7.4-de.php 3 https://act-packaging.com
+/help/user/index.html 1 -
+/editor-4.7.4-mysql-cs.php 3 https://act-packaging.com
+/product/soft%20touch%20box.html 1 -
+/adminer-4.6.2/ 3 https://act-packaging.com
+/adminer-3.2.0-en.php 3 https://act-packaging.com
+/adminer-4.6.1-cs.php 3 https://act-packaging.com
+/adminer-4.7.6.php 4 https://act-packaging.com
+/old/xmlrpc.php 3 -
+/adminer-4.2.5-mysql-cs.php 3 https://act-packaging.com
+/adminer-3.1.0/ 3 https://act-packaging.com
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/adminer-4.3.1-en.php 3 https://act-packaging.com
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/moduless.php 3 anonymousfox.co
+/adminer-3.7.1-en.php 3 https://act-packaging.com
+/eams/static/scripts/grade/course/input.js 1 -
+/tmp/ 1 -
+/adminer-3.4.0-mysql.php 3 https://act-packaging.com
+/editor-4.6.3-mysql.php 3 https://act-packaging.com
+/adminer-3.3.0-mysql-en.php 3 https://act-packaging.com
+/album.cgi 1 -
+/product/PP-%20non-woven-bag.html 1 -
+/editor-3.7.0-mysql-en.php 3 https://act-packaging.com
+/product/CLBX04.html 1 -
+/images/logo_product-cml.png 1 -
+/install.php 2 -
+/editor-4.7.3-mysql-sk.php 3 https://act-packaging.com
+/editor-4.7.7.php 3 https://act-packaging.com
+/adminer-3.6.1.php 3 https://act-packaging.com
+/install 1 -
+/editor-4.3.1-cs.php 3 https://act-packaging.com
+/adminer-4.7.9-pl.php 3 https://act-packaging.com
+/adminer-4.7.3-sk.php 3 https://act-packaging.com
+/temp/ 2 -
+/editor-4.8.0-cs.php 3 https://act-packaging.com
+/adminer-4.7.9-de.php 3 https://act-packaging.com
+/adminer-4.7.3-mysql.php 3 https://act-packaging.com
+/editor-4.6.3.php 3 https://act-packaging.com
+/adminer-4.6.3-mysql.php 3 https://act-packaging.com
+/dev/ 1 -
+/editor-4.8.0-pl.php 3 https://act-packaging.com
+/analytics/jbips/ 1 -
+/adminer-4.0.0.php 3 https://act-packaging.com
+/images/ofbiz.ico 2 -
+/uploads/dede/sys_verifies.php 6 http://www.act-packaging.com/uploads/dede/sys_verifies.php
+/editor-4.2.4.php 3 https://act-packaging.com
+/adminer-4.2.2.php 3 https://act-packaging.com
+/wp-content/plugins/wpdiscuz/themes/default/style-rtl.css 3 anonymousfox.co
+/whir_system/module/security/login.aspx 1 -
+/editor-4.6.0-mysql.php 3 https://act-packaging.com
+/adminer-4.8.0-en.php 3 https://act-packaging.com
+/wordpress/wp-json/wp/v2/users 1 -
+/max-templates/classic/styles/app.css 1 -
+/app/images/login/logo.png 1 -
+/plus/img/df_dedetitle.gif 1 https://www.baidu.com/
+/alfindex.php 3 anonymousfox.co
+/editor-4.2.5-mysql.php 3 https://act-packaging.com
+/old/ 12 -
+/editor-4.2.5-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.2.1-mysql-en.php 3 https://act-packaging.com
+/adminer.php 4 https://act-packaging.com
+/editor-3.6.2.php 3 https://act-packaging.com
+/api/api_user.xml 1 -
+/adminer-4.4.0-mysql-cs.php 3 https://act-packaging.com
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 3 anonymousfox.co
+/editor-4.7.0-mysql-de.php 3 https://act-packaging.com
+/editor-3.5.1-mysql-en.php 3 https://act-packaging.com
+/adminer-3.7.0/ 3 https://act-packaging.com
+/templets/default/style/dedecms.css 2 https://www.baidu.com/
+/adminer-4.3.1-cs.php 3 https://act-packaging.com
+/adminer-4.7.3-mysql-cs.php 3 https://act-packaging.com
+/php/adminer.php 3 https://act-packaging.com
+/editor-4.8.0.php 3 https://act-packaging.com
+/editor-3.1.0-mysql.php 3 https://act-packaging.com
+/magento_version 2 -
+/advfile/ad12.js 1 -
+/adminer-4.6.3-sk.php 3 https://act-packaging.com
+/adminer-3.3.3.php 3 https://act-packaging.com
+/adminer-3.2.1.php 3 https://act-packaging.com
+/wp-includes/ID3/license.txt 1 -
+/amfeed/main/download 1 -
+/editor-3.6.4.php 3 https://act-packaging.com
+/adminer-4.0.1-mysql.php 3 https://act-packaging.com
+/images/logo_88x31.gif 1 -
+/yybbs.cgi 1 -
+/include/dedeajax2.js 1 -
+/adminer-4.2.5-cs.php 3 https://act-packaging.com
+/adminer-4.6.3-pl.php 3 https://act-packaging.com
+/imagesschool/style1/flash2.jpg 1 -
+/files/pub_rem.js 1 -
+/editor-4.7.2-mysql-en.php 3 https://act-packaging.com
+/site/ 12 -
+/oldsite/ 1 -
+/ocstorage/logs/error1.txt 1 -
+/adminer-4.6.3/ 3 https://act-packaging.com
+/node/add 1 http://act-packaging.com/
+/adminer-4.1.0-mysql.php 3 https://act-packaging.com
+/adminer-4.6.2-en.php 3 https://act-packaging.com
+/adminer-4.7.3-mysql-de.php 3 https://act-packaging.com
+/adminer-3.3.4/ 3 https://act-packaging.com
+/adminer-4.5.0-sk.php 3 https://act-packaging.com
+/c.php 3 http://www.act-packaging.com/c.php
+/kyrcy.php 1 http://www.act-packaging.com/kyrcy.php
+/adminer-4.2.3.php 3 https://act-packaging.com
+/include/taglib/ty.lib.php 1 http://www.act-packaging.com//include/taglib/ty.lib.php
+/editor-4.7.2-mysql.php 3 https://act-packaging.com
+/user.php 3 554fcae493e564ee0dc75bdf2ebf94caads|a:2:{s:3:\"num\"
+/adminer-4.7.8-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.7.0-mysql-pl.php 3 https://act-packaging.com
+/old-site/ 1 -
+/adminer-4.5.0-mysql-pl.php 3 https://act-packaging.com
+/phpinfo 1 -
+/blog/wp-includes/wlwmanifest.xml 28 -
+/site/get-hq 1 -
+/adminer-4.7.6-mysql-pl.php 3 https://act-packaging.com
+/vendor/laravel/.env 1 -
+/adminer-3.7.0.php 3 https://act-packaging.com
+/about-us 1 -
+/editor-4.5.0-pl.php 3 https://act-packaging.com
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/editor-4.7.0-pl.php 3 https://act-packaging.com
+/new_gb/help/images/usage/3.3.gif 1 -
+/fckeditor/fckeditor.js 1 -
+/editor-4.2.5-mysql-de.php 3 https://act-packaging.com
+/editor-4.6.0.php 3 https://act-packaging.com
+/Images/login/lefttu.jpg 1 -
+/adminer-4.7.9-cs.php 3 https://act-packaging.com
+/editor-4.7.4-mysql-en.php 3 https://act-packaging.com
+/editor-4.6.3-mysql-cs.php 3 https://act-packaging.com
+/install/ 1 -
+/editor-4.0.1-mysql.php 3 https://act-packaging.com
+/editor-4.0.2-mysql-en.php 3 https://act-packaging.com
+/editor-4.3.0-mysql-en.php 3 https://act-packaging.com
+/adminer-4.3.0-mysql-cs.php 3 https://act-packaging.com
+/adminer-3.6.4-mysql.php 3 https://act-packaging.com
+/xmlrpc.php 3 -
+/adminer-4.6.3-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.7.3/ 3 https://act-packaging.com
+/adminer-4.2.2-mysql-en.php 3 https://act-packaging.com
+/wp-includes/wpconfig.bak.php 3 anonymousfox.co
+/adminer-4.7.2-mysql-cs.php 3 https://act-packaging.com
+/editor-4.7.9-mysql-pl.php 3 https://act-packaging.com
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/adminer-4.2.3-mysql.php 3 https://act-packaging.com
+/inc/md5.asp 4 http://www.act-packaging.com//inc/md5.asp
+/editor-4.7.7-pl.php 3 https://act-packaging.com
+/adminer-3.3.0-mysql.php 3 https://act-packaging.com
+/adminer-4.8.0-cs.php 3 https://act-packaging.com
+/storage/logs/transaction_services.class.log 1 -
+/static/hgicon.png 1 -
+/adminer-3.4.0/ 3 https://act-packaging.com
+/editor-4.8.0-de.php 3 https://act-packaging.com
+/test/ 1 -
+/shop/wp-includes/wlwmanifest.xml 24 -
+/system/logs/hsbc_api_debug_response_raw.txt 1 -
+/2020/wp-json/wp/v2/users 1 -
+/system/logs/merchant_one_debug.txt 1 -
+/adminer-4.3.1-mysql.php 3 https://act-packaging.com
+/adminer-3.6.4-mysql-en.php 3 https://act-packaging.com
+/editor-4.7.1-de.php 3 https://act-packaging.com
+/plus/img/wbg.gif 1 https://www.baidu.com/
+/editor-4.7.6-mysql-sk.php 3 https://act-packaging.com
+/editor-3.1.0.php 3 https://act-packaging.com
+/site/xmlrpc.php 3 -
+/factory/Quality-assurance.html 1 -
+/User/Login.aspx 1 -
+/wp-content/plugins/adminer/adminer.php 3 https://act-packaging.com
+/sql.php 3 https://act-packaging.com
+/system/logs/error1.log 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/adminer-4.3.0-sk.php 3 https://act-packaging.com
+/jcms/index_jcms.jsp 1 -
+/include/taglib/cheng.lib.php 1 http://www.act-packaging.com//include/taglib/cheng.lib.php
+/images/zh-CN/logo.ico 1 -
+/system/logs/usaepay_server_debug.txt 1 -
+/help/en/h_authenticate.html 1 -
+/license.txt 3 -
+/archiver/ 1 -
+/adminer-4.4.0-cs.php 3 https://act-packaging.com
+/plug/publish 1 -
+/logs/error1.txt 1 -
+/adminer-4.0.3/ 3 https://act-packaging.com
+/adminer-4.6.3-en.php 3 https://act-packaging.com
+/editor-3.6.3-mysql-en.php 3 https://act-packaging.com
+/old-index.php 3 anonymousfox.co
+/images/Default_bg_002.gif 1 -
+/editor-4.7.9-mysql.php 3 https://act-packaging.com
+/adminer-4.7.0-cs.php 3 https://act-packaging.com
+/deptWebsiteAction.do 1 -
+/editor-4.0.2-mysql.php 3 https://act-packaging.com
+/wp-includes/js/jquery/jquery-migrate.min.js 1 -
+/wordpress/wp-includes/wlwmanifest.xml 28 -
+/adminer-4.2.1-mysql.php 3 https://act-packaging.com
+/adminer-4.7.8-cs.php 3 https://act-packaging.com
+/editor-4.7.0-mysql.php 3 https://act-packaging.com
+/cscpLoginWeb/app/home 1 -
+/editor-4.2.1.php 3 https://act-packaging.com
+/rss.aspx 1 -
+/adminer-4.2.0-en.php 3 https://act-packaging.com
+/larva.php 3 anonymousfox.co
+/adminer-4.6.0-mysql-de.php 3 https://act-packaging.com
+/templets/default/images/logo.gif 1 https://www.baidu.com/
+/adminer-4.2.4-en.php 3 https://act-packaging.com
+/editor-4.2.4-mysql.php 3 https://act-packaging.com
+/editor-4.1.0-mysql.php 3 https://act-packaging.com
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/kindeditor-min.js 1 -
+/script/login.js 1 -
+/news/ 2 -
+/editor-4.7.1-en.php 3 https://act-packaging.com
+/adminer-3.0.1-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.3-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.7.6-pl.php 3 https://act-packaging.com
+/ajax/allcoin_a/id/0 1 -
+/adminer-4.2.0-mysql.php 3 https://act-packaging.com
+/archive/archive.css 1 -
+/style/default/hdwiki.css 1 -
+/editor-3.0.1-mysql-en.php 3 https://act-packaging.com
+/config/aws.yml 1 -
+/editor-4.7.8-de.php 3 https://act-packaging.com
+/adminer-4.7.0-de.php 3 https://act-packaging.com
+/new/ 13 -
+/include/taglib/xt.lib.php 1 http://www.act-packaging.com//include/taglib/xt.lib.php
+/adminer-3.6.2-en.php 3 https://act-packaging.com
+/editor-4.0.1.php 3 https://act-packaging.com
+/adminer-4.7.0-mysql-sk.php 3 https://act-packaging.com
+/adminer-2.3.0.php 3 https://act-packaging.com
+/system/Update.aspx 1 -
+/examples/index.html 1 -
+/adminer-4.7.7-en.php 3 https://act-packaging.com
+/adminer-4.2.5-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.7.3-de.php 3 https://act-packaging.com
+/editor-4.4.0-mysql-en.php 3 https://act-packaging.com
+/product/Drawer%20Box.html 1 -
+/adminer-4.7.6-mysql-de.php 3 https://act-packaging.com
+/editor-4.2.5-sk.php 3 https://act-packaging.com
+/Search.html 1 -
+/adminer-4.7.9-en.php 3 https://act-packaging.com
+/blob/.env 1 -
+/adminer/ 3 https://act-packaging.com
+/adminer-3.7.0-mysql.php 3 https://act-packaging.com
+/adm/adminer.php 1 https://act-packaging.com
+/maccms/index.php 3 http://www.act-packaging.com/maccms/index.php
+/editor-4.3.1-de.php 3 https://act-packaging.com
+/backup.zip 1 -
+/m 1 -
+/plus/rssmap.html 1 -
+/editor-4.7.5-cs.php 3 https://act-packaging.com
+/adminer-3.6.1-en.php 3 https://act-packaging.com
+/editor-4.7.2-de.php 3 https://act-packaging.com
+/editor-4.3.1-mysql-cs.php 3 https://act-packaging.com
+/editor-4.7.5-en.php 3 https://act-packaging.com
+/adminer-4.7.1-de.php 3 https://act-packaging.com
+/editor-4.7.7-mysql-sk.php 3 https://act-packaging.com
+/editor-4.7.0-mysql-pl.php 3 https://act-packaging.com
+/editor-4.7.5-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.7.5-en.php 3 https://act-packaging.com
+/base/login/login.php 1 -
+/adminer-4.7.7-mysql-cs.php 3 https://act-packaging.com
+/editor-3.6.2-mysql.php 3 https://act-packaging.com
+/editor-4.7.0-mysql-cs.php 3 https://act-packaging.com
+/editor-4.7.7-de.php 3 https://act-packaging.com
+/adminer-3.5.1/ 3 https://act-packaging.com
+/adminer-4.7.4-en.php 3 https://act-packaging.com
+/adminer-4.7.8-mysql-sk.php 3 https://act-packaging.com
+/images/login/eyoumail.gif 1 -
+/adminer-4.7.6-en.php 3 https://act-packaging.com
+/editor-4.2.1-en.php 3 https://act-packaging.com
+/maintenances 1 -
+/adminer-4.7.0-mysql-de.php 3 https://act-packaging.com
+/editor-4.6.2-en.php 3 https://act-packaging.com
+/editor-4.0.1-mysql-en.php 3 https://act-packaging.com
+/editor-4.7.7-cs.php 3 https://act-packaging.com
+/editor-4.7.1.php 3 https://act-packaging.com
+/editor-4.7.9-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.6.2-mysql-pl.php 3 https://act-packaging.com
+/Install/logo.gif 1 -
+/editor-4.2.3-mysql-en.php 3 https://act-packaging.com
+/adminer-3.6.1-mysql-en.php 3 https://act-packaging.com
+/wp/ 16 -
+/dede/img/admin_top_logo.gif 1 https://www.baidu.com/
+/adminer-4.7.6-cs.php 3 https://act-packaging.com
+/cms/wp-includes/wlwmanifest.xml 28 -
+/archiver 1 -
+/editor-4.7.7-mysql-en.php 3 https://act-packaging.com
+/editor-4.8.0-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.5/ 3 https://act-packaging.com
+/themes/graphics/horde-power1.png 1 -
+/adminer-4.0.3.php 3 https://act-packaging.com
+/system/logs/commbankvpc_debug.txt 1 -
+/plugins/filemanager/filemanager/js 1 -
+/wp-content/wp-1ogin_bak.php 3 anonymousfox.co
+/adminer-4.5.0-de.php 3 https://act-packaging.com
+/new/xmlrpc.php 3 -
+/adminer-4.7.7-de.php 3 https://act-packaging.com
+/demo/ 11 -
+/product/wine%20folding%20paper%20box.html 1 -
+/2017/ 1 -
+/2020/wp-includes/wlwmanifest.xml 4 -
+/editor-4.7.3-de.php 3 https://act-packaging.com
+/editor-4.7.7-mysql.php 3 https://act-packaging.com
+/media/wp-includes/wlwmanifest.xml 20 -
+/editor-4.7.9-mysql-de.php 3 https://act-packaging.com
+/editor-4.7.4-mysql-de.php 3 https://act-packaging.com
+/admin/login.aspx 1 -
+/adminer-3.2.0-mysql.php 3 https://act-packaging.com
+/editor-3.2.2-mysql.php 3 https://act-packaging.com
+/system/logs/epx_realtime_debug.txt 1 -
+/editor-3.2.0-mysql-en.php 3 https://act-packaging.com
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/adminer-4.5.0-pl.php 3 https://act-packaging.com
+/editor-3.7.1-mysql.php 3 https://act-packaging.com
+/editor-4.5.0-mysql-pl.php 3 https://act-packaging.com
+/editor-4.7.6-sk.php 3 https://act-packaging.com
+/include/search.php 1 http://www.act-packaging.com/include/search.php
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/images/src_images_but_dianz_s.png 1 -
+/stylesheet.css 1 -
+/adminer-4.7.9-mysql-cs.php 3 https://act-packaging.com
+/Help 1 -
+/feed.asp 1 -
+/member/ 1 -
+/editor-4.7.3-mysql-pl.php 3 https://act-packaging.com
+/member/space/person/header.htm 1 https://www.baidu.com/
+/ckeditor/ckfinder/install.txt 1 -
+///about.php 1 -
+/editor-3.6.1-mysql-en.php 3 https://act-packaging.com
+/bak/ 1 -
+/laravel/.env 1 -
+/adminer-4.7.1-en.php 3 https://act-packaging.com
+/editor-4.7.9-mysql-en.php 3 https://act-packaging.com
+/adminer-4.2.0/ 3 https://act-packaging.com
+/editor-4.2.5-cs.php 3 https://act-packaging.com
+/editor-4.7.3-cs.php 3 https://act-packaging.com
+/adminer-3.6.3-mysql.php 3 https://act-packaging.com
+/editor-4.8.0-mysql-cs.php 3 https://act-packaging.com
+/magmi-importer/web/download_file.php 1 -
+/product/Nested-Drawer-Box.html 1 -
+/wp-includes/lfx.php 3 anonymousfox.co
+/editor-3.3.4-mysql-en.php 3 https://act-packaging.com
+/editor-4.7.7-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.3-en.php 3 https://act-packaging.com
+/include/common.inc.php 1 http://www.act-packaging.com//include/common.inc.php
+/editor-3.3.1-mysql-en.php 3 https://act-packaging.com
+/boom.php 3 anonymousfox.co
+/editor-4.7.3-mysql.php 3 https://act-packaging.com
+/dede/templets/article_coonepage_rule.htm 1 https://www.baidu.com/
+/concon.asp 1 http://www.act-packaging.com//concon.asp
+/editor-4.7.7-en.php 3 https://act-packaging.com
+/2019/ 1 -
+/adminer-4.6.0.php 3 https://act-packaging.com
+/adminer-4.6.0-mysql.php 3 https://act-packaging.com
+/adminer-4.3.0-cs.php 3 https://act-packaging.com
+/editor-4.8.0-sk.php 3 https://act-packaging.com
+/system/logs/worldpayxml_debug.txt 1 -
+/plus/read.php 1 http://www.act-packaging.com//plus/read.php
+/editor-4.7.9-mysql-cs.php 3 https://act-packaging.com
+/adminer-4.0.3-mysql.php 3 https://act-packaging.com
+/member/images/member.gif 1 https://www.baidu.com/
+/adminer-4.6.3-mysql-sk.php 3 https://act-packaging.com
+/.env.bak 1 -
+/editor-4.3.1-mysql.php 3 https://act-packaging.com
+/system/logs/cybersource_sop_debug.txt 1 -
+/include/taglib/new.lib.php 1 http://www.act-packaging.com//include/taglib/new.lib.php
+/product/187.html 1 -
+/editor-4.3.0-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.7.8-de.php 3 https://act-packaging.com
+/adminer-3.6.2-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.0-mysql-en.php 3 https://act-packaging.com
+/adminer-4.2.4/ 3 https://act-packaging.com
+/editor-4.6.1-cs.php 3 https://act-packaging.com
+/adminer-4.7.2-mysql-pl.php 3 https://act-packaging.com
+/magmi/conf/magmi.ini 1 -
+/editor-4.7.2-sk.php 3 https://act-packaging.com
+/adminer-3.6.3.php 3 https://act-packaging.com
+/editor-3.6.2-mysql-en.php 3 https://act-packaging.com
+/app/.env 1 -
+/adminer-4.7.5-mysql-pl.php 3 https://act-packaging.com
+/gaestebuch.php 1 -
+/editor-4.7.2-mysql-cs.php 3 https://act-packaging.com
+/editor-4.7.5-sk.php 3 https://act-packaging.com
+/themes/default/graphics/horde-power1.png 1 -
+/weblog/ 1 -
+/images/login/icon-up.gif 1 -
+/editor-4.7.6-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.7-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.7-sk.php 3 https://act-packaging.com
+/h5/ 1 -
+/adminer-4.3.1/ 3 https://act-packaging.com
+/test.php 3 anonymousfox.co
+/editor-4.0.3-mysql.php 3 https://act-packaging.com
+/editor-4.7.6-de.php 3 https://act-packaging.com
+/adminer-4.7.8-mysql-de.php 3 https://act-packaging.com
+/news/happythanksgiving.html 1 -
+/editor-3.3.0.php 3 https://act-packaging.com
+/site/wp-json/wp/v2/users 1 -
+/adminer-4.7.5-pl.php 3 https://act-packaging.com
+/adminer-4.6.1-mysql-en.php 3 https://act-packaging.com
+/editor-4.2.3-mysql.php 3 https://act-packaging.com
+/editor-4.2.4-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.9.php 3 https://act-packaging.com
+/adminer-3.6.4.php 3 https://act-packaging.com
+/phpmyadmin/docs.css 1 -
+/editor-4.7.1-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.1-mysql.php 3 https://act-packaging.com
+/admin/emino.php 1 -
+/editor-4.7.0.php 3 https://act-packaging.com
+/admin/controller/extension/extension/ 4 binance.com
+/adminer-4.7.4-mysql-cs.php 3 https://act-packaging.com
+/editor-4.8.0-mysql.php 3 https://act-packaging.com
+/adminer-4.6.2-cs.php 3 https://act-packaging.com
+/changelog.txt 1 -
+/editor-4.7.6-cs.php 3 https://act-packaging.com
+/adminer-4.0.1-en.php 3 https://act-packaging.com
+/404.jpg 1 -
+/editor-3.6.3.php 3 https://act-packaging.com
+/adminer-4.4.0-mysql-de.php 3 https://act-packaging.com
+/wordpress/xmlrpc.php 3 -
+/web/wp-includes/wlwmanifest.xml 28 -
+/editor-4.5.0-mysql-sk.php 3 https://act-packaging.com
+/data/images/wap_logo.gif 1 -
+/editor-4.6.1-mysql.php 3 https://act-packaging.com
+/adminer-4.7.6-mysql.php 3 https://act-packaging.com
+/adminer-4.7.5-mysql-sk.php 3 https://act-packaging.com
+/admin/controller/extension/module/sttings.php 1 http://act-packaging.com/admin/controller/extension/module/siting.php
+/editor-4.7.2-en.php 3 https://act-packaging.com
+/about/Organizational-structure.html 1 -
+/editor-4.5.0-de.php 3 https://act-packaging.com
+/fdgq.php 3 http://www.act-packaging.com/fdgq.php
+/storage/logs/virtualmerchantpro_debuger.txt 1 -
+/adminer-4.2.5/ 3 https://act-packaging.com
+/adminer-4.4.0-mysql-pl.php 3 https://act-packaging.com
+/editor-4.8.0-mysql-en.php 3 https://act-packaging.com
+/editor-4.6.1-mysql-de.php 3 https://act-packaging.com
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/wp-includes/css/css.php 3 anonymousfox.co
+/adminer-4.4.0.php 3 https://act-packaging.com
+/console/auth/reg_newuser.jsp 1 -
+/editor-4.7.7-mysql-cs.php 3 https://act-packaging.com
+/adminer-4.3.1.php 3 https://act-packaging.com
+/adminer-4.3.0-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.6.3-mysql-cs.php 3 https://act-packaging.com
+/editor-3.3.3-mysql-en.php 3 https://act-packaging.com
+/humans.txt 6 -
+/system/logs/hsbc_api_debug_callback_xml.txt 1 -
+/adminer-4.8.0.php 3 https://act-packaging.com
+/adminer-4.2.2-mysql.php 3 https://act-packaging.com
+/public/js/ipb.js 1 -
+/editor-4.6.1-mysql-sk.php 3 https://act-packaging.com
+/editor-3.3.0-mysql.php 3 https://act-packaging.com
+/ipl/app/flash/publicbmw/ball/FigLeaf.js 1 -
+/4e5e5d7364f443e28fbf0d3ae744a59a 2 -
+/adminer-3.6.1/ 3 https://act-packaging.com
+/.env 91 -
+/editor-4.7.1-pl.php 3 https://act-packaging.com
+/ks_inc/ajax.js 1 -
+/product/LDB31.html 1 -
+/sitemap.html 2 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/adminer-3.3.3-mysql.php 3 https://act-packaging.com
+/info.php 1 -
+/admin/template/article_more/config.htm 1 -
+/wp-acess.php 1 http://act-packaging.com/wp-acess.php
+/adminer-4.7.4-pl.php 3 https://act-packaging.com
+/CHANGELOG.txt 1 -
+/include/data/vdcode.jpg 1 https://www.baidu.com/
+/editor-4.4.0-en.php 3 https://act-packaging.com
+/editor-4.6.2-mysql.php 3 https://act-packaging.com
+/2.php 1 http://act-packaging.com/2.php
+/adminer-3.2.0-mysql-en.php 3 https://act-packaging.com
+/ckeditor/ckfinder/ckfinder.html 1 -
+/editor-4.7.3.php 3 https://act-packaging.com
+/include/taglib/findgs.lib.php 1 http://www.act-packaging.com//include/taglib/findgs.lib.php
+/app/login.jsp 1 -
+/customdir/images/english_logo.jpg 1 -
+/inc/config.asp 1 http://www.act-packaging.com//inc/config.asp
+/adminer-3.5.1-mysql.php 3 https://act-packaging.com
+/editor-4.6.2-de.php 3 https://act-packaging.com
+/editor-4.6.1-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.6.2-mysql.php 3 https://act-packaging.com
+/plus/heightsearch.php 1 -
+/alfa.php 3 anonymousfox.co
+/uploads/userup/index.html 1 https://www.baidu.com/
+/include/install_ocx.aspx 1 -
+/backup/wp-json/wp/v2/users 1 -
+/wordpress/ 17 -
+/admin.php 5 anonymousfox.co
+/images/2_11.gif 1 -
+/adminer-3.2.2.php 3 https://act-packaging.com
+/editor-4.5.0-en.php 3 https://act-packaging.com
+/product/Set-up-box-Lid-Base-box.html 1 -
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/aws.yml 1 -
+/editor-4.4.0-mysql-cs.php 3 https://act-packaging.com
+/editor-4.6.0-cs.php 3 https://act-packaging.com
+/application/application.ini 1 -
+/ocstorage/logs/error.log 1 -
+/editor-4.6.1-pl.php 3 https://act-packaging.com
+/adminer-3.1.0-mysql.php 3 https://act-packaging.com
+/editor-4.7.9.php 3 https://act-packaging.com
+/adminer-4.5.0-mysql-de.php 3 https://act-packaging.com
+/editor-4.6.2-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.2/ 3 https://act-packaging.com
+/adminer-3.3.4-mysql-en.php 3 https://act-packaging.com
+/back/scripts/jspxcms_choose.js 1 -
+/editor-4.0.2-en.php 3 https://act-packaging.com
+/editor-4.7.3-mysql-de.php 3 https://act-packaging.com
+/product/Gift-Drawer-Box.html 1 -
+/adminer-3.3.0-en.php 3 https://act-packaging.com
+/editor-4.4.0-mysql-de.php 3 https://act-packaging.com
+/adminer-4.6.2-pl.php 3 https://act-packaging.com
+/editor-4.2.4-en.php 3 https://act-packaging.com
+/ocstorage/logs/error.txt 1 -
+/adminer-4.6.0-cs.php 3 https://act-packaging.com
+/emergency.php 1 -
+/editor-4.2.3-en.php 3 https://act-packaging.com
+/adminer-4.4.0-mysql-sk.php 3 https://act-packaging.com
+/admin/controller/extension/module/ico.php 2 -
+/adminer-4.7.7-pl.php 3 https://act-packaging.com
+/room/script/face.js 1 -
+/editor-4.3.0-mysql.php 3 https://act-packaging.com
+/client/api/findConfigByKey 1 -
+/was/help.jsp 1 -
+/admin/inc/xml.xslt 1 -
+/wp-json/wp/v2/users 1 -
+/old-site 1 -
+/FCKeditor/editor/filemanager/connectors/asp/connector.asp 3 http://www.act-packaging.com/FCKeditor/editor/filemanager/connectors/asp/connector.asp
+/editor-4.8.0-en.php 3 https://act-packaging.com
+/kindeditor.js 1 -
+/adminer-3.6.0.php 3 https://act-packaging.com
+/pub/guiedit/guiedit.js 1 -
+/ueditor/net/controller.ashx 1 -
+/Images/login/biaoti.jpg 1 -
+/adminer-4.3.0-pl.php 3 https://act-packaging.com
+/product/Display-Drawer-Box.html 2 -
+/adminer-4.8.0-mysql-cs.php 3 https://act-packaging.com
+/editor-4.7.1-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.1-mysql-cs.php 3 https://act-packaging.com
+/adminer-4.7.8/ 3 https://act-packaging.com
+/adminer-4.6.0-en.php 3 https://act-packaging.com
+/logs/error.txt 1 -
+/adminer-3.6.4/ 3 https://act-packaging.com
+/editor-4.7.2-cs.php 3 https://act-packaging.com
+/wp-admin/config.bak.php 3 anonymousfox.co
+/adminer-4.3.1-mysql-de.php 3 https://act-packaging.com
+/editor-4.7.6-en.php 3 https://act-packaging.com
+/ads.txt 10 -
+/product/GTB28.html 2 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/phpmyadmin.php 3 https://act-packaging.com
+/bk 1 -
+/v2/ 1 -
+/editor-4.7.5-mysql-en.php 3 https://act-packaging.com
+/demo/xmlrpc.php 3 -
+/adminer-4.6.2-mysql-sk.php 3 https://act-packaging.com
+/js/base1.js 1 -
+/adminer-4.2.1.php 3 https://act-packaging.com
+/adminer-3.0.1.php 3 https://act-packaging.com
+/readme.html 1 -
+/old-wp/ 1 -
+/plus/download.php 5 http://www.act-packaging.com/plus/download.php
+/adm.php 4 https://act-packaging.com
+/about 2 -
+/editor-4.7.8-cs.php 3 https://act-packaging.com
+/default/css/em_css.css 1 -
+/adminer-4.6.3-de.php 3 https://act-packaging.com
+/jcms/index.jsp 1 -
+/adminer-3.2.2/ 3 https://act-packaging.com
+/news/index7.html 1 -
+/download/ 1 -
+/editor-4.3.0.php 3 https://act-packaging.com
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/editor-4.6.0-en.php 3 https://act-packaging.com
+/editor-4.7.4-pl.php 3 https://act-packaging.com
+/app/home/skins/default/style.css 1 -
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/images/hwem.css 1 -
+/editor-4.5.0.php 3 https://act-packaging.com
+/adminer-4.1.0/ 3 https://act-packaging.com
+/editor-4.7.5-mysql.php 3 https://act-packaging.com
+/member/space/person/common/css/css.css 1 https://www.baidu.com/
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/adminer-3.6.1-mysql.php 3 https://act-packaging.com
+/adminer-4.7.1-cs.php 3 https://act-packaging.com
+/adminer-4.7.0-mysql.php 3 https://act-packaging.com
+/adminer-3.5.1.php 3 https://act-packaging.com
+/.git/config 1 -
+/adminer-2.3.2.php 3 https://act-packaging.com
+/wp-content/db_cache.php 3 anonymousfox.co
+/adminer-4.7.8-sk.php 3 https://act-packaging.com
+/editor-4.6.1-en.php 3 https://act-packaging.com
+/wpindex.php 3 anonymousfox.co
+/wp/wp-json/wp/v2/users 1 -
+/editor-4.3.1-mysql-en.php 3 https://act-packaging.com
+/adminer-4.7.0/ 3 https://act-packaging.com
+/editor-3.3.4.php 3 https://act-packaging.com
+/script/valid_formdata.js 1 -
+/editor-3.7.1-mysql-en.php 3 https://act-packaging.com
+/website-sitemap.xml 1 -
+/editor-4.3.1-en.php 3 https://act-packaging.com
+/tinyfilemanager/tinyfilemanager.php 1 -
+/magmi/web/download_file.php 1 -
+/logs/error1.log 1 -
+/editor-4.6.3-pl.php 3 https://act-packaging.com
+/editor-4.3.0-en.php 3 https://act-packaging.com
+/docs/ 1 -
+/storage/logs/error.txt 1 -
+/editor-3.1.0-mysql-en.php 3 https://act-packaging.com
+/editor-4.3.1-pl.php 3 https://act-packaging.com
+/adminer-4.3.1-mysql-sk.php 3 https://act-packaging.com
+/editor-3.4.0.php 3 https://act-packaging.com
+/xmlrp.php 3 anonymousfox.co
+/editor-4.7.4.php 3 https://act-packaging.com
+/admin/editor/ 1 -
+/wp-1ogin_bak.php 3 anonymousfox.co
+/adminer-4.7.4/ 3 https://act-packaging.com
+/adminer-4.0.3-mysql-en.php 3 https://act-packaging.com
+/adminer-4.6.3-mysql-en.php 3 https://act-packaging.com
+/adminer-3.4.0-mysql-en.php 3 https://act-packaging.com
+/adminer-3.2.2-mysql.php 3 https://act-packaging.com
+/editor-4.3.0-mysql-cs.php 3 https://act-packaging.com
+/blog/ 17 -
+/digg.php 1 -
+/adminer-4.8.0-de.php 3 https://act-packaging.com
+/about/Mission-Value.html 1 -
+/editor-4.7.8-mysql-pl.php 3 https://act-packaging.com
+/adminer-4.8.0-pl.php 3 https://act-packaging.com
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/adminer-4.0.1/ 3 https://act-packaging.com
+/backup/ 12 -
+/editor-4.7.9-cs.php 3 https://act-packaging.com
+/Public/Wchat/css/index.css 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/tools/adminer.php 3 https://act-packaging.com
+/magmi-importer/conf/magmi.ini 1 -
+/test_404_page/ 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/adminer-4.7.3.php 3 https://act-packaging.com
+/editor-4.7.7-mysql-pl.php 3 https://act-packaging.com
+/console/include/not_login.htm 1 -
+/phpMyAdmin/ 2 -
+/adminer-4.6.0-pl.php 3 https://act-packaging.com
+/adminer-3.7.1/ 3 https://act-packaging.com
+/adminer-4.7.9/ 3 https://act-packaging.com
+/editor-3.0.1.php 3 https://act-packaging.com
+/adminer-4.3.1-sk.php 3 https://act-packaging.com
+/adminer-4.6.0-mysql-pl.php 3 https://act-packaging.com
+/web/wp-json/wp/v2/users 1 -
+/adminer-3.3.1-mysql.php 3 https://act-packaging.com
+/adminer-4.6.1/ 3 https://act-packaging.com
+/issmall/ 1 -
+/adminer-4.3.0-en.php 3 https://act-packaging.com
+/adminer1.php 3 https://act-packaging.com
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/system/logs/hsbc_api_debug_pas.txt 1 -
+/examples/readonly.html 1 -
+/Editor.js 1 -
+/editor-4.3.0-mysql-pl.php 3 https://act-packaging.com
+/ids/admin/login.jsp 1 -
+/adminer-3.7.1.php 3 https://act-packaging.com
+/editor-4.1.0-mysql-en.php 3 https://act-packaging.com
+/admin/start/index.php 1 -
+/upload/2014-01-23/20140123215717990.pdf 1 -
+/editor-4.6.2-pl.php 3 https://act-packaging.com
+/adminer-4.6.1-mysql-cs.php 3 https://act-packaging.com
+/explicit_not_exist_path 2 -
+/_profiler/phpinfo 1 -
+/wp-content/mu-plugins/db-safe-mode.php 3 anonymousfox.co
+/business/images/index-gg1.jpg 1 -
+/editor-4.2.5-pl.php 3 https://act-packaging.com
+/adminer-4.7.2-cs.php 3 https://act-packaging.com
+/whir_system/login.aspx 1 -
+/static/.gitignore 2 -
+/editor-3.2.2.php 3 https://act-packaging.com
+/editor-4.2.0-mysql-en.php 3 https://act-packaging.com
+/gb.php 1 -
+/adminer-4.2.3-mysql-en.php 3 https://act-packaging.com
+/modules.php 1 -
+/phpinfo.php 1 -
+/editor-4.7.8.php 3 https://act-packaging.com
+/admin_aspcms/_system/AspCms_SiteSetting.asp 7 http://www.act-packaging.com/admin_aspcms/_system/AspCms_SiteSetting.asp
+/editor-4.3.0-de.php 3 https://act-packaging.com
+/adminer-4.2.5-mysql.php 3 https://act-packaging.com
+/old/wp-json/wp/v2/users 1 -
+/Include/EcsServerApi.js 1 -
+/static/local/img/userCenter/hourlyPrivilege.svg 1 -
+/adminer-4.7.7-mysql-sk.php 3 https://act-packaging.com
+/data/admin/ver.txt 4 https://www.baidu.com/
+/pub/skins/pmwiki/pmwiki.css 1 -
+/README.txt 1 -
+/editor-4.7.7-sk.php 3 https://act-packaging.com
+/system/logs/nmi_direct_post_debug.txt 1 -
+/wp-includes/wlwmanifest.xml 30 -
+/editor-4.5.0-mysql-cs.php 3 https://act-packaging.com
+/admin/js/IdSUtil.js 1 -
+/api/ApiHub/fetchJinse 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/div/ 1 -
+/_adminer.php 3 https://act-packaging.com
+/factory/ 1 -
+/editor-4.4.0.php 3 https://act-packaging.com
+/editor-4.7.6.php 3 https://act-packaging.com
+/adminer-4.0.1-mysql-en.php 3 https://act-packaging.com
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/editor-4.7.6-mysql-cs.php 3 https://act-packaging.com
+/adminer-3.6.2-mysql.php 3 https://act-packaging.com
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/js/ajax_x.js 1 -
+/wp-cron.php 1 -
+/forum.php 1 -
+/adminer-4.7.0.php 3 https://act-packaging.com
+/docs/DOCUMENTATION.txt 1 -
+/editor-mysql.php 3 https://act-packaging.com
+/include/taglib/help/flink.txt 1 https://www.baidu.com/
+/home/ 2 -
+/home.php 1 -
+/fckeditor/fckconfig.js 1 -
+/e/install/ 2 http://act-packaging.com/e/install/
+/adminer-4.2.5.php 3 https://act-packaging.com
+/adminer-4.1.0-en.php 3 https://act-packaging.com
+/var/cache/mage--2/ 1 -
+/editor-3.4.0-mysql.php 3 https://act-packaging.com
+/backup/xmlrpc.php 3 -
+/editor-4.5.0-sk.php 3 https://act-packaging.com
+/adminer-4.3.1-mysql-cs.php 3 https://act-packaging.com
+/adminer-3.7.1-mysql.php 3 https://act-packaging.com
+/system/logs/quantum_debug.txt 1 -
+/admin/login.php 1 -
+/adminer-4.7.7-mysql-pl.php 3 https://act-packaging.com
+/admin/controller/extension/module/siting.php 3 -
+/wp1/wp-includes/wlwmanifest.xml 28 -
+/system/logs/migs_gateway_debug.txt 1 -
+/adminer-4.8.0-mysql-de.php 3 https://act-packaging.com
+/inc/playerKinds.xml 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/editor-4.7.8-mysql-cs.php 3 https://act-packaging.com
+/manager/adminer.php 1 https://act-packaging.com
+/forums/list.page 1 -
+/editor-4.6.1-sk.php 3 https://act-packaging.com
+/getConfig/getArticle.do 1 -
+/logs/error.log 1 -
+/mh/phone.do 1 -
+/phpmyadmin/ 3 -
+/wp-content/config.bak.php 3 anonymousfox.co
+/api/currency/quotation_new 1 -
+/main/ 1 -
+/back/ 1 -
+/include/dialog/config.php 1 -
+/2020/xmlrpc.php 3 -
+/editor-3.2.2-mysql-en.php 3 https://act-packaging.com
+/lplbs.php 1 http://www.act-packaging.com/lplbs.php
+/editor-4.4.0-mysql-pl.php 3 https://act-packaging.com
+/editor-4.5.0-mysql-en.php 3 https://act-packaging.com
+/adminer-4.6.1-pl.php 3 https://act-packaging.com
+/adminer-4.3.0-de.php 3 https://act-packaging.com
+/adminer-4.7.5-mysql-de.php 3 https://act-packaging.com
+/adminer-3.0.1/ 3 https://act-packaging.com
+/adminer-4.7.2-mysql-sk.php 3 https://act-packaging.com
+/plus/90sec.php 3 http://www.act-packaging.com/plus/90sec.php
+/adminer-4.7.3-pl.php 3 https://act-packaging.com
+/system/logs/gettrx_safeguard_debug.txt 1 -
+/adminer-4.7.0-pl.php 3 https://act-packaging.com
+/plugin.php 1 -
+/adminer-4.7.0-sk.php 3 https://act-packaging.com
+/system/logs/netbanx_debug.txt 1 -
+/utility/convert/index.php 5 http://www.act-packaging.com/utility/convert/index.php
+/web2/login_template/1.files/Logo1.jpg 1 -
+/editor/fckeditor.js 1 -
+/rss.php 1 -
+/website/wp-includes/wlwmanifest.xml 28 -
+/adminer-3.6.2/ 3 https://act-packaging.com
+/editor-4.7.9-sk.php 3 https://act-packaging.com
+/adminer-4.0.2-mysql-en.php 3 https://act-packaging.com
+/srfjv.php 1 http://www.act-packaging.com/srfjv.php
+/Public/Home/js/game.js 1 -
+/adminer-4.6.3.php 3 https://act-packaging.com
+/adminer-4.7.8-en.php 3 https://act-packaging.com
+/editor-4.7.9-de.php 3 https://act-packaging.com
+/static/images/logo/webserver_small.gif 1 -
+/editor-4.7.2-mysql-sk.php 3 https://act-packaging.com
+/adminer-4.6.1-mysql-pl.php 3 https://act-packaging.com
+/editor-4.6.3-mysql-de.php 3 https://act-packaging.com
+/editor-4.2.5-en.php 3 https://act-packaging.com
+/adminer-4.3.0-mysql-pl.php 3 https://act-packaging.com
+/data/admin/allowurl.txt 2 https://www.baidu.com/
+/editor-4.7.2-mysql-de.php 3 https://act-packaging.com
+/adminer-4.2.5-mysql-de.php 3 https://act-packaging.com
+/adminer-4.7.5-mysql-cs.php 3 https://act-packaging.com
+/new/wp-json/wp/v2/users 1 -
+/system/logs/transaction_services_debug.txt 1 -
+/adminer-4.0.2.php 3 https://act-packaging.com
+/product/Stationery.html 1 -
+/bbs/ 1 -
+/editor-4.5.0-mysql-de.php 3 https://act-packaging.com
+/adminer-4.6.2-mysql-en.php 3 https://act-packaging.com
+/product/CLBX02.html 1 -
+/editor-4.6.0-mysql-cs.php 3 https://act-packaging.com
+/adminer-4.7.5-sk.php 3 https://act-packaging.com
+/util/login.aspx 2 -
+/editor-4.6.2-mysql-de.php 3 https://act-packaging.com
+/editor-4.3.0-mysql-de.php 3 https://act-packaging.com
+/License.txt 1 -
+/editor-4.6.0-pl.php 3 https://act-packaging.com
+/adminer-3.3.4.php 3 https://act-packaging.com
+/adminer-3.5.0.php 3 https://act-packaging.com
+/uc_server/control/admin/db.php 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/editor/ 3 https://act-packaging.com
+/admin/admin_login.php 1 -
+/adminer-4.6.2-mysql-cs.php 3 https://act-packaging.com
+/adminer-4.7.4-sk.php 3 https://act-packaging.com
+/fuck.php 1 http://www.act-packaging.com//fuck.php
+/system/Login.aspx 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/cms/ 2 -
+/editor-4.6.2-mysql-cs.php 3 https://act-packaging.com
+/system/logs/virtualmerchantpro_debuger.txt 1 -
+/auth/login 1 -
+/adminer-3.3.3/ 3 https://act-packaging.com
+/wp-content/plugins/config.bak.php 3 anonymousfox.co
+/wp2/wp-includes/wlwmanifest.xml 28 -
+/include/taglib/datas.lib.php 1 http://www.act-packaging.com//include/taglib/datas.lib.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1865
+51.79.99.30 2628 2628 9813708 20210925114718
+34.140.24.2 273 329 7890528 20210906185418
+35.195.30.242 268 322 7742359 20210921174756
+194.26.29.195 143 143 534061 20210911105337
+20.72.179.97 90 90 2317500 20210914071016
+92.38.136.69 36 36 801938 20210930231733
+131.220.6.152 30 30 857940 20210930041329
+95.55.39.41 30 30 674515 20210928222020
+195.123.209.118 30 30 857940 20210926094926
+188.122.82.146 26 26 580183 20210928220042
+35.193.89.228 1 1 36152 20210926151908
+66.115.177.157 10 94 4760211 20210930053608
+36.95.189.165 3 3 65104 20210930122917
+91.83.7.175 3 3 65104 20210920175357
+188.138.139.216 3 3 65104 20210930172831
+23.90.160.138 1 1 28598 20210930161247
+171.34.179.172 1 1 28598 20210916001351
+177.15.69.133 3 3 65104 20210910015645
+95.38.66.93 3 3 65104 20210907010719
+34.208.79.131 1 1 28598 20210921232602
+185.244.158.248 1 1 28598 20210919142556
+187.75.159.195 3 3 65104 20210919201559
+177.66.112.221 2 2 36506 20210923091341
+92.60.40.218 1 1 28598 20210907161447
+34.240.153.83 1 1 28598 20210927171923
+206.189.123.235 1 1 26601 20210921135229
+178.168.205.193 5 5 92275 20210927214136
+178.69.47.201 1 57 3222677 20210928070109
+84.95.87.84 2 2 47861 20210913084158
+95.154.201.154 6 6 130208 20210914155945
+40.77.188.54 0 1 0 
+77.35.5.65 2 2 57196 20210918093009
+86.120.59.10 3 3 65104 20210908122347
+165.227.94.222 3 3 85794 20210918185030
+109.70.100.31 1 1 19263 20210929190416
+154.127.0.225 3 3 65104 20210921235836
+178.212.65.61 3 3 65104 20210930113942
+45.175.237.241 8 8 30684 20210915150007
+38.145.89.203 1 1 24334 20210901061301
+200.33.135.142 3 3 65104 20210910090059
+193.187.105.58 1 1 28598 20210923182417
+213.166.77.55 1 1 22902 20210913131756
+92.118.160.13 4 4 114392 20210921011045
+202.183.20.52 1 1 28598 20210902110257
+222.163.209.66 3 3 65104 20210916152055
+69.171.249.4 1 1 0 20210928155116
+106.14.163.133 1 1 28598 20210915091223
+181.214.115.223 1 1 23238 20210901061243
+181.129.184.138 3 3 65104 20210905005210
+192.111.139.163 1 1 19263 20210917015407
+45.67.143.243 1 1 23086 20210922123102
+119.237.195.75 0 1 19670 
+95.79.127.39 3 3 65104 20210915204630
+201.91.83.43 3 3 65104 20210923205711
+94.180.200.200 5 5 103630 20210903105644
+115.78.8.36 3 3 65104 20210902060935
+89.201.5.90 1 1 28598 20210912101439
+113.239.22.133 3 3 65104 20210905214908
+89.163.249.244 3 3 55900 20210929180711
+45.133.168.184 1 1 0 20210901061252
+103.135.248.12 3 3 65104 20210902015319
+200.106.165.8 6 6 130208 20210930180838
+177.38.247.130 2 2 47861 20210918041849
+150.129.207.84 1 1 19263 20210919023503
+193.84.184.25 3 3 65104 20210914232644
+81.39.198.175 3 3 65104 20210923082422
+177.19.47.99 2 2 38526 20210911103329
+34.241.37.11 1 1 28598 20210916175223
+202.145.14.51 1 1 28598 20210920023355
+200.49.97.82 3 3 65104 20210909030720
+103.25.45.2 3 3 65104 20210905222248
+46.30.67.253 2 2 38526 20210927070034
+102.244.120.10 1 1 28598 20210930215240
+130.255.92.133 3 3 65104 20210930115121
+41.87.9.9 1 1 28598 20210917202225
+121.5.226.36 1 1 28598 20210901132740
+46.161.11.41 11 11 314578 20210928194447
+54.214.164.127 1 1 28598 20210913233417
+66.42.79.59 3 3 65104 20210914042838
+54.81.175.166 8 8 208311 20210924134003
+149.248.45.242 4 4 82347 20210914025849
+35.247.159.216 3 3 85794 20210916143435
+181.191.5.205 3 3 55769 20210920150321
+183.88.129.249 3 3 65104 20210916191933
+185.220.103.5 3 3 55900 20210921030915
+45.147.1.169 1 1 28598 20210908213756
+74.97.36.159 4 105 7215776 20210921164749
+139.224.12.188 1 1 28598 20210910093538
+83.221.194.43 3 3 65104 20210902042531
+46.161.11.93 3 3 67259 20210904034828
+18.213.90.179 0 1 5035 
+43.228.112.29 3 3 65104 20210915112808
+101.89.29.78 1 10 112953 20210922041814
+212.96.167.109 6 6 130208 20210930170938
+95.161.151.238 3 3 65104 20210919171959
+178.71.248.211 3 3 53749 20210919222809
+31.40.209.170 3 3 65104 20210911050458
+23.246.108.178 2 62 61306 20210920144530
+45.66.10.69 3 3 65104 20210905184438
+125.27.228.72 3 3 65104 20210914141500
+67.238.115.27 4 4 93702 20210912184914
+89.39.20.60 2 2 47861 20210902044809
+45.32.138.94 2 2 38526 20210930134639
+45.8.17.141 1 1 28598 20210916162021
+110.172.141.178 2 2 47861 20210911210610
+113.160.117.19 2 2 47861 20210909054117
+31.10.15.79 3 3 65104 20210905023108
+212.113.44.44 3 3 65104 20210930114418
+45.55.94.44 1 2 33133 20210921083359
+213.174.0.72 2 2 36506 20210930113025
+47.101.189.183 1 1 28598 20210921090347
+109.162.127.236 2 2 57196 20210915141522
+181.215.127.77 2 2 73149 20210901061301
+34.205.87.206 1 1 28598 20210925035157
+181.114.25.58 3 3 65104 20210919183017
+34.78.243.26 1 1 28598 20210917183639
+103.135.89.102 3 3 65104 20210907111337
+40.82.208.253 1 1 28598 20210904002019
+105.213.150.133 2 2 38526 20210930115352
+81.71.0.174 3 3 65104 20210916083148
+52.95.75.27 3 75 3079554 20210916064606
+45.7.100.64 1 1 28598 20210913043538
+62.103.186.66 3 3 65104 20210908012337
+185.184.228.232 3 3 65104 20210902152545
+46.33.33.1 5 5 103630 20210909013732
+176.103.58.151 1 1 28598 20210910022713
+158.46.144.145 1 1 36509 20210901061301
+95.92.196.196 1 1 28598 20210914212805
+222.184.132.38 3 3 65104 20210920152805
+190.181.60.122 2 2 47861 20210910133321
+112.78.161.83 3 3 65104 20210913225804
+188.126.73.209 1 1 28598 20210927174407
+60.241.231.114 3 3 65104 20210909023215
+41.57.156.148 2 2 38526 20210930124015
+116.203.34.66 1 1 36152 20210921135202
+173.252.95.11 0 5 424606 
+193.169.253.168 6 6 171588 20210922223324
+59.175.144.19 1 1 28598 20210910044447
+52.213.196.63 1 1 28598 20210901174743
+181.214.248.212 1 1 0 20210901061246
+218.102.252.224 1 1 28598 20210929060611
+191.101.31.30 1 1 28598 20210905204545
+37.130.58.168 2 2 36506 20210930114555
+36.26.207.163 3 3 65104 20210930112102
+91.126.138.135 3 3 65104 20210921133510
+117.212.95.92 1 1 28598 20210905043759
+47.92.102.179 1 1 28598 20210915144846
+42.3.159.176 0 1 28520 
+185.31.175.243 5 5 92275 20210916142158
+88.203.145.58 1 1 19263 20210930120802
+34.125.15.236 3 3 65104 20210913095120
+178.168.205.71 3 3 53749 20210905101354
+102.39.1.222 2 2 47861 20210912232234
+186.24.50.165 3 3 65104 20210924022646
+103.235.179.82 1 1 28598 20210930130957
+109.73.180.188 3 3 65104 20210902173643
+88.116.137.130 6 6 132228 20210923164755
+82.156.115.139 3 3 65104 20210913033000
+181.114.61.208 3 3 65104 20210907151931
+185.8.156.213 3 3 65104 20210901102400
+185.203.220.38 3 3 65104 20210930170724
+193.169.253.32 4 4 114392 20210903085548
+139.59.112.141 3 3 85794 20210925021931
+58.248.11.84 3 3 65104 20210909061632
+207.32.131.168 1 1 23188 20210922122038
+89.201.194.114 2 2 47861 20210930122025
+45.137.28.252 1 1 0 20210901061259
+36.74.77.106 3 3 65104 20210916104452
+158.46.146.153 1 1 0 20210901061237
+1.179.183.73 3 3 65104 20210908053108
+95.152.62.218 2 2 57196 20210907042940
+104.244.73.13 1 1 28598 20210901140417
+54.201.133.188 1 1 28598 20210930233443
+101.133.131.62 3 3 85794 20210921132131
+109.105.215.62 2 2 36506 20210920133132
+106.15.88.163 2 9 57196 20210915185316
+194.67.207.9 3 3 0 20210929133411
+101.132.71.192 1 1 28598 20210921130216
+41.60.238.232 3 3 65104 20210911054053
+18.117.76.95 13 54 1065418 20210901165252
+62.16.2.145 5 5 103630 20210901223403
+92.23.163.239 3 69 2527215 20210920200349
+35.223.203.188 1 1 23238 20210926151906
+192.71.142.35 1 1 28598 20210921093511
+203.218.72.16 0 1 0 
+186.240.40.178 3 3 65104 20210930171355
+154.13.1.162 3 3 67255 20210907221806
+86.63.107.46 3 3 65104 20210902104551
+91.222.27.249 3 3 65104 20210902012354
+123.207.111.20 1 1 28598 20210922134541
+47.101.147.122 1 1 28598 20210924200645
+196.11.83.54 1 1 28598 20210930120732
+189.248.59.0 3 3 65104 20210905042603
+92.118.160.41 3 3 85794 20210910211816
+181.215.205.240 1 1 0 20210901061237
+51.159.23.22 1 1 28598 20210914003857
+177.68.143.48 3 3 65104 20210902092102
+37.57.38.133 3 3 65104 20210906201945
+173.252.95.7 0 1 15116 
+47.101.196.226 1 1 28598 20210925174625
+47.102.102.250 1 1 28598 20210912130726
+187.162.64.196 3 3 65104 20210902132133
+181.36.225.220 3 3 65104 20210902192540
+180.250.159.50 2 2 47861 20210930144329
+191.103.251.33 2 2 47861 20210906072322
+113.165.50.60 3 3 65104 20210906012649
+205.237.94.117 1 1 0 20210901061237
+37.72.41.89 3 3 65104 20210902071912
+91.223.52.159 3 3 65104 20210902171606
+47.100.17.89 1 1 28598 20210922121657
+105.213.110.178 3 3 65104 20210909003038
+181.28.154.73 3 3 65104 20210905185235
+47.100.22.23 1 1 28598 20210912063859
+104.232.211.99 1 1 21831 20210930105650
+46.161.11.63 3 3 67259 20210904035354
+101.132.182.68 1 1 28598 20210915144036
+52.11.216.194 1 1 28598 20210906233237
+58.97.209.160 3 3 65104 20210902232001
+47.101.202.86 1 1 28598 20210903014146
+168.151.143.35 1 1 0 20210901061246
+35.162.101.250 1 1 28598 20210920233719
+51.158.186.59 5 5 92275 20210921172049
+177.250.85.2 2 2 47861 20210907081159
+172.102.139.164 1 1 0 20210901061246
+100.24.114.255 2 2 57196 20210912234123
+116.58.232.232 1 1 19263 20210930120752
+52.26.141.1 1 1 28598 20210929231106
+180.164.38.29 5 5 112965 20210930202514
+130.255.166.115 1 1 28598 20210923201810
+61.135.15.187 1 3 170012 20210921142140
+202.62.47.129 2 2 47861 20210921200706
+103.80.210.174 1 1 28598 20210919182852
+201.182.213.25 3 3 65104 20210930134627
+66.42.224.229 2 2 47861 20210919180851
+93.159.156.85 3 3 65104 20210903090945
+104.128.128.239 1 1 0 20210901061259
+123.234.145.231 3 3 65104 20210912085051
+31.42.185.24 1 1 19263 20210908122230
+181.214.200.189 1 1 0 20210901061237
+66.249.83.192 1 5 30262 20210929014518
+176.96.155.160 1 1 28598 20210919023459
+178.34.150.70 3 3 65104 20210919000315
+94.180.58.61 3 3 65104 20210912215605
+188.126.79.26 1 1 28598 20210924165212
+213.16.81.147 3 3 65104 20210930162250
+195.22.153.172 1 1 28598 20210903144859
+5.199.136.31 3 3 67259 20210913020412
+66.42.75.129 3 3 65104 20210913231507
+46.161.11.103 3 3 67259 20210904034752
+87.251.74.116 1 1 28598 20210921225704
+40.77.167.61 0 2 7071 
+54.201.249.15 1 1 28598 20210923233131
+27.156.119.20 3 3 65104 20210918141435
+138.97.29.187 1 1 28598 20210909123330
+34.216.167.207 1 1 28598 20210908234248
+179.174.46.218 3 3 65104 20210916162624
+36.90.49.111 3 3 65104 20210915054453
+51.89.201.21 1 1 28598 20210923120752
+86.109.43.15 3 3 65104 20210902091929
+5.252.74.17 2 2 0 20210901061252
+105.234.150.149 3 3 65104 20210916185744
+186.47.81.50 1 1 28598 20210917133006
+118.140.150.74 1 1 28598 20210912014439
+18.142.122.200 3 3 85794 20210917222058
+186.14.214.28 2 2 47861 20210920172039
+47.101.201.242 1 1 28598 20210918043535
+1.71.134.78 3 3 65104 20210930151126
+188.126.79.14 1 1 28598 20210915210427
+103.109.58.102 2 2 47861 20210911033924
+35.196.237.221 2 2 57196 20210925221147
+103.112.53.87 3 3 65104 20210905182137
+134.209.240.44 3 3 65104 20210930123007
+144.202.88.115 3 3 65104 20210915144209
+84.17.49.220 3 3 67255 20210907015705
+18.208.76.145 1 57 3222677 20210921060103
+34.213.236.229 1 1 28598 20210910230836
+185.180.143.147 1 1 28598 20210903014807
+158.46.147.90 1 1 24340 20210901061244
+180.211.179.150 1 1 28598 20210918023804
+40.115.185.167 0 1 0 
+183.8.142.234 1 1 17243 20210923180715
+176.104.58.213 1 1 19263 20210921133722
+186.211.96.146 1 1 19263 20210909125157
+167.71.249.173 1 1 28598 20210918151715
+50.228.102.10 3 3 65104 20210922143929
+41.87.29.154 3 3 65104 20210908004047
+45.149.83.100 1 1 28598 20210902220206
+110.90.137.99 1 1 28598 20210921224630
+45.129.18.160 1 1 0 20210922044454
+199.249.230.155 4 4 75032 20210910081253
+103.233.153.107 3 3 65104 20210902035236
+185.176.205.52 1 1 0 20210901061237
+54.188.143.39 1 1 28598 20210903232335
+104.155.121.102 2 2 57196 20210919223641
+191.101.163.223 1 1 35157 20210901061248
+46.182.129.31 7 7 160826 20210920100405
+180.163.220.68 1 70 944554 20210915110536
+38.145.84.188 1 1 28291 20210901061248
+182.23.81.220 1 1 17243 20210930112059
+170.239.40.131 3 3 65104 20210916220040
+105.213.128.172 2 2 36506 20210923163048
+60.212.200.76 2 2 47861 20210907123030
+31.28.99.25 5 5 122300 20210930123940
+187.33.88.210 3 3 65104 20210903082707
+128.199.113.25 6 6 171588 20210922212023
+123.21.91.116 3 3 65104 20210906172151
+138.94.28.234 3 3 65104 20210924060937
+45.86.202.148 1 1 28598 20210917000349
+72.200.103.220 1 1 28598 20210905193549
+102.66.232.217 3 3 65104 20210920012940
+5.61.57.55 12 12 266863 20210930142318
+34.210.117.92 1 1 28598 20210904232445
+47.102.44.183 2 10 208918 20210919191015
+178.221.170.208 2 2 38526 20210918151734
+160.226.203.247 1 1 28598 20210930115326
+47.103.63.146 3 3 85794 20210930133401
+168.205.148.111 3 3 65104 20210913172427
+158.46.147.72 1 1 36537 20210901061301
+47.102.144.234 1 1 28598 20210915161832
+185.247.225.79 1 1 19263 20210908002205
+217.146.82.84 3 3 74738 20210904205538
+95.106.206.139 3 3 65104 20210915030721
+212.183.190.124 25 268 7830150 20210915063233
+197.210.53.209 1 1 28598 20210914165525
+178.205.246.38 2 2 57196 20210906134759
+34.126.179.69 4 4 114392 20210915163107
+47.102.126.61 2 2 57196 20210920202253
+54.218.249.9 1 1 28598 20210925200350
+116.203.21.171 2 2 48490 20210921135355
+193.163.116.13 3 3 65104 20210912030432
+46.161.11.133 3 3 67259 20210904033936
+45.185.236.9 1 1 19263 20210930111501
+46.173.78.123 3 3 65104 20210921222112
+173.252.95.119 0 1 351284 
+93.75.48.211 3 3 67259 20210927220628
+93.157.163.66 14 14 53872 20210903212939
+154.117.159.123 1 1 28598 20210902045542
+177.85.112.74 3 3 65104 20210909022853
+5.202.46.146 3 3 65104 20210917024935
+34.207.224.145 1 1 28598 20210921164855
+113.177.115.202 1 1 28598 20210922071244
+115.133.80.75 1 1 28598 20210908024504
+200.89.158.26 1 1 28598 20210909053436
+47.101.199.58 1 1 28598 20210912090224
+91.214.130.253 3 3 65104 20210905221416
+1.179.242.141 3 3 65104 20210916105720
+47.101.152.164 1 1 28598 20210927235531
+157.119.201.98 1 1 28598 20210911223503
+115.42.64.40 1 1 28598 20210915020602
+176.236.223.211 3 3 65104 20210906140709
+45.187.21.68 1 1 28598 20210911103307
+199.249.230.103 2 2 38526 20210903185131
+72.142.102.158 3 3 65104 20210911042212
+54.202.9.185 1 1 28598 20210908234221
+121.91.86.230 1 1 0 20210901061258
+66.102.8.66 0 15 383092 
+194.143.248.65 3 3 65104 20210918142503
+81.88.220.38 3 3 65104 20210923190721
+91.122.183.231 3 3 53749 20210926040722
+49.232.241.15 2 2 28598 20210909001303
+43.129.187.194 3 3 65104 20210923183122
+92.119.161.73 1 1 28598 20210905213308
+125.164.178.9 3 3 65104 20210915001217
+45.250.65.188 1 1 19263 20210921133715
+176.193.238.160 3 3 65104 20210918034026
+34.205.27.74 1 11 293683 20210919225522
+23.249.22.29 3 3 85794 20210910122526
+117.252.68.97 3 3 65104 20210918061354
+103.138.31.240 1 1 28598 20210915111959
+62.254.16.82 9 102 3509169 20210920040607
+95.38.211.235 3 3 65104 20210902192312
+1.192.192.6 1 7 28598 20210909073319
+166.62.38.100 2 2 38526 20210915112102
+40.77.188.221 0 1 121260 
+78.108.251.178 3 3 65104 20210901083752
+43.229.73.235 3 3 65104 20210916203456
+69.36.79.74 3 3 65104 20210902163022
+47.243.8.216 1 1 28598 20210906142454
+5.181.234.42 2 2 57196 20210930171719
+95.38.71.64 1 1 17243 20210907123044
+195.246.120.171 1 1 28598 20210906145937
+47.100.2.4 1 1 28598 20210930132532
+77.37.131.158 3 3 65104 20210920053017
+195.154.60.148 10 10 211570 20210917091323
+51.15.209.146 1 1 28598 20210924052451
+45.12.215.167 1 1 28598 20210919173416
+114.99.233.63 3 3 65104 20210923144643
+202.53.86.2 2 2 47861 20210930111103
+185.237.75.17 3 3 65104 20210915235903
+61.247.14.57 3 3 65104 20210912015511
+5.59.141.57 3 3 65104 20210910074852
+23.236.242.196 1 1 28598 20210921191854
+157.245.155.224 3 3 85794 20210915034515
+103.137.72.99 3 3 65104 20210919082311
+213.184.249.89 3 3 65104 20210911234535
+102.219.208.242 3 3 65104 20210905010624
+103.71.51.49 1 1 19263 20210910084754
+196.188.115.248 3 3 65104 20210912102509
+1.83.114.159 1 1 28598 20210916092608
+66.102.228.41 3 3 65104 20210902030846
+185.95.254.79 2 2 47861 20210930234130
+183.166.138.89 2 2 36506 20210918130932
+170.82.59.105 2 2 36506 20210930135150
+110.81.105.156 1 1 28598 20210919184458
+185.92.148.27 5 5 103630 20210920221016
+178.171.101.97 2 2 22332 20210901061259
+103.68.114.62 3 3 65104 20210922191654
+192.99.247.190 1 1 28598 20210916072118
+47.243.174.228 3 3 65104 20210922093405
+5.180.243.195 3 3 65104 20210916124122
+188.165.241.215 4 4 93702 20210926215235
+64.137.63.241 1 1 0 20210901061257
+103.138.75.120 0 1 0 
+46.100.231.116 3 3 65104 20210917014818
+179.191.239.45 3 3 65104 20210906075841
+64.246.161.30 1 1 28598 20210914120706
+189.112.63.102 3 3 65104 20210903171746
+47.101.194.208 1 1 28598 20210905220737
+46.161.11.113 3 3 67259 20210904031900
+58.136.16.57 3 3 65104 20210923233101
+128.14.136.78 1 1 28598 20210917204524
+185.220.101.229 1 1 17243 20210907132956
+34.211.145.127 1 1 28598 20210918232507
+91.203.25.28 1 1 28598 20210914172524
+34.101.113.193 1 1 28598 20210909025049
+195.181.161.22 3 3 65104 20210916110835
+208.80.194.42 1 1 28598 20210921121226
+188.190.120.250 1 1 0 20210901061246
+210.210.158.37 3 3 65104 20210924023453
+212.19.30.30 3 3 65104 20210923104405
+45.166.22.125 3 3 65104 20210917015028
+177.154.18.2 1 1 28598 20210930124714
+47.103.204.15 1 1 28598 20210912131346
+47.103.20.123 2 2 57196 20210920044341
+34.243.123.0 1 1 28598 20210929175122
+42.193.23.126 1 1 28598 20210914043527
+185.65.134.169 1 1 28598 20210902194756
+45.89.240.51 1 1 0 20210901061236
+182.111.162.7 3 3 65104 20210916080747
+198.240.105.233 1 1 18091 20210903171913
+34.209.85.94 1 1 28598 20210920233700
+61.147.15.67 8 8 228784 20210930122456
+44.199.65.223 1 57 3206963 20210927060100
+167.250.219.104 3 3 65104 20210921093001
+103.76.164.20 2 2 28598 20210917152638
+47.92.71.118 1 1 28598 20210906131931
+116.197.134.166 2 2 47861 20210922100207
+173.252.95.9 0 6 333738 
+179.66.106.81 3 3 65104 20210907092031
+34.222.5.224 4 4 57196 20210907185936
+98.229.89.3 2 62 3255385 20210910135049
+35.205.214.108 1 1 28598 20210924062833
+42.236.10.117 1 111 1896151 20210906131535
+106.14.115.89 4 4 89266 20210901161932
+185.31.175.252 10 10 184550 20210926035102
+47.19.238.6 1 58 225178 20210903225206
+41.79.148.229 1 1 28598 20210903085100
+36.67.142.11 3 3 65104 20210913191400
+45.237.21.152 3 3 65104 20210907142958
+136.175.179.235 3 3 65104 20210930124737
+37.53.93.128 3 3 65104 20210930121520
+45.172.135.230 1 1 28598 20210920013250
+35.225.97.202 2 2 57196 20210922190745
+54.190.237.46 1 1 28598 20210902233721
+110.78.149.174 3 3 65104 20210906092912
+209.127.17.234 1 1 28598 20210922080856
+112.118.155.103 0 4 0 
+184.105.50.26 3 3 65104 20210923081736
+77.222.117.245 4 4 95722 20210919122115
+116.90.116.182 1 1 28598 20210911211142
+2.57.79.203 2 2 28322 20210901061259
+78.29.32.35 1 1 28598 20210914083930
+34.217.69.159 1 1 28598 20210929231119
+200.29.99.240 3 3 65104 20210907080352
+92.51.5.137 3 3 65104 20210906215037
+107.150.38.218 3 3 67259 20210910040721
+47.105.138.127 1 1 28598 20210914185751
+3.250.61.55 1 1 28598 20210917172504
+190.97.163.214 1 1 28598 20210921044013
+104.194.192.243 1 1 18091 20210922123102
+185.199.98.236 3 3 65104 20210908034850
+47.101.195.242 1 1 28598 20210903192916
+42.236.10.125 3 64 2270382 20210921111241
+190.153.253.5 3 3 65104 20210908001207
+185.125.219.13 3 3 0 20210929133411
+196.196.164.106 1 1 28598 20210918203921
+43.228.77.136 3 3 65104 20210903130909
+54.191.110.20 1 1 28598 20210904232636
+162.55.80.185 1 1 28598 20210925202922
+179.43.61.13 1 1 17243 20210923035609
+46.32.6.106 1 1 28598 20210920133123
+52.23.37.1 1 1 0 20210925070009
+61.7.138.196 3 3 65104 20210920125350
+173.252.83.3 1 1 0 20210928201104
+45.89.249.83 1 1 25316 20210901061300
+134.236.18.78 2 2 36506 20210910093511
+27.122.59.100 2 2 36506 20210903191146
+85.29.129.140 3 3 65104 20210911164215
+201.20.84.157 1 1 28598 20210930113117
+3.249.198.80 1 1 28598 20210928175613
+93.82.184.246 3 3 65104 20210907004704
+40.77.190.22 0 16 642333 
+45.13.119.218 3 3 65104 20210918125928
+181.31.116.162 3 3 65104 20210910094502
+1.64.131.204 0 2 0 
+47.100.214.242 1 1 28598 20210910123903
+77.35.15.194 2 2 57196 20210930233311
+85.159.27.112 3 3 65104 20210920164151
+2.56.101.89 3 3 67259 20210925132113
+218.250.86.186 3 3 65104 20210915033126
+103.78.25.99 2 2 36506 20210911013313
+94.182.212.68 1 1 28598 20210923070800
+37.139.103.117 3 3 65104 20210903021343
+117.222.59.208 1 1 28598 20210930113005
+14.248.26.196 3 3 65104 20210905224144
+129.205.19.20 1 1 28598 20210926004643
+92.253.237.227 3 3 65104 20210920180437
+92.242.221.178 3 3 65104 20210918001734
+36.94.157.113 2 2 47861 20210908043238
+54.245.171.168 1 1 28598 20210915234829
+54.202.112.156 2 2 57196 20210914231504
+18.236.104.142 1 1 28598 20210925233027
+120.79.184.41 1 1 28598 20210915213511
+187.63.126.159 3 3 65104 20210906045150
+1.192.195.8 2 12 630421 20210917043431
+45.137.30.255 1 1 0 20210901061247
+190.184.144.222 1 1 28598 20210912135048
+5.180.79.254 0 1 20527 
+51.13.81.205 2 2 28598 20210905234222
+177.190.123.229 3 3 65104 20210909132401
+212.156.55.34 3 3 65104 20210918122559
+178.62.79.49 2 2 47861 20210917072115
+103.111.137.94 4 4 93702 20210930114530
+185.93.206.173 3 3 65104 20210910114646
+222.175.206.2 1 1 28598 20210930113116
+198.252.62.153 1 1 26601 20210922123426
+47.100.107.233 1 1 28598 20210913065622
+146.185.151.183 1 58 3227212 20210915053108
+188.126.79.19 1 1 28598 20210930060115
+2.57.122.24 1 1 28598 20210906110923
+178.130.79.76 3 3 65104 20210915034544
+177.128.139.252 3 3 65104 20210930153512
+216.218.223.56 7 91 3651693 20210926021052
+117.241.150.174 3 3 65104 20210904014449
+1.192.192.8 1 1 28598 20210928100436
+89.133.246.90 1 1 28598 20210917015342
+180.114.144.197 3 3 65104 20210902185213
+191.101.217.132 3 3 65104 20210927151957
+180.163.220.41 1 1 28598 20210920074542
+185.220.102.245 4 4 75032 20210929190333
+31.170.169.26 3 3 65104 20210909220727
+45.150.112.82 1 1 28598 20210914200956
+116.80.37.85 3 3 65104 20210905020911
+79.140.152.112 3 3 65104 20210917230809
+185.247.225.67 4 4 75163 20210914040016
+42.236.10.114 5 76 2807392 20210925091651
+213.226.177.153 3 3 65104 20210922014131
+34.222.64.197 1 1 28598 20210906003053
+40.83.122.246 3 3 65104 20210919103035
+89.21.141.126 3 3 65104 20210911124208
+110.74.193.108 3 3 65104 20210923042616
+111.74.75.136 1 1 28598 20210930130552
+34.220.109.0 1 1 28598 20210914231902
+18.237.15.135 1 1 28598 20210902233702
+54.188.111.242 1 1 28598 20210907232745
+103.232.67.133 3 3 65104 20210907110935
+47.102.112.89 1 1 28598 20210918132213
+78.95.35.106 1 1 26601 20210911055021
+47.100.207.141 1 1 28598 20210908161537
+142.93.63.7 1 1 28598 20210906024125
+176.37.46.163 2 2 47861 20210921001556
+175.110.8.47 1 1 19263 20210905101811
+95.189.52.190 3 3 65104 20210906064322
+139.28.123.202 2 2 70161 20210901061302
+42.192.11.192 2 2 57196 20210920203245
+163.53.210.3 3 3 65104 20210903191134
+95.174.99.57 3 3 65104 20210907001920
+72.206.181.105 1 1 28598 20210907035737
+185.180.143.75 1 1 28598 20210911035549
+45.163.18.11 2 2 38526 20210915020624
+45.137.31.189 1 1 19048 20210901061253
+198.98.57.191 3 3 55900 20210919064611
+117.69.177.212 3 3 65104 20210915111152
+67.22.62.206 1 1 36152 20210903170308
+102.130.20.23 2 2 47861 20210930110742
+42.83.147.35 1 1 28598 20210917223633
+51.179.172.226 2 2 36506 20210902083924
+201.71.218.70 3 3 65104 20210905180123
+124.248.175.175 3 3 65104 20210901154016
+41.140.237.64 2 2 57196 20210925140233
+158.46.145.145 1 1 0 20210901061247
+47.103.118.33 1 1 28598 20210927235622
+173.252.95.3 0 6 94936 
+45.71.243.162 3 3 65104 20210907033557
+47.101.201.20 1 1 28598 20210924152011
+34.78.69.141 1 1 28598 20210926111430
+5.202.122.222 1 1 28598 20210930143451
+103.133.37.204 2 2 38526 20210920225638
+109.125.130.229 3 3 65104 20210916131938
+87.252.161.136 3 3 65104 20210905233350
+113.121.21.95 3 3 65104 20210930182649
+191.241.243.147 3 3 65104 20210904124002
+123.200.16.202 3 3 65104 20210907160344
+107.174.232.203 1 1 23238 20210918203955
+185.31.175.247 3 3 53749 20210912065635
+60.166.183.195 3 3 65104 20210914141917
+122.6.62.41 6 6 130208 20210913062300
+134.236.183.123 3 3 65104 20210911063038
+182.93.75.241 3 3 65104 20210902003347
+64.137.77.249 1 1 22354 20210901061253
+91.220.206.131 1 1 28598 20210921115406
+181.231.151.242 3 3 65104 20210902063825
+54.149.72.99 1 1 28598 20210901232650
+23.88.96.0 1 1 28598 20210924224934
+176.213.212.16 12 12 262571 20210923134115
+156.67.107.87 1 1 28598 20210930134812
+45.168.25.166 2 2 36506 20210906192917
+168.70.111.243 0 1 0 
+202.154.188.231 3 3 65104 20210904011916
+223.156.132.243 2 2 38526 20210921224727
+113.184.21.60 2 2 47861 20210920165431
+88.220.133.139 2 2 38526 20210920023401
+37.113.63.13 6 6 171588 20210925082111
+54.201.255.249 1 1 28598 20210903235022
+18.237.164.31 1 1 28598 20210914231118
+208.126.109.200 3 3 65104 20210921122350
+45.91.239.180 1 1 28598 20210915204840
+78.187.90.246 3 3 65104 20210917000230
+66.249.84.24 0 16 1348530 
+68.183.193.247 1 1 17243 20210916181926
+82.129.40.224 3 3 65104 20210920233006
+176.98.86.159 1 1 17243 20210907081220
+20.196.201.225 0 1 0 
+111.6.78.243 2 2 28598 20210912171100
+213.6.229.2 1 1 28598 20210923001412
+104.244.77.80 2 2 36506 20210918100921
+176.122.116.136 1 1 28598 20210917030533
+185.135.83.167 0 2 50500 
+45.33.41.230 2 71 153463 20210924054552
+61.187.145.81 2 2 38526 20210930143144
+54.213.238.165 1 1 28598 20210925232841
+60.191.108.178 3 3 65104 20210922084544
+188.170.173.211 3 3 65104 20210907010252
+64.137.94.212 1 1 18091 20210901061243
+42.193.16.135 1 1 28598 20210925033846
+146.70.52.76 1 1 28598 20210907001417
+94.140.74.242 3 3 65104 20210905211208
+45.232.132.231 3 3 65104 20210909014321
+104.238.111.167 2 2 47861 20210919191724
+179.6.88.239 1 42 28598 20210916103858
+101.255.86.30 3 3 65104 20210901181651
+178.93.34.133 3 3 65104 20210930122654
+192.171.232.230 1 1 24560 20210901061249
+35.172.142.39 4 4 114392 20210925152904
+114.93.25.105 3 3 65104 20210907051147
+157.245.147.1 3 3 65104 20210920174727
+49.81.17.206 3 3 65104 20210923194517
+27.123.5.26 3 3 65104 20210918211633
+103.83.56.22 3 3 65104 20210916113037
+45.161.222.241 3 3 65104 20210930110818
+177.33.142.255 2 2 7196 20210907212519
+45.87.2.128 5 5 103630 20210906135543
+176.9.214.154 1 1 25302 20210929235138
+34.219.234.220 2 2 57196 20210913014202
+185.104.157.114 1 1 28598 20210905143859
+47.101.197.193 1 1 28598 20210904004624
+34.213.119.52 1 1 28598 20210914231157
+161.117.10.46 3 3 65104 20210910172815
+177.129.129.122 2 2 47861 20210909023258
+158.46.149.13 1 1 0 20210901061246
+94.182.2.208 3 3 65104 20210904223155
+62.210.80.33 4 4 86387 20210929013710
+178.209.50.160 3 3 67259 20210914063128
+105.112.87.218 3 3 65104 20210905234848
+27.115.124.6 0 33 915037 
+113.166.92.200 3 3 65104 20210909200742
+185.176.205.20 1 1 25729 20210901061251
+64.137.56.249 1 1 26601 20210901061243
+181.129.130.242 1 1 28598 20210905012800
+114.134.188.124 3 3 65104 20210912021832
+117.68.243.6 3 3 65104 20210904074553
+34.213.170.154 1 1 28598 20210915235757
+212.19.14.207 2 2 47861 20210918040119
+119.91.114.144 9 9 207130 20210925202659
+187.95.28.115 3 3 65104 20210907083658
+47.102.115.162 1 1 28598 20210919220124
+121.4.163.148 1 1 28598 20210907025133
+47.98.97.252 1 1 28598 20210925180543
+45.89.240.135 1 1 35196 20210901061249
+194.85.180.185 5 5 103630 20210906220204
+45.93.80.28 7 7 200186 20210930151140
+104.199.33.82 1 1 28598 20210930190833
+27.115.124.45 1 4 28598 20210929145800
+52.214.226.166 1 1 28598 20210913173609
+47.102.148.9 1 1 28598 20210909130234
+190.128.136.6 3 3 65104 20210911234909
+52.15.87.159 13 34 836387 20210930073112
+168.151.58.252 1 1 23238 20210922123357
+47.102.141.168 1 1 28598 20210906133027
+138.199.59.164 3 3 65104 20210923174853
+51.91.218.49 1 46 198129 20210921221039
+41.75.112.158 3 3 65104 20210906044522
+101.51.63.4 3 3 65104 20210930131623
+147.182.242.109 1 1 22902 20210921135202
+201.221.157.162 2 2 47861 20210920181014
+91.78.41.49 1 1 28598 20210920080329
+51.15.197.24 1 1 28598 20210910081245
+180.163.220.67 4 132 747750 20210915110543
+103.234.138.238 3 3 65104 20210902113209
+34.212.54.163 1 1 28598 20210927232940
+27.153.201.222 3 3 65104 20210917170545
+95.77.16.8 3 3 65104 20210905221557
+117.69.146.244 3 3 65104 20210915043330
+121.41.101.60 1 1 28598 20210920184958
+92.118.160.45 1 1 28598 20210914014500
+45.143.141.248 1 1 28598 20210926192352
+178.250.70.218 2 2 38526 20210916083525
+8.37.43.203 3 3 65104 20210922103645
+188.163.46.170 2 2 57196 20210926083527
+103.39.243.85 1 1 28598 20210924035232
+173.252.95.120 0 1 5035 
+117.195.80.227 3 3 65104 20210906021033
+181.214.178.89 1 1 0 20210901061258
+46.161.11.21 10 10 285980 20210929124621
+103.96.13.48 3 3 65104 20210921155651
+5.160.110.149 3 3 65104 20210912150405
+117.26.40.208 3 3 65104 20210901002542
+1.1.171.170 3 3 65104 20210902221055
+110.78.154.55 3 3 65104 20210920154938
+103.138.73.191 0 3 0 
+45.138.145.177 2 2 36506 20210930195626
+95.211.100.149 2 2 36506 20210929190252
+161.81.33.14 0 2 21375 
+94.74.130.168 1 1 28598 20210905130933
+179.108.158.202 1 1 28598 20210909114316
+179.183.92.28 3 3 65104 20210923182508
+81.70.2.132 2 59 3203880 20210925101420
+49.156.42.188 1 1 28598 20210930111336
+79.172.13.39 3 3 65104 20210902071049
+104.238.152.26 3 3 65104 20210915124615
+213.163.36.106 3 3 65104 20210906003310
+67.227.43.91 1 1 28598 20210914032338
+45.56.81.68 3 3 65104 20210917054802
+5.252.74.33 1 17 670931 20210901061228
+190.124.34.221 3 3 65104 20210913185136
+103.169.186.22 3 3 65104 20210902052646
+139.99.122.69 2 2 57196 20210915021052
+91.187.112.173 3 3 65104 20210924051518
+14.248.85.185 3 3 65104 20210912223216
+108.30.48.201 3 58 2262815 20210909135331
+173.252.95.5 1 2 112953 20210912194753
+106.14.145.253 1 1 28598 20210907145322
+181.91.215.149 3 3 65104 20210911143623
+37.26.63.90 6 6 132228 20210920164839
+189.84.39.254 2 2 38526 20210913220859
+192.71.30.89 1 1 28598 20210910233704
+185.31.175.226 9 9 165418 20210928095547
+84.51.82.23 3 3 65104 20210920144446
+47.101.190.59 1 1 28598 20210920084454
+20.78.136.213 0 1 0 
+45.153.160.132 2 2 38657 20210928095550
+189.51.4.254 3 3 65104 20210930175959
+117.241.169.121 3 3 65104 20210912003816
+191.96.45.192 1 1 23238 20210930105643
+170.238.180.2 2 2 47861 20210930192654
+160.119.128.58 1 1 17243 20210917043233
+54.240.196.168 1 23 770262 20210916121623
+45.95.29.112 1 1 28598 20210920203624
+45.64.100.122 3 3 65104 20210913223357
+70.127.164.1 1 1 28598 20210925081731
+47.103.22.235 1 1 28598 20210901202952
+116.58.62.42 1 1 17243 20210903085221
+45.168.158.84 3 3 65104 20210906202837
+45.132.207.161 2 2 47861 20210930195623
+54.184.9.83 1 1 28598 20210910231253
+45.8.202.93 1 1 32506 20210901061250
+197.248.91.175 3 3 65104 20210908210811
+178.216.2.229 3 3 65104 20210921220609
+182.239.102.250 0 4 0 
+190.77.58.98 3 3 65104 20210902161107
+198.98.51.189 1 1 28598 20210914111811
+194.41.120.0 1 1 36152 20210901061243
+142.54.183.90 3 3 67259 20210905214236
+45.224.148.13 1 1 28598 20210915023857
+185.61.216.165 1 1 28598 20210925014648
+180.163.220.96 0 4 137284 
+72.21.217.220 1 1 28598 20210913194111
+66.76.33.5 1 1 28598 20210920150318
+114.99.233.49 3 3 65104 20210923183801
+185.82.35.172 3 3 65104 20210911085010
+52.175.120.236 3 3 65104 20210930135625
+42.83.147.34 3 3 85794 20210927123420
+194.187.171.86 1 1 28598 20210915025859
+105.213.69.4 3 3 65104 20210917024934
+173.230.152.141 7 112 7170630 20210914020650
+47.242.157.237 3 3 65104 20210913170653
+84.241.9.244 2 2 47861 20210908121459
+185.106.44.57 2 2 47861 20210930160545
+87.236.212.98 3 3 65104 20210920160609
+188.126.79.10 1 1 28598 20210922110937
+52.161.65.61 1 1 28598 20210926184258
+116.237.63.232 1 1 19263 20210919142807
+201.206.141.102 1 1 28598 20210921091526
+190.61.80.45 3 3 65104 20210903165338
+2.57.122.112 1 1 28598 20210910140233
+85.28.17.119 3 3 65104 20210916215015
+77.68.20.217 3 3 55900 20210910205848
+59.61.221.240 3 3 65104 20210915035732
+157.245.144.174 3 3 85794 20210917185414
+149.202.87.175 6 6 171588 20210911134241
+217.169.219.198 3 3 65104 20210922031246
+51.81.143.174 4 4 73012 20210908122208
+35.188.186.216 1 1 18091 20210926151907
+178.168.203.120 10 10 184550 20210913192218
+93.72.180.5 3 3 85794 20210926184126
+137.254.7.176 1 57 3222677 20210913153234
+167.160.52.196 1 1 21831 20210930105651
+75.159.82.14 8 101 3745588 20210915233934
+85.202.80.35 3 3 53749 20210928204428
+168.232.60.242 3 3 65104 20210921214231
+211.136.100.154 4 4 114392 20210928165504
+186.42.103.58 3 3 65104 20210904082331
+190.99.73.89 3 3 65104 20210921113449
+196.216.12.101 1 1 28598 20210910084733
+139.159.48.155 1 1 28598 20210916114107
+5.188.48.22 1 1 28598 20210901064749
+51.79.129.229 5 5 105785 20210919171736
+41.180.70.2 3 3 65104 20210912200112
+46.148.234.229 3 3 85794 20210924211124
+68.183.52.86 1 1 28598 20210901014143
+163.53.196.30 1 1 19263 20210905143940
+198.199.76.83 1 1 28598 20210906024658
+58.17.6.9 2 2 57196 20210913180240
+94.198.4.84 1 1 28598 20210926195526
+206.189.84.119 3 3 85794 20210927045648
+46.183.135.236 3 3 65104 20210908224503
+47.103.132.223 2 2 57196 20210921131334
+110.78.148.52 3 3 65104 20210921074017
+183.82.120.102 3 3 65104 20210903134701
+199.249.230.182 2 2 38657 20210901232505
+49.64.184.102 3 3 65104 20210902054447
+35.232.234.38 1 1 28598 20210930145139
+195.91.171.50 1 1 28598 20210921083946
+27.147.152.53 1 1 17243 20210921001603
+118.137.44.55 3 3 65104 20210902080641
+191.96.191.203 1 1 25490 20210901061249
+172.58.228.60 1 27 947458 20210903232904
+113.128.66.65 2 2 36506 20210918121853
+54.216.56.74 1 1 28598 20210909174505
+18.203.92.52 1 1 28598 20210915175408
+52.36.250.2 1 1 28598 20210922233611
+218.102.252.141 0 2 623195 
+171.25.164.111 3 3 65104 20210912114638
+172.58.225.104 1 43 1234796 20210908114503
+98.178.72.21 1 1 28598 20210920181850
+46.98.99.218 3 3 65104 20210902140641
+41.60.232.58 3 3 65104 20210904131052
+180.163.220.43 2 5 80070 20210928100133
+104.149.147.122 3 3 65104 20210930114544
+91.150.126.107 3 3 65104 20210911025933
+77.46.146.226 3 3 65104 20210905015332
+54.74.109.194 1 1 28598 20210908020138
+103.97.201.191 3 3 65104 20210917080931
+207.46.13.116 0 2 5597 
+157.55.39.89 0 3 224928 
+128.71.214.72 3 3 85794 20210918113105
+194.226.20.244 1 1 28598 20210927194243
+176.34.140.198 1 1 28598 20210903172925
+81.198.118.19 2 2 47861 20210930112023
+220.246.124.112 0 3 0 
+194.12.124.188 2 2 47861 20210917030257
+69.84.59.118 3 3 65104 20210907142041
+117.26.41.126 3 3 65104 20210918033427
+172.70.2.12 1 1 0 20210905200959
+177.95.12.45 3 3 65104 20210930115107
+187.87.10.187 3 3 65104 20210915103620
+178.130.111.1 3 3 65104 20210902095907
+92.118.160.5 2 2 57196 20210926021829
+45.232.225.14 3 3 65104 20210905232035
+71.167.56.3 1 1 28598 20210930155206
+54.72.43.127 1 1 28598 20210902174352
+8.210.87.4 1 1 28598 20210916225801
+47.101.190.233 1 1 28598 20210906185525
+45.70.0.35 3 3 65104 20210914213956
+124.120.106.167 1 1 28598 20210924033424
+221.2.163.231 3 3 85794 20210913161410
+180.163.220.4 5 82 1355709 20210929150223
+178.184.34.255 3 3 67259 20210927092607
+173.252.95.25 0 2 39046 
+118.165.62.81 3 3 65104 20210930140104
+184.164.70.7 1 1 28598 20210918162514
+96.233.55.36 2 79 5856115 20210923185754
+185.220.102.242 5 5 92275 20210904172247
+23.229.113.138 4 4 116250 20210918201904
+18.237.131.132 1 1 28598 20210922232840
+52.42.173.109 1 1 28598 20210904232443
+45.128.135.250 3 3 65104 20210917180018
+113.116.80.34 1 54 2628263 20210901231035
+47.101.199.6 1 1 28598 20210908191115
+18.237.199.186 1 1 28598 20210909232036
+103.112.44.66 1 1 28598 20210930122906
+93.172.242.188 1 1 28598 20210924055900
+113.75.135.176 3 3 65104 20210930113016
+35.163.71.66 1 1 28598 20210906233328
+178.236.118.114 1 1 28598 20210930184638
+190.17.132.76 3 3 65104 20210911170452
+46.39.71.83 1 1 28598 20210918183947
+45.66.153.20 1 1 0 20210901061236
+189.195.157.30 1 1 28598 20210926171823
+27.115.124.101 2 75 1336006 20210925091743
+201.203.6.200 1 56 3217642 20210920093924
+117.197.124.178 1 1 28598 20210912224850
+46.161.11.43 3 3 67259 20210904033402
+49.85.97.160 1 1 28598 20210930155017
+116.232.145.159 4 4 84367 20210920014749
+191.101.215.84 1 1 0 20210901061258
+117.212.192.86 3 3 65104 20210918121820
+47.92.120.136 1 1 28598 20210928030544
+37.20.178.173 1 1 28598 20210930230126
+183.89.117.43 1 1 17243 20210903032923
+154.21.20.21 11 11 280096 20210912110655
+105.234.156.237 2 2 36506 20210914092136
+49.0.81.219 2 2 38526 20210916114204
+117.196.233.237 3 3 65104 20210923190036
+94.154.189.26 1 1 19263 20210903163654
+154.159.247.198 3 3 65104 20210905193908
+47.102.115.221 4 4 114392 20210930132607
+34.215.247.81 1 1 28598 20210904231527
+182.86.190.7 1 1 28598 20210930113518
+20.51.215.173 6 6 171588 20210917010041
+120.77.213.254 1 1 28598 20210930195028
+113.53.210.75 3 3 65104 20210930152354
+60.23.186.159 3 3 65104 20210908155709
+193.106.26.222 3 3 65104 20210902063824
+64.119.31.178 1 1 28598 20210916093833
+205.164.66.1 3 3 65104 20210916103014
+103.206.130.105 4 4 73012 20210930155230
+37.57.134.200 3 3 65104 20210909183944
+195.246.120.146 3 3 85794 20210904210154
+149.28.15.28 3 3 65104 20210915094609
+173.169.208.131 18 177 6917317 20210908205041
+115.200.245.201 2 2 38526 20210920032146
+207.32.131.143 1 1 22902 20210922122604
+45.89.249.130 1 1 24334 20210901061300
+104.194.192.13 1 1 28598 20210922114154
+47.101.57.242 1 1 28598 20210918132116
+191.101.174.147 3 3 85794 20210918213705
+163.47.85.226 3 3 65104 20210907103152
+2.176.235.122 3 3 65104 20210914221944
+124.206.180.139 1 1 28598 20210902104025
+114.117.206.230 6 6 130208 20210920172603
+3.97.115.27 4 4 114392 20210920030522
+222.78.66.217 3 3 65104 20210922160533
+36.94.49.204 3 3 65104 20210912202046
+171.13.14.59 0 1 196580 
+80.251.153.12 11 11 243173 20210910132235
+179.111.216.102 2 2 36506 20210921124737
+42.236.10.106 4 78 2866192 20210926045535
+212.102.39.202 3 3 85794 20210908045602
+178.168.198.60 5 5 92275 20210923230017
+35.164.36.122 1 1 28598 20210909232046
+114.92.102.139 3 3 65104 20210908072822
+197.232.21.22 3 3 65104 20210912235131
+47.101.176.92 1 1 28598 20210920020024
+156.192.234.132 1 1 17243 20210922134104
+107.172.13.175 1 1 28598 20210906232509
+54.203.3.211 1 1 28598 20210907232735
+46.251.230.183 1 1 28598 20210928231732
+84.17.42.35 1 1 28598 20210929193910
+41.242.91.115 1 1 28598 20210902083906
+168.151.136.105 1 1 36152 20210930105641
+43.245.131.190 3 3 65104 20210911172321
+92.252.241.27 3 3 65104 20210903075322
+74.85.209.135 2 2 0 20210901061257
+141.138.187.3 3 3 65104 20210906053924
+194.169.196.62 3 3 65104 20210906043752
+45.87.1.156 4 4 93702 20210922002553
+125.27.107.32 3 3 65104 20210911174702
+101.132.121.228 1 1 28598 20210915124556
+180.163.220.99 0 5 274750 
+54.184.20.240 1 1 28598 20210909232107
+44.195.84.126 1 11 293683 20210926231145
+87.140.60.37 3 3 65104 20210921135543
+37.99.108.84 3 3 67255 20210923130252
+80.253.235.47 5 5 142990 20210925183629
+66.249.84.20 0 18 717763 
+47.103.217.121 1 1 28598 20210918133051
+40.77.167.82 0 1 2937 
+200.35.187.219 3 3 65104 20210930110923
+35.193.162.100 1 1 22902 20210926151907
+47.101.192.177 1 1 28598 20210924194848
+66.249.83.223 3 16 124761 20210929014518
+201.144.8.114 2 2 47861 20210921105624
+89.38.98.239 1 1 19263 20210917233254
+101.224.253.231 3 3 65104 20210918042309
+116.62.112.111 1 1 28598 20210914105141
+52.175.21.231 3 3 65104 20210918155154
+121.53.80.5 1 1 28598 20210925045425
+158.46.146.200 1 1 0 20210901061245
+152.32.175.51 1 1 28598 20210915121116
+199.184.215.11 5 5 92275 20210927004250
+186.10.10.138 2 2 36506 20210930124805
+74.208.37.78 1 1 28598 20210925064223
+5.160.196.126 2 2 38526 20210923141101
+45.155.43.219 3 3 65104 20210924154532
+114.117.1.60 1 1 19263 20210914154445
+139.196.97.68 1 1 28598 20210918002619
+82.208.189.233 12 12 44866 20210928235635
+35.205.13.50 2 2 57196 20210928151049
+27.115.124.38 2 68 2291266 20210902115305
+18.236.166.151 1 1 28598 20210918232504
+14.170.185.189 3 3 65104 20210906004816
+18.162.61.120 3 3 65104 20210928035020
+119.148.4.242 2 2 47861 20210923153801
+151.232.43.3 1 1 28598 20210902060839
+144.34.181.3 2 116 5710142 20210903084835
+45.41.143.61 1 1 24340 20210922124201
+202.5.46.145 2 2 47861 20210930073253
+177.23.150.74 2 2 47861 20210911095124
+47.100.33.183 1 1 28598 20210913095027
+104.244.72.65 4 4 73012 20210917165016
+194.53.70.85 1 1 35124 20210901061249
+104.233.224.174 1 19 28598 20210913232052
+180.211.158.90 3 3 65104 20210930112212
+54.191.79.189 1 1 28598 20210925232851
+45.153.52.188 1 1 28598 20210910011444
+63.33.211.39 1 1 28598 20210921174204
+37.115.192.214 13 13 351084 20210922013522
+94.240.8.147 1 1 28598 20210930135126
+45.90.3.2 3 3 65104 20210905230239
+103.241.158.4 1 1 28598 20210920032133
+47.98.104.145 1 1 28598 20210906125954
+5.58.48.78 3 3 65104 20210909051953
+114.239.2.61 3 3 65104 20210911071210
+45.66.105.255 3 3 65104 20210921205108
+188.190.121.34 1 1 73846 20210901061254
+181.215.189.221 1 1 0 20210901061258
+80.122.144.182 3 3 65104 20210916093418
+45.8.202.120 1 1 0 20210901061258
+185.191.205.140 3 3 65104 20210910091245
+88.151.251.195 1 1 28598 20210917222153
+18.216.72.10 1 1 19263 20210912101520
+191.33.230.114 3 3 65104 20210921135118
+154.0.15.166 3 3 65104 20210924040352
+35.161.38.251 1 1 28598 20210916234259
+47.92.101.189 1 1 28598 20210924133736
+190.131.218.3 2 2 38526 20210909123353
+94.198.50.98 3 3 65104 20210913135342
+180.163.220.5 4 83 2024813 20210910095749
+177.36.35.166 3 3 65104 20210924003057
+46.219.80.142 1 1 19263 20210912224911
+173.252.95.6 0 2 121260 
+178.208.20.17 3 3 65104 20210909050526
+40.77.188.63 0 1 0 
+172.58.235.237 9 109 1213062 20210928111920
+106.14.189.48 1 1 28598 20210912131426
+61.151.178.180 1 10 291052 20210927023240
+47.242.33.148 1 1 28598 20210923140947
+47.101.200.43 1 1 28598 20210902223810
+183.89.85.111 3 3 65104 20210914101514
+69.171.249.1 1 1 0 20210927235902
+65.21.232.54 1 1 28598 20210912170505
+91.92.23.37 2 2 50952 20210930105651
+202.112.51.138 1 1 28598 20210916002845
+66.102.8.70 1 18 1310368 20210905064208
+200.60.118.73 3 3 65104 20210905141134
+64.137.99.158 1 1 0 20210901061245
+52.11.238.154 1 1 28598 20210927232936
+45.143.141.77 1 1 28598 20210929204535
+178.130.93.61 3 3 65104 20210903103837
+45.61.185.53 4 4 84367 20210919172432
+37.115.119.103 12 12 343176 20210928150209
+187.18.108.23 3 3 65104 20210908024343
+45.235.4.175 3 3 65104 20210922154035
+92.118.160.1 1 1 28598 20210920172537
+138.207.210.113 15 238 7031151 20210916114511
+52.5.87.74 1 57 3222677 20210924060119
+105.234.154.93 3 3 65104 20210901233332
+116.58.19.85 3 3 65104 20210905232412
+180.167.101.134 5 5 142990 20210928165521
+185.124.230.97 0 1 15714 
+23.105.110.208 2 2 28598 20210918031507
+20.37.245.16 5 5 142990 20210906213728
+202.29.223.62 3 3 65104 20210930110807
+177.21.100.119 1 1 28598 20210906211942
+138.199.59.133 3 3 65104 20210918203947
+41.37.216.89 3 3 65104 20210918074229
+117.45.153.202 3 3 65104 20210902211706
+62.201.220.50 2 2 47861 20210903032920
+194.5.193.183 5 5 103630 20210923063558
+181.214.179.106 1 1 23086 20210901061244
+175.176.68.134 2 62 3234879 20210915031413
+14.207.16.91 2 2 36506 20210906032414
+110.39.130.50 3 3 65104 20210904021753
+184.153.6.21 1 44 2103318 20210911114801
+178.93.0.54 3 3 65104 20210923230236
+64.137.33.27 1 1 0 20210901061257
+109.201.133.30 3 3 65104 20210919193432
+185.132.1.136 3 3 65104 20210909194814
+103.122.108.44 3 3 65104 20210920020705
+185.220.101.38 3 3 55900 20210928014426
+192.111.139.165 3 3 65104 20210903023436
+1.169.66.48 3 3 65104 20210924014238
+202.166.164.115 2 2 38526 20210911223509
+213.97.21.2 3 3 65104 20210913001218
+173.195.15.64 1 1 28598 20210922230837
+124.41.240.53 3 3 65104 20210918042218
+54.216.247.84 1 1 28598 20210924170920
+177.37.27.30 3 3 65104 20210912145009
+3.237.194.77 1 11 293683 20210905215047
+139.224.119.27 1 1 28598 20210924132811
+52.95.4.7 1 44 1849963 20210920120045
+41.77.8.110 1 1 28598 20210921133630
+31.42.164.195 3 3 65104 20210912073930
+117.26.235.132 3 3 65104 20210908032321
+58.11.59.253 3 3 65104 20210923060201
+185.130.104.185 2 2 57196 20210903155033
+180.243.38.121 3 3 65104 20210909081803
+35.85.58.238 1 1 28598 20210928231926
+173.70.45.133 6 88 2115772 20210929014608
+60.185.195.240 3 3 65104 20210916204712
+62.113.118.20 2 2 57196 20210919182104
+1.192.195.11 2 2 57196 20210917005915
+47.101.198.15 1 1 28598 20210914064811
+91.214.28.220 1 1 28598 20210923091252
+103.203.176.2 2 2 36506 20210915023906
+79.131.125.198 3 3 65104 20210930140843
+101.108.228.61 2 2 36506 20210923175148
+47.243.138.125 3 3 65104 20210930115216
+168.151.56.15 1 1 23238 20210904012222
+72.13.46.2 3 3 87652 20210903061118
+170.246.69.27 3 3 65104 20210924122347
+185.170.110.111 1 1 28598 20210920133824
+43.249.217.162 3 3 65104 20210917054959
+179.159.130.49 3 3 65104 20210920024829
+176.31.115.13 10 10 207260 20210924180525
+62.16.11.97 10 10 207260 20210908064020
+54.148.244.107 1 1 28598 20210917233537
+49.207.213.157 3 63 1406211 20210927235616
+183.88.129.6 3 3 65104 20210911032506
+34.219.76.113 1 1 28598 20210914230623
+217.160.174.204 5 5 92275 20210916042851
+91.98.126.119 2 2 36506 20210930160615
+5.202.150.29 3 3 65104 20210909033330
+89.164.53.167 3 3 65104 20210901191901
+41.60.236.4 3 3 65104 20210904163546
+130.255.166.158 1 1 28598 20210927042519
+34.253.223.249 1 1 28598 20210922175035
+60.162.47.47 2 2 38526 20210906212008
+209.159.150.78 3 3 67259 20210909072735
+59.63.52.193 3 3 65104 20210912173647
+173.252.95.118 0 1 19608 
+185.31.175.213 5 5 103630 20210907071608
+103.138.4.28 3 3 65104 20210930140717
+110.78.149.155 3 3 65104 20210930110715
+39.106.223.134 1 1 28598 20210902170824
+23.99.11.135 1 1 28598 20210902233223
+176.37.39.10 3 3 65104 20210913192335
+128.14.133.50 1 1 28598 20210925054915
+103.69.20.99 2 2 47861 20210911210736
+194.183.174.14 3 3 65104 20210918080051
+180.92.212.178 1 1 28598 20210918130921
+14.102.91.6 1 1 28598 20210930160449
+47.104.160.147 1 1 28598 20210924030526
+191.101.186.203 1 1 0 20210901061257
+182.253.69.218 6 6 130208 20210930193929
+178.168.196.84 5 5 92275 20210920225119
+52.12.175.195 1 1 28598 20210913233339
+195.81.66.4 3 3 65104 20210911211451
+110.44.116.52 3 3 65104 20210903062703
+160.19.37.112 6 6 130208 20210910113634
+186.97.238.11 2 2 38526 20210924033432
+51.195.46.75 5 5 103630 20210929100546
+34.81.193.76 3 3 65104 20210905182205
+199.117.61.126 1 1 28598 20210901034651
+113.120.60.55 3 3 65104 20210920162610
+62.16.2.254 5 5 103630 20210923145444
+185.247.225.43 5 5 103630 20210906005931
+46.161.11.123 3 3 67259 20210904052157
+176.10.46.232 3 3 65104 20210918153209
+3.249.27.101 1 1 28598 20210923173418
+54.190.175.149 1 1 28598 20210920233659
+42.236.10.78 1 32 112953 20210910100307
+177.104.123.30 1 1 28598 20210908064633
+54.149.73.240 1 1 28598 20210924233634
+113.160.131.103 3 3 65104 20210906020230
+42.192.17.155 1 2 48692 20210906005551
+5.202.242.142 3 3 65104 20210901082153
+54.200.174.184 1 1 28598 20210914231949
+18.237.198.151 1 1 28598 20210919232239
+101.51.201.95 1 1 28598 20210916083458
+178.212.53.14 3 3 65104 20210909035053
+64.137.95.42 1 1 30021 20210901061250
+47.101.199.1 1 1 28598 20210909193152
+176.197.5.218 2 2 47861 20210902153916
+113.70.45.55 1 1 28598 20210901105629
+154.159.244.82 3 3 65104 20210905204338
+47.92.106.16 2 10 140183 20210926232725
+5.199.143.202 6 6 111538 20210921020652
+95.68.102.44 3 3 65104 20210905214712
+88.118.175.181 3 3 65104 20210903163112
+35.161.100.231 1 1 28598 20210906233233
+92.118.160.61 3 3 85794 20210927161751
+178.130.113.123 2 2 45841 20210905101831
+194.226.124.155 1 1 28598 20210903163650
+195.206.34.215 2 2 47861 20210930160952
+222.129.34.23 2 2 36506 20210914083956
+171.13.14.45 1 2 149858 20210927093913
+34.213.44.28 1 1 28598 20210912233744
+186.67.132.98 3 3 65104 20210905153728
+115.220.194.223 3 3 65104 20210907002125
+94.189.227.134 1 1 28598 20210923175022
+109.104.189.131 3 3 65104 20210907200504
+52.34.250.38 1 1 28598 20210904231933
+41.75.133.241 3 3 65104 20210922194528
+188.94.84.69 1 1 22201 20210930105644
+187.252.154.90 3 3 65104 20210930155747
+183.166.138.31 3 3 65104 20210930181811
+59.61.160.193 3 3 65104 20210913053145
+47.101.201.149 1 1 28598 20210909140234
+14.229.160.207 3 3 65104 20210924053743
+181.214.185.61 1 1 28364 20210901061248
+201.140.238.230 3 3 65104 20210930170254
+125.165.173.76 1 1 28598 20210925113006
+190.144.91.252 3 3 65104 20210902173448
+104.244.73.43 3 3 55900 20210912042933
+1.0.190.216 3 3 65104 20210908031250
+41.242.141.140 3 3 65104 20210901121358
+46.33.36.19 6 6 130208 20210923204357
+194.58.122.73 1 1 28598 20210926190749
+94.137.183.213 3 3 65104 20210909034129
+109.104.195.102 3 3 65104 20210901103437
+103.213.237.33 1 1 28598 20210909125136
+192.252.208.67 1 1 17243 20210922100233
+187.189.132.183 3 3 65104 20210906062132
+37.115.207.251 6 6 171588 20210904102231
+111.76.157.103 3 3 65104 20210919190739
+168.121.137.90 2 2 36506 20210911142648
+52.215.27.255 1 1 28598 20210906172656
+212.115.110.225 3 3 65104 20210930134440
+192.225.110.51 1 1 19263 20210930143613
+178.71.249.26 3 3 53749 20210930073928
+47.100.38.9 1 1 28598 20210924133536
+20.79.56.42 6 6 171588 20210909155844
+175.137.158.179 3 3 65104 20210902143228
+181.176.184.2 5 5 103630 20210909114339
+208.80.194.41 1 1 28598 20210917120218
+27.109.116.187 2 2 36506 20210918030010
+78.37.190.214 17 17 368086 20210912135349
+34.211.29.152 1 1 28598 20210904232908
+47.103.126.80 1 1 28598 20210912132937
+176.221.1.24 3 3 65104 20210905110027
+205.237.89.124 1 1 25302 20210903165610
+31.129.249.38 2 2 47861 20210930141018
+125.25.165.58 3 3 65104 20210920045247
+176.114.190.126 6 6 130208 20210914013024
+91.201.67.70 0 1 21312 
+111.126.94.60 3 3 65104 20210930131808
+45.77.5.214 2 2 46324 20210921141546
+42.3.24.86 0 3 0 
+54.201.114.213 1 1 28598 20210926232904
+109.254.124.106 22 22 84816 20210910222215
+183.155.215.61 1 60 2357088 20210916211731
+207.38.237.242 1 58 3227212 20210907184549
+187.49.61.192 3 3 65104 20210930121852
+45.187.154.244 3 3 65104 20210912101252
+173.252.95.17 0 8 239471 
+95.156.98.2 2 2 47861 20210930150648
+194.33.29.129 3 3 65104 20210919190925
+106.14.115.172 4 4 89266 20210901170923
+45.8.184.41 1 1 0 20210901061251
+118.38.11.237 3 3 65104 20210911164713
+192.99.18.122 3 3 85794 20210929034437
+180.211.183.178 1 1 28598 20210910093454
+95.189.38.43 3 3 67259 20210930081237
+147.182.223.250 6 6 171588 20210930013407
+206.41.170.220 1 1 25302 20210922122449
+123.253.36.210 3 3 65104 20210912180347
+87.228.19.218 1 1 28598 20210906025027
+62.16.8.183 5 5 103630 20210930064206
+173.252.95.1 0 1 10893 
+23.133.64.101 0 1 140573 
+34.243.0.131 1 1 28598 20210914193531
+185.174.17.165 3 3 65104 20210914193459
+117.197.119.229 3 3 65104 20210906031218
+34.244.222.170 1 1 28598 20210907175257
+209.242.207.199 1 1 21831 20210901061253
+82.180.32.120 3 3 65104 20210930173229
+139.28.137.245 1 1 22902 20210901061243
+66.240.236.119 1 1 28598 20210905085652
+34.70.129.108 1 1 28598 20210905102141
+59.103.80.5 2 2 36506 20210905012821
+177.220.143.186 3 3 65104 20210909184414
+212.126.110.250 3 3 65104 20210901112519
+180.94.64.114 1 1 28598 20210919182055
+103.145.35.26 1 1 28598 20210925135427
+201.220.20.41 3 3 65104 20210919160255
+185.76.215.54 5 5 103630 20210905203706
+176.123.231.254 3 3 65104 20210909013538
+178.124.28.2 1 1 28598 20210911230728
+37.228.65.107 3 3 65104 20210930133529
+118.174.95.200 3 3 65104 20210920170024
+43.243.206.163 4 4 84367 20210930215332
+197.156.137.184 0 1 0 
+185.235.43.191 3 3 65104 20210921111240
+46.161.11.73 3 3 67259 20210904033615
+47.101.193.1 1 1 28598 20210921035500
+172.58.236.167 4 97 3387843 20210928111716
+94.176.199.142 3 3 65104 20210901183304
+158.46.151.116 1 1 26567 20210901061249
+47.102.144.30 2 2 57196 20210912163814
+118.67.217.158 3 3 65104 20210911215748
+162.155.10.150 15 15 57736 20210906212606
+176.106.246.67 1 1 28598 20210910051250
+27.147.155.21 1 1 28598 20210912184729
+189.91.85.133 1 1 28598 20210930134225
+194.124.239.158 1 1 0 20210901061251
+167.160.37.138 1 1 22902 20210930105609
+141.95.18.225 5 5 92275 20210926153956
+86.106.74.248 3 3 65104 20210918044618
+35.160.175.121 1 1 28598 20210913233341
+47.101.192.18 1 1 28598 20210905013615
+36.65.104.9 2 2 36506 20210914212830
+210.2.131.196 3 3 65104 20210915001838
+101.51.233.135 3 3 65104 20210922095006
+184.162.233.180 3 3 65104 20210930191136
+103.238.68.209 1 1 17243 20210921105653
+171.13.14.46 1 1 28598 20210927093809
+23.129.64.148 1 1 17243 20210901232434
+79.175.54.6 3 3 65104 20210902004828
+152.136.197.38 3 3 65104 20210905033652
+185.153.180.57 0 3 0 
+46.167.201.99 2 2 47861 20210922134100
+34.222.79.75 1 1 28598 20210914231239
+170.80.51.119 2 2 47861 20210906210556
+37.232.189.8 3 3 65104 20210906182950
+185.31.175.215 1 1 28598 20210918072658
+45.137.184.31 2 2 38526 20210928204430
+41.89.211.5 3 3 65104 20210902180931
+192.126.162.156 1 1 28598 20210928034555
+85.187.224.142 1 1 28598 20210930143847
+43.129.204.254 2 2 47861 20210902083529
+110.74.200.171 3 3 65104 20210909115954
+47.98.60.52 1 1 28598 20210928030038
+47.92.110.185 2 2 57196 20210928004818
+209.97.187.47 1 1 18091 20210921135138
+143.202.217.148 3 3 65104 20210904050453
+114.231.185.60 3 3 65104 20210908022318
+185.104.184.222 1 58 779371 20210921060146
+83.136.82.86 3 3 67255 20210911210815
+46.161.11.11 3 3 65104 20210903024706
+18.236.153.185 1 1 28598 20210917233534
+94.180.161.240 3 3 67390 20210901234231
+115.124.76.18 3 3 65104 20210906004651
+177.45.32.209 3 3 65104 20210906184639
+1.15.175.155 0 1 0 
+5.252.82.122 1 1 0 20210901061247
+142.234.115.218 1 1 28598 20210924060238
+202.94.175.94 1 1 23238 20210920070548
+36.66.172.121 1 1 28598 20210923052515
+84.51.96.94 2 2 36506 20210914172528
+177.139.218.112 2 2 47861 20210906161120
+211.249.246.117 14 24 623898 20210921035657
+47.100.241.15 1 1 28598 20210902005146
+91.241.19.243 9 9 257382 20210929084245
+52.169.14.202 10 10 285980 20210920064244
+182.34.63.174 3 3 65104 20210920011610
+40.71.85.149 3 3 85794 20210911221737
+80.95.45.135 7 7 200186 20210928122345
+189.83.162.62 3 3 65104 20210903140537
+103.97.200.13 2 2 38526 20210918193553
+124.108.50.254 3 3 65104 20210912194542
+42.236.10.93 1 53 387840 20210910100316
+191.101.212.2 1 1 36562 20210901061301
+165.22.188.179 3 3 85794 20210918141127
+192.71.10.105 1 1 28598 20210916142841
+157.245.146.131 3 3 85794 20210904140526
+137.254.7.166 2 61 1936915 20210910110153
+152.32.129.15 5 6 147924 20210918041138
+176.106.247.22 5 5 103630 20210912170000
+60.166.183.138 3 3 65104 20210922132130
+110.235.254.135 3 3 65104 20210903133954
+66.249.84.22 1 24 1160919 20210905151400
+35.195.62.89 1 1 28598 20210915143838
+42.236.10.84 0 70 1231038 
+45.87.212.55 1 1 28598 20210930142333
+185.31.175.240 6 6 111538 20210914111925
+213.91.87.157 1 1 28598 20210920171539
+27.157.248.104 3 3 65104 20210912175535
+80.253.235.74 10 10 228220 20210919145539
+46.161.11.83 3 3 67259 20210904034011
+77.83.81.196 1 1 28598 20210914004235
+178.34.180.78 3 3 65104 20210907081756
+172.70.0.210 1 1 0 20210905200959
+54.240.196.184 1 22 1367688 20210916121955
+154.223.179.236 3 3 65104 20210908110552
+1.192.195.5 1 1 28598 20210913123918
+24.46.46.69 2 2 57196 20210911070645
+81.91.151.94 3 3 65104 20210916001922
+5.252.78.149 1 1 0 20210901061237
+103.14.232.46 3 3 65104 20210905080703
+101.132.111.175 1 1 28598 20210930130522
+47.101.164.242 2 10 116851 20210925181014
+124.65.117.38 3 3 85794 20210906123045
+171.6.105.114 1 1 28598 20210930130554
+180.254.17.137 1 1 28598 20210918025953
+167.172.194.230 3 3 65104 20210911105418
+103.215.148.4 1 1 28598 20210921124626
+52.17.245.0 1 1 28598 20210910174407
+186.219.214.94 3 3 65104 20210918015717
+101.109.110.37 3 3 65104 20210917034828
+121.196.193.162 1 1 28598 20210917064545
+185.95.157.166 3 3 67388 20210922164938
+205.237.89.65 1 1 28598 20210903114823
+54.214.117.3 1 1 28598 20210911233606
+182.52.32.233 1 1 19263 20210905144002
+113.160.184.5 3 3 65104 20210905201306
+118.67.216.94 4 4 114392 20210924050032
+103.100.175.108 3 3 65104 20210921230125
+94.177.15.79 1 1 0 20210901061236
+107.12.187.244 1 1 28598 20210906192846
+59.61.160.10 1 1 28598 20210918090951
+47.102.137.8 1 1 28598 20210903125807
+115.239.118.209 3 3 65104 20210914134513
+45.8.189.43 1 1 0 20210901061259
+139.28.137.154 1 1 28346 20210901061249
+222.190.196.206 3 3 65104 20210930123646
+114.97.37.106 3 3 65104 20210912200401
+3.249.82.217 1 1 28598 20210910122849
+117.103.69.162 1 1 28598 20210930114637
+66.102.8.68 0 25 1533752 
+187.181.8.194 6 6 130208 20210930151816
+47.90.165.206 3 3 65104 20210930173117
+34.223.226.223 1 1 28598 20210914230303
+1.169.119.10 3 3 65104 20210911021757
+34.222.28.60 1 1 28598 20210926232904
+34.222.117.247 1 1 28598 20210925232918
+185.223.251.91 1 1 21831 20210901061253
+146.70.52.22 1 1 28598 20210925092445
+168.151.103.49 1 1 23137 20210901061300
+13.94.193.196 1 1 28598 20210928080552
+64.137.126.70 1 1 28598 20210930105606
+89.73.182.236 3 3 65104 20210910045926
+128.199.61.96 1 58 2456578 20210901002711
+158.69.121.126 1 1 28598 20210921020634
+52.51.3.110 1 1 28598 20210920172557
+180.163.220.66 1 111 2032740 20210929150230
+157.119.21.14 3 3 65104 20210912063829
+84.17.45.159 2 2 57196 20210918124927
+109.70.100.29 2 2 36637 20210914111956
+104.255.175.209 3 3 85794 20210916182024
+66.249.84.124 0 1 29627 
+35.165.78.119 1 1 28598 20210930233440
+202.5.51.230 2 2 36506 20210923052525
+31.181.136.157 3 3 65104 20210918123537
+92.118.160.17 1 1 28598 20210925031510
+154.16.235.247 2 2 0 20210901061245
+157.55.39.25 0 2 1678 
+104.194.192.155 1 1 22902 20210903170959
+101.132.143.121 2 2 57196 20210922174522
+91.233.69.17 2 2 38526 20210908120104
+47.100.246.14 1 1 28598 20210921145155
+161.81.107.115 0 2 0 
+52.89.211.229 1 1 28598 20210902232249
+78.85.134.179 1 1 28598 20210916083057
+116.238.164.29 3 3 65104 20210916064358
+54.214.171.230 1 1 28598 20210922233613
+54.189.175.7 1 1 28598 20210911232724
+189.59.106.216 3 3 65104 20210903102729
+178.71.248.82 3 3 53749 20210908015335
+167.160.53.180 1 1 22332 20210930105649
+177.107.43.118 3 3 65104 20210922005545
+46.229.136.244 2 2 36506 20210918023852
+45.77.68.228 4 4 91682 20210930134643
+123.129.99.19 3 3 65104 20210920192214
+82.202.167.212 5 5 103630 20210918062750
+34.244.37.28 1 1 28598 20210930174430
+191.96.59.154 1 1 0 20210901061252
+34.209.126.39 1 1 28598 20210916234258
+50.114.31.64 1 1 18091 20210930105641
+153.122.65.229 3 3 65104 20210920184502
+123.6.49.6 2 2 57196 20210928100342
+184.105.220.24 3 3 55900 20210902102552
+172.97.92.214 1 1 36535 20210901061302
+104.194.194.44 1 1 36152 20210922123711
+181.115.232.158 2 2 36506 20210902045608
+103.85.233.38 3 3 65104 20210908165149
+20.75.128.100 0 64 3475469 
+113.116.88.76 2 2 36506 20210930130607
+178.175.148.148 1 1 19263 20210919172454
+62.76.7.230 2 2 36506 20210903163653
+91.199.149.192 0 1 48370 
+175.174.135.216 3 3 65104 20210920154220
+54.246.34.180 1 1 28598 20210914172853
+42.193.45.103 1 1 28598 20210928180113
+47.243.169.190 3 3 65104 20210930151301
+24.45.203.234 3 58 1689590 20210917103050
+185.16.12.140 3 3 65104 20210908000129
+117.131.235.198 2 2 47861 20210920183729
+47.243.109.128 3 3 65104 20210922034151
+91.122.98.76 3 3 53749 20210909234031
+34.135.90.49 1 1 28598 20210926151906
+52.142.62.44 6 6 171588 20210926054941
+5.61.5.126 3 3 65104 20210905164949
+103.145.133.22 3 3 65104 20210916201524
+45.236.171.164 3 3 65104 20210912201019
+173.246.129.9 1 1 28598 20210901171535
+116.58.232.152 3 3 65104 20210908143044
+84.247.48.53 3 3 67255 20210901064241
+179.56.122.232 3 3 65104 20210930151405
+47.101.199.215 2 2 57196 20210929220600
+13.76.132.231 1 1 0 20210929113620
+170.39.225.178 3 3 65104 20210915030104
+118.122.32.149 1 1 28598 20210908120029
+18.237.2.133 1 1 28598 20210910230708
+47.101.194.200 5 5 142990 20210924080054
+117.45.145.213 3 3 65104 20210914144253
+109.168.237.146 3 3 65104 20210908210706
+110.239.213.226 1 1 0 20210901061247
+188.190.120.34 1 1 26290 20210901061302
+60.166.183.109 1 1 17243 20210911033946
+67.213.122.17 1 1 25302 20210901061244
+36.89.21.89 3 3 65104 20210902051127
+125.87.87.253 3 3 65104 20210930145138
+49.77.18.56 3 3 65104 20210930121739
+168.70.105.123 0 1 0 
+61.135.15.184 1 3 170012 20210918172408
+210.86.170.74 2 2 38526 20210911211152
+178.159.37.182 3 3 65104 20210915143244
+170.10.33.183 1 1 28598 20210915131252
+18.222.140.108 2 2 57196 20210912184627
+62.16.11.21 5 5 103630 20210904141615
+36.37.244.41 1 1 28598 20210920225552
+131.100.65.155 3 3 65104 20210902044217
+101.132.104.18 1 1 28598 20210915124900
+185.230.143.81 6 6 130208 20210914105510
+3.17.203.76 2 2 57196 20210902223527
+45.129.18.34 1 1 0 20210908092803
+171.13.14.57 0 1 43384 
+189.39.19.108 3 3 65104 20210908092548
+45.146.171.41 1 1 28598 20210929022506
+47.100.166.87 1 1 28598 20210916040030
+109.70.100.19 1 1 19263 20210921044018
+131.100.197.15 3 3 65104 20210901005612
+72.206.181.103 1 1 19263 20210910094903
+60.18.18.154 3 3 65104 20210912142643
+46.254.217.67 1 1 28598 20210914092055
+181.215.206.91 1 1 0 20210901061257
+14.226.38.74 3 3 65104 20210903080347
+184.94.240.92 10 10 343066 20210930190047
+157.55.39.86 0 2 11981 
+181.188.134.221 3 3 65104 20210902124657
+154.28.188.110 3 3 67255 20210915144649
+64.188.9.98 1 1 0 20210924200120
+188.169.142.196 2 2 47861 20210913234439
+47.101.199.7 1 1 28598 20210925213810
+89.171.144.168 3 3 65104 20210909015147
+188.170.73.134 1 1 28598 20210915135700
+45.136.69.32 1 1 28598 20210911212949
+188.35.131.246 16 16 308208 20210926000736
+173.252.95.20 0 9 602284 
+52.163.248.98 0 2 15116 
+54.201.21.242 1 1 28598 20210914231030
+168.151.107.155 1 1 0 20210901061245
+173.252.95.8 0 2 37905 
+110.78.151.228 3 3 65104 20210905094323
+91.202.133.37 3 3 65104 20210908024824
+69.160.160.58 24 72 2405861 20210929145928
+47.101.182.7 1 1 28598 20210906002936
+103.142.210.111 3 3 65104 20210903041840
+186.13.40.120 2 2 57196 20210915144104
+47.74.152.79 3 3 65104 20210908175435
+146.196.123.219 3 3 65104 20210924073818
+94.66.34.195 3 3 65104 20210920120937
+197.255.253.3 3 3 65104 20210921234134
+128.199.214.87 3 3 65104 20210920145345
+187.143.59.52 1 1 28598 20210924214540
+49.68.231.2 3 3 65104 20210930163303
+185.247.225.55 3 3 55900 20210929213540
+5.149.251.162 0 2 70109 
+191.102.156.11 1 1 28598 20210927191429
+37.139.5.241 1 58 28598 20210914080616
+2.56.59.22 2 2 28598 20210918051734
+195.246.120.164 2 2 57196 20210911094216
+47.102.122.164 2 2 57196 20210915160945
+101.95.182.26 1 1 28598 20210913220844
+74.85.157.173 3 3 65104 20210930112514
+47.101.202.162 1 1 28598 20210919062852
+103.6.206.6 3 3 65104 20210901122740
+81.162.65.216 3 3 65104 20210905131026
+1.169.68.160 5 5 122300 20210905214607
+5.255.178.158 1 1 28598 20210905144646
+42.193.8.97 2 3 57196 20210902131804
+47.101.198.126 1 1 28598 20210930003505
+190.40.177.68 3 3 65104 20210914033840
+34.125.41.122 8 8 228784 20210929110559
+170.233.186.177 3 3 65104 20210903031235
+108.62.96.8 1 2 33133 20210927060207
+117.242.36.74 3 3 65104 20210908075020
+79.175.107.103 1 1 28598 20210930000739
+103.84.38.42 5 5 103630 20210908121658
+143.198.153.253 1 1 28598 20210921133742
+36.68.44.175 3 3 65104 20210907094533
+84.42.253.252 1 1 28598 20210918193519
+138.219.98.139 3 3 65104 20210924010301
+103.26.142.68 6 6 115578 20210914040117
+111.74.75.156 3 3 65104 20210930123249
+193.87.63.242 1 1 28598 20210906032353
+177.37.27.175 3 3 65104 20210907063700
+120.229.17.53 1 1 19263 20210923180643
+41.193.217.87 3 3 65104 20210909010035
+123.6.49.38 1 1 28598 20210928034019
+47.101.186.75 1 1 28598 20210911131948
+47.100.189.208 1 1 28598 20210921130116
+41.160.222.187 3 3 65104 20210901215457
+216.19.217.37 1 1 23188 20210901061243
+102.66.168.18 3 3 65104 20210907094647
+47.100.36.158 1 1 28598 20210903130943
+182.239.102.249 0 3 0 
+185.206.224.213 3 3 85794 20210926092000
+213.193.19.201 3 3 65104 20210923120135
+36.95.122.51 3 3 65104 20210923191614
+34.69.245.40 5 5 142990 20210921143904
+205.185.115.45 2 2 36506 20210921044108
+45.191.211.96 3 3 65104 20210911160734
+173.252.95.12 0 4 63968 
+179.49.176.139 3 3 65104 20210908051034
+186.226.12.245 3 3 76459 20210923163036
+38.145.94.210 2 2 28316 20210901061250
+213.6.36.146 1 1 28598 20210913173344
+89.229.154.210 2 2 57196 20210926083415
+45.227.168.117 3 3 65104 20210906003737
+46.161.15.40 6 6 134510 20210913215238
+37.204.244.239 1 55 2836009 20210929082326
+185.97.113.252 3 3 65104 20210908021653
+78.30.232.4 1 1 28598 20210923180518
+185.243.2.234 1 1 28598 20210930143133
+157.245.57.139 3 3 85794 20210927045300
+114.34.115.110 3 3 65104 20210903011644
+35.85.40.151 1 1 28598 20210928231855
+168.151.108.68 1 1 21831 20210901061254
+42.236.10.75 3 51 2010074 20210926045628
+64.137.49.12 1 1 26610 20210901061250
+186.228.171.169 3 3 65104 20210930110742
+54.68.164.142 1 1 28598 20210924233636
+8.6.8.75 1 1 28598 20210930184711
+87.251.86.235 4 4 114392 20210927031513
+31.15.89.51 2 2 47861 20210918141642
+93.126.76.40 1 1 28598 20210910094856
+199.247.24.124 1 1 24340 20210921142250
+108.46.251.189 1 43 2110513 20210908221305
+34.71.21.196 1 1 0 20210905015227
+188.126.79.5 1 1 28598 20210918210157
+54.185.235.238 1 1 28598 20210926233219
+158.46.147.95 1 1 0 20210901061246
+47.103.88.250 1 1 28598 20210906200932
+180.163.220.3 3 138 1482291 20210915110622
+196.196.169.173 1 1 23238 20210927191441
+54.202.121.60 1 1 28598 20210911233150
+195.78.247.193 7 7 170161 20210905043628
+138.199.59.150 3 3 65104 20210901152818
+138.121.32.23 3 3 65104 20210921230006
+47.101.199.194 1 1 28598 20210911085529
+101.51.77.57 1 1 19263 20210926195536
+45.129.18.64 1 1 0 20210915051610
+119.13.205.6 1 1 21831 20210930105646
+189.26.148.17 3 3 65104 20210916173108
+45.189.185.48 3 3 65104 20210905055509
+200.108.33.158 3 3 65104 20210922154336
+199.249.230.144 5 5 92275 20210915173138
+178.155.42.5 3 3 65104 20210914080008
+35.165.223.1 1 1 28598 20210902232128
+123.31.190.181 3 3 65104 20210909015245
+45.8.204.244 1 1 25262 20210901061256
+177.45.115.99 3 3 65104 20210903194216
+78.26.164.37 3 3 65104 20210902203742
+47.102.37.216 1 1 28598 20210923205825
+207.47.61.9 9 9 257382 20210907040223
+141.94.173.181 3 3 85794 20210919212016
+64.137.49.114 1 1 0 20210901061245
+182.34.60.216 3 3 65104 20210913230446
+103.54.218.138 3 3 65104 20210902054252
+93.184.151.48 2 2 47861 20210923210238
+185.223.249.230 1 1 0 20210901061225
+64.137.30.21 1 1 24338 20210901061302
+123.6.49.4 1 1 28598 20210924055046
+218.102.252.140 0 2 3007 
+182.34.59.158 3 3 65104 20210918134831
+200.116.198.140 3 3 65104 20210908041636
+117.197.116.15 3 3 65104 20210913012900
+185.129.219.54 3 3 65104 20210907071826
+95.179.130.74 1 1 28598 20210928154558
+180.163.220.42 0 1 196580 
+172.58.228.49 3 42 1382563 20210920145238
+200.24.157.33 3 3 76459 20210916072214
+186.235.250.253 2 2 36506 20210908064646
+149.129.49.60 3 3 65104 20210911220036
+185.184.84.162 2 2 47861 20210917194449
+45.91.161.155 1 1 28598 20210917185018
+103.41.204.68 1 1 28598 20210918125830
+173.236.184.143 1 1 28598 20210911013245
+42.2.117.54 0 1 20008 
+195.38.8.141 1 1 28598 20210905151355
+167.172.64.8 3 3 85794 20210916045108
+37.233.34.85 2 2 47861 20210924162216
+154.13.1.186 3 3 67255 20210914040749
+27.157.3.87 3 3 65104 20210920170512
+34.243.69.141 1 1 28598 20210908174409
+198.240.105.131 1 1 23086 20210903165828
+203.189.154.61 3 3 65104 20210903054557
+191.102.156.189 1 1 28598 20210920070546
+167.99.127.159 1 1 28598 20210901010055
+47.103.2.83 1 1 28598 20210906051715
+194.41.123.10 1 1 0 20210901061300
+171.13.14.83 0 1 84355 
+5.141.81.106 2 2 47861 20210923035603
+88.201.141.106 3 3 67259 20210929101225
+125.27.251.171 1 1 28598 20210920034032
+185.83.160.248 2 2 38526 20210920013304
+46.161.11.31 9 9 257382 20210930024133
+177.11.168.118 3 3 65104 20210908012602
+186.225.17.80 2 2 38526 20210913043545
+119.42.96.153 1 1 28598 20210918121846
+45.138.4.114 1 1 19263 20210930195625
+139.224.239.175 1 1 28598 20210906150953
+185.31.175.231 3 3 65104 20210929081921
+195.123.124.193 3 3 65104 20210907091224
+84.247.48.30 3 3 65104 20210928190700
+168.121.137.86 3 3 65104 20210918200557
+15.222.37.230 4 4 114392 20210921034751
+47.100.29.54 4 17 266114 20210923191849
+193.189.100.202 1 1 17243 20210904023258
+70.168.33.228 3 3 65104 20210915131415
+40.77.188.45 0 1 0 
+194.67.207.94 3 3 0 20210929141408
+200.116.198.146 3 3 65104 20210903043541
+192.111.130.2 3 3 65104 20210920121426
+185.100.87.253 1 1 19263 20210917165054
+103.120.153.30 3 3 65104 20210916211316
+27.115.124.109 1 44 1687074 20210925091747
+212.174.44.15 2 2 47861 20210916181924
+111.90.179.74 26 26 100265 20210907050344
+103.101.56.84 1 1 28598 20210914165038
+103.132.52.67 3 3 65104 20210911152144
+186.208.65.114 3 3 65104 20210914230802
+20.69.189.45 2 2 0 20210915031405
+118.99.76.2 2 2 38526 20210930131023
+60.166.181.76 6 6 130208 20210916093343
+195.123.239.143 3 3 65104 20210930111838
+69.171.249.3 1 1 0 20210929022944
+111.49.141.10 1 1 28598 20210923180640
+194.226.124.207 1 1 28598 20210913154808
+34.92.153.187 3 3 65104 20210918045606
+175.29.177.66 3 3 65104 20210908161906
+45.235.162.254 3 3 65104 20210905061658
+46.161.11.53 3 3 67259 20210904035119
+47.101.194.146 1 1 28598 20210907182923
+175.214.173.75 1 1 28598 20210930113600
+192.111.129.150 1 1 19263 20210903085152
+157.55.39.175 0 4 837 
+185.31.175.207 5 5 94295 20210921020637
+67.240.252.182 1 42 2584879 20210901090714
+35.85.53.198 1 1 28598 20210904232827
+44.197.219.2 1 1 28598 20210911165254
+45.14.16.197 3 3 65104 20210919191514
+139.28.122.215 1 1 0 20210901061258
+84.236.75.180 2 2 36506 20210930155035
+203.83.175.18 3 3 65104 20210918113413
+149.56.150.177 11 11 285608 20210921220732
+185.31.175.220 3 3 55900 20210920225901
+54.185.75.41 1 1 28598 20210923233133
+46.167.234.67 3 3 65104 20210908102441
+109.196.240.133 3 3 65104 20210902034841
+5.253.18.83 1 1 28598 20210929113637
+154.180.202.161 3 3 65104 20210923192648
+195.19.29.84 1 1 19263 20210903163653
+200.97.6.242 3 3 65104 20210930153239
+125.26.23.21 3 3 65104 20210916095354
+180.117.245.134 4 4 82347 20210912234717
+188.126.73.215 2 2 57196 20210902003851
+103.114.98.206 2 2 47861 20210920103132
+101.133.137.129 1 1 28598 20210906045735
+213.210.67.186 1 1 19263 20210930113145
+36.91.106.87 1 1 28598 20210913052658
+180.163.220.62 0 3 10845 
+5.183.209.217 13 13 240450 20210923195213
+185.243.50.249 3 3 65104 20210914132447
+69.174.179.122 2 2 64750 20210913110227
+47.92.105.73 1 1 28598 20210918173517
+66.56.81.87 1 1 0 20210901061259
+47.101.146.85 2 2 57196 20210909204515
+31.7.42.157 3 3 65104 20210912025048
+125.59.214.30 3 3 65104 20210918120813
+45.154.228.29 1 1 28598 20210922021432
+117.102.124.27 3 3 65104 20210912203032
+18.203.127.135 1 1 28598 20210904202920
+154.64.123.77 3 3 85794 20210915190123
+45.162.116.130 2 2 57196 20210927070018
+154.126.93.211 3 3 65104 20210907233542
+45.70.195.253 3 3 65104 20210930120645
+34.101.127.8 1 1 28598 20210922042312
+27.115.124.70 0 55 1778729 
+173.252.95.22 0 6 609164 
+31.148.56.149 1 1 28598 20210911042346
+185.77.220.64 3 3 65104 20210922070505
+34.216.126.203 1 1 28598 20210928232009
+27.38.210.52 1 1 19263 20210923180543
+34.132.82.228 1 1 28598 20210926151906
+62.221.139.56 3 3 65104 20210903110859
+106.14.189.11 1 1 28598 20210924134353
+47.243.173.87 3 3 65104 20210930191116
+138.185.39.131 3 3 65104 20210918031851
+94.181.44.29 1 1 28598 20210918072211
+176.74.192.85 1 1 28598 20210905011609
+42.83.147.36 2 2 57196 20210930062529
+37.115.202.157 15 15 428970 20210912194305
+188.190.104.225 1 1 0 20210901061253
+5.252.82.72 2 2 26621 20210901061257
+217.29.30.174 3 3 65104 20210909013853
+47.242.242.95 1 1 28598 20210919151824
+157.245.155.181 6 6 171588 20210921014619
+124.126.78.144 1 3 170012 20210912172501
+49.232.204.237 2 2 28598 20210929170626
+46.174.238.21 3 3 65104 20210902063045
+47.243.163.188 3 3 65104 20210918102837
+47.92.137.155 2 2 57196 20210930192615
+36.85.181.254 1 1 28598 20210907062902
+66.249.83.194 2 5 56650 20210929014520
+182.253.174.109 3 3 65104 20210902163321
+163.172.104.86 2 2 57196 20210927085847
+194.110.115.233 3 3 65104 20210920222647
+185.194.239.86 0 1 213999 
+58.32.206.226 2 2 47861 20210916184337
+178.20.47.113 1 1 28598 20210928000732
+178.184.64.254 3 3 67259 20210924152607
+161.117.10.233 3 3 65104 20210915203327
+1.169.89.210 9 9 195312 20210908212228
+61.151.178.177 1 9 285771 20210922041813
+62.16.8.152 8 8 189424 20210919151225
+64.137.62.22 1 1 35107 20210901061248
+34.220.208.166 1 1 28598 20210921232557
+103.97.201.136 3 3 65104 20210920173920
+45.118.205.183 2 2 47861 20210917043218
+14.255.161.100 3 3 65104 20210902234943
+193.160.219.180 5 5 142990 20210930110950
+45.67.143.73 1 1 26601 20210903195828
+193.56.29.48 8 8 228784 20210926030333
+177.98.153.241 3 3 65104 20210909100015
+47.243.170.4 3 3 65104 20210918224654
+31.25.183.201 3 3 65104 20210908001130
+158.46.149.56 1 1 22201 20210901061253
+115.74.202.125 3 3 65104 20210918173533
+47.103.196.23 1 1 28598 20210909132947
+103.247.218.230 3 3 65104 20210905013539
+157.245.65.227 2 2 57196 20210906021356
+34.135.127.6 11 67 3450152 20210926151919
+34.135.18.183 1 1 23188 20210908141926
+138.185.38.197 3 3 65104 20210930123335
+103.167.176.110 2 2 38526 20210913052724
+38.145.83.16 1 1 0 20210901061253
+37.99.114.134 3 3 67255 20210922162717
+164.160.8.242 3 3 65104 20210902040521
+182.71.146.148 3 3 65104 20210914070844
+178.184.251.179 3 3 65104 20210913112458
+154.51.131.142 3 3 85794 20210924091705
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20210901 223 448 13861216 143
+20210902 211 368 9814766 89
+20210903 163 363 10256493 72
+20210904 103 105 2450235 46
+20210905 287 411 11049228 84
+20210906 464 792 17949466 83
+20210907 177 238 7279897 68
+20210908 178 422 13634251 69
+20210909 168 228 6315565 73
+20210910 127 470 13117470 61
+20210911 139 183 5293649 68
+20210912 187 252 7660871 69
+20210913 132 314 11048621 57
+20210914 185 350 11986047 69
+20210915 179 874 24464497 73
+20210916 158 439 12053020 69
+20210917 100 174 4664351 54
+20210918 190 194 4567670 90
+20210919 110 140 3380974 52
+20210920 210 541 16970914 96
+20210921 437 874 25330708 90
+20210922 114 134 3116515 62
+20210923 141 229 9134148 66
+20210924 98 229 5760454 54
+20210925 2692 2986 22832831 43
+20210926 87 356 9478453 45
+20210927 60 192 6717058 37
+20210928 87 355 10127560 49
+20210929 106 522 11785763 45
+20210930 395 501 14209295 180
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 14
+30s-2mn 56
+15mn-30mn 10
+2mn-5mn 18
+0s-30s 2053
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/index.php 4047 91698400 1429 1460
+/admin/ 2774 10358185 24 24
+/ 967 26824924 687 651
+/admin/index.php 100 382907 12 12
+/fonts/linea-arrows-10.woff 6 46272 0 1
+/blog/robots.txt 3 0 0 3
+/config.php 3 0 0 3
+/index.php/api/Uploadify/preview 3 85794 3 0
+/index.php/explicit_not_exist_path 2 57196 0 0
+/index.php/component/users/ 1 28598 0 0
+/index.php/ 1 28598 0 1
+/index.php/.env 1 28598 1 1
+END_SIDER

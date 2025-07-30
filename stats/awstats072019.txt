@@ -1,0 +1,1659 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201907 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2553                
+POS_VISITOR 28243               
+POS_DAY 59072               
+POS_DOMAIN 3508                
+POS_LOGIN 3742                
+POS_ROBOT 3897                
+POS_WORMS 4634                
+POS_EMAILSENDER 4765                
+POS_EMAILRECEIVER 4908                
+POS_SESSION 59974               
+POS_SIDER 60186               
+POS_FILETYPES 5043                
+POS_OS 5276                
+POS_BROWSER 5431                
+POS_SCREENSIZE 6181                
+POS_UNKNOWNREFERER 6255                
+POS_UNKNOWNREFERERBROWSER 7098                
+POS_ORIGIN 7488                
+POS_SEREFERRALS 7631                
+POS_PAGEREFS 7800                
+POS_SEARCHWORDS 8138                
+POS_KEYWORDS 8532                
+POS_MISC 2217                
+POS_ERRORS 8833                
+POS_CLUSTER 3598                
+POS_SIDER_404 8979                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190801001700 15839 4055845 53824579570
+FirstTime 20190701000001
+LastTime 20190731180934
+LastUpdate 20190801022337 15839 15570 268 0 0
+TotalVisits 963                 
+TotalUnique 695                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 824                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 81 268 11360540 129 170 2467549
+1 80 408 13472448 130 179 4314223
+2 37 542 24497821 134 165 2660813
+3 63 465 21133262 148 163 1506128
+4 77 454 15266795 205 233 2401689
+5 107 992 39975090 145 201 3555402
+6 45 95 2784900 197 206 2274659
+7 169 561 15575073 199 222 1884906
+8 81 319 9702006 554 580 10504729
+9 158 299 12466351 239 280 4974776
+10 152 323 9615174 532 581 11939010
+11 376 578 17358678 247 275 3201629
+12 92 622 26166023 243 282 3585112
+13 58 308 9100292 412 430 7860577
+14 64 214 7273288 305 333 7100865
+15 87 251 8632626 138 165 2682472
+16 112 343 13144330 107 132 2015753
+17 66 92 2514760 402 483 11554895
+18 58 257 9409998 195 220 4690232
+19 101 151 4333721 183 255 5047892
+20 82 92 2271045 797 841 19275320
+21 105 358 14281602 165 215 3614449
+22 30 386 15264909 469 498 11493395
+23 33 136 6857735 98 106 1563271
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2314 8514 312458467
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+crawl 2312 58741307 20190730225258 12
+infobot 998 20315827 20190731112016 186
+googlebot 513 13896542 20190731235250 54
+bot[+:,\.\;\/\\-] 467 12548408 20190730184438 82
+yandex 375 7765279 20190731162654 93
+robot 271 5599932 20190731010147 57
+python 127 1504305 20190731030440 4
+baiduspider 108 2872857 20190731223058 1
+cfnetwork 100 0 20190728195841 0
+spider 68 2454142 20190719200831 3
+exabot 25 396126 20190730003802 11
+no_user_agent 26 1200730 20190731052641 1
+mail\.ru 4 57196 20190721090105 2
+unknown 24 0 20190731140525 24
+archive\.org_bot 24 498740 20190731220703 3
+java 15 428970 20190730200618 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 1104 69142977 0 0
+png 1758 25482898 0 0
+woff 4 30848 0 0
+txt 8 0 0 0
+php 1238 28278428 0 0
+html 1010 21983438 0 0
+jpg 1256 107217705 0 0
+js 2082 58777881 0 0
+Unknown 54 1544292 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 67
+winlong 70
+winnt 2382
+winvista 418
+linux 1270
+macosx 1775
+winunknown 1
+win2003 1
+Unknown 178
+win2008 2352
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 50
+firefox66.0 32
+msie6.0 13
+firefox44.0 8
+firefox10.0 1
+chrome 3911
+firefox3.0.1 1
+firefox52.0 317
+firefox4.0 48
+firefox54.0 5
+firefox63.0 1
+msie8.0 2
+firefox62.0 245
+firefox43.0 379
+msie7.0 3
+firefox59.0 3
+firefox41.0 8
+firefox65.0 2
+msie9.0 19
+Unknown 53
+firefox27.0 41
+firefox11.0 129
+firefox50.0 63
+firefox3.6.7 1
+firefox3.5.6 1
+firefox48.0 7
+firefox53.0 10
+firefox42.0 1
+opera 3
+firefox21.0 2
+firefox69.0 1
+firefox3.5.2 18
+firefox38.0 806
+firefox46.0 8
+firefox7.0.1 1
+firefox56.0 2
+firefox47.0 90
+firefox67.0 136
+firefox61.0 5
+firefox68.0 221
+firefox33.0 3
+firefox25.0 1
+firefox39.0 5
+mozilla 442
+netscape5.0 22
+firefox60.0 1
+msie10.0 254
+firefox8.0.1 1
+firefox3.0.10 4
+safari 1183
+firefox35.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Scrapy/1.6.0_(_https://scrapy.org) 20190723200657
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;_http://www.cloudflare.com/always-online) 20190728160330
+Mozilla/5.0_(Android_9;_Mobile;_rv:68.0)_Gecko/68.0_Firefox/68.0 20190714215910
+Mozilla/5.0_(compatible;_Daum/4.1;__http://cs.daum.net/faq/15/4118.html?faqId=28966) 20190731100034
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20190726145710
+Go-http-client/1.1 20190730205620
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190724202252
+Mozilla/5.0_(compatible;_Go-http-client/1.1;__centurybot9@gmail.com) 20190705193253
+facebookexternalhit/1.1_(compatible;) 20190705040623
+Opera/9.27 20190723013226
+Dispatch/0.11.3 20190711155029
+Mozilla/5.0_Firefox/35.0 20190729071349
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20190726145710
+Scrapy/1.6.0_(_https://scrapy.org) 20190723200657
+Go-http-client/1.1 20190730205620
+facebookexternalhit/1.1_(compatible;) 20190705040623
+Microsoft_Office_Protocol_Discovery 20190729121242
+Dispatch/0.11.3 20190711155029
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1436 1672
+From1 0 0
+From2 53 59
+From3 8 8
+From4 817 6775
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 27 33
+baidu 26 26
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://www.thomasnet.com/profile/30774822/act-packaging.html 4 4
+http://www.100kpd.com 2 2
+https://\xe2\xf1\xe5-\xe7\xe0\xe9\xec\xfb-\xf2\xf3\xf2.\xf0\xf4 1 1
+https://brandnewblogs.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 23
+visitorsne 1
+l2la 1
+0sv8 1
+standardzua 1
+sing2i8 1
+shopx5w 1
+soviy 1
+languageen9 1
+eye7v6 1
+nowntu 1
+recentlyub7 1
+guessht2 1
+goj4 1
+nutsvhw 1
+factorys8y 1
+zooyhq 1
+purpler6q 1
+stairsxx5 1
+cardnxh 1
+muscledpp 1
+producem4m 1
+lookauw 1
+mdg6 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 23
+visitorsne 1
+l2la 1
+0sv8 1
+standardzua 1
+sing2i8 1
+shopx5w 1
+soviy 1
+languageen9 1
+nowntu 1
+eye7v6 1
+recentlyub7 1
+guessht2 1
+goj4 1
+nutsvhw 1
+factorys8y 1
+zooyhq 1
+purpler6q 1
+stairsxx5 1
+cardnxh 1
+producem4m 1
+muscledpp 1
+lookauw 1
+mdg6 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 75 19200
+206 9 257382
+405 1 243
+406 1 263
+301 2 0
+404 1670 3612297
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 413
+/blog/wp-includes/wlwmanifest.xml 3 -
+/product/NON-WOVEN-BAG.html 1 -
+/wordpress/ 5 -
+/wmjxb.php 1 http://www.act-packaging.com/wmjxb.php
+//images/swfupload/swfupload.swf 5 http://www.act-packaging.com//images/swfupload/swfupload.swf
+/product/Set-up-box-Lid-Base-box.html 1 -
+/=UTF-8 1 http://www.act-packaging.com/index.php
+/contact/ 25 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/install.php 1 -
+/demo/wp-includes/wlwmanifest.xml 2 -
+/product/underwear-packing-box.html 1 -
+/izhxt.php 1 http://www.act-packaging.com/izhxt.php
+/web/ 1 -
+//beifen.zip 1 http://www.act-packaging.com//beifen.zip
+/product/index33.html 1 -
+/fibln.php 1 http://www.act-packaging.com/fibln.php
+//Uploads/show/rose.php 1 -
+/0 2 http://www.act-packaging.com/
+//admin/images/cal_date_over.gif 1 http://www.google.com.hk
+/tfydl.php 1 http://act-packaging.com/tfydl.php
+/kqupv.php 1 http://act-packaging.com/kqupv.php
+/test/wp-includes/wlwmanifest.xml 2 -
+/xmlrpc.php 6 -
+/imwseltter 1 http://www.act-packaging.com/index.php
+/plus/mytag_js.php 53 http://www.act-packaging.com/plus/mytag_js.php
+//Web_fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/wp/wp-admin/install.php 1 -
+/news/57.html 1 -
+/jomcz.php 1 http://act-packaging.com/jomcz.php
+/product/Adhesive-Sticker.html 1 -
+/rbjqk.php 1 http://www.act-packaging.com/rbjqk.php
+/product/Gift-box.html 1 -
+/test/ 1 -
+//wp-login.php 2 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/tkjmw.php 1 http://www.act-packaging.com/tkjmw.php
+//search.php 1 -
+/nzjca.php 1 http://www.act-packaging.com/nzjca.php
+/Areas/AccorHotels/Assets/scripts/pict 1 http://www.act-packaging.com/index.php
+/{url: 1 http://www.act-packaging.com/index.php
+/bbdxy.php 1 http://act-packaging.com/bbdxy.php
+/plus/img/wbg.gif 1 https://www.baidu.com/
+/css/carousey 1 http://www.act-packaging.com/index.php
+/product/BBX11.html 7 -
+/wp-login.php 8 -
+/product/Packaging-Paper-%20Box.html 1 -
+/FCKeditor/editor/filemanager/connectors/asp/connector.asp 53 http://www.act-packaging.com/FCKeditor/editor/filemanager/connectors/asp/connector.asp
+/rtoge.php 1 http://www.act-packaging.com/rtoge.php
+/upload/2014-01-20/20140120090359800.jpg 3 -
+/qtpzd.php 1 http://act-packaging.com/qtpzd.php
+/sql.php 1 -
+/download 1 -
+/product/205.html 1 -
+/rexsm.php 1 http://www.act-packaging.com/rexsm.php
+/wykqm.php 1 http://www.act-packaging.com/wykqm.php
+/jvdqu.php 1 http://act-packaging.com/jvdqu.php
+/httmbed 1 http://www.act-packaging.com/index.php
+/member/images/base.css 1 https://www.baidu.com/
+/product/hinged%20paper%20box.html 1 -
+/news 1 -
+/gsxxe.php 1 http://act-packaging.com/gsxxe.php
+/css/foundation.c0ss=block-slider__image 1 http://www.act-packaging.com/index.php
+/mfrto.php 1 http://www.act-packaging.com/mfrto.php
+/old/wp-admin/install.php 1 -
+/srgjl.php 1 http://act-packaging.com/srgjl.php
+/bmsvb.php 1 http://act-packaging.com/bmsvb.php
+/member/images/dzh_logo.gif 1 https://www.baidu.com/
+/ogvxn.php 1 http://www.act-packaging.com/ogvxn.php
+/wvmrg.php 1 http://act-packaging.com/wvmrg.php
+/ads.txt 1 -
+/product/GTB28.html 4 -
+//Web_fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/tml 1 http://www.act-packaging.com/index.php
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/frrgd.php 1 http://act-packaging.com/frrgd.php
+//vendor/phpunit/phpunit/LICENSE 1 -
+/product/Folding-box.html 1 -
+/product/Rigid-Paper-box.html 3 -
+/iuhdx.php 1 http://www.act-packaging.com/iuhdx.php
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/blog/wp-admin/install.php 1 -
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/plus/download.php 53 http://www.act-packaging.com/plus/download.php
+/product/166.html 1 -
+/templets/default/images/logo.gif 2 https://www.baidu.com/
+/gvjyy.php 1 http://www.act-packaging.com/gvjyy.php
+/acmpo.php 1 http://www.act-packaging.com/acmpo.php
+/about 1 -
+/service/Sample-Policy.html 1 -
+//FCKeditor3/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/Data/Master-Page/s_blank 1 http://www.act-packaging.com/index.php
+/staging/wp-includes/wlwmanifest.xml 2 -
+/INDEX.PHP 5 http://www.adco1.com/
+/rvpgj.php 1 http://act-packaging.com/rvpgj.php
+/plus/moon.php 53 http://www.act-packaging.com/plus/moon.php
+/index.pail 1 http://www.act-packaging.com/index.php
+/product/folding-card-paper-box.html 1 -
+/msqmh.php 1 http://www.act-packaging.com/msqmh.php
+/product/lip-balm-paper-box.html 1 -
+//1.rar 1 http://www.act-packaging.com//1.rar
+//wangzhan.rar 1 http://www.act-packaging.com//wangzhan.rar
+/service 1 -
+/product/208.html 1 -
+/product/237.html 1 -
+/member/space/person/common/css/css.css 2 https://www.baidu.com/
+/new/ 1 -
+/sxqdb.php 1 http://www.act-packaging.com/sxqdb.php
+/product/190.html 4 -
+//Web_fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+//FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/backup/wp-admin/install.php 1 -
+/ulyku.php 1 http://act-packaging.com/ulyku.php
+/data/admin/quickmenu.txt 2 https://www.baidu.com/
+/product/337.html 3 -
+/product/Packing-Paper-Box.html 1 -
+//plus/moon.php 5 http://www.act-packaging.com//plus/moon.php
+/index.packground-image:none 1 http://www.act-packaging.com/index.php
+/evdkz.php 1 http://act-packaging.com/evdkz.php
+/beta/wp-includes/wlwmanifest.xml 2 -
+/tyndk.php 1 http://act-packaging.com/tyndk.php
+/tgecs.php 1 http://www.act-packaging.com/tgecs.php
+/style=background-image:none 1 http://www.act-packaging.com/index.php
+/portal/wp-includes/wlwmanifest.xml 1 -
+/tuugb.php 1 http://act-packaging.com/tuugb.php
+/nzien.php 1 http://www.act-packaging.com/nzien.php
+/news/Die-cut%20making%20machine.html 3 -
+/ybifs.php 1 http://www.act-packaging.com/ybifs.php
+/product/Packaging-folding-Box-with-Window.html 1 -
+/ywrjk.php 1 http://www.act-packaging.com/ywrjk.php
+/yanai.php 1 http://www.act-packaging.com/yanai.php
+/wp//wp-login.php 1 -
+/mailtostyle=border: 1 http://www.act-packaging.com/index.php
+/dfhjb.php 1 http://www.act-packaging.com/dfhjb.php
+/inde 1 http://www.act-packaging.com/index.php
+/exxtc.php 1 http://www.act-packaging.com/exxtc.php
+/ixqov.php 1 http://www.act-packaging.com/ixqov.php
+//beifen.rar 1 http://www.act-packaging.com//beifen.rar
+//FCKeditor3/editor/filemanager/connectors/php/connector.php 1 -
+/ozjix.php 1 http://www.act-packaging.com/ozjix.php
+/product/ 1 -
+/product/Greeting-Card-Envelop.html 1 -
+/uugre.php 1 http://act-packaging.com/uugre.php
+/product/index_16.html 1 -
+/javascript:void(0) 4 -
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/vfbah.php 1 http://www.act-packaging.com/vfbah.php
+/service/How-to-Place-Orders.html 1 -
+/css/foundatiohp 1 http://www.act-packaging.com/index.php
+/index.p 1 http://www.act-packaging.com/index.php
+///lib/smarty/plugins/modifier.config.php 1 -
+/product/211.html 1 -
+/imagey 1 http://www.act-packaging.com/index.php
+/iowsg.php 1 http://www.act-packaging.com/iowsg.php
+//plus/search.php 15 http://www.act-packaging.com//plus/search.php
+//FCKeditor3/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//com/.rar 1 http://www.act-packaging.com//com/.rar
+//wangzhan.zip 1 http://www.act-packaging.com//wangzhan.zip
+/blog/ 5 -
+//FCKeditor3/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/product/202.html 1 -
+//plus/recommend.php 5 http://www.act-packaging.com//plus/recommend.php
+/wp/ 5 -
+/dede/img/admin_top_logo.gif 1 https://www.baidu.com/
+/ugtig.php 1 http://www.act-packaging.com/ugtig.php
+/cms/wp-includes/wlwmanifest.xml 3 -
+//FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/jyqzn.php 1 http://act-packaging.com/jyqzn.php
+/bxslz.php 1 http://act-packaging.com/bxslz.php
+/2018/wp-includes/wlwmanifest.xml 2 -
+/product/kraft-paper-packaging-box.html 1 -
+/hdcaq.php 1 http://www.act-packaging.com/hdcaq.php
+/about/Mission-Value.html 1 -
+//com/..zip 1 http://www.act-packaging.com//com/..zip
+//website.zip 1 http://www.act-packaging.com//website.zip
+/demo/ 1 -
+//FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+//plus/ad_js.php 1 -
+/sjnlt.php 1 http://www.act-packaging.com/sjnlt.php
+//plus/download.php 10 http://www.act-packaging.com//plus/download.php
+/mailtoTENT6 1 http://www.act-packaging.com/index.php
+/news/56.html 1 -
+//FCKeditor3/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/ebdsi.php 1 http://www.act-packaging.com/ebdsi.php
+/dycsb.php 1 http://act-packaging.com/dycsb.php
+//backup.rar 1 http://www.act-packaging.com//backup.rar
+/js/min/modernizr-custom-v2.7.1.mage:none 1 http://www.act-packaging.com/index.php
+/backup/ 1 -
+/mbhhn.php 1 http://www.act-packaging.com/mbhhn.php
+/images/loadinglit.gif 1 https://www.baidu.com/
+/harset=UTF-8 1 http://www.act-packaging.com/index.php
+/pma/scripts/setup.php 1 -
+/product/165.html 1 -
+//Web_fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+//FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/product/Metallic-Color-Packaging-Box.html 1 -
+//backup.zip 1 http://www.act-packaging.com//backup.zip
+/glozn.php 1 http://www.act-packaging.com/glozn.php
+/index.pmbed 1 http://www.act-packaging.com/index.php
+/indee=background-image:none 1 http://www.act-packaging.com/index.php
+/icytw.php 1 http://act-packaging.com/icytw.php
+/js/carouseller.mile=background-image:none 1 http://www.act-packaging.com/index.php
+//111.rar 1 http://www.act-packaging.com//111.rar
+/ARSET=UTF-8 1 http://www.act-packaging.com/index.php
+/css/foundatie 1 http://www.act-packaging.com/index.php
+/news/61.html 1 -
+//dcman/BaseManage/TemplatePath_Manage.aspx 1 -
+/lcjjc.php 1 http://act-packaging.com/lcjjc.php
+/maildex.php 1 http://www.act-packaging.com/index.php
+/data/cache/inc_catalog_base.inc 1 https://www.baidu.com/
+/zkdka.php 1 http://act-packaging.com/zkdka.php
+/member/space/person/header.htm 1 https://www.baidu.com/
+/en/wp-includes/wlwmanifest.xml 1 -
+//data/mysql_error_trace.inc 10 http://www.act-packaging.com//data/mysql_error_trace.inc
+/plus/carbuyaction.php 2 https://www.baidu.com/
+/fqyhz.php 1 http://www.act-packaging.com/fqyhz.php
+/pfmbp.php 1 http://act-packaging.com/pfmbp.php
+/data/cache/index.htm 2 https://www.baidu.com/
+/2019/wp-includes/wlwmanifest.xml 1 -
+/uvcdn.php 1 http://www.act-packaging.com/uvcdn.php
+/index.pe=background-image:none 1 http://www.act-packaging.com/index.php
+/plus/bookfeedback.php 1 https://www.baidu.com/
+/utility/convert/data/config.inc.php 53 http://www.act-packaging.com/utility/convert/data/config.inc.php
+//Web_fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/eozsk.php 1 http://www.act-packaging.com/eozsk.php
+/product/Speedo-paper-box.html 1 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/index.pbody 1 http://www.act-packaging.com/index.php
+/wp-content/themes/bl.php 1 -
+/wp-content/themes/AdvanceImage5/header.php 1 -
+/rspjw.php 1 http://www.act-packaging.com/rspjw.php
+/dede/templets/article_coonepage_rule.htm 1 https://www.baidu.com/
+/css/foundati===9 1 http://www.act-packaging.com/index.php
+/slpuj.php 1 http://www.act-packaging.com/slpuj.php
+/xqway.php 1 http://act-packaging.com/xqway.php
+/js/jquery.easing.1.3.js 51 http://www.act-packaging.com/index.php
+/jrnab.php 1 http://act-packaging.com/jrnab.php
+/i 1 http://www.act-packaging.com/index.php
+/product/DRAWER%20BOX.html 2 -
+//website.rar 1 http://www.act-packaging.com//website.rar
+/mailto:info@act-packaging.com 1 -
+/product/Round-box.html 1 -
+/member/images/member.gif 1 https://www.baidu.com/
+/css/foundatio,Greeting 1 http://www.act-packaging.com/index.php
+/phpMyAdmin/scripts/setup.php 1 -
+/joomla/administrator/index.php 2 -
+/product/soft%20touch%20paper%20box.html 20 -
+/wordpress/wp-admin/install.php 3 -
+/member/templets/images/login_logo.gif 1 https://www.baidu.com/
+/admin_aspcms/_system/AspCms_SiteSetting.asp 106 http://www.act-packaging.com/admin_aspcms/_system/AspCms_SiteSetting.asp
+/index.ple=background-image:none 1 http://www.act-packaging.com/index.php
+/product/soft%20touch%20box.html 2 -
+/cdkll.php 1 http://act-packaging.com/cdkll.php
+//1.zip 1 http://www.act-packaging.com//1.zip
+/new/wp-admin/install.php 1 -
+/bk/wp-admin/install.php 1 -
+/data/admin/ver.txt 6 https://www.baidu.com/
+/vpogr.php 1 http://act-packaging.com/vpogr.php
+/alt=,Greeting 1 http://www.act-packaging.com/index.php
+//www.act-packaging.com/..rar 1 http://www.act-packaging.com//www.act-packaging.com/..rar
+/ywyzv.php 1 http://act-packaging.com/ywyzv.php
+/wp-includes/wlwmanifest.xml 5 -
+/product/CORRUGATED-BOX.html 1 -
+//com/.zip 1 http://www.act-packaging.com//com/.zip
+/home/wp-includes/wlwmanifest.xml 1 -
+/index.py 1 http://www.act-packaging.com/index.php
+/ifxpx.php 1 http://www.act-packaging.com/ifxpx.php
+/tmp/ 1 -
+/blog//wp-login.php 1 -
+/news/51.html 6 -
+/daibz.php 1 http://act-packaging.com/daibz.php
+/blog/administrator/index.php 2 -
+/admin/login.asp 1 -
+/eazqt.php 1 http://act-packaging.com/eazqt.php
+/install.php 1 -
+/administrator/index.php 2 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/iuuww.php 1 http://www.act-packaging.com/iuuww.php
+/wordpress/wp-config.php.backup 2 -
+//admin/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/trwsi.php 1 http://www.act-packaging.com/trwsi.php
+/temp/ 1 -
+//FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/include/taglib/help/flink.txt 1 https://www.baidu.com/
+//xmlrpc.php 2 http://www.google.com.hk
+/images/lobody 1 http://www.act-packaging.com/index.php
+//www.act-packaging.com/..zip 1 http://www.act-packaging.com//www.act-packaging.com/..zip
+/dev/ 1 -
+//Web_fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/news/2012-HK-International-Printing 1 -
+/home/ 1 -
+//123.zip 1 http://www.act-packaging.com//123.zip
+/hohft.php 1 http://www.act-packaging.com/hohft.php
+/rsyjb.php 1 http://www.act-packaging.com/rsyjb.php
+/nwoij.php 1 http://www.act-packaging.com/nwoij.php
+/uploads/dede/sys_verifies.php 106 http://www.act-packaging.com/uploads/dede/sys_verifies.php
+/sitemap.xml 4 -
+/product/GTB27.html 4 -
+/index.p\xd0hp 1 http://www.act-packaging.com/index.php
+/gwmyg.php 1 http://www.act-packaging.com/gwmyg.php
+/).top 1 http://www.act-packaging.com/index.php
+/product/index35.html 1 -
+/css/carouseller 1 http://www.act-packaging.com/index.php
+/eeksp.php 1 http://www.act-packaging.com/eeksp.php
+/ngmeq.php 1 http://act-packaging.com/ngmeq.php
+/fkjyx.php 1 http://www.act-packaging.com/fkjyx.php
+/index.pdy 1 http://www.act-packaging.com/index.php
+//NewsType.asp 1 -
+/admin/login.php 1 -
+/hxwgx.php 1 http://www.act-packaging.com/hxwgx.php
+/phpminiadmin.php 1 -
+/tvaxm.php 1 http://act-packaging.com/tvaxm.php
+/plus/img/df_dedetitle.gif 1 https://www.baidu.com/
+/okikg.php 1 http://www.act-packaging.com/okikg.php
+/index.pround-image:none 1 http://www.act-packaging.com/index.php
+/fxwsa.php 1 http://www.act-packaging.com/fxwsa.php
+/old/ 1 -
+/js/jquery.stickye=background-image:none 1 http://www.act-packaging.com/index.php
+/adminer.php 1 -
+/css/foundatit 1 http://www.act-packaging.com/index.php
+/scfbg.php 1 http://www.act-packaging.com/scfbg.php
+/phpmyadmin/ 2 -
+/index.pxt/css 1 http://www.act-packaging.com/index.php
+/main/ 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/css/foundatio 1 http://www.act-packaging.com/index.php
+/product/Corrugated-box.html 1 -
+/c 2 http://www.act-packaging.com/index.php
+//user/swfupload.asp 2 http://www.act-packaging.com//user/user_upfile.asp
+/index.pbackground-image:none 1 http://www.act-packaging.com/index.php
+/.well-known/security.txt 1 -
+/templets/default/style/dedecms.css 3 https://www.baidu.com/
+/wyujf.php 1 http://www.act-packaging.com/wyujf.php
+//admin/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/about/Organizational-structure.html 1 -
+/magento_version 1 -
+/ysyqq.php 53 http://www.act-packaging.com/ysyqq.php
+/fdgq.php 53 http://www.act-packaging.com/fdgq.php
+/plus/90sec.php 53 http://www.act-packaging.com/plus/90sec.php
+/myadmin/scripts/setup.php 1 -
+//.env 1 -
+/tcngc.php 1 http://www.act-packaging.com/tcngc.php
+//FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/mgqkw.php 1 http://www.act-packaging.com/mgqkw.php
+/sqyjl.php 1 http://www.act-packaging.com/sqyjl.php
+/utility/convert/index.php 53 http://www.act-packaging.com/utility/convert/index.php
+/ikjsn.php 1 http://act-packaging.com/ikjsn.php
+/xncbm.php 1 http://www.act-packaging.com/xncbm.php
+/website/wp-includes/wlwmanifest.xml 1 -
+/old/wp-includes/wlwmanifest.xml 1 -
+/sfklu.php 1 http://www.act-packaging.com/sfklu.php
+//123.rar 1 http://www.act-packaging.com//123.rar
+//admin/FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/evosv.php 1 http://www.act-packaging.com/evosv.php
+/.well-known/assetlinks.json 5 -
+/news/55.html 1 -
+//Rose20190722094054.txt 1 -
+/xtwrp.php 1 http://www.act-packaging.com/xtwrp.php
+/lfskp.php 1 http://www.act-packaging.com/lfskp.php
+/sicdl.php 1 http://www.act-packaging.com/sicdl.php
+/data/admin/allowurl.txt 2 https://www.baidu.com/
+/phpmyadmin/scripts/setup.php 1 -
+/site/ 1 -
+/imgnull 1 http://www.act-packaging.com/
+/.env 1 -
+/product/Stationery.html 1 -
+/sitemap.html 1 -
+/service/index.html 1 -
+//install/index.php.bak 5 http://www.act-packaging.com//install/index.php.bak
+/xhlrs.php 1 http://www.act-packaging.com/xhlrs.php
+/info.php 2 -
+/ipt 1 http://www.act-packaging.com/index.php
+/wp/wp-login.php 1 -
+/mailck-slider__item 1 http://www.act-packaging.com/index.php
+/factory 1 -
+/util/login.aspx 1 -
+/pcuut.php 1 http://act-packaging.com/pcuut.php
+/uvgia.php 1 http://www.act-packaging.com/uvgia.php
+/product/Book%20Box.html 22 -
+/product/Box.html 1 -
+/product/FOLDING-PAPER-BOX.html 1 -
+/ptqfo.php 1 http://www.act-packaging.com/ptqfo.php
+/include/data/vdcode.jpg 1 https://www.baidu.com/
+/wp/wp-includes/wlwmanifest.xml 3 -
+/rset=UTF-8 1 http://www.act-packaging.com/index.php
+/dsold.php 1 http://www.act-packaging.com/dsold.php
+/product 1 -
+/ddyzz.php 1 http://www.act-packaging.com/ddyzz.php
+//plus/mytag_js.php 5 http://www.act-packaging.com//plus/mytag_js.php
+/.UTF-8 1 http://www.act-packaging.com/index.php
+/gnjuz.php 1 http://www.act-packaging.com/gnjuz.php
+//FCKeditor3/editor/filemanager/connectors/asp/connector.asp 1 -
+//admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/about/index.html 1 -
+/rlxhl.php 1 http://act-packaging.com/rlxhl.php
+/bnnxi.php 1 http://act-packaging.com/bnnxi.php
+/user.php 106 45ea207d7a2b68c49582d2d22adf953aads|a:2:{s:3:\"num\"
+/fykyx.php 1 http://www.act-packaging.com/fykyx.php
+//111.zip 1 http://www.act-packaging.com//111.zip
+/portal/ 1 -
+/wordpress//wp-login.php 1 -
+/cms/ 1 -
+//templates/system/css/system.css 1 http://www.google.com.hk
+/index.php 139 -
+//blog/ 2 http://act-packaging.com/
+/backup/wp-includes/wlwmanifest.xml 1 -
+//com/..rar 1 http://www.act-packaging.com//com/..rar
+/news/54.html 8 -
+/gdpfb.php 1 http://act-packaging.com/gdpfb.php
+/uploads/userup/index.html 1 https://www.baidu.com/
+/e/DoInfo/ecms.php 51 http://act-packaging.com/e/DoInfo/ecms.php
+/wp2/wp-includes/wlwmanifest.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 824
+34.77.236.1 271 299 7575867 20190703113536
+78.134.72.36 114 267 8720918 20190729121316
+83.102.238.108 74 74 1456320 20190723150335
+212.92.137.217 56 56 1102080 20190726034020
+173.244.209.231 42 806 32571686 20190707055501
+35.247.135.3 39 39 145281 20190724074028
+84.39.112.90 32 32 584096 20190731162709
+37.17.172.132 32 32 931534 20190716100732
+23.228.101.195 30 30 857940 20190731041907
+178.156.202.190 25 25 714950 20190730073408
+69.171.251.4 0 9 271603 
+202.46.57.126 1 1 28598 20190720172130
+178.128.194.208 1 1 3734 20190705120246
+47.92.101.29 1 1 28598 20190719172203
+180.101.52.227 0 2 239964 
+23.129.64.187 1 1 28598 20190715164610
+202.46.53.51 1 1 28598 20190721112131
+42.236.10.106 1 36 2063526 20190711002325
+178.175.131.194 1 1 28598 20190703053328
+82.221.128.191 1 1 28598 20190718092232
+14.215.176.145 0 4 50659 
+66.102.8.86 0 19 887523 
+221.7.12.185 1 1 3730 20190705104633
+14.215.176.15 0 1 140573 
+138.246.253.5 5 5 0 20190731040237
+173.252.87.25 1 1 0 20190726145710
+199.249.230.116 3 3 85794 20190715170511
+199.249.230.104 1 1 28598 20190715170538
+14.215.176.142 0 2 393160 
+138.68.9.54 1 1 3727 20190701003843
+185.212.171.150 8 8 146024 20190709160550
+167.86.101.130 2 2 57196 20190702192852
+36.110.199.19 0 4 467226 
+5.79.119.229 1 1 28598 20190731140526
+145.131.25.253 1 1 3730 20190705105212
+66.249.83.20 0 14 719153 
+104.248.121.159 3 3 11185 20190705144902
+192.200.215.90 3 3 85794 20190731034538
+185.220.101.58 5 5 142990 20190718092809
+40.77.191.96 0 1 5597 
+66.102.6.222 0 18 464289 
+204.17.56.42 2 2 57196 20190703034717
+54.37.234.66 1 1 28598 20190715164531
+78.79.18.96 0 1 176813 
+212.237.38.14 2 2 7458 20190705134818
+35.202.176.199 2 2 50604 20190710200730
+185.220.101.56 2 2 57196 20190703090602
+47.98.34.250 1 1 28598 20190731161809
+103.57.222.17 1 1 3737 20190701011608
+23.129.64.195 1 1 28598 20190718091658
+23.129.64.215 1 1 28598 20190715170509
+36.110.199.20 0 1 15116 
+155.159.121.59 1 1 19263 20190709171105
+40.77.194.0 0 1 84355 
+35.171.87.26 1 1 28598 20190727135259
+157.230.93.62 1 1 3727 20190701000143
+202.46.54.13 1 1 28598 20190703154944
+81.177.136.29 1 1 3730 20190705105600
+155.159.123.79 1 1 28598 20190711131545
+40.77.189.251 0 1 10893 
+172.58.221.246 1 44 2115048 20190721071704
+155.159.103.217 1 1 28598 20190709025946
+139.99.123.74 1 1 28598 20190721041237
+45.55.188.184 1 11 293683 20190724030901
+23.129.64.170 2 2 57196 20190701184822
+162.247.74.216 4 4 114392 20190718092551
+103.15.83.23 1 35 991508 20190717034508
+69.171.251.40 0 7 347979 
+52.42.60.143 1 1 28598 20190706015314
+40.77.188.95 0 1 7071 
+155.159.120.128 1 1 18091 20190711153448
+92.240.140.60 3 3 54273 20190723170449
+178.128.105.2 2 2 7465 20190705154908
+198.143.158.82 2 2 57196 20190715093608
+138.197.77.70 1 11 293683 20190728033623
+142.93.214.242 4 4 14935 20190705165621
+185.94.189.148 3 3 65104 20190720134945
+49.205.177.66 2 36 975767 20190720060621
+45.57.164.132 1 1 28598 20190717183258
+202.46.52.119 1 1 28598 20190725004139
+34.200.101.53 1 1 21831 20190709213455
+199.244.57.227 2 2 50799 20190722150645
+3.221.88.163 2 2 36152 20190709213449
+185.220.101.35 2 2 57196 20190718093139
+46.101.115.65 2 2 7456 20190705140911
+185.103.110.205 8 8 146024 20190714204350
+3.220.4.13 1 1 23238 20190709213448
+176.10.107.180 2 2 57196 20190702192759
+178.175.132.228 3 3 85794 20190702004449
+34.221.134.223 2 34 1341862 20190716080013
+68.183.102.124 5 5 18635 20190705132639
+109.234.34.218 1 1 28598 20190713012953
+185.234.219.246 1 1 28598 20190705010725
+202.46.53.158 1 1 28598 20190709083449
+198.20.103.242 1 1 28598 20190728172207
+103.110.56.82 1 1 3736 20190705110630
+51.15.122.200 3 3 85794 20190718093018
+172.254.185.67 2 87 3118893 20190710223047
+40.77.194.1 0 1 841 
+174.203.13.217 3 119 4016976 20190726185225
+47.98.62.203 2 2 57196 20190710154743
+88.222.184.114 11 11 280096 20190725154949
+139.59.40.216 4 4 14922 20190705170005
+47.92.101.189 1 1 28598 20190707213125
+109.123.92.254 1 1 22332 20190722105202
+111.206.36.142 0 6 40321 
+116.109.5.18 0 1 29627 
+49.204.231.123 1 1 28598 20190728002242
+23.129.64.154 3 3 85794 20190718091433
+82.102.18.135 8 8 146024 20190715101014
+23.129.64.163 1 1 28598 20190718092008
+213.252.140.118 2 2 57196 20190701181603
+95.130.10.69 1 1 28598 20190715170621
+46.246.65.156 1 1 28598 20190728142134
+111.206.36.140 1 8 282261 20190725125315
+71.19.148.20 2 2 57196 20190702194804
+180.101.52.195 1 15 430967 20190713165749
+101.132.102.45 1 1 28598 20190722175309
+178.175.143.164 1 1 28598 20190715164735
+113.87.128.108 1 58 3227212 20190730090001
+70.32.0.50 2 2 46172 20190726211155
+185.220.101.69 3 3 85794 20190718093316
+14.186.192.25 1 1 23188 20190702100132
+47.100.51.203 2 2 57196 20190731161000
+178.156.202.76 15 15 428970 20190723080811
+180.97.35.218 1 9 301115 20190722094705
+118.24.102.178 1 1 3728 20190701001726
+173.252.95.11 1 1 0 20190703084200
+36.110.199.158 0 2 215280 
+151.236.25.56 2 2 62824 20190703213716
+34.221.49.145 1 1 28598 20190703010921
+185.216.33.154 3 3 65104 20190703030252
+40.77.190.254 0 1 43384 
+47.92.102.179 1 1 28598 20190704160408
+106.14.217.247 1 1 28598 20190728174238
+158.69.212.107 4 4 114392 20190702192438
+91.236.116.14 3 3 85794 20190713180857
+111.206.36.134 1 8 896031 20190725222409
+3.214.21.251 3 3 70763 20190703023845
+104.238.124.142 1 1 24340 20190717204920
+104.131.39.165 1 1 3725 20190701005753
+142.11.249.26 1 1 28598 20190715201622
+52.168.150.248 1 1 23188 20190712005917
+31.13.190.254 3 3 85794 20190712034553
+106.38.203.83 1 1 28598 20190714031158
+111.206.36.12 1 6 235735 20190731180934
+174.255.197.8 2 5 914882 20190702115847
+173.44.36.98 1 1 22902 20190715182406
+159.203.196.79 2 2 57196 20190716020505
+104.148.105.2 15 15 428970 20190718093842
+142.93.180.89 1 11 293683 20190715231144
+14.215.176.141 0 4 142054 
+94.102.78.122 3 3 11179 20190705151315
+217.78.1.200 2 2 41595 20190722105105
+23.129.64.203 2 2 57196 20190702003859
+69.171.251.38 0 3 900931 
+36.110.199.36 0 1 430101 
+167.99.32.241 1 1 3729 20190705162303
+206.189.68.161 2 2 7451 20190705170626
+180.97.35.21 0 7 360781 
+3.94.215.85 1 1 0 20190709213458
+207.246.121.172 2 2 57196 20190703093906
+36.110.199.47 0 4 467226 
+173.236.152.120 2 2 7472 20190705141154
+199.244.57.224 2 2 57196 20190722150638
+40.77.193.159 0 1 121260 
+213.142.129.165 2 2 7452 20190705150731
+39.98.194.39 1 1 23238 20190723200657
+109.228.60.242 2 2 0 20190728140039
+97.74.237.196 1 1 28598 20190718093320
+3.112.224.226 1 1 28598 20190718175731
+162.158.64.98 1 1 0 20190704071617
+188.166.65.105 3 3 11184 20190705122838
+40.77.190.85 0 1 140573 
+35.178.81.150 1 1 25302 20190726074551
+206.189.115.254 1 1 28598 20190715155835
+34.217.149.80 1 1 28598 20190725200411
+69.30.221.10 1 1 28598 20190711183414
+180.101.52.131 1 2 112953 20190719145032
+178.156.202.83 20 20 571960 20190729073736
+192.162.101.88 1 1 28598 20190722222511
+79.137.9.179 1 1 23188 20190723172439
+3.221.93.51 1 1 22354 20190709213456
+92.240.138.144 2 2 36182 20190727151130
+35.173.133.54 1 1 28598 20190726074354
+104.148.87.123 5 5 142990 20190722102510
+100.37.104.232 4 152 4949537 20190705081713
+18.235.60.186 2 2 0 20190709213443
+40.77.188.93 0 1 841 
+54.185.201.167 1 1 28598 20190706210330
+159.203.168.128 1 1 3727 20190701001042
+217.115.10.132 2 2 57196 20190702161443
+3.211.61.170 2 2 23086 20190709213455
+66.249.88.64 0 1 2631 
+38.132.118.254 1 1 24340 20190723160715
+47.97.220.124 1 1 28598 20190701221306
+40.77.188.206 0 1 121260 
+104.144.135.55 1 1 28598 20190718051658
+185.150.44.22 3 3 85794 20190705161507
+101.132.182.68 1 1 28598 20190716202202
+185.17.149.136 8 8 146024 20190712201902
+35.231.84.205 2 2 57196 20190706151823
+210.245.90.208 1 1 3730 20190705113457
+94.242.250.86 5 5 144413 20190703213754
+111.206.36.141 1 8 233591 20190715142940
+134.209.66.147 2 2 7462 20190705114621
+104.144.189.248 1 1 22902 20190719132138
+111.206.36.143 0 4 100143 
+24.185.126.43 5 229 7293919 20190726135552
+34.216.125.132 1 1 28598 20190720200423
+40.77.190.220 0 1 4967 
+155.159.118.67 1 1 18091 20190709081113
+14.215.176.135 1 5 375759 20190715072652
+36.110.199.67 0 1 140573 
+185.220.101.25 2 2 57196 20190704172206
+107.172.144.49 1 1 23238 20190722150645
+54.184.188.108 1 1 28598 20190704205809
+104.218.63.73 1 1 28598 20190715164109
+40.77.195.89 0 2 11730 
+134.175.118.68 2 2 7458 20190705141038
+198.98.61.88 2 2 57196 20190701082634
+162.241.232.23 1 1 3728 20190701005256
+192.3.219.167 1 1 22332 20190722150646
+45.55.252.183 1 9 365220 20190716145824
+78.85.168.36 1 1 28598 20190728082958
+34.215.135.97 1 1 28598 20190728205515
+162.144.145.151 1 1 3730 20190705123827
+138.197.4.214 1 11 293683 20190711183600
+185.183.107.86 8 8 146024 20190716090334
+192.121.46.13 3 3 69684 20190703213652
+52.41.76.238 1 1 28598 20190709210313
+111.206.36.135 0 6 262533 
+5.180.96.98 5 5 142990 20190710080227
+104.248.238.226 4 4 14921 20190705144056
+185.153.180.64 15 15 428970 20190723073045
+31.184.238.17 1 1 23191 20190729182045
+35.153.122.36 1 1 0 20190709213458
+103.201.25.137 9 252 5491049 20190702073821
+52.44.159.245 1 1 0 20190709213446
+101.132.69.5 1 1 28598 20190710155200
+162.247.74.204 1 1 28598 20190703205459
+150.136.238.243 1 1 26601 20190709093443
+35.231.135.17 2 2 57196 20190710155009
+18.191.236.34 1 58 3227212 20190719030633
+169.197.97.34 1 1 28598 20190718092234
+34.221.156.192 1 1 28598 20190714200450
+40.77.190.179 0 1 841 
+104.196.198.200 2 2 57196 20190731001546
+162.247.74.74 4 4 114392 20190715170532
+13.82.182.227 2 2 46376 20190724193116
+128.199.111.156 1 1 3725 20190701002226
+69.171.251.27 0 6 509696 
+40.77.188.15 0 1 4934 
+185.104.121.4 3 3 85794 20190715165409
+36.110.199.9 0 6 72339 
+82.80.249.211 1 1 28598 20190722111013
+207.200.8.182 0 3 30682 
+35.160.138.60 1 1 28598 20190729200351
+3.92.156.31 1 17 670931 20190709213431
+40.77.188.30 0 16 642333 
+23.129.64.208 1 1 28598 20190718090405
+40.77.192.60 0 1 7071 
+155.159.124.242 1 1 19263 20190711153959
+119.236.23.125 1 1 28598 20190701010418
+54.234.72.224 1 1 28598 20190723182836
+180.163.220.68 0 21 1436583 
+111.206.36.132 0 4 24055 
+112.252.28.150 1 1 0 20190721205124
+66.249.88.67 0 4 583741 
+103.119.2.52 5 5 142990 20190702192941
+104.244.73.237 1 1 28598 20190703205332
+193.9.115.24 2 2 57196 20190702104509
+157.52.144.2 5 5 142990 20190731041256
+14.215.176.144 1 6 180543 20190712134017
+155.159.122.22 1 1 22902 20190709082639
+103.76.86.13 1 1 3723 20190701000001
+14.120.78.128 4 153 6156697 20190711032051
+66.102.8.84 0 19 1332171 
+192.160.102.169 2 2 57196 20190702083608
+40.77.188.12 0 1 84355 
+31.220.40.54 7 7 200186 20190705003423
+77.245.149.12 2 2 7456 20190701005124
+192.144.159.186 1 1 3725 20190705145533
+40.77.189.82 0 1 837 
+14.215.176.9 0 2 5568 
+162.158.66.11 1 1 0 20190711081317
+111.206.36.139 1 4 175605 20190723195348
+111.206.36.11 0 20 631468 
+202.46.52.168 1 1 28598 20190711172043
+188.225.10.152 1 1 3728 20190705105037
+165.227.11.2 2 2 7457 20190705131442
+23.129.64.214 1 1 28598 20190718092013
+180.97.35.164 0 5 168687 
+54.213.211.102 1 1 28598 20190730205620
+36.110.199.29 0 1 213999 
+195.228.45.176 1 1 28598 20190718092641
+185.248.160.231 2 2 57196 20190702184310
+178.62.82.141 6 6 154411 20190707230108
+216.158.192.204 1 1 36152 20190722150644
+188.166.150.191 5 5 18650 20190705123752
+142.93.15.29 1 1 3727 20190705113703
+195.181.166.136 8 8 146024 20190709191254
+23.228.90.98 2 2 57196 20190719232759
+199.249.230.103 1 1 28598 20190718091752
+180.97.35.219 0 2 242520 
+66.70.216.114 1 1 3472 20190704101552
+3.218.255.138 2 2 0 20190709213449
+116.203.17.148 4 4 28598 20190722174153
+3.220.158.128 1 1 0 20190709213437
+148.72.232.158 1 1 3725 20190705165433
+104.148.105.4 15 15 428970 20190727072712
+158.69.217.248 1 1 28598 20190718091121
+36.110.199.242 0 8 78284 
+103.99.38.39 1 44 2115048 20190726051411
+184.153.15.2 1 58 3227212 20190722185714
+111.206.36.14 0 5 142961 
+54.245.205.204 1 1 28598 20190715200520
+199.249.230.120 1 1 28598 20190715164528
+36.110.199.156 0 1 82059 
+178.17.166.146 2 2 57196 20190704060121
+23.129.64.168 1 1 28598 20190715171524
+46.165.245.154 5 5 142990 20190715170108
+40.77.191.23 0 1 196580 
+139.59.65.115 1 1 0 20190705161010
+66.240.236.119 1 1 28598 20190706033706
+3.220.211.143 1 1 0 20190709213452
+14.215.176.136 0 1 84355 
+199.244.57.225 1 1 21831 20190722150646
+155.159.123.206 1 1 24340 20190709082743
+155.159.103.5 1 1 23086 20190711155029
+139.59.179.115 2 2 7453 20190701010019
+34.221.47.87 1 1 28598 20190713200422
+192.3.190.154 1 1 22354 20190722150648
+67.247.124.152 1 34 907153 20190730211352
+66.249.88.126 0 2 352565 
+185.173.176.2 1 1 3736 20190705110500
+23.129.64.200 2 2 57196 20190702073945
+27.123.253.229 2 2 28598 20190728020826
+27.17.186.209 12 196 10292273 20190716031920
+3.215.238.71 2 2 0 20190709213457
+185.98.62.164 3 3 11203 20190705160718
+178.175.148.224 1 1 28598 20190718090412
+40.77.195.59 0 1 2631 
+51.68.152.26 4 4 64140 20190729050109
+14.215.176.148 1 11 493997 20190728152341
+185.72.244.24 2 2 57196 20190704122126
+104.248.240.151 1 1 3727 20190705104947
+195.176.3.20 1 1 28598 20190715165458
+188.165.192.220 2 2 57196 20190731042223
+144.217.165.133 1 1 28598 20190718091025
+216.218.134.12 1 1 28598 20190715165205
+104.140.22.147 2 2 51836 20190705044105
+40.77.189.47 0 1 6123 
+3.220.223.153 1 1 0 20190709213451
+106.14.204.78 1 1 28598 20190722175323
+185.220.101.67 3 3 85794 20190718093142
+34.212.247.54 1 1 28598 20190702064310
+132.148.142.117 1 1 3732 20190705154631
+155.159.118.212 1 1 23086 20190709114535
+92.63.99.123 2 2 7460 20190705114959
+36.110.199.175 1 2 225178 20190730042145
+116.203.93.61 1 1 3725 20190701002253
+36.110.199.244 0 1 196580 
+167.71.58.116 1 1 28598 20190730205611
+185.17.149.171 8 8 146024 20190714143829
+185.220.101.61 3 3 85794 20190718091626
+113.10.244.173 3 3 11181 20190705170140
+36.231.234.191 20 20 255229 20190705071821
+198.46.221.208 1 1 28598 20190712043056
+40.77.193.69 0 1 4934 
+104.148.87.122 5 5 142990 20190716120536
+165.227.118.98 1 1 28598 20190711074227
+106.14.114.244 1 1 28598 20190707213814
+142.93.171.34 1 1 3727 20190701010958
+202.46.54.206 1 1 28598 20190707163458
+202.46.56.19 1 1 28598 20190731010102
+40.77.190.67 0 1 84355 
+35.187.80.101 1 1 28598 20190703075459
+185.46.87.204 1 1 28598 20190714200844
+209.159.155.171 4 4 14909 20190705144059
+113.77.83.157 2 92 4134365 20190715224014
+52.7.253.237 1 1 22201 20190709213452
+42.112.20.100 1 1 3729 20190705120015
+46.101.126.68 2 2 7460 20190705104722
+193.9.114.139 2 2 57196 20190703200126
+60.191.38.77 14 14 400372 20190730134920
+202.46.53.161 1 1 28598 20190716193954
+104.200.44.233 1 1 28598 20190720093835
+144.217.166.65 1 1 28598 20190718093009
+91.219.236.136 2 2 57196 20190718090140
+89.36.224.10 8 8 146024 20190707055942
+188.27.218.216 1 1 25302 20190702045254
+155.159.125.44 1 1 24340 20190711153406
+23.89.236.177 1 1 21831 20190722150647
+42.236.10.117 1 49 2235384 20190710234900
+37.128.222.30 1 1 28598 20190718091725
+18.218.111.171 1 58 3227212 20190709012425
+162.158.65.231 1 1 0 20190711081316
+199.249.230.114 1 1 28598 20190718091505
+36.110.199.10 1 6 134234 20190717152232
+159.203.89.245 11 28 997449 20190725191600
+139.59.73.38 2 2 7468 20190705162633
+163.125.140.237 0 1 22843 
+178.164.146.143 1 1 28598 20190711083847
+66.249.83.18 0 14 415378 
+103.27.229.98 1 1 28598 20190729223115
+13.92.173.43 1 1 25302 20190723113722
+81.40.154.130 1 11 293683 20190713151421
+138.68.59.131 2 2 7450 20190705144948
+130.185.250.76 2 2 57196 20190715163617
+144.217.166.59 3 3 85794 20190705162052
+159.203.80.251 1 11 293683 20190720032925
+158.69.217.87 2 2 57196 20190701084113
+23.129.64.167 1 1 28598 20190718092018
+52.33.46.185 1 1 28598 20190723205543
+14.215.176.8 1 2 225178 20190724063755
+42.236.10.125 0 31 2155514 
+13.250.51.151 1 1 28598 20190712112801
+14.215.176.14 0 1 43384 
+36.110.199.160 0 1 84355 
+66.102.6.218 0 16 1083791 
+54.185.210.45 1 1 28598 20190712122453
+139.99.124.167 2 2 7474 20190705155223
+156.221.44.109 1 1 28598 20190730054504
+45.77.78.80 2 2 48732 20190722100653
+212.50.226.16 8 262 8305886 20190731012157
+107.183.117.81 1 1 28598 20190722150640
+174.202.14.32 1 58 3227212 20190720151047
+68.183.237.129 3 3 11186 20190705112638
+199.249.230.113 2 2 57196 20190718091753
+178.17.174.196 1 1 28598 20190718092827
+173.255.192.219 3 3 85794 20190715170139
+111.206.36.146 0 2 130610 
+178.156.202.85 20 20 571960 20190728063329
+104.34.23.249 0 1 29627 
+185.93.180.220 1 1 28598 20190725111536
+193.169.255.102 4 4 114392 20190718093023
+74.64.26.219 0 81 2199476 
+185.125.168.137 2 2 48684 20190715174247
+14.215.176.149 1 8 252337 20190723111950
+77.243.183.121 3 3 65104 20190725081142
+36.110.199.39 0 1 430101 
+3.221.62.249 2 2 0 20190709213458
+50.2.38.209 1 1 28598 20190728115250
+68.183.41.215 1 1 3727 20190701002720
+199.249.230.106 1 1 28598 20190718092019
+193.110.157.151 2 2 57196 20190701120046
+180.97.35.165 1 2 169171 20190722161131
+185.220.101.68 2 2 57196 20190703205316
+68.183.31.42 2 2 7459 20190705134014
+82.221.131.5 2 2 57196 20190702211950
+184.154.189.90 1 1 28598 20190713154714
+54.185.202.105 1 1 28598 20190711200502
+199.249.230.102 2 2 57196 20190701184012
+98.7.76.56 3 3 0 20190731040454
+104.248.58.40 3 3 11177 20190705143454
+178.62.94.63 1 1 3724 20190701012843
+176.230.77.24 1 1 28598 20190701125809
+36.110.199.27 0 1 121260 
+40.77.188.154 0 1 2631 
+3.217.254.199 1 1 25302 20190709213439
+108.49.22.126 1 58 3227212 20190730002453
+212.47.236.18 1 1 28598 20190715165500
+34.217.144.178 1 1 28598 20190719110717
+23.129.64.181 3 3 85794 20190718092322
+199.249.230.122 2 2 57196 20190718081520
+23.129.64.159 2 2 57196 20190703153837
+109.70.100.29 7 7 200186 20190718090918
+91.227.6.17 3 3 11181 20190705114043
+36.110.199.165 0 9 81930 
+50.62.56.153 3 3 11186 20190705114731
+40.77.188.200 0 1 121260 
+178.62.114.210 2 2 7459 20190705154400
+159.89.180.214 2 2 7461 20190705162845
+3.221.96.215 1 1 0 20190709213451
+185.129.62.62 1 1 28598 20190718091502
+103.216.72.154 1 1 3733 20190705105512
+92.240.139.21 1 1 18091 20190718002947
+159.65.141.6 1 1 3737 20190701011614
+160.119.253.114 1 1 28598 20190703205523
+109.201.133.100 1 1 28598 20190718092312
+218.241.243.10 1 1 0 20190717052647
+195.254.134.242 4 4 114392 20190718093041
+109.70.100.24 6 6 171588 20190718091634
+180.97.35.91 0 4 250748 
+104.244.77.171 1 1 28598 20190718091641
+42.98.34.43 1 1 28598 20190718175528
+54.84.198.44 1 1 28598 20190726224843
+180.97.35.89 0 13 258856 
+199.249.230.101 1 1 28598 20190718091419
+185.220.101.62 1 1 28598 20190705162108
+155.159.115.18 1 1 23188 20190709154006
+64.62.202.71 15 15 436584 20190705193253
+54.203.50.116 1 1 28598 20190728002742
+128.199.129.36 1 1 3735 20190705165052
+18.219.192.234 1 58 3227212 20190709005426
+13.75.64.75 20 20 255229 20190710070107
+132.145.202.2 1 1 23188 20190708143030
+68.183.217.185 4 4 14928 20190705161932
+192.241.244.232 4 4 14915 20190705160429
+18.18.248.17 1 1 28598 20190715165408
+169.61.88.23 21 21 367981 20190708190700
+36.110.199.154 0 3 17635 
+39.107.127.149 1 1 28598 20190725163101
+14.215.176.134 0 5 142301 
+159.65.131.58 1 1 3725 20190705143400
+68.183.118.79 1 1 3725 20190701000529
+34.199.254.232 1 1 0 20190709213454
+31.7.57.246 8 8 146024 20190724185935
+104.248.49.173 2 2 7449 20190705170026
+31.29.37.81 1 1 28598 20190727185019
+95.216.20.249 1 1 28598 20190726094601
+121.58.212.114 1 58 3227212 20190712030738
+185.125.33.114 1 1 28598 20190715165059
+36.110.199.12 0 3 95445 
+178.156.202.250 6 6 171588 20190717185850
+107.170.96.6 1 1 28598 20190716020403
+71.19.148.159 1 1 28598 20190703053524
+176.31.101.204 2 2 57196 20190710210048
+111.206.36.17 0 1 121260 
+193.148.69.176 1 1 28598 20190718093105
+18.217.88.232 1 58 3227212 20190719023629
+103.217.235.33 3 96 4336607 20190703031711
+82.118.242.113 1 1 28598 20190715170852
+185.38.148.144 1 1 28598 20190705195122
+87.101.94.200 8 8 146024 20190706195755
+159.89.43.244 10 27 978186 20190712010821
+23.228.101.194 3 3 85794 20190723081021
+51.15.1.221 1 1 28598 20190703053501
+199.249.230.118 2 2 57196 20190703132247
+185.104.185.26 1 1 25302 20190728201701
+47.100.51.108 1 1 28598 20190713201031
+52.42.212.73 1 1 28598 20190726204647
+192.119.164.81 1 58 3227212 20190711031913
+14.215.176.12 0 11 256228 
+92.114.94.150 3 3 11175 20190705154111
+40.77.192.153 0 1 43384 
+45.64.104.167 1 1 3728 20190705160711
+109.70.100.19 2 2 57196 20190715165312
+40.77.195.18 0 1 2937 
+144.217.255.89 3 3 85794 20190703205450
+208.87.236.201 3 102 4259655 20190724141649
+128.199.152.171 1 1 3723 20190705113259
+184.94.240.92 10 10 343451 20190718210405
+193.32.95.192 1 1 28598 20190705193406
+221.229.204.71 5 5 114392 20190721214111
+3.219.247.128 1 1 28598 20190724104936
+52.7.192.82 3 3 22902 20190709213459
+64.246.178.34 1 1 28598 20190721120112
+36.110.199.243 0 3 127694 
+188.27.219.96 1 1 23188 20190706145602
+54.187.92.73 1 1 28598 20190718232216
+103.81.85.214 2 2 7456 20190705104905
+107.189.2.5 2 2 7459 20190705112955
+90.224.157.2 2 2 48680 20190729090210
+35.172.142.39 4 4 114392 20190727203925
+208.184.77.186 1 1 28598 20190716093306
+104.152.187.196 2 2 57196 20190701105727
+75.82.179.221 1 47 1408579 20190712155141
+34.195.210.187 2 2 44163 20190709213454
+45.81.0.99 3 3 65104 20190726013410
+92.53.96.208 1 1 3736 20190705141412
+192.160.102.170 1 1 28598 20190715163917
+138.197.77.243 11 21 535846 20190720051644
+35.153.251.195 2 2 23188 20190709213449
+167.114.117.176 8 8 220173 20190724202253
+40.113.198.122 1 1 25302 20190724103748
+159.69.94.145 2 2 57196 20190726024614
+23.129.64.182 3 3 85794 20190718084706
+23.129.64.211 2 2 57196 20190718093314
+51.15.124.39 1 1 28598 20190702091922
+38.117.96.154 1 1 28598 20190718093318
+40.77.190.29 0 1 9350 
+18.237.92.235 1 1 28598 20190724200425
+107.193.197.50 8 373 17994724 20190703121205
+104.218.63.74 1 1 28598 20190718093245
+87.118.110.27 1 1 28598 20190718093025
+192.145.99.250 4 4 14919 20190705123136
+178.156.202.82 5 5 142990 20190724041411
+104.244.153.22 2 2 70512 20190703213651
+109.70.100.25 3 3 85794 20190715165300
+79.172.193.32 1 1 28598 20190718090636
+85.254.72.27 8 8 146024 20190701084317
+103.46.194.198 2 66 1967551 20190702085554
+40.77.189.212 0 1 10893 
+49.7.6.161 1 45 1319320 20190716020811
+217.70.189.203 2 2 57196 20190718093509
+40.77.195.142 0 1 196580 
+159.203.88.194 1 1 28598 20190701005634
+155.159.125.231 1 1 22902 20190711154631
+178.175.132.225 1 1 28598 20190715165950
+54.36.108.162 3 3 85794 20190718075414
+51.38.162.232 1 1 28598 20190718091122
+66.102.8.85 1 20 1007518 20190716164916
+40.77.188.64 0 1 5597 
+111.206.36.144 1 7 279394 20190729145455
+66.220.149.29 1 1 0 20190725130619
+85.206.165.9 3 3 65104 20190710202346
+14.215.176.20 0 6 388972 
+36.110.199.135 0 1 196580 
+23.129.64.191 2 2 57196 20190701064216
+155.159.104.110 1 1 23188 20190711153759
+51.77.52.216 2 2 57196 20190702142648
+36.110.199.180 0 2 222632 
+83.149.119.148 1 1 23188 20190710052720
+35.246.146.141 1 1 25302 20190709232325
+111.206.36.16 0 3 50344 
+138.197.111.86 1 11 293683 20190706133834
+163.172.41.228 2 2 57196 20190701135238
+23.95.122.60 1 1 22902 20190722150641
+109.70.100.28 5 5 142990 20190715171102
+104.148.87.124 10 10 285980 20190729145630
+23.129.64.207 1 1 28598 20190718091546
+40.77.253.139 0 1 9350 
+158.69.251.142 2 2 7456 20190705105812
+104.148.105.3 5 5 142990 20190721030347
+171.7.106.82 1 58 3227212 20190725225605
+111.206.36.15 0 3 129488 
+185.234.219.17 1 1 28598 20190723190750
+23.254.40.242 1 1 19263 20190719132610
+185.56.147.139 4 4 14908 20190705161030
+217.61.20.182 6 6 114392 20190727203320
+138.197.111.235 1 11 293683 20190702145546
+40.77.189.64 0 2 12287 
+185.217.0.138 3 3 85794 20190702060954
+139.59.28.245 3 3 11191 20190705162721
+82.207.175.52 1 1 22902 20190720031501
+84.85.31.82 1 1 24340 20190717200947
+202.46.56.71 1 1 28598 20190723081531
+111.206.36.138 0 5 209315 
+158.174.122.199 1 1 28598 20190715170531
+185.234.218.22 13 13 321726 20190729120759
+62.102.148.68 2 2 57196 20190718093508
+94.204.167.135 5 225 9263505 20190716020850
+23.129.64.210 2 2 57196 20190704191019
+209.141.58.114 1 1 28598 20190718090916
+36.110.199.152 0 1 351284 
+91.217.197.26 2 2 7459 20190705164739
+40.77.190.78 0 1 43384 
+109.70.100.27 1 1 28598 20190705162527
+162.247.72.199 2 2 57196 20190715171103
+34.211.143.198 1 1 28598 20190721204749
+36.110.199.66 0 1 121260 
+139.224.116.230 1 1 28598 20190713201057
+45.122.223.63 10 10 37292 20190705153820
+66.102.6.220 1 24 1679132 20190716164912
+180.163.220.3 0 4 263938 
+162.158.68.28 1 1 0 20190728160329
+67.227.100.236 1 1 28598 20190703222926
+199.249.230.109 6 6 171588 20190718093021
+111.206.36.8 0 7 224025 
+157.230.134.219 2 2 7462 20190705165639
+199.127.226.150 2 2 57196 20190703151726
+209.97.164.16 1 1 3728 20190705153958
+5.196.154.92 2 2 57196 20190714031205
+59.13.123.221 1 58 3227212 20190703074021
+202.46.53.117 1 1 28598 20190712050028
+132.232.16.200 2 2 7464 20190705154852
+3.216.159.203 2 2 37139 20190709213458
+85.214.241.82 2 2 57196 20190716050621
+185.220.101.70 2 2 57196 20190701140511
+40.77.193.199 0 1 6123 
+3.220.23.31 3 3 0 20190709213459
+62.210.26.50 4 4 14906 20190705134235
+23.247.81.43 20 20 571960 20190731092029
+134.90.149.146 8 8 146024 20190701182751
+31.184.238.211 3 3 79803 20190730214701
+40.77.188.3 0 1 837 
+93.104.210.236 2 2 7467 20190705160229
+69.87.219.57 1 1 28598 20190703041706
+203.133.171.111 4 14 368700 20190731100034
+159.89.180.128 1 11 293683 20190731171408
+149.129.103.170 12 12 299359 20190706031422
+3.218.62.191 2 2 19263 20190709213453
+107.184.100.19 6 170 6149389 20190720103019
+34.77.46.91 1 1 28598 20190702095052
+45.55.151.41 1 1 3726 20190701011218
+3.221.19.124 1 1 25262 20190709213449
+180.97.35.37 0 12 137982 
+178.211.62.149 2 2 7472 20190705152243
+1.52.55.255 0 1 29627 
+3.219.73.191 1 1 0 20190709213442
+185.220.101.60 2 2 57196 20190718092553
+109.69.67.17 1 1 28598 20190718091435
+14.221.39.218 10 348 11954112 20190716043014
+36.110.199.136 1 4 178873 20190714193802
+14.215.176.132 1 4 374786 20190722224258
+40.77.191.54 0 1 6123 
+54.190.48.145 1 1 28598 20190702000428
+209.58.176.182 2 2 53220 20190728032903
+159.65.109.241 1 1 3725 20190705105704
+157.230.106.248 2 2 7457 20190705145454
+3.217.30.139 2 2 48432 20190709213453
+165.227.212.161 11 28 997449 20190730112531
+35.227.34.214 2 2 57196 20190702145010
+206.180.165.147 1 1 28598 20190711030204
+212.92.123.25 1 1 28598 20190724230154
+193.90.12.115 2 2 57196 20190702002437
+111.206.36.9 1 3 212555 20190722214401
+40.77.191.50 0 1 196580 
+104.244.78.124 1 1 28598 20190718092120
+202.46.53.175 1 1 28598 20190717122713
+104.196.155.9 2 2 57196 20190714164523
+94.140.116.217 3 3 85794 20190715170107
+35.160.150.67 1 1 28598 20190719200412
+111.206.36.19 0 5 26923 
+36.110.199.42 0 1 15116 
+14.215.176.21 0 9 206556 
+178.171.23.63 1 1 28598 20190711002335
+36.110.199.25 0 1 351284 
+3.219.241.82 1 1 0 20190709213456
+18.236.114.39 1 1 28598 20190713012009
+163.172.103.16 1 1 25745 20190730022451
+104.222.43.45 1 1 28598 20190716082559
+52.158.25.226 2 2 7467 20190705132404
+14.215.176.146 0 13 107506 
+51.68.196.175 1 1 26290 20190714134747
+14.215.176.140 0 4 136493 
+40.77.190.214 0 1 7071 
+66.249.83.22 1 23 1153744 20190713110741
+54.185.138.91 1 1 28598 20190709011950
+34.73.67.152 4 4 114392 20190726233102
+51.158.111.68 1 1 28598 20190703205131
+162.158.68.135 1 1 0 20190719123125
+94.101.81.197 2 2 7452 20190705110706
+180.97.35.216 1 9 282784 20190714044117
+40.77.194.120 0 1 5597 
+47.92.122.11 1 1 28598 20190704160426
+192.169.202.119 1 1 3733 20190705105932
+34.217.58.172 1 1 28598 20190702190215
+206.189.203.163 2 2 7458 20190705125402
+54.209.103.91 2 2 73846 20190709213459
+46.217.22.203 1 8 506089 20190712100737
+23.254.52.252 1 1 28598 20190717053029
+165.227.127.111 1 5 209042 20190721045228
+23.228.90.12 15 15 428970 20190731040328
+87.118.112.63 2 2 57196 20190718092236
+188.166.85.78 1 1 3737 20190705104843
+14.215.176.137 0 3 25177 
+82.102.18.145 8 8 146024 20190713042127
+185.220.101.65 2 2 57196 20190715164538
+193.169.145.66 4 4 114392 20190715160729
+69.171.251.35 1 33 1197003 20190723050020
+178.140.48.111 1 1 19263 20190727185833
+104.222.33.44 1 1 28598 20190710075716
+92.222.127.232 2 2 57196 20190701073309
+212.224.95.115 4 4 14905 20190705112847
+40.77.191.109 0 1 4967 
+134.209.22.22 2 2 7457 20190705105552
+34.220.84.236 1 1 28598 20190708010914
+47.98.37.19 1 1 28598 20190728172758
+180.97.35.20 1 3 309533 20190726123841
+207.102.138.11 1 1 28598 20190727131224
+199.249.230.108 6 6 171588 20190718092254
+107.189.1.162 3 3 11191 20190705130153
+202.46.50.87 1 1 28598 20190722121904
+34.77.140.167 1 1 28598 20190705040623
+91.231.122.19 1 1 24340 20190713152149
+144.217.166.26 1 1 28598 20190715170516
+103.215.221.195 1 1 3729 20190705144547
+35.243.231.165 2 2 57196 20190722230317
+18.236.216.52 1 1 28598 20190722200443
+185.93.3.114 2 2 51500 20190731011645
+51.83.76.139 4 4 114392 20190702181049
+47.100.100.21 1 1 28598 20190716202348
+199.249.230.123 1 1 28598 20190718093141
+199.249.230.117 1 1 28598 20190718093036
+18.207.11.181 2 2 24340 20190709213445
+54.185.195.131 1 1 28598 20190710200511
+24.114.107.19 1 44 2115048 20190716093259
+83.97.23.188 3 3 65104 20190721162313
+162.158.65.228 1 1 0 20190719123125
+180.163.220.4 1 12 879483 20190710234618
+162.158.64.138 1 1 0 20190704071616
+5.188.210.61 2 2 57196 20190731110754
+34.222.9.94 1 1 28598 20190726100457
+38.145.96.38 1 1 21831 20190722150648
+184.74.238.186 2 87 3118893 20190718161801
+49.247.213.194 1 1 28598 20190706171108
+144.217.164.104 1 1 28598 20190718092431
+82.202.197.94 1 1 3728 20190701010302
+106.14.189.11 1 1 28598 20190719173103
+40.77.190.82 0 3 10502 
+45.55.255.118 10 27 978186 20190706071014
+92.53.96.202 2 2 7463 20190705162111
+180.97.35.149 0 2 201547 
+64.137.111.60 1 1 18091 20190722150642
+162.158.68.209 1 1 0 20190728160330
+185.220.101.66 1 1 28598 20190718092811
+158.69.192.239 1 1 28598 20190701191646
+124.206.180.180 1 1 28598 20190729071349
+138.197.165.64 3 3 11196 20190705105220
+35.198.47.45 2 2 7457 20190705131200
+178.156.202.81 6 6 171588 20190725112113
+163.172.54.52 2 2 7455 20190705155921
+40.77.253.123 0 1 140573 
+178.22.69.217 2 2 50524 20190703213734
+40.77.190.160 0 1 140573 
+199.249.230.110 1 1 28598 20190715170137
+183.49.252.241 2 93 5326766 20190723213239
+119.137.3.151 0 1 22843 
+38.135.32.253 2 2 7451 20190701010541
+111.206.36.18 0 4 287899 
+23.140.160.28 1 1 28598 20190718093054
+107.77.106.25 3 90 3310505 20190714215910
+84.38.133.200 1 1 28598 20190722115952
+34.213.47.116 1 1 28598 20190704012721
+122.28.51.215 2 2 7459 20190705120444
+206.189.125.33 5 5 18640 20190705140725
+157.230.33.26 1 1 3723 20190705151441
+178.171.6.246 1 1 28598 20190718001017
+3.15.17.253 3 19 728127 20190731030436
+79.137.123.191 2 2 7462 20190705162805
+45.118.144.81 2 2 90915 20190723013226
+207.180.229.106 3 3 11183 20190705133024
+159.65.51.31 1 1 28598 20190724021925
+180.97.35.15 1 1 28598 20190720094947
+104.248.153.159 1 1 3729 20190705105346
+202.46.49.60 1 1 28598 20190708102905
+148.70.217.225 1 1 3727 20190705164553
+139.59.19.168 4 4 14905 20190705163702
+40.77.192.212 0 1 4967 
+173.212.225.106 4 4 14904 20190705142206
+154.51.131.142 1 1 28598 20190709161939
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190701 142 142 2030101 89
+20190702 81 498 13416334 42
+20190703 339 882 34669164 40
+20190704 20 20 461040 14
+20190705 234 382 6972162 159
+20190706 41 68 1997822 12
+20190707 59 824 32980758 6
+20190708 25 25 476963 5
+20190709 83 229 8960696 51
+20190710 48 318 12665505 16
+20190711 27 218 10742355 24
+20190712 29 185 8723545 13
+20190713 23 106 4676768 14
+20190714 29 148 5170891 11
+20190715 89 230 9634959 55
+20190716 108 1091 45155654 25
+20190717 16 66 1997099 12
+20190718 113 215 7010198 74
+20190719 31 146 7224550 20
+20190720 54 329 11928214 23
+20190721 45 93 3499128 22
+20190722 67 204 8005814 42
+20190723 52 233 11064482 30
+20190724 104 229 6760559 27
+20190725 74 180 7002437 27
+20190726 145 564 18040750 21
+20190727 47 47 1184308 14
+20190728 40 67 1930703 21
+20190729 52 201 7229747 17
+20190730 39 220 9707128 16
+20190731 58 354 11138633 21
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 22
+15mn-30mn 51
+2mn-5mn 14
+30s-2mn 18
+0s-30s 807
+30mn-1h 47
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/index.php 1195 28028090 261 251
+/ 765 21049464 493 501
+/admin/ 244 905376 199 201
+/index.php/api/Uploadify/preview 53 1515694 6 0
+/admin/index.php 39 145281 1 1
+/blog/robots.txt 6 0 1 3
+//index.php 4 105057 1 2
+/fonts/linea-arrows-10.woff 4 30848 0 1
+/joomla/robots.txt 2 0 0 2
+// 1 28598 1 1
+//index.php/Home/AppUpload/commentUpload 1 28598 0 0
+END_SIDER

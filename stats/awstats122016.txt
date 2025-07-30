@@ -1,0 +1,1433 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201612 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2554                
+POS_VISITOR 29370               
+POS_DAY 47551               
+POS_DOMAIN 3512                
+POS_LOGIN 3747                
+POS_ROBOT 3902                
+POS_WORMS 4728                
+POS_EMAILSENDER 4859                
+POS_EMAILRECEIVER 5002                
+POS_SESSION 48451               
+POS_SIDER 48660               
+POS_FILETYPES 5137                
+POS_OS 5371                
+POS_BROWSER 5522                
+POS_SCREENSIZE 6060                
+POS_UNKNOWNREFERER 6134                
+POS_UNKNOWNREFERERBROWSER 6670                
+POS_ORIGIN 6960                
+POS_SEREFERRALS 7106                
+POS_PAGEREFS 7284                
+POS_SEARCHWORDS 8187                
+POS_KEYWORDS 8369                
+POS_MISC 2217                
+POS_ERRORS 8458                
+POS_CLUSTER 3603                
+POS_SIDER_404 8592                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170101000501 21958 5300933 44675108832
+FirstTime 20161201013709
+LastTime 20161231231337
+LastUpdate 20170101025720 21958 21384 573 0 0
+TotalVisits 433                 
+TotalUnique 377                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 494                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 10 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 608 31034769 200 621 15840260
+1 75 1084 47905741 94 147 1774505
+2 63 634 21732524 131 225 5144675
+3 67 916 44371820 126 156 1564334
+4 50 658 31201967 120 158 3727820
+5 50 262 10621514 162 197 2812989
+6 8 86 4631426 401 425 9330345
+7 30 268 10581279 157 180 1501636
+8 30 335 11950615 125 161 1882191
+9 56 298 12650702 114 174 3271772
+10 55 1370 51185770 137 167 1312883
+11 65 591 26911216 416 445 8920860
+12 18 274 10786542 445 480 9657193
+13 26 590 21726704 223 260 4313780
+14 44 713 21091548 135 161 1147472
+15 17 552 30368827 117 152 2362502
+16 32 45 1162513 193 219 3028950
+17 36 876 37538613 165 187 3230693
+18 42 799 27820714 115 147 4077835
+19 119 1292 51930375 141 152 1535251
+20 44 710 30888067 182 246 4040632
+21 45 882 33649798 106 159 3356949
+22 58 1036 38287380 142 258 2176252
+23 41 719 34590613 196 771 25135060
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1101 15598 644621037
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 19
+bot[+:,\.\;\/\\-] 1477 38976008 20161231220306 0
+phantom 982 39320950 20161231025319 0
+seznambot 349 18999189 20161231230655 0
+googlebot 310 11063463 20161231234941 0
+baiduspider 80 1764802 20161231210304 0
+python 58 1571862 20161231025322 0
+spider 40 1105464 20161231123701 0
+robot 24 1861575 20161227112321 0
+slurp 21 523960 20161225175045 0
+no_user_agent 19 480341 20161230160249 0
+core 2 57196 20161222233519 0
+commons\-httpclient 2 57196 20161221220619 0
+exabot 1 28598 20161229135232 0
+surveybot 2 57196 20161220194329 0
+java 15 428970 20161221213317 0
+cfnetwork 4 114392 20161206122740 0
+yandex 12 448822 20161231210759 0
+sogou 12 343176 20161231024802 0
+crawl 2 57196 20161228092156 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+eot 4 76685 0 0
+css 2115 134477477 0 0
+png 4924 70983059 0 0
+woff 17 131104 0 0
+woff2 2 36056 0 0
+php 670 15748549 0 0
+html 408 11042300 0 0
+js 3615 102066440 0 0
+jpg 3843 310059367 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 210
+winlong 67
+win2000 5
+winnt 2929
+linux 278
+winvista 757
+macosx 4833
+win2003 9
+Unknown 56
+win2008 6454
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 36
+msie6.0 76
+firefox28.0 30
+firefox3.6 2
+firefox44.0 3
+chrome 6122
+firefox26.0 2
+firefox3.0.1 2
+lynx 2
+firefox24.0 1
+msie8.0 332
+firefox6.0.2 15
+firefox43.0 151
+msie7.0 23
+firefox40.1 1
+firefox41.0 91
+msie5.0 27
+msie9.0 243
+Unknown 6
+firefox27.0 1
+firefox3.0.8 1
+netscape 40
+firefox50.0 2649
+firefox32.0 2
+firefox3.0.2 1
+firefox48.0 4
+opera 19
+firefox21.0 9
+firefox29.0 38
+firefox3.5.2 11
+firefox7.0.1 4
+mozilla 2068
+firefox14.0.1 10
+msie10.0 6
+firefox3.6.3 30
+firefox3.0.10 4
+safari 3572
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+mozilla 20161230002416
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20161229124838
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online) 20161222144241
+Riddler_(http://riddler.io/about) 20161210032644
+M 20161228092536
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20161216090915
+redback/v0-570-g26f8c96 20161206185845
+Opera/9.27 20161212045432
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+M 20161228092536
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20161216090915
+Riddler_(http://riddler.io/about) 20161210032644
+redback/v0-570-g26f8c96 20161206185845
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 624 824
+From1 14 14
+From2 47 49
+From3 19 53
+From4 397 14658
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 39 41
+baidu 5 5
+yandex 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 15
+https://www.bing.com 4 4
+http://1-free-share-buttons.com 2 2
+http://www.nychinaren.com/company/task_view/id_36491.html 2 2
+http://www.thomasnet.com/profile/30774822/act-packaging.html 1 1
+http://actpackaginginc2013.en.ec21.com/company_contact_info.html 1 1
+http://www.timer4web.com/domain/www.act-packaging.com 1 1
+http://us1041060666.fm.alibaba.com/contactinfo.html 1 1
+http://burger-imperia.com 1 1
+http://www.bing.com/search 1 1
+http://www.nychinaren.com/company/task_image/id_36491.html 1 1
+https://translate.googleusercontent.com/translate_c 0 34
+http://actpackaginginc2013.en.ec21.com/company_info.html 1 1
+http://www.wxhl.net/case/index_3.html 1 1
+http://www.wxhl.net/case/case1_3.html 1 1
+https://us1041060666.fm.alibaba.com/contactinfo.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+www 3
+www.act-packaging.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+www 3
+www.act-packaging.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 2 411
+302 2 512
+406 10 1906
+301 1 243
+404 2821 3883411
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 568
+/product/NON-WOVEN-BAG.html 3 -
+/upload/2015-07-30/20150730055752940.jpg 1 http://act-packaging.com/product/Gift-box.html
+/product/Wine-Non-wovenbag.html 2 -
+/product/Cube-Note-Leather-Box.html 1 -
+/product/index_5.html 6 -
+/product/index_7.html 5 -
+/product/index33.html 4 -
+/product/dbx10.html 1 -
+/upload/2014-02-11/20140211125603400.jpg 2 -
+/product/181.html 1 -
+/upload/2014-02-09/20140209153645370.jpg 1 http://act-packaging.com/product/Set-up-box-Lid-Base-box.html
+/xmlrpc.php 10 -
+/upload/2014-02-09/20140209155026850.jpg 1 -
+/upload/2014-02-11/20140211095738720.jpg 1 -
+/product/PB1.html 2 -
+/product/Adhesive-Sticker.html 2 -
+/product/LDB24.html 6 -
+/product/wine%20box.html 7 -
+/product/index36.html 5 -
+/portal.php 1 http://ACT-PACKAGING.com/portal.php
+/product/LDB30.html 3 -
+/product/bbx16.html 2 -
+/product/Tissue-Leather-Box.html 1 -
+/product/191.html 1 -
+/upload/20140124175944197.jpg 4 -
+/product/Storage-Leather-Folding-Box.html 2 -
+/product/Book-Box-with-Bowknot.html 1 -
+/product/BBX11.html 5 -
+/product/LDB22.html 2 -
+/upload/2015-10-21/20151021145134540.jpg 3 -
+/factory/Quality-assurance.html 3 -
+/service/ 5 -
+/product/Cosmetic-Drawer-Box.html 2 -
+/upload/2014-03-03/20140303152929750.jpg 1 https://www.google.com.co/
+/product/175.html 1 -
+/product/205.html 1 -
+/upload/2015-10-21/20151021152106220.jpg 2 -
+/plus/search.php 1 http://ACT-PACKAGING.com/plus/search.php
+/upload/2014-02-09/20140209154448900.jpg 1 http://act-packaging.com/product/Round-box.html
+/news 1 -
+/license.txt 1 http://ACT-PACKAGING.com/license.txt
+/news/index_2.html 3 -
+/configuration.php 1 -
+/upload/2015-10-21/20151021151529780.jpg 2 -
+/upload/2015-10-20/20151020103111520.jpg 1 https://www.google.com/
+/product/Wine-Paper-Bag.html 2 -
+/upload/20141013135549111.jpg 2 -
+/.private 1 -
+/product/HGB003.html 3 -
+/upload/2015-07-30/20150730054358770.jpg 2 -
+/upload/20140124174547106.jpg 5 http://image.baidu.com/i
+/upload/2014-02-06/20140206172957550.jpg 2 -
+/product/Folding-box.html 4 -
+/upload/2015-08-04/20150804081448550.jpg 1 http://act-packaging.com/product/Gift-box.html
+/upload/2015-10-21/2015102114460050.jpg 39 https://www.google.com.sg/
+/upload/2014-02-09/20140209152850700.jpg 1 -
+/product/Christmas-Paper-Bag.html 3 -
+/upload/2014-10-24/20141024140508640.jpg 1 -
+/upload/2014-10-25/20141025163554220.jpg 2 -
+/product/166.html 1 -
+/upload/2015-10-19/20151019165753960.jpg 1 -
+/upload/2014-02-11/20140211125427860.jpg 2 -
+/upload/2014-02-11/20140211102048130.jpg 1 -
+/upload/2015-04-13/20150413133304190.jpg 2 -
+/product/DBX13.html 9 -
+/news/ 6 -
+/product/folding-card-paper-box.html 2 -
+/upload/2014-03-04/20140304133912450.jpg 1 -
+/upload/2015-08-04/20150804083318220.jpg 2 http://act-packaging.com/product/FOLDING-PAPER-BOX.html
+/upload/2014-02-06/20140206173317670.jpg 1 -
+/product/180.html 3 -
+/upload/2014-02-06/20140206173059200.jpg 1 -
+/upload/2014-10-25/20141025165429190.jpg 1 -
+/product/208.html 2 -
+/service 1 -
+/upload/2015-12-12/2015121205272260.png 2 -
+/upload/2014-10-24/20141024135510890.jpg 1 http://act-packaging.com/product/Gift-box.html
+/product/237.html 2 -
+/product/172.html 5 -
+/test-for-404-page 1 -
+/upload/2015-10-19/20151019170654610.jpg 3 -
+/upload/2014-02-05/20140205230101570.jpg 1 -
+/upload/2014-02-04/20140204145631900.jpg 1 -
+/upload/2014-02-06/20140206101406290.jpg 1 -
+/product/190.html 1 -
+/upload/2015-10-19/20151019163922250.jpg 2 -
+/product/Drawer%20Box.html 9 https://www.google.com/
+/upload/2015-10-21/20151021143921920.jpg 2 -
+/product/PB2.html 6 -
+/upload/2015-10-21/20151021161205110.jpg 1 https://www.google.com/
+/.temp 1 -
+/upload/2015-10-21/20151021150043960.jpg 1 http://act-packaging.com/product/FOLDING-PAPER-BOX.html
+/upload/2014-03-03/20140303161435240.jpg 2 -
+/product/194.html 4 -
+/product/Mini-Paper-Bag.html 2 -
+/product/CBX13.html 3 -
+/news/Die-cut%20making%20machine.html 14 -
+/upload/2014101310010215.png 3 -
+/upload/2015-04-13/20150413134550470.jpg 1 -
+/product/Packaging-folding-Box-with-Window.html 1 -
+/upload/2014-02-11/2014021112552090.jpg 1 -
+/product/hexagon%20box.html 5 -
+/wp-content/themes/mTheme-Unus/css/css.php 1 -
+/upload/2014-02-09/2014020916051090.jpg 1 -
+/upload/2014-02-04/2014020414410380.jpg 1 http://act-packaging.com/product/FOLDING-PAPER-BOX.html
+/product/PT7.html 1 -
+/product/oval%20gift%20box.html 1 -
+/upload/2014-04-09/20140409041641670.jpg 1 -
+/product/ 12 -
+/upload/2014-02-05/20140205230407920.jpg 1 -
+/product/168.html 1 -
+/administrator 1 -
+/product/Gift-Folding-Box.html 4 -
+/upload/20141013135019187.jpg 2 -
+/product/DBX17.html 3 -
+/upload/2015-10-19/20151019170446180.jpg 2 -
+/javascript:void(0) 12 -
+/upload/2014-02-04/20140204145032780.jpg 1 -
+/product/Storage-Faux-Leather-Box-with-Handle.html 3 -
+/upload/2014-02-09/20140209150017960.jpg 1 -
+/service/How-to-Place-Orders.html 1 -
+/product/201.html 1 -
+/product/cbx14.html 2 -
+/product/BBX10.html 3 -
+/product/fbx9.html 1 -
+/apple-touch-icon.png 6 -
+/upload/2014-04-09/20140409041914140.jpg 1 -
+/product/Suit%20box.html 6 -
+/upload/2015-10-20/20151020102359630.jpg 1 -
+/product/183.html 3 -
+/product/index_14.html 4 -
+/product/189.html 2 -
+/product/index40.html 2 -
+/libraries/simplepie/idn/ReadMe.txt 1 http://ACT-PACKAGING.com/libraries/simplepie/idn/ReadMe.txt
+/product/FOLDING%20CARTON_2.html 2 -
+/wp/ 6 -
+/product/kraft-paper-packaging-box.html 1 -
+/index_16.html 10 -
+/product/cello%20bag.html 2 -
+/upload/2015-10-20/20151020103111690.jpg 3 http://act-packaging.com/product/Gift-box.html
+/apple-touch-icon-precomposed.png 5 -
+/product/Lid%20Base%20Box.html 2 -
+/product/wine%20gift%20paper%20box.html 2 -
+/product/BBX18.html 2 -
+/upload/2014-02-11/20140211125658680.jpg 1 -
+/.default 1 -
+/upload/2014-02-11/20140211121358790.jpg 1 http://act-packaging.com/product/Gift-box.html
+/product/LDB23.html 2 -
+/product/178.html 1 -
+/product/wine%20folding%20paper%20box.html 3 -
+/news/56.html 16 -
+/upload/20141013135314165.jpg 4 -
+/product/HGB004.html 13 -
+/sitemap_index.xml 1 -
+/product/177.html 2 -
+/product/192.html 7 -
+/product/171.html 2 -
+/upload/2014-02-11/20140211121107900.jpg 2 https://www.google.ee/
+/product/Chocolate-Drawer-Box.html 1 -
+/apple-app-site-association 15 -
+/product/Gift-box_2.html 8 -
+/news/61.html 3 -
+/upload/2015-10-21/20151021155150370.jpg 1 -
+/contact 8 -
+/news/%C3%AF%C2%BC%C2%8F 2 -
+/.well-known/apple-app-site-association 15 -
+/product/Golden-Paper-Box-with-Window.html 1 -
+/product/index_8.html 6 -
+/product/LDB28.html 4 -
+/product/Nested-Drawer-Box.html 3 -
+/product/DRAWER%20BOX_2.html 2 -
+/product/Speedo-paper-box.html 1 -
+/blog//wordpress/wp-admin/setup-config.php 1 -
+/upload/2015-07-30/20150730054556890.jpg 2 http://act-packaging.com/product/FOLDING-PAPER-BOX.html
+/product/Candy%20Box.html 3 -
+/user/register 1 -
+/highslide/graphics/zoomout.cur 1 http://act-packaging.com/
+/.secret 1 -
+/product/Tea%20box.html 1 -
+/product/DRAWER%20BOX.html 83 -
+/product/HGB001.html 2 -
+/product/LDB33.html 1 -
+/product/Round-box.html 2 -
+/product/Paper-Book-Box.html 3 -
+/product/LDB25.html 2 -
+/product/soft%20touch%20paper%20box.html 2 -
+/index.php%3froute%3dinformation/contact 1 -
+/product/187.html 1 -
+/product/Gift-Box-for-Children.html 2 -
+/upload/2014-02-09/20140209155214180.jpg 1 http://act-packaging.com/product/Round-box.html
+/themes/README.txt 1 http://ACT-PACKAGING.com/themes/README.txt
+/upload/2014-02-06/2014020617440710.jpg 1 -
+/upload/2015-04-13/20150413125539600.jpg 1 -
+/wp-admin/admin-ajax.php 1 -
+/libraries/idna_convert/ReadMe.txt 1 http://ACT-PACKAGING.com/libraries/idna_convert/ReadMe.txt
+/js/mage/cookies.js 1 -
+/upload/2015-10-20/20151020143201560.jpg 3 -
+/img/tu3.gif 1 -
+/upload/2015-10-19/20151019170446120.jpg 2 -
+/product/Jewel-Paper-Box.html 4 -
+/news/51.html 8 -
+/.queries 1 -
+/product/DrawerBox.html 2 -
+/product/cbx26.html 4 -
+/upload/2015-10-20/20151020110358660.jpg 2 -
+/.logs 1 -
+/product/Chocolate-Paper-Drawer-Box.html 14 -
+/upload/20141013135104134.jpg 2 -
+/product/LDB32.html 2 -
+/upload/2014-10-24/20141024135510950.jpg 1 -
+/product/Book%20Box_2.html 11 -
+/product/174.html 1 -
+/N0WaY/N0WaY1bb2/N0WaY123.php 2 -
+/product/200.html 1 -
+/news/happythanksgiving.html 9 -
+/product/179.html 2 -
+/product/Red-Book-Box.html 7 -
+/product/Hinged-Leather-Box.html 1 -
+/sitemap.xml 4 -
+/product/index35.html 3 -
+/upload/20141013100333145.png 2 -
+//NewsType.asp 3 http://xhzv.cc/
+/upload/2014-02-09/20140209150017190.jpg 2 -
+/upload/2014-02-06/2014020617261280.jpg 2 -
+/product/JEWEL%20LEATHER%20BOX.html 2 -
+/sites/default/settings 1 -
+/img/tu2.gif 2 -
+/upload/2014-03-03/20140303162734380.jpg 2 -
+/product/Heart-Box-with-Bowknot.html 1 -
+/news/index6.html 9 -
+/product/Corrugated-box.html 2 -
+/upload/2014-10-25/20141025165235210.jpg 2 -
+/product/184.html 2 -
+/upload/2015-04-13/20150413142514340.jpg 1 -
+/upload/2015-10-21/20151021155045430.jpg 3 -
+/upload/2015-04-13/20150413150143730.jpg 18 https://www.google.ca/
+/upload/2015-08-04/20150804081448920.jpg 1 -
+/apple-touch-icon-120x120.png 1 -
+/upload/2015-10-20/20151020110012450.jpg 2 -
+/upload/2014-10-25/20141025170136410.jpg 2 -
+/product/LDB35.html 2 -
+/product/Watch%20Leather%20Box.html 5 -
+/wp-config-sample.php 1 -
+/upload/2014-10-24/20141024155804940.jpg 2 -
+/upload/20141013100252111.png 2 -
+/product/Heart-Shaped-Gift-Box.html 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/product/DBX15.html 2 -
+/product/Kraft-Paper-Bag.html 2 -
+/contact/index.php 92 -
+/upload/2014-02-11/20140211100235280.jpg 2 -
+/.query 1 -
+/product/LDB27.html 1 -
+/product/CBX17.html 4 -
+/product/Heart-Gift-Box.html 2 -
+/product/Red-Paper-Gift-Box.html 1 -
+/.well-known/assetlinks.json 15 -
+/js/MSClass.js 1 http://www.act-packaging.com/product/index_3.html
+/product/196.html 1 -
+/product/PT2.html 2 -
+/product/Earring%20Gift%20Box.html 5 -
+/news/index8.html 4 -
+/.sql 1 -
+/upload/2014-02-09/20140209151018420.jpg 1 http://act-packaging.com/product/Set-up-box-Lid-Base-box.html
+/product/Black-Shopping-Bag.html 1 -
+/index_2.html 10 -
+/sitemap.html 6 -
+/service/index.html 1 -
+/product/LDB31.html 2 -
+//install/index.php.bak 2 http://recordpaper.com/
+/info.php 1 -
+/factory 1 -
+/product/index_10.html 4 -
+/blog/robots.txt 6 -
+/product/FOLDING-PAPER-BOX.html 13 -
+/user/ 1 -
+/product/Box.html 3 -
+/upload/2015-10-21/20151021160552470.jpg 2 -
+/product/CBX28.html 3 -
+/img/apps/container-box.gif 1 -
+/product 1 -
+/upload/2014-10-24/20141024142804870.jpg 2 -
+/product/PT1.html 1 -
+/upload/2015-10-21/20151021150909930.jpg 2 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 1 -
+/upload/2014-02-11/20140211121002530.jpg 2 -
+/upload/2014-10-25/201410251644371000.jpg 1 http://act-packaging.com/product/FOLDING-PAPER-BOX.html
+/product/LID-BASE-BOX_2.html 2 -
+/about/index.html 2 -
+/product/index38.html 4 -
+/upload/20141013134708175.jpg 1 -
+/product/Wine-Gift-Paper-Box.html 3 -
+/news/2012-HK-International-Printing&Packaging-Fair.html 1 -
+/upload/20141030171535104.jpg 1 -
+/product/Pearl-Paper-Box.html 4 -
+/index.php 108 http://www.act-packaging.com/index.php
+/news/54.html 8 -
+/sites/act-packaging.com/settings 1 -
+/index_4.html 10 -
+/wordpress/ 6 -
+/product/Set-up-box-Lid-Base-box.html 6 -
+/.bash_history 1 -
+/contact/ 122 -
+/upload/2014-02-09/20140209160831990.jpg 1 -
+/upload/2014-02-09/20140209153212260.jpg 1 -
+/udd.php 2 -
+/product/206.html 4 -
+/product/PT4.html 1 -
+/upload/2014-10-24/2014102415531450.jpg 2 -
+/upload/2014-02-06/20140206100230100.jpg 2 -
+/upload/20141013134540126.jpg 1 -
+/product/Perfume-Folding-Set-Up-Box.html 1 -
+/product/188.html 1 -
+/research.asp 1 http://njsdfw.com
+/.old 1 -
+/news/Company-News.html 11 -
+/upload/2014-02-09/20140209160708580.jpg 1 -
+/product/DBX19.html 17 -
+/upload/2015-08-04/20150804084938480.jpg 1 -
+/news/57.html 9 -
+/upload/2014-02-11/20140211125154960.jpg 1 -
+/product/197.html 1 -
+/news/Luxury%20rigid%20paper%20box.html 4 -
+/product/Gift-Drawer-Box.html 4 -
+/product/dbx11.html 4 -
+/upload/2014-10-25/20141025163854750.jpg 3 -
+/product/207.html 3 -
+/upload/2014-02-04/20140204142808380.jpg 1 -
+/upload/2015-10-21/20151021161511530.jpg 1 -
+/upload/2014-10-24/20141024153234990.jpg 3 -
+/product/Gift-Paper-Bag.html 2 -
+/wp-login.php 5 -
+/product/Click%20Leather%20Box.html 2 -
+/upload/2014-03-03/20140303171514610.jpg 1 -
+/upload/2014-04-09/20140409041753900.jpg 1 -
+/factory/Technology-resources.html 4 -
+/upload/2014-01-20/20140120090359800.jpg 1 -
+/download 2 -
+/product/wine%20folding%20box.html 1 https://www.google.rs/
+/upload/2015-10-20/20151020110207460.jpg 6 -
+/vmskdl44rededd 2 -
+/upload/2014-01-20/20140120090337760.jpg 1 -
+/upload/2015-08-04/20150804085704260.jpg 2 -
+/product/Promotional-handbag.html 1 -
+/product/Display-Drawer-Box.html 1 -
+/blog/xmlrpc.php 1 -
+/news/index9.html 1 -
+/.nksdjs 1 -
+/license.php 2 -
+/product/PT6.html 1 -
+/product/GTB28.html 2 -
+/upload/2014-02-05/20140205230949210.jpg 1 -
+/up.php 2 -
+/wp/wp-admin/setup-config.php 1 -
+/product/Shopping-Non-woven-bag.html 2 -
+/product/Rigid-Paper-box.html 6 https://www.google.bg/
+/upload/2014-04-09/2014040904220290.jpg 1 -
+/product/Red-Wine-Folding-Box.html 4 -
+/product/Storage-Leather-Box.html 3 -
+/readme.html 1 -
+/product/Hinged-Paper-Box.html 1 -
+/product/186.html 1 -
+/about 1 -
+/service/Sample-Policy.html 4 -
+/product/LDB29.html 3 -
+/news/index7.html 7 -
+/download/ 10 -
+/product/CBX22.html 2 -
+/robots.txt 638 -
+/product/Gift-box_3.html 1 -
+/upload/2014-04-09/20140409042000940.jpg 1 -
+/product/PT3.html 1 -
+/upload/2015-10-21/20151021145354730.jpg 1 -
+/upload/2015-04-13/20150413143012630.jpg 1 -
+/product/index39.html 1 -
+/js/jquery-1.4.2.min.js 2 http://www.act-packaging.com/product/index_3.html
+/upload/2014-02-09/20140209153520720.jpg 1 http://act-packaging.com/product/Set-up-box-Lid-Base-box.html
+/upload/2014-04-09/20140409042109270.jpg 1 -
+/upload/20140124174604146.jpg 6 http://image.baidu.com/i
+/upload/2015-08-04/20150804083318160.jpg 7 https://www.google.com.mx/
+/upload/2014-10-24/20141024155442840.jpg 1 -
+/product/337.html 11 https://www.google.com.sg/
+/index_5.html 10 -
+/product/BBX17.html 1 -
+/product/Drawer%20Paper%20Box.html 5 -
+/product/index.html 1 -
+/product/Velvet-Cloth-Heart-Box.html 2 -
+/upload/2014101313492364.jpg 2 -
+/upload/2014101313585235.jpg 3 -
+/product/210.html 1 -
+/upload/2015-04-13/20150413114420510.jpg 1 -
+/product/Cigarette-Gift-Box.html 2 -
+/upload/2014-02-06/20140206173416540.jpg 1 -
+/product/CUP%20BOOK%20BOX.html 1 -
+/product/185.html 1 -
+/upload/2015-10-20/20151020104420990.jpg 1 -
+/pinfo.php 1 -
+/product/Folding-box-with-Bowknot.html 3 -
+/product/Cosmetic-Book-Box.html 1 -
+/upload/2014101313534498.jpg 1 -
+/upload/2014-01-20/20140120090307580.jpg 1 -
+/product/Greeting-Card-Envelop.html 4 -
+/upload/2014-10-24/20141024143307920.jpg 2 -
+/product/index_16.html 4 -
+/product/HGB005.html 2 -
+/upload/2014101313451738.jpg 2 -
+/product/CBX19.html 1 -
+/product/Glossy-Paper-Bag.html 4 -
+/news/62.html 2 -
+/js/my.js 1 http://www.act-packaging.com/product/index_3.html
+/product/index_15.html 1 -
+/about/ 11 -
+/product/Book-Box-1.html 2 -
+/upload/2014-10-25/2014102517095360.jpg 2 -
+/upload/20141013135615100.jpg 2 -
+/upload/2014021116585635.jpg 2 -
+/product/211.html 3 -
+/product/193.html 1 -
+/upload/2014-01-20/20140120090337580.jpg 1 -
+/upload/2015-10-19/20151019163922170.jpg 2 -
+/product/Jewelery-Leather-Box.html 6 -
+/upload/2014-03-03/20140303161110880.jpg 2 -
+/news/luxepack.html 2 -
+/blog/ 6 -
+/product/202.html 1 -
+/product/Folding-Lid-Base-Gift-Box.html 2 -
+/upload/2014-02-11/20140211121151940.jpg 2 https://www.google.co.uk/
+/about/Mission-Value.html 2 -
+/product/Watch-Folding-Box.html 1 -
+/product/GiftDrawer-Box.html 14 -
+/product/FOLDING%20CARTON.html 2 -
+/product/Embossed-Folding-Box.html 5 -
+/product/DBX14.html 2 -
+/news/index10.html 3 -
+/upload/2014-02-04/20140204145825860.jpg 1 -
+/product/Tower-Paper-Box.html 4 -
+/product/165.html 3 -
+/product/index_13.html 4 -
+/upload/2015-10-21/2015102116030820.jpg 1 -
+/product/CBX23.html 2 -
+//research.asp 4 http://123.56.148.62/
+/.bashrc 1 -
+/index_3.html 10 -
+/upload/2015-10-19/2015101916563440.jpg 2 -
+/upload/2015-10-20/20151020105748770.jpg 2 -
+/product/index_6.html 3 -
+/upload/2014-02-09/20140209154448500.jpg 3 -
+/.git/HEAD 1 -
+/product/Flower-Shape-Paper-Box.html 1 -
+/product/CLBX05.html 1 -
+/upload/2014-02-04/20140204144151710.jpg 1 http://act-packaging.com/product/FOLDING-PAPER-BOX.html
+/product/182.html 1 -
+/product/Embossed-Paper-Bag.html 1 -
+/blog/wp-admin/setup-config.php 1 -
+/upload/2014012418011629.jpg 6 -
+/.bash_profile 1 -
+/upload/2014-02-06/20140206174345500.jpg 1 -
+/product/CBX21.html 3 -
+/product/Gift%20Paper%20Box.html 3 -
+/product/Storage-Box.html 1 -
+/product/LID-BASE-BOX.html 3 -
+/product/index_3.html 4 -
+/upload/2014-03-04/20140304135448220.jpg 1 -
+/product/Candy-Gift-Box.html 1 -
+/upload/2014-02-11/2014021112503960.jpg 1 -
+/product/CANDLE%20BOX.html 2 -
+/product/Gift-paper-box.html 2 -
+/js/jquery.easing.1.3.js 50 http://www.act-packaging.com/index.php
+/product/PT5.html 2 -
+/upload/2014-01-20/20140120090359540.jpg 1 -
+/product/167.html 1 -
+/mailto:info@act-packaging.com 13 -
+/product/CBX18.html 4 -
+/product/Jewel-Box.html 3 -
+/phpinfo.php 1 -
+/upload/2015-08-04/20150804084938990.jpg 5 -
+/product/soft%20touch%20box.html 3 https://www.google.com/
+//news/html 1 http://chongzhiquan.com/
+/product/index_9.html 5 https://www.google.ee/
+/upload/2015-10-20/20151020105411550.jpg 6 https://www.google.rs/
+/product/173.html 1 -
+/upload/2015-10-21/20151021150043240.jpg 1 -
+/product/BBX13.html 1 -
+/js/highslide/highslide-with-gallery.packed.js 1 http://www.act-packaging.com/product/index_3.html
+/product/170.html 7 -
+/product/CBX16.html 5 -
+/upload/2015-04-13/20150413135623810.jpg 1 -
+/factory/ 136 -
+/upload/2014-10-24/20141024152628900.jpg 2 -
+/product/PP-%20non-woven-bag.html 1 -
+/upload/2015-12-12/20151212051008290.jpg 2 -
+/product/Folding-Box-with-Window.html 1 -
+/upload/201410131351333.jpg 2 -
+/product/index_12.html 2 -
+/product/CLBX04.html 1 -
+/upload/2015-12-12/2015121205100840.jpg 1 -
+/administrator/index.php 1 -
+/upload/20141030174921143.jpg 1 -
+/news/index.html 2 -
+/upload/2014-02-05/2014020523021530.jpg 1 -
+/product/Paper-Box-with-Flocking-PS-Tray.html 2 -
+/product/318.html 4 -
+/product/Chinese-Paper-Gift-Box.html 1 -
+/upload/2014-02-09/20140209150152420.jpg 1 -
+/product/GTB27.html 5 -
+/product/Book-Box-with-Mirror.html 5 -
+/upload/2014-02-06/201402061817171000.jpg 1 -
+/product/FSC%20TISSOT%20Folding%20Paper%20Box.html 3 -
+/user 1 -
+/upload/2014-02-06/20140206172651340.jpg 3 -
+/product/ldb26.html 4 -
+/upload/2014-02-09/20140209160510400.jpg 2 -
+/product/209.html 2 -
+/product/CBX20.html 5 -
+/product/index_4.html 1 -
+/api.php 1 http://ACT-PACKAGING.com/api.php
+/upload/2014101313495339.jpg 2 -
+/product/Heart-Jewellery-Box.html 3 -
+//user/reg 1 http://www.yshjdp.com/
+/N0Wccvvd333.php 2 -
+/product/CBX26.html 4 -
+/product/LID-BASE-BOX_3.html 2 -
+/upload/20140123214906112.jpg 1 https://www.google.co.in/
+/.db_config 1 -
+/contact/index.html 2 -
+/upload/2014-02-11/20140211120832210.jpg 1 -
+/product/Shopping-Bag.html 2 -
+/js/jquery.js 1 http://www.act-packaging.com/product/index_3.html
+/factory/Human-resources.html 2 -
+/upload/2015-08-04/20150804083936600.jpg 1 http://act-packaging.com/product/Gift-box.html
+/apple-touch-icon-120x120-precomposed.png 1 -
+/product/169.html 3 -
+/upload/2014-02-04/20140204143949150.jpg 1 http://act-packaging.com/product/FOLDING-PAPER-BOX.html
+/upload/2014012417452165.jpg 3 -
+/product/index37.html 1 -
+/wp-config.php 1 -
+/product/Hinged%20Paper%20Box.html 4 -
+/upload/2014-10-24/20141024151436320.jpg 2 -
+/product/index_2.html 5 -
+/js/ImageAutoSize.js 1 http://www.act-packaging.com/product/index_3.html
+/product/cbx30.html 1 -
+/editors/fckeditor/editor 1 -
+/news/55.html 14 -
+/update.php 2 -
+/product/index_11.html 2 -
+/product/Stationery.html 1 -
+/product/CLBX02.html 4 -
+/product/LDB34.html 5 -
+/product/203.html 3 -
+/product/195.html 1 -
+/util/login.aspx 1 -
+/highslide/graphics/outlines/drop-shadow.png 1 http://act-packaging.com/
+/upload/20141030171609139.jpg 2 -
+/product/HGB006.html 3 -
+/product/Book%20Box.html 11 -
+/upload/2015-11-19/2015111907060820.jpg 1 -
+/product/Folding-Gift%20Box.html 2 -
+/upload/2014-02-04/20140204144029980.jpg 2 -
+/upload/2014-02-09/2014020915091570.jpg 2 http://act-packaging.com/product/Set-up-box-Lid-Base-box.html
+/product/Cosmetic-Book-Paper-Box.html 11 -
+/product/341.html 10 -
+/upload/2014-02-04/20140204143042410.jpg 17 https://www.google.com.sg/
+/upload/2015-12-12/20151212052538250.png 1 -
+/product/DBX18.html 6 -
+/product/BBX12.html 2 -
+/product/CLBX03.html 2 -
+/product/198.html 2 -
+/product/204.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 494
+96.233.55.44 44 1562 57628429 20161230173644
+107.141.118.255 37 716 25141653 20161217170846
+218.58.107.242 26 26 327421 20161204190803
+120.84.12.21 24 24 298823 20161225190629
+61.140.122.52 24 24 298823 20161207033336
+106.114.204.101 24 24 298823 20161208093717
+119.129.226.156 23 23 274483 20161201023107
+112.95.213.148 20 836 41630661 20161225202650
+81.149.127.27 18 801 26391214 20161212051810
+207.250.0.210 17 629 17277807 20161212145445
+202.46.48.204 0 1 140573 
+112.65.193.15 1 2 118009 20161208210706
+202.46.50.135 1 2 26957 20161214052314
+162.158.65.210 1 1 0 20161222144241
+128.68.33.134 2 17 765226 20161210090428
+117.169.6.144 1 1 36152 20161219193243
+204.79.180.128 0 1 84355 
+61.151.218.118 1 2 112953 20161202020133
+121.42.0.61 3 50 2129173 20161224105352
+204.79.180.123 0 1 2631 
+117.169.6.127 1 1 24340 20161219193254
+204.79.180.207 0 1 841 
+202.46.54.27 1 1 28598 20161220230638
+202.46.58.152 1 1 19048 20161218091443
+5.9.110.196 1 1 28598 20161202104534
+202.46.54.32 1 1 25302 20161206094337
+131.253.25.225 0 4 41292 
+202.46.51.114 1 1 24322 20161212154344
+37.187.129.166 1 1 28598 20161201204908
+202.46.54.139 1 1 27346 20161215021508
+66.108.70.236 6 230 9350004 20161228181339
+101.226.66.173 1 2 112953 20161208210441
+37.139.30.156 4 4 88855 20161230002416
+111.206.36.133 0 12 142921 
+204.79.180.219 0 1 84355 
+121.7.103.77 9 239 6013159 20161212023421
+121.42.0.73 1 5 474177 20161207110728
+202.46.50.91 0 1 2937 
+106.51.240.196 3 135 5138211 20161213034825
+111.206.36.13 0 1 121260 
+220.181.108.116 0 1 4934 
+38.100.21.66 2 9 433171 20161204182342
+202.46.53.49 1 1 28598 20161219164225
+123.125.67.157 1 1 28598 20161209085759
+159.203.164.109 11 11 270225 20161230010352
+207.182.140.210 2 2 57196 20161228092536
+149.202.72.198 1 1 28598 20161204190748
+45.55.134.17 1 11 293683 20161216193446
+101.226.33.224 1 2 120507 20161205193309
+46.101.98.70 4 36 1377918 20161229232346
+131.253.25.218 0 1 20060 
+121.207.190.175 13 223 11079558 20161220015157
+212.86.102.254 1 1 28598 20161231053944
+45.63.109.70 1 1 25302 20161205025315
+123.125.71.96 0 1 6123 
+140.207.185.107 1 2 112646 20161202020202
+46.119.113.82 1 1 3882 20161213044933
+45.55.133.245 1 11 293683 20161212121246
+202.46.48.81 0 1 121260 
+155.133.38.215 2 2 57196 20161215173844
+202.46.51.159 1 1 32506 20161216131831
+180.163.2.119 1 2 120864 20161208210529
+93.95.103.45 1 1 28598 20161206202531
+123.125.67.164 1 1 28598 20161211053153
+202.46.54.106 1 1 36535 20161218142029
+188.165.206.188 1 1 28598 20161214233214
+202.46.57.24 1 1 25225 20161208042246
+192.154.105.10 1 1 28598 20161206163644
+123.125.71.79 0 1 84355 
+204.79.180.75 0 1 6123 
+128.52.128.105 1 1 28598 20161227061403
+131.253.27.126 0 7 293253 
+123.126.113.14 1 58 3227212 20161201225955
+103.16.202.18 2 59 3255810 20161220110010
+202.46.55.145 1 1 35157 20161223044816
+202.46.52.76 1 1 35107 20161219054456
+123.125.71.56 0 2 205615 
+202.46.55.17 1 1 36579 20161203203958
+211.123.208.18 1 1 28598 20161201090757
+202.46.49.143 1 1 28598 20161208190613
+104.236.31.232 11 11 270225 20161224054500
+202.46.54.192 1 1 32506 20161218012410
+131.253.25.246 0 1 20527 
+65.55.210.129 0 57 3198614 
+31.168.219.125 3 68 1856540 20161215044538
+50.182.188.221 3 103 5370858 20161206102719
+51.15.49.242 1 1 28598 20161212205402
+162.158.65.27 1 1 0 20161206014241
+117.169.6.84 1 1 26601 20161219193249
+95.65.30.156 1 1 28598 20161229135103
+176.126.252.11 2 2 57196 20161228165529
+37.189.7.153 0 1 29627 
+84.253.11.8 3 99 6540426 20161202045833
+211.6.121.140 1 1 28598 20161207160835
+202.46.48.91 1 1 32506 20161204131234
+92.251.26.226 2 101 4231057 20161228191226
+121.42.0.62 1 42 1323955 20161208125209
+182.74.243.44 1 1 24340 20161215075111
+202.46.51.35 1 1 36560 20161219071634
+202.46.49.190 0 1 10893 
+121.42.0.58 1 5 474177 20161217111154
+61.151.226.16 1 2 112953 20161208210450
+131.253.27.120 0 12 394506 
+220.181.108.107 0 1 43384 
+61.151.226.199 1 2 120890 20161208210542
+27.46.128.95 12 12 298823 20161221044350
+131.253.27.51 0 6 608614 
+220.181.108.151 0 1 84355 
+128.177.10.114 7 27 705992 20161227204035
+66.63.177.59 12 12 298823 20161229201935
+101.226.61.206 1 2 112953 20161205193257
+131.253.27.10 0 9 326712 
+121.42.0.54 1 1 28598 20161215105725
+180.163.1.46 1 2 112953 20161205193255
+146.0.74.195 1 1 28598 20161227174514
+123.125.71.16 0 1 7071 
+72.240.118.68 2 93 4298541 20161207121118
+111.206.36.17 1 2 149858 20161225101020
+93.115.95.206 1 1 28598 20161204172628
+202.46.53.157 1 1 24368 20161225105253
+121.42.0.65 2 73 2912864 20161220105254
+202.46.58.133 1 1 35157 20161221183854
+220.181.108.171 0 1 4967 
+69.203.11.180 2 92 4294006 20161221183343
+204.79.180.91 0 1 84355 
+202.46.54.19 0 1 6123 
+85.118.170.182 1 58 3227212 20161214055613
+101.226.85.67 1 2 120892 20161208210641
+202.46.53.178 1 1 30829 20161207173915
+109.236.8.8 1 1 28598 20161206185845
+60.209.124.210 1 34 907154 20161205194444
+117.169.6.98 2 2 57196 20161219193238
+204.79.180.43 1 1 28598 20161225102642
+125.113.133.121 3 129 7191683 20161207021839
+202.46.57.176 1 1 23180 20161206144057
+220.181.51.109 1 1 28598 20161211060042
+67.161.10.192 10 468 23236240 20161219001630
+108.61.226.41 1 1 25302 20161218211636
+202.46.53.40 1 2 37473 20161204085811
+195.154.146.225 3 3 85794 20161219030348
+207.223.103.37 3 102 4259655 20161209124525
+115.212.67.164 3 87 4392997 20161209212932
+220.181.51.74 1 1 28598 20161213222510
+207.154.207.47 2 2 57196 20161207221002
+204.79.180.156 0 1 9350 
+111.206.36.134 0 10 218996 
+123.125.67.163 1 1 28598 20161204135625
+46.228.134.134 1 1 28598 20161214041228
+204.79.180.72 0 1 2631 
+90.80.224.111 6 253 8104643 20161221080532
+123.125.67.227 1 1 18091 20161209085758
+117.169.6.101 1 1 22701 20161219193245
+36.229.158.71 1 2 48268 20161208082501
+123.125.71.81 0 1 121260 
+185.129.62.63 1 1 28598 20161220110232
+101.226.65.107 1 2 112953 20161205193255
+180.153.186.43 1 1 28598 20161219180415
+199.249.223.60 1 1 28598 20161220231232
+111.206.36.12 0 3 19627 
+27.46.123.249 0 11 847751 
+46.119.127.215 1 1 3612 20161210225831
+103.204.179.152 1 1 28598 20161229081330
+62.212.73.49 1 1 28598 20161211174027
+206.41.170.199 1 1 28598 20161202100144
+101.226.66.180 1 2 112953 20161202020156
+202.46.53.118 1 1 23180 20161207181248
+202.46.48.122 0 1 2631 
+210.232.15.25 1 1 28598 20161214160848
+202.46.53.14 1 1 28598 20161215203320
+46.229.170.197 2 2 57196 20161221110926
+204.79.180.223 0 1 4967 
+74.101.35.23 4 146 6374703 20161209110158
+76.111.167.28 1 58 3227212 20161231063421
+202.46.48.138 0 1 23610 
+202.46.49.139 1 1 28598 20161207045038
+180.97.63.89 1 1 28598 20161219144509
+101.226.69.246 1 2 103619 20161202020212
+140.205.205.2 1 1 28598 20161228111736
+151.235.21.36 1 1 28598 20161215132118
+45.32.225.201 1 1 19399 20161201133418
+140.207.124.105 1 2 112953 20161208210508
+119.131.127.247 2 2 28598 20161229223712
+184.83.5.165 1 26 894376 20161205224402
+45.55.153.183 1 11 293683 20161223121619
+37.220.35.202 1 1 28598 20161231144351
+202.46.48.28 2 2 51818 20161209005443
+27.46.123.158 3 21 935846 20161225102950
+118.200.187.68 1 58 3227212 20161218201637
+220.181.108.76 0 1 140573 
+121.42.0.77 0 9 181341 
+103.21.246.42 1 1 0 20161206014241
+84.92.104.10 4 146 6374703 20161221070158
+178.17.170.124 1 1 28598 20161226184640
+202.46.50.184 1 1 24338 20161205174305
+202.46.58.19 0 1 4967 
+78.158.11.226 2 2 51500 20161229124838
+64.7.132.78 8 338 10132167 20161212133359
+202.46.54.25 0 1 4934 
+178.137.83.166 2 2 57196 20161216213152
+117.169.6.87 1 1 25302 20161219193257
+24.146.190.14 9 287 9077741 20161223201722
+202.46.54.98 1 1 23102 20161213153910
+202.46.57.23 1 1 30829 20161206140728
+202.46.51.174 1 1 25306 20161211130005
+121.42.0.74 0 78 2476471 
+121.33.114.106 12 12 298823 20161220140936
+180.153.206.16 1 1 36562 20161208210632
+204.79.180.160 0 1 196580 
+202.46.57.168 1 1 21831 20161217125114
+117.169.6.8 12 12 0 20161219193258
+131.253.27.60 0 9 221884 
+202.46.56.206 1 1 24384 20161216142530
+202.46.50.131 1 1 25316 20161202015347
+101.226.33.221 1 1 19264 20161205194507
+183.39.54.245 8 341 19399258 20161220032914
+202.46.50.164 1 1 26290 20161205220321
+117.169.6.85 1 1 22902 20161219193235
+111.206.36.141 0 3 24973 
+119.136.85.87 13 13 327421 20161220113421
+209.95.184.195 1 1 28598 20161215033426
+202.46.51.193 1 1 28598 20161208073849
+121.42.0.64 1 10 645230 20161223105423
+111.206.36.143 0 5 156524 
+180.153.180.178 1 1 28598 20161203181657
+111.206.36.15 0 3 21307 
+202.46.53.65 0 1 2937 
+125.113.143.137 4 105 6072307 20161218205717
+8.37.233.69 1 34 907154 20161207011504
+94.23.75.242 1 1 28598 20161221062024
+71.6.165.200 4 4 114392 20161212020157
+204.79.180.248 0 1 140573 
+117.247.253.2 1 1 28598 20161202220639
+66.249.93.31 0 9 392456 
+104.131.62.190 11 11 270225 20161217055134
+211.6.121.141 1 1 28598 20161230010746
+67.229.142.44 5 210 10441184 20161206041616
+123.125.71.113 0 2 183957 
+138.197.36.150 11 11 270225 20161211010743
+65.55.210.224 0 57 3198614 
+204.79.180.53 0 1 9350 
+111.206.36.10 0 2 13776 
+85.248.227.165 1 1 28598 20161221105005
+101.226.125.111 2 3 141551 20161223035516
+104.236.91.249 11 11 270225 20161207231321
+45.55.213.62 1 1 28598 20161221012949
+198.240.124.238 1 1 28598 20161210010950
+117.169.6.89 1 1 23086 20161219193259
+101.226.125.103 1 2 120507 20161208210503
+45.55.134.14 1 11 293683 20161226061053
+111.206.36.138 0 3 58525 
+204.79.180.189 0 1 196580 
+192.42.116.16 1 1 28598 20161204055812
+202.46.53.199 1 1 24343 20161210192923
+202.46.55.147 1 1 24322 20161216022852
+131.253.27.50 0 4 85992 
+204.79.180.187 0 1 5597 
+180.153.214.197 1 2 120862 20161208210508
+131.253.27.209 0 5 865482 
+202.46.51.131 1 1 28598 20161225111636
+202.46.50.199 1 1 28598 20161214113439
+189.60.173.254 1 58 3227212 20161202112818
+116.23.13.86 12 12 298823 20161215073802
+100.43.156.84 12 525 14399185 20161208210656
+121.42.0.55 2 59 3255810 20161223105426
+101.226.66.193 1 2 112953 20161208210508
+69.58.178.58 11 11 275737 20161216090938
+121.42.0.67 3 62 2615265 20161220105254
+198.52.247.122 2 2 32070 20161208130330
+204.79.180.198 0 1 121260 
+204.79.180.130 0 1 2937 
+220.181.108.77 0 1 6123 
+183.39.55.14 2 98 6511828 20161223002318
+204.79.180.191 0 1 837 
+180.153.214.200 1 2 120864 20161205193421
+178.140.98.174 2 18 681724 20161226232710
+111.206.36.8 1 3 212555 20161224174443
+65.55.213.27 0 1 18235 
+46.19.86.215 3 130 5075807 20161215043633
+80.85.84.23 1 1 28598 20161218022638
+54.161.95.150 1 1 28598 20161228122317
+202.46.49.209 1 1 36507 20161204153104
+131.253.25.189 0 7 358173 
+202.46.54.117 1 1 25729 20161202022717
+113.118.247.140 8 8 206122 20161226114510
+104.131.115.133 11 11 270225 20161204163043
+183.13.154.142 8 8 206122 20161210111304
+94.156.153.232 5 5 94299 20161218041907
+104.236.225.99 1 11 293683 20161229014441
+162.158.64.205 1 1 0 20161213014242
+202.46.48.149 0 1 84355 
+202.46.56.94 1 2 225178 20161229112126
+107.77.76.117 1 34 929138 20161224103900
+117.169.6.129 1 1 18091 20161219193240
+123.125.71.101 0 1 196580 
+220.181.108.153 0 1 5597 
+204.79.180.140 0 1 4934 
+131.253.27.23 0 4 211567 
+204.79.180.195 0 1 84355 
+5.9.110.203 1 1 28598 20161201102618
+131.253.27.172 0 5 84985 
+111.206.36.132 0 1 196580 
+211.0.145.111 1 1 28598 20161231010649
+176.126.252.12 1 1 28598 20161214233847
+108.61.228.94 1 1 24340 20161220225651
+91.107.105.132 1 1 28598 20161222061443
+45.55.181.223 11 11 270225 20161201055341
+204.79.180.183 0 1 5597 
+131.253.27.124 0 1 43384 
+180.153.214.188 1 2 112953 20161205193311
+88.150.140.142 1 58 3227212 20161207011434
+211.0.145.106 1 1 28598 20161212160853
+202.46.50.99 1 1 36152 20161212113019
+202.46.54.137 1 1 36509 20161203123103
+37.114.173.20 2 2 57196 20161202074837
+45.55.229.135 1 11 293683 20161220050513
+96.232.188.138 2 98 6511828 20161222153428
+211.0.154.122 1 1 28598 20161215160847
+202.46.55.19 1 1 35107 20161213182535
+61.16.130.30 1 1 28598 20161201013709
+180.87.204.130 2 2 50604 20161208013549
+121.42.0.56 1 27 947458 20161207110737
+125.113.135.2 0 2 168710 
+123.125.71.60 0 1 121260 
+111.206.36.11 0 17 517162 
+5.148.44.20 1 58 3227212 20161208040940
+101.226.68.197 1 2 112953 20161213235707
+220.181.51.115 1 1 25302 20161230072850
+202.46.48.17 1 1 35107 20161201210332
+202.46.58.55 0 1 2937 
+66.249.93.30 0 12 650372 
+109.236.8.10 1 1 28598 20161206185843
+155.133.82.63 3 3 85794 20161229153919
+202.46.54.93 1 1 24342 20161208201312
+113.108.80.205 1 1 28598 20161222233518
+202.46.57.11 1 1 25225 20161217112458
+27.187.241.174 8 8 206122 20161216010054
+163.172.151.47 1 1 28598 20161202183448
+204.79.180.184 1 1 28598 20161217230851
+202.46.51.37 1 1 25225 20161207001624
+199.30.25.177 0 57 3198614 
+121.42.0.60 2 6 502775 20161217111157
+202.46.48.137 1 1 25346 20161215145920
+131.253.25.153 0 8 129854 
+149.202.98.161 1 1 28598 20161229041518
+202.46.48.206 1 1 36589 20161222212829
+202.46.54.133 1 1 28598 20161201182221
+104.246.52.243 4 171 6115324 20161220032335
+204.79.180.222 0 1 10893 
+140.246.21.106 2 2 57196 20161229015522
+204.79.180.83 0 1 43384 
+202.46.57.14 0 1 17753 
+74.208.86.180 2 2 57196 20161213094037
+210.163.39.75 1 1 28598 20161217160903
+202.46.56.32 1 1 24322 20161214195042
+46.188.10.23 1 1 28598 20161211110258
+202.46.51.168 0 1 15250 
+131.253.27.153 0 1 3516 
+202.46.53.210 2 2 48739 20161225090635
+111.206.36.14 0 6 142343 
+202.46.51.165 0 1 9350 
+45.55.176.180 11 11 270225 20161227021234
+131.161.9.251 1 1 28598 20161227055647
+119.139.116.232 1 1 28598 20161218222145
+202.46.50.82 1 1 25364 20161205081832
+211.123.206.72 2 2 57196 20161213160854
+74.87.167.162 2 92 4134366 20161207111854
+45.55.134.19 1 11 293683 20161203185826
+212.47.253.151 1 1 28598 20161213222530
+204.79.180.9 0 1 6123 
+45.32.131.61 1 1 28598 20161212172820
+113.35.251.98 1 1 28598 20161206045602
+204.79.180.11 0 1 43384 
+188.143.232.35 10 10 250961 20161206085747
+54.234.5.25 2 53 1921704 20161209102659
+45.55.134.21 1 11 293683 20161231231337
+46.101.98.208 1 1 28598 20161205204912
+212.227.72.207 1 2 48268 20161218234244
+128.75.254.64 1 1 31412 20161221173544
+111.206.36.136 0 1 43384 
+5.157.7.146 1 1 28598 20161208134728
+220.181.51.91 2 2 51299 20161230072850
+101.226.66.172 1 2 112953 20161208210442
+54.196.242.202 1 1 28598 20161212094915
+204.79.180.133 0 1 4934 
+108.61.241.13 1 1 25302 20161216064734
+46.24.120.162 0 1 15714 
+202.46.56.183 1 1 35107 20161211065529
+205.164.0.58 1 1 28598 20161210174715
+46.105.100.149 1 1 26601 20161201075953
+202.46.52.106 2 2 52970 20161224185829
+189.100.1.229 1 2 48268 20161211043010
+37.110.109.88 1 34 907154 20161226223836
+38.98.70.179 9 381 18251989 20161202170758
+77.44.40.159 3 93 4162964 20161206105801
+202.46.56.134 1 1 36152 20161211212026
+204.79.180.52 0 1 837 
+123.125.71.18 0 1 10893 
+54.146.204.248 1 1 28598 20161225101149
+108.61.226.49 1 1 24340 20161221001301
+220.181.108.165 0 1 4934 
+67.229.101.58 4 171 6092661 20161202020202
+183.39.53.188 2 63 3701389 20161222013910
+199.87.154.255 4 4 114392 20161219034453
+204.79.180.116 0 1 841 
+202.46.54.180 1 1 28598 20161202181035
+212.219.119.210 4 191 9471153 20161207090640
+219.133.124.11 8 363 17043834 20161222234114
+194.72.180.74 3 93 4162964 20161216051015
+121.42.0.66 3 98 4960071 20161219115853
+202.46.50.151 1 1 24366 20161216090941
+211.123.208.23 1 1 28598 20161203000917
+202.46.48.95 1 1 22701 20161209173230
+121.42.0.75 0 4 76353 
+46.118.114.118 15 15 58091 20161212210113
+204.79.180.194 0 1 7071 
+43.241.221.57 1 1 28598 20161214095706
+123.125.71.112 0 1 196580 
+123.125.71.42 0 1 196580 
+96.250.93.22 3 160 8569472 20161228193834
+117.185.27.114 1 2 112953 20161208210456
+45.32.129.200 1 1 28598 20161204082843
+202.46.53.52 1 1 35157 20161214073445
+202.46.50.84 1 1 30537 20161212215033
+202.46.54.20 0 1 5597 
+101.226.65.105 1 2 120507 20161202020153
+204.79.180.35 0 1 10893 
+117.169.6.145 2 2 42452 20161219193252
+211.123.206.76 1 1 28598 20161216160904
+220.181.108.104 0 1 841 
+115.202.94.138 5 5 129178 20161207080905
+202.46.54.162 1 1 36535 20161203055332
+113.89.120.159 4 140 6054376 20161221015957
+195.154.181.168 1 1 28598 20161226100851
+144.76.64.79 1 1 28598 20161210032644
+23.247.42.63 3 3 85794 20161227211356
+23.247.107.98 14 14 317173 20161212045435
+202.46.53.174 1 1 24334 20161205181634
+59.41.69.208 8 8 176306 20161224034956
+104.238.165.40 1 1 25302 20161212014322
+204.79.180.235 0 1 2937 
+142.4.218.156 1 1 28598 20161202092853
+162.158.65.68 1 1 0 20161222144241
+178.137.87.242 3 3 85794 20161229124147
+71.84.200.125 8 222 7246754 20161231011900
+74.223.197.250 6 264 15193715 20161228153615
+202.46.50.210 1 1 28598 20161224054937
+204.79.180.208 0 1 4967 
+104.35.228.101 5 201 11872179 20161209234405
+91.134.232.61 1 1 28598 20161206001503
+202.46.51.199 1 1 34285 20161225215043
+202.46.57.208 1 1 24335 20161209052744
+73.206.125.67 1 1 28598 20161206123922
+194.50.123.34 0 41 2556281 
+98.126.6.157 5 228 7288324 20161205193835
+123.12.72.1 1 1 36562 20161208210646
+111.206.36.18 1 3 187618 20161220070954
+178.137.83.79 1 1 28598 20161201163215
+54.145.67.186 1 1 28598 20161209102626
+27.46.123.59 0 17 588006 
+202.46.58.210 1 1 35107 20161214222427
+202.46.57.174 1 1 23188 20161204173440
+202.46.53.153 1 1 28598 20161206101706
+204.79.180.245 0 1 7071 
+211.6.122.121 1 1 28598 20161210160842
+180.153.201.28 1 2 120890 20161205193853
+87.1.36.72 1 58 3227212 20161204085146
+202.46.51.14 1 1 23114 20161212170944
+59.173.224.22 9 426 20596516 20161213015909
+101.226.66.187 1 1 28598 20161222233538
+213.239.205.118 1 1 28598 20161216104648
+54.226.152.88 1 1 28598 20161219093507
+212.75.249.86 1 1 25302 20161202140634
+202.46.51.206 1 1 28291 20161225183635
+27.46.123.55 1 2 120507 20161220070940
+188.143.232.62 5 5 129617 20161218034115
+211.0.145.105 1 1 28598 20161204150740
+131.253.27.165 0 13 1235855 
+204.79.180.212 0 1 140573 
+178.217.187.39 1 1 28598 20161230160313
+45.55.191.206 11 11 270225 20161213114901
+66.249.93.1 1 14 439146 20161201034332
+212.86.109.9 1 1 28598 20161204085030
+131.253.27.82 0 8 134115 
+163.172.129.17 1 1 28598 20161228051210
+204.79.180.64 0 1 121260 
+211.6.121.136 1 1 28598 20161209160847
+218.241.108.92 1 1 28598 20161202180626
+125.113.142.149 3 159 6808018 20161212225050
+54.166.225.44 1 1 28598 20161205094451
+188.165.29.82 1 1 28598 20161208210544
+202.102.99.16 1 1 28598 20161211222153
+131.253.25.164 0 4 810759 
+162.158.64.165 1 1 0 20161213014242
+148.251.190.210 1 58 3307032 20161224134406
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20161201 48 293 13781816 16
+20161202 40 878 43878355 23
+20161203 9 21 537915 8
+20161204 52 152 7058645 17
+20161205 25 371 13474778 21
+20161206 62 1340 52894720 21
+20161207 61 644 29160907 18
+20161208 65 693 21150491 29
+20161209 42 1298 50016061 18
+20161210 51 686 22531459 9
+20161211 28 299 12080961 13
+20161212 86 1817 60755212 25
+20161213 33 509 20872491 16
+20161214 12 69 3536976 12
+20161215 29 247 9350110 14
+20161216 33 214 9695228 14
+20161217 18 96 4831152 8
+20161218 17 150 7825533 12
+20161219 47 624 29248519 22
+20161220 71 1500 77222691 18
+20161221 42 814 30946364 13
+20161222 19 567 28628988 10
+20161223 16 410 16817415 7
+20161224 25 164 6307993 8
+20161225 37 140 4892448 11
+20161226 15 75 2177414 7
+20161227 23 65 2745189 8
+20161228 24 762 37544434 10
+20161229 29 71 2279306 12
+20161230 29 335 11524023 7
+20161231 13 294 10853443 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 7
+2mn-5mn 12
+15mn-30mn 4
+0s-30s 369
+30s-2mn 31
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/index.php 653 15682964 121 180
+/ 407 11038828 306 238
+/admin/index.php 17 65585 6 6
+/fonts/linea-arrows-10.woff 17 131104 0 3
+/fonts/glyphicons-halflings-regular.eot 3 60381 0 3
+/fonts/glyphicons-halflings-regular.woff2 2 36056 0 1
+/fonts/linea-arrows-10.eot 1 16304 0 1
+/admin/ 1 3472 0 1
+END_SIDER
