@@ -1,0 +1,289 @@
+.search{
+     float: right;
+    margin-top: -60px;
+    padding-right: 5%;
+    position: absolute;
+    right: 0;
+}
+
+
+ .newsletter{
+  float: left;
+  padding-top: 50px;
+  padding-left: 5%;
+ }
+
+.newsletterfield input{
+  padding: 9px;
+float: left;
+font-size: 11px;
+width: 100%;
+border: none;
+background-color: #eeeeee;
+}
+
+.newsletterbutton{
+  text-transform: uppercase;
+  border: none;
+  background-color: #333;
+  color:#fff;  font-size: 12px;
+  padding: 9px 10px 8px 10px;
+}
+
+.newsletterbutton:hover{
+  background-color: #cc9900;
+}
+
+button .newsletterbutton{
+  text-transform: uppercase;
+  border: none;
+  background-color: #6a5236;
+  color:#fff;
+  font-size: 12px;
+  padding: 9px 10px 8px 10px;
+}
+
+button .newsletterbutton:hover{
+  background-color: #6a5236;
+}
+
+
+ .newsletter h{
+  text-transform: uppercase;
+  font-weight: bold;
+ }
+
+  .newsletter p{
+  font-size: 12px;
+ color:#747474;
+  font-weight:300;
+ }
+
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+ 
+
+    @media only screen and (max-width: 40em) {
+ .newsletter {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+
+.footer{
+  text-align: center;
+
+}
+
+footer{
+  text-align: center;
+
+}
+
+.footertitle{
+
+  text-align: center;
+
+}
+.disable{
+
+   visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+}
+  .search{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+}
+
+
+.fim-dropdown {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.fim-dropdown>label {
+ -webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+display: inline-block;
+position: relative;
+cursor: pointer;
+font-size: 0.9rem;
+-webkit-transition: all .2s;
+transition: all .2s;
+padding: 0 10px;
+color: #cc9900;
+}
+
+.fim-dropdown>label:hover { color: #53402a }
+
+/* .fim-dropdown>label:after {
+  content: "";
+  display: block;
+  width: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #c4c4c4;
+  position: absolute;
+  bottom: -15px;
+  left: 3.5px;
+  visibility: hidden
+} */
+
+.fim-dropdown>input { display: none }
+
+.fim-dropdown.active>label { color: #53402a }
+
+.fim-dropdown.active>label:after { visibility: visible }
+
+.fim-dropdown>.inner {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+ 
+  padding: 20px;
+  background: white;
+   
+border: 0;
+border-top: 1px solid #e6e6e6;
+width: 430px;
+text-align: left;
+
+ 
+  visibility: hidden;
+  margin-top: 45px;
+ 
+    z-index: 111;
+}
+
+.fim-dropdown.active .inner { visibility: visible }
+
+
+.fim-dropdown>.inner2 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+ 
+  padding: 20px;
+  background: white;
+   left: 0;
+border: 0;
+border-top: 1px solid #e6e6e6;
+width: 100%;
+text-align: left;
+
+ 
+  visibility: hidden;
+  margin-top: 45px;
+ 
+    z-index: 111;
+}
+
+.fim-dropdown.active .inner2 { visibility: visible }
+
+  
+.share_type {
+  text-align: left;
+  padding: 10px 10px
+}
+
+.share_type .fa { font-size: 20px }
+
+.share_type>span {
+  margin: 0 8px;
+  cursor: pointer
+}
+
+.share_type>span small {
+  font-weight: 700;
+  font-size: 12px;
+  color: #525252
+}
+
+.share_type>span small:hover { color: #313131 }
+
+.fim-blue { color: #1F75FE }
+
+.fim-yellow { color: #efe74c }
+
+.fim-green { color: #2acd4a }
+
+.fim-gray { color: #a2a2a2 }
+
+ 
+.hljs-tag .hljs-value { color: #41c74a !important }
+
+/* slideshow */
+
+  .meta {
+      margin: 0 0 40px 0;
+      font-size: 0.8em;
+    }
+    .properties-table {
+      width: 100%;
+      padding: 0;
+      border-spacing: 0;
+      margin-top: 2em;
+      font-size: .85em;
+      background-color: #eee;
+    }
+    .properties-table th, .properties-table td {
+      text-align: left;
+      padding: 10px;
+    }
+    .properties-table th {
+      border-bottom: 1px solid #333;
+      line-height: 2;
+    }
+    /* End Basic styling */
+
+    
+    #demo-1 {
+      position: relative; /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to "relative" by script */
+      overflow: hidden; /* to bound the empty top space created by inner element's top margin */
+      width: 100%;
+      max-height: 500px;
+      background-color: #999;
+    }
+    .demo-inner-content {
+      position: relative; /* if position is not set, the script will set it to 'relative'. */
+      z-index: 2; /* if z-index is not set, the script will set it to '2'. */
+      margin: 180px auto;
+      padding: 40px;
+      max-width: 600px;
+      color: #fff;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .demo-inner-content h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+
+    #pageup {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 48px;
+  z-index: 999;
+  height: 48px;
+  background-image: url(../img/up.png);
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  display: none;
+  cursor: pointer;
+}

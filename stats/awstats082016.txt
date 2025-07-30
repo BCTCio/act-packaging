@@ -1,0 +1,350 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201608 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2553                
+POS_VISITOR 8166                
+POS_DAY 8778                
+POS_DOMAIN 3265                
+POS_LOGIN 3500                
+POS_ROBOT 3655                
+POS_WORMS 3787                
+POS_EMAILSENDER 3918                
+POS_EMAILRECEIVER 4061                
+POS_SESSION 9368                
+POS_SIDER 9575                
+POS_FILETYPES 4196                
+POS_OS 4438                
+POS_BROWSER 4534                
+POS_SCREENSIZE 4651                
+POS_UNKNOWNREFERER 4725                
+POS_UNKNOWNREFERERBROWSER 4812                
+POS_ORIGIN 4894                
+POS_SEREFERRALS 5035                
+POS_PAGEREFS 5179                
+POS_SEARCHWORDS 5327                
+POS_KEYWORDS 5479                
+POS_MISC 2217                
+POS_ERRORS 5538                
+POS_CLUSTER 3356                
+POS_SIDER_404 5679                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160901103148 28750 9250614 37079519244
+FirstTime 20160801082025
+LastTime 20160831224749
+LastUpdate 20160902030401 28750 27813 936 0 0
+TotalVisits 46                  
+TotalUnique 12                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 12                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 47 504 14678092 15 41 25657
+9 22 294 10433657 2 16 11289
+10 92 1737 66032596 13 61 42482
+11 220 2478 101653295 34 138 95033
+12 206 1741 60583714 30 125 88631
+13 452 2913 103080685 22 57 37289
+14 214 2435 85353666 153 238 176041
+15 370 2635 79627291 44 178 123515
+16 1192 10025 250792509 76 390 271256
+17 556 3517 75308883 41 208 156777
+18 4 110 6435864 0 4 3068
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 3 67 2699349 0 2 1534
+22 7 154 8482408 10 12 22890
+23 3 67 2699367 0 2 1534
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3388 28677 867861376
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 4444 225984895 0 0
+png 5352 70559221 0 0
+woff 16 123392 0 0
+woff2 416 26817024 0 0
+php 2806 36225359 0 0
+map 49 2666384 0 0
+html 101 2408811 0 0
+js 6491 309550150 0 0
+jpg 9002 193526140 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 14348
+winnt 14205
+winvista 106
+linux 17
+win2008 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 5
+msie8.0 1
+firefox48.0 3178
+chrome 21043
+safari 70
+firefox47.0 4385
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 128 130
+From1 0 0
+From2 0 0
+From3 0 0
+From4 3260 28547
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 6 1248
+302 180 54439
+500 41 21279
+301 13 3250
+404 1232 976780
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 67
+/css/less/list-group.less 1 -
+/css/less/mixins/progress-bar.less 1 -
+/css/less/navs.less 1 -
+/css/less/print.less 1 -
+/css/less/mixins/reset-text.less 1 -
+/css/less/mixins/buttons.less 1 -
+/admin/index.php 3 -
+/css/less/labels.less 1 -
+/css/less/grid.less 1 -
+/css/less/mixins/pagination.less 1 -
+/css/less/mixins/reset-filter.less 1 -
+/css/less/code.less 1 -
+/css/less/wells.less 1 -
+/css/less/mixins/panels.less 1 -
+/css/less/glyphicons.less 1 -
+/css/less/dropdowns.less 1 -
+/css/less/utilities.less 1 -
+/css/less/buttons.less 1 -
+/js/jquery.easing.1.3.js 77 http://actclient.yourwebhosting.com/index.php
+/css/less/alerts.less 1 -
+/css/less/mixins/text-overflow.less 1 -
+/css/less/mixins/table-row.less 1 -
+/css/less/mixins/image.less 1 -
+/css/less/tables.less 1 -
+/css/less/mixins/tab-focus.less 1 -
+/css/less/mixins/nav-divider.less 1 -
+/css/less/mixins/gradients.less 1 -
+/css/less/scaffolding.less 1 -
+/css/less/progress-bars.less 1 -
+/css/less/close.less 1 -
+/css/less/popovers.less 1 -
+/css/less/mixins/grid.less 1 -
+/css/less/mixins/background-variant.less 1 -
+/css/less/responsive-embed.less 1 -
+/css/less/breadcrumbs.less 1 -
+/css/less/mixins/list-group.less 1 -
+/css/less/modals.less 1 -
+/css/less/mixins/labels.less 1 -
+/css/less/navbar.less 1 -
+/css/less/button-groups.less 1 -
+/css/less/component-animations.less 1 -
+/css/less/input-groups.less 1 -
+/css/less/mixins/vendor-prefixes.less 1 -
+/css/less/panels.less 1 -
+/css/less/mixins/text-emphasis.less 1 -
+/css/less/pager.less 1 -
+/css/less/mixins/alerts.less 1 -
+/js/block-slider.min.js.map 43 -
+/css/less/badges.less 1 -
+/css/less/pagination.less 1 -
+/css/less/jumbotron.less 1 -
+/css/foundation.css.map 49 -
+/js/jquery.min.map 44 -
+/css/less/thumbnails.less 1 -
+/css/less/forms.less 1 -
+/css/less/normalize.less 1 -
+/css/less/tooltip.less 1 -
+/css/less/media.less 1 -
+/css/less/mixins/border-radius.less 1 -
+/css/dist/css/bootstrap.css 1 -
+/css/less/mixins/nav-vertical-align.less 1 -
+/index.php 2 -
+/css/less/mixins/grid-framework.less 1 -
+/css/less/type.less 1 -
+/css/less/mixins/forms.less 1 -
+/admin/LodopFuncs.js 954 http://actclient.yourwebhosting.com/admin/index.php
+/css/less/mixins/opacity.less 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 12
+104.162.147.112 2349 13878 361996406 20160830224417
+73.4.115.244 559 5731 148173390 20160818165049
+69.203.9.20 229 3766 150255151 20160818113418
+67.254.9.63 124 3178 128850516 20160831111922
+175.42.40.235 61 667 20044692 20160809091949
+153.126.183.244 31 586 22347059 20160831113239
+98.14.185.120 27 619 24089683 20160807121823
+96.81.255.153 4 128 7339195 20160831224749
+117.240.88.97 1 53 1994010 20160816132439
+101.199.108.51 1 17 669877 20160809090513
+220.227.89.237 1 53 2073830 20160816132308
+106.120.160.109 1 1 27567 20160809090454
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20160801 3 67 2727272 1
+20160802 76 1254 47806736 2
+20160804 380 613 11252585 1
+20160805 1 53 1994032 1
+20160806 4 68 2703263 1
+20160807 157 1612 55977666 3
+20160808 2 94 5671397 2
+20160809 577 3914 101386809 4
+20160810 78 1131 34380810 4
+20160811 1094 6098 130743658 2
+20160815 2 16 764471 1
+20160816 10 279 12478566 4
+20160817 9 268 14663277 4
+20160818 662 7106 207749524 3
+20160822 4 82 2584647 1
+20160824 82 1816 67031142 3
+20160825 12 354 19479409 1
+20160826 1 1 57726 1
+20160830 194 2946 110802573 4
+20160831 40 905 37605813 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 6
+0s-30s 17
+15mn-30mn 1
+2mn-5mn 3
+30s-2mn 4
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/admin/index.php 2532 29416129 10 8
+/admin/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2 416 26817024 0 8
+/index.php 273 6805484 11 7
+/ 84 2347121 20 17
+/css/bootstrap.min.css.map 49 2666384 0 5
+/admin/ 17 61690 5 0
+/fonts/linea-arrows-10.woff 16 123392 0 1
+/admin/index1.php 1 3746 0 0
+END_SIDER

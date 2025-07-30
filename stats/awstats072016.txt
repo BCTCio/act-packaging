@@ -1,0 +1,288 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201607 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2549                
+POS_VISITOR 6077                
+POS_DAY 6947                
+POS_DOMAIN 3186                
+POS_LOGIN 3419                
+POS_ROBOT 3574                
+POS_WORMS 3706                
+POS_EMAILSENDER 3837                
+POS_EMAILRECEIVER 3980                
+POS_SESSION 7407                
+POS_SIDER 7613                
+POS_FILETYPES 4115                
+POS_OS 4342                
+POS_BROWSER 4432                
+POS_SCREENSIZE 4541                
+POS_UNKNOWNREFERER 4615                
+POS_UNKNOWNREFERERBROWSER 4702                
+POS_ORIGIN 4784                
+POS_SEREFERRALS 4921                
+POS_PAGEREFS 5065                
+POS_SEARCHWORDS 5213                
+POS_KEYWORDS 5365                
+POS_MISC 2213                
+POS_ERRORS 5424                
+POS_CLUSTER 3275                
+POS_SIDER_404 5535                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160801082025 5173 1500806 62132867129
+FirstTime 20160705114608
+LastTime 20160731192312
+LastUpdate 20160802025221 5173 5102 70 0 0
+TotalVisits 37                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 3 45 1654884 0 1 767
+10 1 1 4319 0 0 0
+11 14 594 30878687 0 2 1534
+12 13 276 19069712 15 18 13806
+13 1 1 31804 0 0 0
+14 34 385 19520734 6 40 27778
+15 4 28 1411090 2 6 3666
+16 89 382 16624021 0 18 13806
+17 81 287 8152440 3 15 10126
+18 62 1373 53256411 2 10 6758
+19 3 67 2727272 0 2 1534
+20 11 485 24796959 0 5 3835
+21 1 53 1994006 0 0 0
+22 51 1046 38444000 2 15 10522
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 368 5023 218566339
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 961 52299374 0 0
+png 1494 22071368 0 0
+woff 7 53984 0 0
+woff2 59 3803376 0 0
+map 4 217664 0 0
+php 271 4604060 0 0
+html 27 647831 0 0
+js 1476 57364663 0 0
+jpg 724 77504019 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 533
+winxp 2
+winnt 4083
+linux 23
+win2008 382
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 5
+msie8.0 6
+msie9.0 1
+chrome 4407
+safari 119
+firefox47.0 490
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 34 37
+From1 0 0
+From2 0 0
+From3 0 0
+From4 334 4986
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 13 3893
+301 2 500
+404 117 89739
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/js/jquery.min.map 7 -
+/js/block-slider.min.js.map 4 -
+/css/foundation.css.map 4 -
+/admin/LodopFuncs.js 87 http://actclient.yourwebhosting.com/admin/index.php
+/js/jquery.easing.1.3.js 15 http://actclient.yourwebhosting.com/index.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+104.162.147.112 311 3709 150393339 20160731192312
+69.203.9.20 14 437 25852146 20160723144015
+36.251.25.204 13 276 19069712 20160715122921
+72.19.65.0 9 375 15419548 20160710182108
+106.120.160.109 5 5 132832 20160710182152
+101.199.108.51 2 22 739136 20160710181927
+101.199.112.55 2 22 741293 20160710182217
+101.226.33.202 1 1 19767 20160710181721
+113.108.21.69 1 1 19767 20160710181715
+119.147.3.188 1 1 19767 20160710181715
+171.8.167.61 1 1 23168 20160710181924
+180.153.206.34 1 12 425425 20160710181715
+36.250.214.150 1 53 2121554 20160706115535
+101.226.66.193 1 11 284852 20160710181717
+101.199.112.54 1 17 675771 20160710181913
+220.181.132.197 1 17 669790 20160710182120
+112.64.235.246 1 1 19767 20160710181715
+101.199.108.120 1 17 665470 20160710181933
+36.251.87.17 1 45 1273235 20160727114113
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20160705 3 129 6926092 1
+20160706 1 53 2121554 1
+20160709 45 864 32782172 1
+20160710 55 1357 54715669 17
+20160712 6 273 16578515 2
+20160713 3 45 1654884 1
+20160715 189 992 43206714 3
+20160717 1 58 2173660 1
+20160718 1 40 3593020 1
+20160723 35 315 15137899 2
+20160725 11 485 24796959 1
+20160726 1 1 4319 1
+20160727 1 45 1273235 1
+20160729 10 232 8147103 2
+20160730 3 67 2727272 1
+20160731 3 67 2727272 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 3
+2mn-5mn 2
+15mn-30mn 2
+30s-2mn 4
+0s-30s 23
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/admin/index.php 181 2392121 7 3
+/index.php 90 2211939 18 17
+/admin/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2 59 3803376 0 6
+/ 23 633093 11 7
+/fonts/linea-arrows-10.woff 7 53984 0 3
+/css/bootstrap.min.css.map 4 217664 0 1
+/admin/ 4 14738 1 0
+END_SIDER
