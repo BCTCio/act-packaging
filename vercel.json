@@ -12,6 +12,46 @@
     {
       "src": "/(.*)",
       "dest": "/api/index.php"
-    }
+    },
+{
+      "src": "/catalog/(.*)",
+      "dest": "/public/catalog/$1"
+    },
+{
+      "src": "/css/(.*)",
+      "dest": "/public/css/$1"
+    },
+    {
+      "src": "/fonts/(.*)",
+      "dest": "/public/fonts/$1"
+    },
+    {
+      "src": "/image/(.*)",
+      "dest": "/public/image/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/public/images/$1"
+    },
+    {
+      "src": "/img/(.*)",
+      "dest": "/public/img/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/public/js/$1"
+    },
+    {
+      "src": "/photos/(.*)",
+      "dest": "/public/photos/$1"
+    },
+    {
+      "src": "/scripts/(.*)",
+      "dest": "/public/scripts/$1"
+    },
+    {
+      "src": "/dist/(.*)",
+      "dest": "/public/dist/$1"
+    },
   ]
 }
